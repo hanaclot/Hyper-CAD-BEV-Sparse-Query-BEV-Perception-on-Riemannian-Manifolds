@@ -1,0 +1,5 @@
+{
+  "id": "2305.13859",
+  "title": "arXiv Query: search_query=&amp;id_list=2305.13859&amp;start=0&amp;max_results=1",
+  "summary": "Recently, generative retrieval emerges as a promising alternative to traditional retrieval paradigms. It assigns each document a unique identifier, known as DocID, and employs a generative model to directly generate the relevant DocID for the input query. A common choice for DocID is one or several natural language sequences, e.g. the title or n-grams, so that the pre-trained knowledge of the generative model can be utilized. However, a sequence is generated token by token, where only the most l"
+}

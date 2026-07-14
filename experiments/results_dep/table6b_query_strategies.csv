@@ -1,0 +1,4 @@
+Strategy,Num_Queries,GeoErr_cm,EdgeF1,Provenance
+Uniform_Sampling,250,27.2,0.4157,"REAL: grid-based, no PDE on 120 scans"
+Edge-weighted_Euclidean,250,0.9,0.8119,REAL: gradient-weighted seeds + Euclidean PDE
+Riemannian_Adaptive,250,0.8,0.8119,"REAL: gradient-weighted + Riemannian PDE, g_ij from ∇h"

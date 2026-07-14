@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/V9rxQ5UrJASR27Zc0fT82OOiAn4</id>
+  <title>arXiv Query: search_query=id:1904.01669&amp;id_list=&amp;start=0&amp;max_results=1</title>
+  <updated>2026-07-12T09:49:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=id:1904.01669&amp;start=0&amp;max_results=1&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1904.01669v1</id>
+    <title>A ${\mathbb Z}_2$-index of symmetry protected topological phases with reflection symmetry for quantum spin chains</title>
+    <updated>2019-04-02T21:09:14Z</updated>
+    <link href="https://arxiv.org/abs/1904.01669v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.01669v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the classification of SPT phases, defining an index is a central problem. In the famous paper [PTBO1], Pollmann, Tuner, Berg, and Oshikawa introduced ${\mathbb Z}_2$-indices for injective matrix products states (MPS) which have either ${\mathbb Z}_2\times {\mathbb Z}_2$ dihedral group (of $π$-rotations about $x$, $y$, and $z$-axes) symmetry, time-reversal symmetry, or reflection symmetry. The first two are on-site symmetries. In [O4], an index for on-site symmetries, which generalizes the index in [PTBO1], was introduced for general unique gapped ground state phases in quantum spin chains. It was proved that the index is an invariant of the $C^1$-classification of SPT phases. The index for the reflection symmetry, which is not an on-site symmetry, was left as an open question. In this paper, we introduce a ${\mathbb Z}_2$-index for the reflection symmetric unique gapped ground state phases, and complete the generalization problem of index by Pollmann et.al. We also show that the index is an invariant of the $C^1$-classification.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-02T21:09:14Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1810.01045</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Yoshiko Ogata</name>
+    </author>
+  </entry>
+</feed>

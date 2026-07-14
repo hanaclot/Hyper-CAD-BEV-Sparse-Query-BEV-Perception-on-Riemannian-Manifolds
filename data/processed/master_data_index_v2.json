@@ -1,0 +1,82 @@
+{
+  "project": "Hyper-CAD-BEV v6.5-Sparse Experiment Data",
+  "generated": "2026-07-10T21:23:35.972081",
+  "data_counts": {
+    "total_arxiv_papers": 365,
+    "semantickitti_leaderboard_entries": 70,
+    "velodyne_frames": 471,
+    "velodyne_points": 57312402,
+    "rellis3d_github_stars": 437,
+    "rellis3d_files": 350,
+    "crawled_files": 99,
+    "crawled_size_mb": 2.15
+  },
+  "terrain_parameters": {
+    "z_min": -24.867494583129883,
+    "z_max": 3.046213388442993,
+    "z_relief": 27.913707971572876,
+    "total_points": 57312402,
+    "total_frames": 471,
+    "avg_points_per_frame": 121682.3821656051,
+    "intensity_mean": 0.2874604727471195,
+    "intensity_std": 0.15399284479340003
+  },
+  "rellis3d_info": {
+    "stars": 437,
+    "forks": 59,
+    "language": "Jupyter Notebook",
+    "description": "RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics",
+    "total_files": 350,
+    "model_files": 30,
+    "config_files": 25
+  },
+  "tartandrive2_info": {
+    "name": "TartanDrive2",
+    "duration_hours": 200,
+    "max_speed_ms": 5.0,
+    "terrain_types": [
+      "dirt",
+      "gravel",
+      "grass",
+      "mud",
+      "rocky"
+    ],
+    "sensors": [
+      "LiDAR",
+      "Stereo_Camera",
+      "IMU",
+      "GPS"
+    ],
+    "source_url": "https://theairlab.org/TartanDrive2/"
+  },
+  "sota_benchmarks": {},
+  "dataset_sources": {
+    "semantickitti": {
+      "url": "http://semantic-kitti.org/",
+      "type": "LiDAR semantic segmentation benchmark",
+      "entries": 70
+    },
+    "rellis3d": {
+      "url": "https://github.com/unmannedlab/RELLIS-3D",
+      "type": "Off-road terrain dataset + code",
+      "stars": 437
+    },
+    "tartandrive2": {
+      "url": "https://theairlab.org/TartanDrive2/",
+      "type": "High-speed off-road dynamics dataset"
+    },
+    "arxiv": {
+      "url": "https://arxiv.org/",
+      "type": "Research papers (BEV, PDE, SNN, neuromorphic)",
+      "papers": 365
+    },
+    "event_camera": {
+      "url": "https://arxiv.org/abs/1711.01458",
+      "type": "Event camera survey"
+    },
+    "loihi_neuromorphic": {
+      "url": "https://arxiv.org/html/2408.16096v1",
+      "type": "Loihi 2 sensor fusion"
+    }
+  }
+}

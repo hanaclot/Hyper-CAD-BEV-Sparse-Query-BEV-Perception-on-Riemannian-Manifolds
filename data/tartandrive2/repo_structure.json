@@ -1,0 +1,130 @@
+[
+  {
+    "name": ".gitmodules",
+    "path": ".gitmodules",
+    "sha": "113b2344646f582fcb02424ba6f7174a891a463c",
+    "size": 105,
+    "url": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/.gitmodules?ref=main",
+    "html_url": "https://github.com/castacks/tartan_drive_2.0/blob/main/.gitmodules",
+    "git_url": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/blobs/113b2344646f582fcb02424ba6f7174a891a463c",
+    "download_url": "https://raw.githubusercontent.com/castacks/tartan_drive_2.0/main/.gitmodules",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/.gitmodules?ref=main",
+      "git": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/blobs/113b2344646f582fcb02424ba6f7174a891a463c",
+      "html": "https://github.com/castacks/tartan_drive_2.0/blob/main/.gitmodules"
+    }
+  },
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "0a166af571ec1d4cd9854621bba21e13455d7c56",
+    "size": 1068,
+    "url": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/LICENSE?ref=main",
+    "html_url": "https://github.com/castacks/tartan_drive_2.0/blob/main/LICENSE",
+    "git_url": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/blobs/0a166af571ec1d4cd9854621bba21e13455d7c56",
+    "download_url": "https://raw.githubusercontent.com/castacks/tartan_drive_2.0/main/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/LICENSE?ref=main",
+      "git": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/blobs/0a166af571ec1d4cd9854621bba21e13455d7c56",
+      "html": "https://github.com/castacks/tartan_drive_2.0/blob/main/LICENSE"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "c95945382c2e97cad22b3b5c4b0c3e88178a8765",
+    "size": 1075,
+    "url": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/README.md?ref=main",
+    "html_url": "https://github.com/castacks/tartan_drive_2.0/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/blobs/c95945382c2e97cad22b3b5c4b0c3e88178a8765",
+    "download_url": "https://raw.githubusercontent.com/castacks/tartan_drive_2.0/main/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/blobs/c95945382c2e97cad22b3b5c4b0c3e88178a8765",
+      "html": "https://github.com/castacks/tartan_drive_2.0/blob/main/README.md"
+    }
+  },
+  {
+    "name": "assets",
+    "path": "assets",
+    "sha": "82c80e4751bafe3ef40e0d9e8263467cd2b49f7f",
+    "size": 0,
+    "url": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/assets?ref=main",
+    "html_url": "https://github.com/castacks/tartan_drive_2.0/tree/main/assets",
+    "git_url": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/trees/82c80e4751bafe3ef40e0d9e8263467cd2b49f7f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/assets?ref=main",
+      "git": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/trees/82c80e4751bafe3ef40e0d9e8263467cd2b49f7f",
+      "html": "https://github.com/castacks/tartan_drive_2.0/tree/main/assets"
+    }
+  },
+  {
+    "name": "calibration",
+    "path": "calibration",
+    "sha": "09aa40346054e867f488d3b53929f0a8a7932d4e",
+    "size": 0,
+    "url": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/calibration?ref=main",
+    "html_url": "https://github.com/castacks/tartan_drive_2.0/tree/main/calibration",
+    "git_url": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/trees/09aa40346054e867f488d3b53929f0a8a7932d4e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/calibration?ref=main",
+      "git": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/trees/09aa40346054e867f488d3b53929f0a8a7932d4e",
+      "html": "https://github.com/castacks/tartan_drive_2.0/tree/main/calibration"
+    }
+  },
+  {
+    "name": "metadata_utils",
+    "path": "metadata_utils",
+    "sha": "0085599b803deefe45a3ccf0c1ff790bd8e9c169",
+    "size": 0,
+    "url": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/metadata_utils?ref=main",
+    "html_url": "https://github.com/Matthewjsiv/metadata_utils/tree/0085599b803deefe45a3ccf0c1ff790bd8e9c169",
+    "git_url": "https://api.github.com/repos/Matthewjsiv/metadata_utils/git/trees/0085599b803deefe45a3ccf0c1ff790bd8e9c169",
+    "download_url": null,
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/metadata_utils?ref=main",
+      "git": "https://api.github.com/repos/Matthewjsiv/metadata_utils/git/trees/0085599b803deefe45a3ccf0c1ff790bd8e9c169",
+      "html": "https://github.com/Matthewjsiv/metadata_utils/tree/0085599b803deefe45a3ccf0c1ff790bd8e9c169"
+    }
+  },
+  {
+    "name": "requirements.txt",
+    "path": "requirements.txt",
+    "sha": "982a35b7faf10f1960faaa95ca2595dd058fc206",
+    "size": 176,
+    "url": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/requirements.txt?ref=main",
+    "html_url": "https://github.com/castacks/tartan_drive_2.0/blob/main/requirements.txt",
+    "git_url": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/blobs/982a35b7faf10f1960faaa95ca2595dd058fc206",
+    "download_url": "https://raw.githubusercontent.com/castacks/tartan_drive_2.0/main/requirements.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/requirements.txt?ref=main",
+      "git": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/blobs/982a35b7faf10f1960faaa95ca2595dd058fc206",
+      "html": "https://github.com/castacks/tartan_drive_2.0/blob/main/requirements.txt"
+    }
+  },
+  {
+    "name": "scripts",
+    "path": "scripts",
+    "sha": "34272739b2637be7f5b66ba87ec7bcca7e9aff2f",
+    "size": 0,
+    "url": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/scripts?ref=main",
+    "html_url": "https://github.com/castacks/tartan_drive_2.0/tree/main/scripts",
+    "git_url": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/trees/34272739b2637be7f5b66ba87ec7bcca7e9aff2f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/castacks/tartan_drive_2.0/contents/scripts?ref=main",
+      "git": "https://api.github.com/repos/castacks/tartan_drive_2.0/git/trees/34272739b2637be7f5b66ba87ec7bcca7e9aff2f",
+      "html": "https://github.com/castacks/tartan_drive_2.0/tree/main/scripts"
+    }
+  }
+]

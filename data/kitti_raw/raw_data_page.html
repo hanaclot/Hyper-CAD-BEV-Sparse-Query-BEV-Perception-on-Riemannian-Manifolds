@@ -1,0 +1,222 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The KITTI Vision Benchmark Suite</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="wrapper">
+<div id="header" class="container">
+<div id="logo">
+<h1><a href="https://www.cvlibs.net/datasets/kitti">The KITTI Vision Benchmark Suite</a></h1>
+<h2>A project of <a href="http://www.kit.edu/english" target="_blank">Karlsruhe Institute of Technology</a><br>and
+<a href="http://www.ttic.edu" target="_blank">Toyota Technological Institute at Chicago</a></h2>
+</div>
+<div id="banner">
+<a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank"><img src="images/unitue.jpg"></a>
+<a href="http://www.ttic.edu" target="_blank"><img src="images/ttic.jpg"></a>
+<a href="http://www.kit.edu/english" target="_blank"><img src="images/kit.jpg"></a>
+</div>
+</div>
+<div id="menu" class="container">
+<ul id="navigation">
+<li ><a href="index.php">home</a></li>
+<li ><a href="setup.php">setup</a></li>
+<li ><a href="eval_stereo.php">stereo</a>
+<ul>
+<li><a href="eval_stereo_flow.php?benchmark=stereo"">Stereo 2012</a></li>
+<li><a href="eval_scene_flow.php?benchmark=stereo">Stereo 2015</a></li>
+</ul>
+</li>
+<li ><a href="eval_flow.php">flow</a>
+<ul>
+<li><a href="eval_stereo_flow.php?benchmark=flow"">Flow 2012</a></li>
+<li><a href="eval_scene_flow.php?benchmark=flow">Flow 2015</a></li>
+</ul>
+</li>
+<li ><a href="eval_scene_flow.php">sceneflow</a></li>
+
+<li ><a href="eval_depth_all.php">depth</a>
+<ul>
+<li><a href="eval_depth.php?benchmark=depth_completion">Depth Completion</a></li>
+<li><a href="eval_depth.php?benchmark=depth_prediction">Depth Prediction</a></li>
+</ul>
+</li>
+
+<li ><a href="eval_odometry.php">odometry</a></li>
+<li ><a href="eval_3dobject.php">object</a>
+<ul>
+<li><a href="eval_object.php?obj_benchmark=2d"">2d object</a></li>
+<li><a href="eval_object.php?obj_benchmark=3d"">3d object</a></li>
+<li><a href="eval_object.php?obj_benchmark=bev">bird's eye view</a></li>
+</ul>
+</li>
+<li ><a href="eval_tracking_overview.php">tracking</a>
+<ul>
+<li><a href="eval_tracking.php"">multi-object tracking</a></li>
+<li><a href="eval_mots.php"">multi-object tracking and segmentation</a></li>
+<li><a href="eval_step.php"">segmenting and tracking every pixel</a></li>
+</ul>
+</li>
+<li ><a href="eval_road.php">road</a></li>
+<li ><a href="eval_semantics.php">semantics</a>
+<ul>
+<li><a href="eval_semseg.php?benchmark=semantics2015"">pixel-level</a></li>
+<li><a href="eval_instance_seg.php?benchmark=instanceSeg2015"">instance-level</a></li>
+</ul>
+</li>
+<li class="active"><a href="raw_data.php">raw data</a></li>
+<li ><a href="user_submit.php">submit results</a></li>
+</ul>
+</div>
+<div id="top-bar" class="container">
+<div class="bar"><div class="text">
+  <div style="width:900px">
+<div style="float:left;">
+  <a href="https://www.cvlibs.net" target="_blank">A. Geiger</a> |
+  <a href="http://www.mrt.kit.edu/mitarbeiter_lenz.php" target="_blank">P. Lenz</a> |
+  <a href="http://www.mrt.kit.edu/mitarbeiter_stiller.php" target="_blank">C. Stiller</a> |
+  <a href="http://ttic.uchicago.edu/~rurtasun/" target="_blank">R. Urtasun</a>
+</div>
+<div style="float:right;">
+<a href="user_login.php">Log in</a>
+</div>
+</div>
+</div></div>
+</div>
+<div id="page" class="container">
+<div id="content">
+
+
+
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.cycle.js"></script>
+
+<script type="text/javascript">
+  jQuery(function($){
+    $('.raw-slide').cycle({
+        fx:     'none',
+        speed:   0,
+        timeout: 500
+    }).cycle("pause");
+    $('.raw-block').hover(function(){
+	    $(this).find('.raw-slide').addClass('active').cycle('resume');
+    }, function(){
+	    $(this).find('.raw-slide').removeClass('active').cycle('pause');
+    });
+  });
+</script>
+
+<div class="section">
+<h2 class="title">Raw Data</h2>
+<div class="entry"><p>
+This page contains our raw data recordings, sorted by category (see menu above). So far, we included only sequences, for which we either have 3D object labels or which occur in our odometry benchmark training set. The dataset comprises the following information, captured and synchronized at 10 Hz:
+</p>
+<ul>
+<li>Raw (unsynced+unrectified) and processed (synced+rectified) grayscale stereo sequences (0.5 Megapixels, stored in png format)</li>
+<li>Raw (unsynced+unrectified) and processed (synced+rectified) color stereo sequences (0.5 Megapixels, stored in png format)</li>
+<li>3D Velodyne point clouds (100k points per frame, stored as binary float matrix)</li>
+<li>3D GPS/IMU data (location, speed, acceleration, meta information, stored as text file)</li>
+<li>Calibration (Camera, Camera-to-GPS/IMU, Camera-to-Velodyne, stored as text file)</li>
+<li>3D object tracklet labels (cars, trucks, trams, pedestrians, cyclists, stored as xml file)</li>
+</ul>
+<p>
+Here, "unsynced+unrectified" refers to the raw input frames where images are distorted and the frame indices do not correspond, while "synced+rectified" refers to the processed data where images have been rectified and undistorted and where the data frame numbers correspond across all sensor streams. For both settings, files with timestamps are provided. Most people require only the "synced+rectified" version of the files.<br>
+More detailed information about the sensors, data format and calibration can be found here:
+</p>
+<ul>
+<li>Preprint of our <a href="https://www.cvlibs.net/publications/Geiger2013IJRR.pdf">IJRR data paper</a></li>
+<li>Download the <a href="user_login.php">raw data development kit (1 MB)</a></li>
+<li>Download the <a href="user_login.php" target="_blank">raw dataset download script (1 MB)</a> (thanks to Omid Hosseini for sharing!)</li>
+<li>Download the <a href="downloads/velodynecalib_S2_factory_flatness_intensity.xml" target="_blank">velodyne calibration file (1 MB)</a> (thanks to Sascha Wirges for sharing)</li>
+<li>Vipin Sharma has written a <a href="https://vipin-sharma.medium.com/kitti-coordinate-transformations-125094cd42fb">guide to better understand the KITTI sensor coordinate systems</a></li>
+<li>Mark Muth has written a <a href="https://github.com/MarkMuth/QtKittiVisualizer" target="_blank">QT-based visualizer</a> for point cloud and tracklet sequences.</li>
+<li>Yani Ioannou (University of Toronto) has put together <a href="https://github.com/yanii/kitti-pcl.git" target="_blank">some tools</a> for working with KITTI raw data using the <a href="http://pointclouds.org" target="_blank">PCL</a></li>
+<li>Christian Herdtweck (MPI Tuebingen) has written a <a href="downloads/parseTrackletXML.py" target="_blank">python parser</a> for reading the object label XML files</li>
+<li>Lee Clement and his group (University of Toronto) have written some <a href="https://github.com/utiasSTARS/pykitti">python tools</a> for loading and parsing the KITTI raw and odometry datasets</li>
+<li>Tomáš Krejčí created a simple tool for conversion of raw kitti datasets to ROS bag files: <a href="https://github.com/tomas789/kitti2bag">kitti2bag</a></li>
+<li>Helen Oleynikova create several tools for working with the KITTI raw dataset using ROS: <a href="https://github.com/ethz-asl/kitti_to_rosbag">kitti_to_rosbag</a></li>
+<li>Mennatullah Siam has created the <a href="http://webdocs.cs.ualberta.ca/~vis/kittimoseg/" target="_blank">KITTI MoSeg</a> dataset with ground truth annotations for moving object detection.</li>
+<li>Hazem Rashed extended KittiMoSeg dataset 10 times providing ground truth annotations for moving objects detection. The dataset consists of 12919 images and is available on the <a href="https://sites.google.com/view/fusemodnet" target="_blank">project's website</a>.</li>
+<li>Jack Borer has written a <a href="https://github.com/fracgawd/kitti_motion_compensation" target="_blank">motion compensation library</a> for the Lidar scans in the KITTI dataset.</li>
+</ul>
+<p>
+<b>Note:</b> We were not able to annotate all sequences and only provide those tracklet annotations that passed the 3rd human validation stage, ie, those that are of very high quality. For sequences for which tracklets are available, you will find the link [tracklets] in the download category.
+</p>
+<br/>
+
+<div class="raw_category">
+Select category:
+<a href="raw_data.php?type=city" class="active">City</a> |
+<a href="raw_data.php?type=residential" >Residential</a> |
+<a href="raw_data.php?type=road" >Road</a> |
+<a href="raw_data.php?type=campus" >Campus</a> |
+<a href="raw_data.php?type=person" >Person</a> |
+<a href="raw_data.php?type=calibration" >Calibration</a>
+</div>
+</div></div>
+
+
+<div class="section">
+<h2 class="title">Login</h2>
+<div class="entry"><p>
+You must <a href="user_login.php">log in</a> to download the raw datasets!
+</div>
+</div>
+
+
+  <div class="clearfix"></div>
+  <div class="tracker">
+  <div id="eXTReMe"><br><br><a href="http://extremetracking.com/open?login=votec">
+  <img src="http://t1.extreme-dm.com/i.gif" style="border: 0;"
+  height="38" width="41" id="EXim" alt="eXTReMe Tracker" /></a>
+  <script type="text/javascript"><!--
+  var EXlogin='votec' // Login
+  var EXvsrv='s10' // VServer
+  EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+  EXb=EXs.colorDepth:EXb=EXs.pixelDepth;
+  navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+  EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
+  EXd.write("<img src=http://e1.extreme-dm.com",
+  "/"+EXvsrv+".g?login="+EXlogin+"&amp;",
+  "jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
+  "l="+escape(EXd.referrer)+" height=1 width=1>");//-->
+  </script><noscript><div id="neXTReMe"><img height="1" width="1" alt=""
+  src="http://e1.extreme-dm.com/s10.g?login=votec&amp;j=n&amp;jv=n" />
+  </div></noscript></div>
+  </div>
+
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+</div>
+
+<div id="footer" class="container">
+	<p>© 2026 | <a href="privacy_policy.php">Privacy Policy</a> | <a href="terms_of_service.php">Terms of Service</a> | <a href="imprint.php">Imprint</a> | <a href="http://www.freecsstemplates.org/" target="_blank">csstemplates</a></p>
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,19 @@
+{
+  "id": "http://arxiv.org/abs/2203.17270v2",
+  "title": "BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers",
+  "summary": "3D visual perception tasks, including 3D detection and map segmentation based on multi-camera images, are essential for autonomous driving systems. In this work, we present a new framework termed BEVFormer, which learns unified BEV representations with spatiotemporal transformers to support multiple autonomous driving perception tasks. In a nutshell, BEVFormer exploits both spatial and temporal information by interacting with spatial and temporal space through predefined grid-shaped BEV queries.",
+  "published": "2022-03-31T17:59:01Z",
+  "authors": [
+    "Zhiqi Li",
+    "Wenhai Wang",
+    "Hongyang Li",
+    "Enze Xie",
+    "Chonghao Sima",
+    "Tong Lu",
+    "Qiao Yu",
+    "Jifeng Dai"
+  ],
+  "categories": [
+    "cs.CV"
+  ]
+}

@@ -1,0 +1,86 @@
+# Hyper-CAD-BEV Gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large data files (>100MB, use external downloads)
+*.tgz
+*.tfrecord
+*.part
+*.pcd.bin
+
+# Large zip archives in data roots
+data/semantickitti_official/labels.zip
+data/semantickitti_official/labels_all.zip.part
+data/semantickitti_official/voxels.zip
+data/semantickitti_official/voxels_all.zip.part
+data/semantickitti_official/data_odometry_voxels_all.zip
+data/semantickitti_official/data_odometry_labels.zip
+
+# Extracted dataset directories (use original downloads)
+data/semantickitti_official/dataset/
+data/semantickitti_official/labels/dataset/
+data/semantickitti_official/voxels/dataset/
+data/nuscenes/v1.0-mini/
+data/kitti_raw/extracted/
+data/event_camera/extracted/
+data/event_camera/events/
+data/waymo/real_samples/
+data/rellis3d/real_samples/
+data/tartandrive2/real_samples/
+data/tartandrive2/repo/
+data/waymo/repo/
+data/rellis3d/repo/
+
+# >95MB JSON stats
+data/processed/velodyne_frame_stats.json
+
+# Archive and legacy
+archive/
+scripts/legacy/
+scripts/archive/
+scripts/__pycache__/
+experiments/archive/
+experiments/logs/
+experiments/checkpoints/
+experiments/results/legacy/
+
+# Temp
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+data/event_camera/*.zip
+data/kitti_raw/*.zip
+data/kitti_raw/2011_09_26/*.zip
+data/kitti_raw/2011_09_26/2011_09_26/*.zip
+data/semantickitti_official/*.zip
+data/semantickitti_official/*.part
+data/nuscenes/*.tgz
+data/processed/velodyne_frame_stats.json
+archive/

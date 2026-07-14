@@ -1,0 +1,281 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The KITTI Vision Benchmark Suite</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="wrapper">
+<div id="header" class="container">
+<div id="logo">
+<h1><a href="https://www.cvlibs.net/datasets/kitti">The KITTI Vision Benchmark Suite</a></h1>
+<h2>A project of <a href="http://www.kit.edu/english" target="_blank">Karlsruhe Institute of Technology</a><br>and
+<a href="http://www.ttic.edu" target="_blank">Toyota Technological Institute at Chicago</a></h2>
+</div>
+<div id="banner">
+<a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank"><img src="images/unitue.jpg"></a>
+<a href="http://www.ttic.edu" target="_blank"><img src="images/ttic.jpg"></a>
+<a href="http://www.kit.edu/english" target="_blank"><img src="images/kit.jpg"></a>
+</div>
+</div>
+<div id="menu" class="container">
+<ul id="navigation">
+<li class="active"><a href="index.php">home</a></li>
+<li ><a href="setup.php">setup</a></li>
+<li ><a href="eval_stereo.php">stereo</a>
+<ul>
+<li><a href="eval_stereo_flow.php?benchmark=stereo"">Stereo 2012</a></li>
+<li><a href="eval_scene_flow.php?benchmark=stereo">Stereo 2015</a></li>
+</ul>
+</li>
+<li ><a href="eval_flow.php">flow</a>
+<ul>
+<li><a href="eval_stereo_flow.php?benchmark=flow"">Flow 2012</a></li>
+<li><a href="eval_scene_flow.php?benchmark=flow">Flow 2015</a></li>
+</ul>
+</li>
+<li ><a href="eval_scene_flow.php">sceneflow</a></li>
+
+<li ><a href="eval_depth_all.php">depth</a>
+<ul>
+<li><a href="eval_depth.php?benchmark=depth_completion">Depth Completion</a></li>
+<li><a href="eval_depth.php?benchmark=depth_prediction">Depth Prediction</a></li>
+</ul>
+</li>
+
+<li ><a href="eval_odometry.php">odometry</a></li>
+<li ><a href="eval_3dobject.php">object</a>
+<ul>
+<li><a href="eval_object.php?obj_benchmark=2d"">2d object</a></li>
+<li><a href="eval_object.php?obj_benchmark=3d"">3d object</a></li>
+<li><a href="eval_object.php?obj_benchmark=bev">bird's eye view</a></li>
+</ul>
+</li>
+<li ><a href="eval_tracking_overview.php">tracking</a>
+<ul>
+<li><a href="eval_tracking.php"">multi-object tracking</a></li>
+<li><a href="eval_mots.php"">multi-object tracking and segmentation</a></li>
+<li><a href="eval_step.php"">segmenting and tracking every pixel</a></li>
+</ul>
+</li>
+<li ><a href="eval_road.php">road</a></li>
+<li ><a href="eval_semantics.php">semantics</a>
+<ul>
+<li><a href="eval_semseg.php?benchmark=semantics2015"">pixel-level</a></li>
+<li><a href="eval_instance_seg.php?benchmark=instanceSeg2015"">instance-level</a></li>
+</ul>
+</li>
+<li ><a href="raw_data.php">raw data</a></li>
+<li ><a href="user_submit.php">submit results</a></li>
+</ul>
+</div>
+<div id="top-bar" class="container">
+<div class="bar"><div class="text">
+  <div style="width:900px">
+<div style="float:left;">
+  <a href="https://www.cvlibs.net" target="_blank">A. Geiger</a> |
+  <a href="http://www.mrt.kit.edu/mitarbeiter_lenz.php" target="_blank">P. Lenz</a> |
+  <a href="http://www.mrt.kit.edu/mitarbeiter_stiller.php" target="_blank">C. Stiller</a> |
+  <a href="http://ttic.uchicago.edu/~rurtasun/" target="_blank">R. Urtasun</a>
+</div>
+<div style="float:right;">
+<a href="user_login.php">Log in</a>
+</div>
+</div>
+</div></div>
+</div>
+<div id="page" class="container">
+<div id="content">
+
+
+
+
+<br/>
+<center>
+<a href="https://www.cvlibs.net/datasets/kitti-360"><img src="https://www.cvlibs.net/datasets/kitti-360/images/banner_text_small.jpg" width="920" alt="KITTI-360 Dataset"></a><br/><br/>
+<a href="https://www.scholar-inbox.com/"><img src="https://www.cvlibs.net/datasets/kitti/images/scholar_inbox.png" width="520" alt="Scholar Inbox Paper Recommender System"></a>
+</center>
+
+<div class="section">
+<h2 class="title">Welcome to the KITTI Vision Benchmark Suite! </h2>
+
+<div class="entry"><p> 
+<img src="images/passat_sensors.jpg" style="float:right;margin-left:20px;">
+We take advantage of our <a href="http://www.mrt.kit.edu/annieway/" target="_blank">autonomous driving platform Annieway</a> to develop novel challenging real-world computer vision benchmarks. Our tasks of interest are: stereo, optical flow, visual odometry, 3D object detection and 3D tracking. For this purpose, we equipped a standard station wagon with two high-resolution color and grayscale video cameras. Accurate ground truth is provided by a Velodyne laser scanner and a GPS localization system. Our datsets are captured by driving around the mid-size city of <a href="http://maps.google.com/?ie=UTF8&z=15&ll=49.010627,8.405871&spn=0.018381,0.029826&t=k&om=1" target="_blank">Karlsruhe</a>, in rural areas and on highways. Up to 15 cars and 30 pedestrians are visible per image. Besides providing all data in raw format, we extract benchmarks for each task. For each of our benchmarks, we also provide an evaluation metric and this evaluation website. Preliminary experiments show that methods ranking high on established benchmarks such as <a href="http://vision.middlebury.edu/" target="_blank">Middlebury</a> perform below average when being moved outside the laboratory to the real world. Our goal is to reduce this bias and complement existing benchmarks by providing real-world benchmarks with novel difficulties to the community.
+<div class="fb-share-button" data-href="https://www.cvlibs.net/datasets/kitti/" data-layout="button" data-mobile-iframe="true"></div><br><br>
+
+<!--<a href="http://www.robustvision.net"><center>
+<img src="http://www.robustvision.net/images/banner.png" /></center></a>
+<br>-->
+
+<center>
+<b>To get started, grab a cup of your favorite beverage and watch our video trailer (5 minutes):</b><br><br>
+
+<iframe width="920" height="520" src="https://www.youtube.com/embed/KXpZ6B1YB_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</p></div></div>
+
+<div class="section">
+<h2 class="title">Copyright</h2>
+<div class="entry"><p>
+<img alt="Creative Commons License" style="border-width:0;float:left;margin-right:10px;" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />All datasets and benchmarks on this page are copyright by us and published under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0</a> License. This means that you must attribute the work in the manner specified by the authors, you may not use this work for commercial purposes and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same license.<br>
+</p></div></div>
+
+<div class="section">
+<h2 class="title">Citation</h2>
+<div class="entry"><p>
+When using this dataset in your research, we will be happy if you cite us! (or bring us some self-made cake or ice-cream)<br/>
+For the <b>stereo 2012</b>, <b>flow 2012</b>, <b>odometry</b>, <b>object detection</b> or <b>tracking benchmarks</b>, please cite:<br/>
+
+@inproceedings{<a href="https://www.cvlibs.net/publications/Geiger2012CVPR.pdf" target="_blank">Geiger2012CVPR</a>,<br/>
+&nbsp; author = {<a href="https://www.cvlibs.net" target="blank">Andreas Geiger</a> and <a href="http://www.mrt.kit.edu/mitarbeiter_lenz.php" target="blank">Philip Lenz</a> and <a href="http://ttic.uchicago.edu/~rurtasun" target="blank">Raquel Urtasun</a>},<br/>
+&nbsp; title = {Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite},<br/>&nbsp; booktitle = {Conference on Computer Vision and Pattern	Recognition (CVPR)},<br/>
+&nbsp; year = {2012}<br/>
+}
+<br/>
+For the <b>raw dataset</b>, please cite:<br/>
+@article{<a href="https://www.cvlibs.net/publications/Geiger2013IJRR.pdf" target="_blank">Geiger2013IJRR</a>,<br/>
+&nbsp; author = {<a href="https://www.cvlibs.net" target="blank">Andreas Geiger</a> and <a href="http://www.mrt.kit.edu/mitarbeiter_lenz.php" target="blank">Philip Lenz</a> and <a href="http://www.mrt.kit.edu/mitarbeiter_stiller.php" target="blank">Christoph Stiller</a> and <a href="http://ttic.uchicago.edu/~rurtasun" target="blank">Raquel Urtasun</a>},<br/>
+&nbsp; title = {Vision meets Robotics: The KITTI Dataset},<br/>&nbsp; journal = {International Journal of Robotics Research (IJRR)},<br/>
+&nbsp; year = {2013}<br/>
+}
+<br/>
+For the <b>road benchmark</b>, please cite:<br/>
+@inproceedings{<a href="https://www.cvlibs.net/publications/Fritsch2013ITSC.pdf" target="_blank">Fritsch2013ITSC</a>,<br/>
+&nbsp; author = {Jannik Fritsch and Tobias Kuehnl and <a href="https://www.cvlibs.net" target="blank">Andreas Geiger</a>},<br/>
+&nbsp; title = {A New Performance Measure and Evaluation Benchmark for Road Detection Algorithms},<br/>&nbsp; booktitle = {International Conference on Intelligent Transportation Systems (ITSC)},<br/>
+&nbsp; year = {2013}<br/>
+}
+<br/>
+For the <b>stereo 2015</b>, <b>flow 2015</b> and <b>scene flow 2015 benchmarks</b>, please cite:<br/>
+@inproceedings{<a href="https://www.cvlibs.net/publications/Menze2015CVPR.pdf" target="_blank">Menze2015CVPR</a>,<br/>
+&nbsp; author = {<a href="http://www.ipi.uni-hannover.de/tmm.html" target="blank">Moritz Menze</a> and <a href="https://www.cvlibs.net" target="blank">Andreas Geiger</a>},<br/>
+&nbsp; title = {Object Scene Flow for Autonomous Vehicles},<br/>&nbsp; booktitle = {Conference on Computer Vision and Pattern	Recognition (CVPR)},<br/>
+&nbsp; year = {2015}<br/>
+}
+</p></div></div>
+
+<div class="section">
+<h2 class="title">Changelog</h2>
+<div class="entry"><p>
+
+<ul>
+<li>25.2.2021: We have updated the evaluation procedure for <a href="https://www.cvlibs.net/datasets/kitti/eval_tracking.php">Tracking</a> and <a href="https://www.cvlibs.net/datasets/kitti/eval_mots.php">MOTS</a>. Evaluation now uses the <a href="https://link.springer.com/article/10.1007/s11263-020-01375-2">HOTA metrics</a> and is performed with the <a href="https://github.com/JonathonLuiten/TrackEval">TrackEval codebase</a>.</li>
+<li>04.12.2019: We have added a novel benchmark for multi-object tracking and segmentation (MOTS)!</li>
+<li>18.03.2018: We have added novel benchmarks for semantic segmentation and semantic instance segmentation!</li>
+<li>11.12.2017: We have added novel benchmarks for depth completion and single image depth prediction!</li>
+<li>26.07.2017: We have added novel benchmarks for 3D object detection including 3D and bird's eye view evaluation.</li>
+<li>26.07.2016: For flexibility, we now allow a maximum of 3 submissions per month and count submissions to different benchmarks separately.</li>
+<li>29.07.2015: We have released our new <a href="eval_scene_flow.php?benchmark=stereo">stereo 2015</a>, <a href="eval_scene_flow.php?benchmark=flow">flow 2015</a>, and <a href="eval_scene_flow.php?benchmark=scene_flow">scene flow 2015</a> benchmarks. In contrast to the stereo 2012 and flow 2012 benchmarks, they provide more difficult sequences as well as ground truth for dynamic objects. We hope for numerous submissions :)</li>
+<li>09.02.2015: We have fixed some bugs in the ground truth of the road segmentation benchmark and updated the data, devkit and results.</li>
+<li>11.12.2014: Fixed the bug in the sorting of the object detection benchmark (ordering should be according to moderate level of difficulty)</a>.</li>
+<li>04.09.2014: We are organizing a workshop on <a href="http://cs.nyu.edu/~silberman/rmrc2014/">reconstruction meets recognition at ECCV 2014</a>!</li>
+<li>31.07.2014: Added colored versions of the images and ground truth for reflective regions to the stereo/flow dataset.</li>
+<li>30.06.2014: For detection methods that use flow features, the 3 preceding frames have been made available in the object detection benchmark.</li>
+<li>04.04.2014: The KITTI road devkit has been updated and some bugs have been fixed in the training ground truth. The server evaluation scripts have been updated to also evaluate the bird's eye view metrics as well as to provide more detailed results for each evaluated method</li>
+<li>04.11.2013: The ground truth disparity maps and flow fields have been refined/improved. Thanks to Donglai for reporting!</li>
+<li>31.10.2013: The pose files for the odometry benchmark have been replaced with a properly interpolated (subsampled) version which doesn't exhibit artefacts when computing velocities from the poses.</li>
+<li>10.10.2013: We are organizing a workshop on <a href="http://ttic.uchicago.edu/~rurtasun/rmrc/index.php">reconstruction meets recognition at ICCV 2013</a>!</li>
+<li>03.10.2013: The evaluation for the odometry benchmark has been modified such that longer sequences are taken into account</li>
+<li>25.09.2013: The road and lane estimation benchmark has been released!</li>
+<li>20.06.2013: The tracking benchmark has been released!</li>
+<li>29.04.2013: A preprint of our <a href="https://www.cvlibs.net/publications/Geiger2013IJRR.pdf">IJRR data paper</a> is available for download now!</li>
+<li>06.03.2013: More complete calibration information (cameras, velodyne, imu) has been added to the object detection benchmark.</li>
+<li>27.01.2013: We are looking for a PhD student in <a href="https://www.cvlibs.net/shared/phd_scholarship.pdf">3D semantic scene parsing</a> (position available at MPI Tübingen).</li>
+<li>23.11.2012: The right color images and the Velodyne laser scans have been released for the object detection benchmark.</li>
+<li>19.11.2012: Added demo code to read and project 3D Velodyne points into images to the raw data development kit.</li>
+<li>12.11.2012: Added pre-trained LSVM baseline models for download.</li>
+<li>04.10.2012: Added demo code to read and project tracklets into images to the raw data development kit.</li>
+<li>01.10.2012: Uploaded the missing oxts file for raw data sequence 2011_09_26_drive_0093.</li>
+<li>26.09.2012: The velodyne laser scan data has been released for the odometry benchmark.</li>
+<li>11.09.2012: Added more detailed coordinate transformation descriptions to the raw data development kit.</li>
+<li>26.08.2012: For transparency and reproducability, we have added the evaluation codes to the development kits.</li>
+<li>24.08.2012: Fixed an error in the OXTS coordinate system description. Plots and readme have been updated.</li>
+<li>19.08.2012: The object detection and orientation estimation evaluation goes online!</li>
+<li>24.07.2012: A section explaining our <a href="setup.php">sensor setup</a> in more details has been added.</li>
+<li>23.07.2012: The color image data of our object benchmark has been updated, fixing the broken test image 006887.png.</li>
+<li>04.07.2012: Added error evaluation functions to stereo/flow development kit, which can be used to train model parameters.</li>
+<li>03.07.2012: Don't care labels for regions with unlabeled objects have been added to the object dataset.</li>
+<li>02.07.2012: Mechanical Turk occlusion and 2D bounding box corrections have been added to raw data labels.</li>
+<li>28.06.2012: Minimum time enforced between submission has been increased to 72 hours.</li>
+<li>27.06.2012: Solved some security issues. Login system now works with cookies.</li>
+<li>02.06.2012: The training labels and the development kit for the object benchmarks have been released.</li>
+<li>29.05.2012: The images for the object detection and orientation estimation benchmarks have been released.</li>
+<li>28.05.2012: We have added the average disparity / optical flow errors as additional error measures.</li>
+<li>27.05.2012: Large parts of our raw data recordings have been added, including sensor calibration.</li>
+<li>08.05.2012: Added color sequences to visual odometry benchmark downloads.</li>
+<li>24.04.2012: Changed colormap of optical flow to a more representative one (new devkit available). Added references to method rankings.</li>
+<li>23.04.2012: Added paper references and links of all submitted methods to ranking tables. Thanks to Daniel Scharstein for suggesting!</li>
+<li>05.04.2012: Added links to the most relevant related datasets and benchmarks for each category.</li>
+<li>04.04.2012: Our <a href="https://www.cvlibs.net/publications/Geiger2012CVPR.pdf">CVPR 2012 paper</a> is available for download now!</li>
+<li>20.03.2012: The KITTI Vision Benchmark Suite goes online, starting with the stereo, flow and odometry benchmarks.</li>
+</ul>
+
+</p></div></div>
+
+<div class="section">
+<h2 class="title">Privacy</h2>
+<div class="entry"><p>
+
+This dataset is made available for academic use only. However, we take your privacy seriously! If you find yourself or personal belongings in this dataset and feel unwell about it, please <a href="https://www.cvlibs.net/aboutme.html">contact us</a> and we will immediately remove the respective data from our server.
+
+</p></div></div>
+
+<div class="section">
+<h2 class="title">Credits</h2>
+<div class="entry"><p>
+
+We thank Karlsruhe Institute of Technology (KIT) and Toyota Technological Institute at Chicago (TTI-C) for <b>funding</b> this project and Jan Cech (CTU) and Pablo Fernandez Alcantarilla (UoA) for <b>providing initial results</b>. We further thank our <b>3D object labeling task force</b> for doing such a great job: Blasius Forreiter, Michael Ranjbar, Bernhard Schuster, Chen Guo, Arne Dersein, Judith Zinsser, Michael Kroeck, Jasmin Mueller, Bernd Glomb, Jana Scherbarth, Christoph Lohr, Dominik Wewers, Roman Ungefuk, Marvin Lossa, Linda Makni, Hans Christian Mueller, Georgi Kolev, Viet Duc Cao, Bünyamin Sener, Julia Krieg, Mohamed Chanchiri, Anika Stiller. Many thanks also to Qianli Liao (NYU) for helping us in getting the don't care regions of the object detection benchmark correct. Special thanks for providing <b>the voice</b> to our video go to Anja Geiger!
+
+</p></div></div>
+
+  <div class="clearfix"></div>
+  <div class="tracker">
+  <div id="eXTReMe"><br><br><a href="http://extremetracking.com/open?login=votec">
+  <img src="http://t1.extreme-dm.com/i.gif" style="border: 0;"
+  height="38" width="41" id="EXim" alt="eXTReMe Tracker" /></a>
+  <script type="text/javascript"><!--
+  var EXlogin='votec' // Login
+  var EXvsrv='s10' // VServer
+  EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+  EXb=EXs.colorDepth:EXb=EXs.pixelDepth;
+  navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+  EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
+  EXd.write("<img src=http://e1.extreme-dm.com",
+  "/"+EXvsrv+".g?login="+EXlogin+"&amp;",
+  "jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
+  "l="+escape(EXd.referrer)+" height=1 width=1>");//-->
+  </script><noscript><div id="neXTReMe"><img height="1" width="1" alt=""
+  src="http://e1.extreme-dm.com/s10.g?login=votec&amp;j=n&amp;jv=n" />
+  </div></noscript></div>
+  </div>
+
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+</div>
+
+<div id="footer" class="container">
+	<p>© 2026 | <a href="privacy_policy.php">Privacy Policy</a> | <a href="terms_of_service.php">Terms of Service</a> | <a href="imprint.php">Imprint</a> | <a href="http://www.freecsstemplates.org/" target="_blank">csstemplates</a></p>
+</div>
+
+</body>
+</html>
+
+

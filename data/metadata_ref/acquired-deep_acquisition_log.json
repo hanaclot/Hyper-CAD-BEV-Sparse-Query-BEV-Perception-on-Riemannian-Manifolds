@@ -1,0 +1,286 @@
+[
+  {
+    "time": "22:11:00",
+    "message": "============================================================"
+  },
+  {
+    "time": "22:11:00",
+    "message": "SOURCE 1: SemanticKITTI Leaderboard Data"
+  },
+  {
+    "time": "22:11:04",
+    "message": "  FETCH FAILED: http://semantic-kitti.org/tasks/semantic_single.json -> HTTP Error 404: Not Found"
+  },
+  {
+    "time": "22:11:05",
+    "message": "  FETCH FAILED: http://semantic-kitti.org/tasks/semantic_multi.json -> HTTP Error 404: Not Found"
+  },
+  {
+    "time": "22:11:08",
+    "message": "  FETCH FAILED: http://semantic-kitti.org/tasks/panoptic.json -> HTTP Error 404: Not Found"
+  },
+  {
+    "time": "22:11:10",
+    "message": "  FETCH FAILED: http://semantic-kitti.org/tasks/4d_panoptic.json -> HTTP Error 404: Not Found"
+  },
+  {
+    "time": "22:11:11",
+    "message": "============================================================"
+  },
+  {
+    "time": "22:11:11",
+    "message": "SOURCE 2: arXiv API - Extended Literature Search"
+  },
+  {
+    "time": "22:11:11",
+    "message": "  Query: Riemannian+manifold+BEV+perception"
+  },
+  {
+    "time": "22:11:20",
+    "message": "  Saved: arxiv/query_Riemannian_manifold_BEV_perception.xml (44271 bytes)"
+  },
+  {
+    "time": "22:11:21",
+    "message": "  Query: sparse+query+BEV+autonomous+driving"
+  },
+  {
+    "time": "22:11:29",
+    "message": "  Saved: arxiv/query_sparse_query_BEV_autonomous_driving.xml (49145 bytes)"
+  },
+  {
+    "time": "22:11:31",
+    "message": "  Query: variational+PDE+implicit+neural+field"
+  },
+  {
+    "time": "22:11:34",
+    "message": "  Saved: arxiv/query_variational_PDE_implicit_neural_field.xml (48663 bytes)"
+  },
+  {
+    "time": "22:11:35",
+    "message": "  Query: neuromorphic+computing+perception"
+  },
+  {
+    "time": "22:11:39",
+    "message": "  Saved: arxiv/query_neuromorphic_computing_perception.xml (62775 bytes)"
+  },
+  {
+    "time": "22:11:41",
+    "message": "  Query: event+camera+autonomous+driving+perception"
+  },
+  {
+    "time": "22:11:43",
+    "message": "  Saved: arxiv/query_event_camera_autonomous_driving_perception.xml (38043 bytes)"
+  },
+  {
+    "time": "22:11:45",
+    "message": "  Query: BEV+perception+off-road+rural"
+  },
+  {
+    "time": "22:11:47",
+    "message": "  Saved: arxiv/query_BEV_perception_off-road_rural.xml (38269 bytes)"
+  },
+  {
+    "time": "22:11:49",
+    "message": "  Query: 3D+object+detection+LiDAR+BEV"
+  },
+  {
+    "time": "22:11:57",
+    "message": "  Saved: arxiv/query_3D_object_detection_LiDAR_BEV.xml (38770 bytes)"
+  },
+  {
+    "time": "22:11:58",
+    "message": "  Query: semantic+segmentation+autonomous+driving+BEV"
+  },
+  {
+    "time": "22:12:17",
+    "message": "  Saved: arxiv/query_semantic_segmentation_autonomous_driving_BEV.xml (36937 bytes)"
+  },
+  {
+    "time": "22:12:18",
+    "message": "  Query: geometric+deep+learning+manifold"
+  },
+  {
+    "time": "22:12:22",
+    "message": "  Saved: arxiv/query_geometric_deep_learning_manifold.xml (36881 bytes)"
+  },
+  {
+    "time": "22:12:24",
+    "message": "  Query: edge+computing+autonomous+driving+energy+efficient"
+  },
+  {
+    "time": "22:12:28",
+    "message": "  Saved: arxiv/query_edge_computing_autonomous_driving_energy_efficient.xml (36577 bytes)"
+  },
+  {
+    "time": "22:12:30",
+    "message": "  Query: terrain+perception+neural+field"
+  },
+  {
+    "time": "22:12:34",
+    "message": "  Saved: arxiv/query_terrain_perception_neural_field.xml (34611 bytes)"
+  },
+  {
+    "time": "22:12:36",
+    "message": "  Query: reaction+diffusion+computer+vision"
+  },
+  {
+    "time": "22:12:38",
+    "message": "  Saved: arxiv/query_reaction_diffusion_computer_vision.xml (35290 bytes)"
+  },
+  {
+    "time": "22:12:39",
+    "message": "  Query: spiking+neural+network+autonomous+driving"
+  },
+  {
+    "time": "22:12:41",
+    "message": "  Saved: arxiv/query_spiking_neural_network_autonomous_driving.xml (36980 bytes)"
+  },
+  {
+    "time": "22:12:43",
+    "message": "  Query: manifold+optimization+ADMM"
+  },
+  {
+    "time": "22:12:50",
+    "message": "  Saved: arxiv/query_manifold_optimization_ADMM.xml (33121 bytes)"
+  },
+  {
+    "time": "22:12:52",
+    "message": "  Query: multi-sensor+fusion+edge+device"
+  },
+  {
+    "time": "22:12:54",
+    "message": "  Saved: arxiv/query_multi-sensor_fusion_edge_device.xml (36961 bytes)"
+  },
+  {
+    "time": "22:12:56",
+    "message": "  Saved: arxiv/all_papers.json (139105 bytes)"
+  },
+  {
+    "time": "22:12:56",
+    "message": "  Total unique papers: 185"
+  },
+  {
+    "time": "22:12:56",
+    "message": "============================================================"
+  },
+  {
+    "time": "22:12:56",
+    "message": "SOURCE 3: RELLIS-3D Extended Data"
+  },
+  {
+    "time": "22:12:57",
+    "message": "  Saved: rellis3d/github_repo_info.json (7222 bytes)"
+  },
+  {
+    "time": "22:12:57",
+    "message": "  Stars: 437, Forks: 59"
+  },
+  {
+    "time": "22:12:58",
+    "message": "  Saved: rellis3d/contributors.json (2881 bytes)"
+  },
+  {
+    "time": "22:13:02",
+    "message": "  Saved: rellis3d/README_raw.md (18720 bytes)"
+  },
+  {
+    "time": "22:13:02",
+    "message": "============================================================"
+  },
+  {
+    "time": "22:13:02",
+    "message": "SOURCE 4: TartanDrive2 Extended Data"
+  },
+  {
+    "time": "22:13:04",
+    "message": "  Saved: tartandrive2/TartanDrive2.html (24678 bytes)"
+  },
+  {
+    "time": "22:13:06",
+    "message": "  FETCH FAILED: https://theairlab.org/TartanDrive2/dataset/ -> HTTP Error 404: Not Found"
+  },
+  {
+    "time": "22:13:08",
+    "message": "  FETCH FAILED: https://theairlab.org/TartanDrive2/benchmark/ -> HTTP Error 404: Not Found"
+  },
+  {
+    "time": "22:13:09",
+    "message": "============================================================"
+  },
+  {
+    "time": "22:13:09",
+    "message": "SOURCE 5: Key arXiv Papers Extended Metadata"
+  },
+  {
+    "time": "22:13:10",
+    "message": "  Saved: arxiv/BEVFormer_2203.17270.xml (3071 bytes)"
+  },
+  {
+    "time": "22:13:15",
+    "message": "  Saved: arxiv/SparseAD_2404.06892.xml (3485 bytes)"
+  },
+  {
+    "time": "22:13:34",
+    "message": "  Saved: arxiv/EventCamera_1711.01458.xml (3048 bytes)"
+  },
+  {
+    "time": "22:13:39",
+    "message": "  Saved: arxiv/LoihiFusion_2408.16096.xml (2631 bytes)"
+  },
+  {
+    "time": "22:13:59",
+    "message": "  Saved: arxiv/WeatherRobustness_2206.09907.xml (3119 bytes)"
+  },
+  {
+    "time": "22:14:01",
+    "message": "============================================================"
+  },
+  {
+    "time": "22:14:01",
+    "message": "SOURCE 6: SemanticKITTI Dataset Information"
+  },
+  {
+    "time": "22:14:04",
+    "message": "  Saved: semantickitti/dataset.html (13263 bytes)"
+  },
+  {
+    "time": "22:14:05",
+    "message": "  FETCH FAILED: http://semantic-kitti.org/benchmarks.html -> HTTP Error 404: Not Found"
+  },
+  {
+    "time": "22:14:06",
+    "message": "============================================================"
+  },
+  {
+    "time": "22:14:06",
+    "message": "SOURCE 7: Additional arXiv Papers"
+  },
+  {
+    "time": "22:14:11",
+    "message": "  Saved: arxiv/extra_2305.13859.xml (3542 bytes)"
+  },
+  {
+    "time": "22:14:14",
+    "message": "  Saved: arxiv/extra_2401.00001.xml (2254 bytes)"
+  },
+  {
+    "time": "22:14:17",
+    "message": "  Saved: arxiv/extra_2312.00001.xml (2214 bytes)"
+  },
+  {
+    "time": "22:14:19",
+    "message": "============================================================"
+  },
+  {
+    "time": "22:14:19",
+    "message": "ACQUISITION COMPLETE"
+  },
+  {
+    "time": "22:14:19",
+    "message": "Data directory: E:\\Hyper-CAD-BEV-Experiments\\data\\acquired"
+  },
+  {
+    "time": "22:14:19",
+    "message": "  Saved: acquisition_summary.json (474 bytes)"
+  }
+]

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IwRr0LrPGtYnlX1yMrP23ZMJgzA</id>
+  <title>arXiv Query: search_query=id:2312.01203&amp;id_list=&amp;start=0&amp;max_results=1</title>
+  <updated>2026-07-12T09:49:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=id:2312.01203&amp;start=0&amp;max_results=1&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.01203v3</id>
+    <title>Harnessing Discrete Representations For Continual Reinforcement Learning</title>
+    <updated>2024-07-13T06:47:10Z</updated>
+    <link href="https://arxiv.org/abs/2312.01203v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.01203v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) agents make decisions using nothing but observations from the environment, and consequently, heavily rely on the representations of those observations. Though some recent breakthroughs have used vector-based categorical representations of observations, often referred to as discrete representations, there is little work explicitly assessing the significance of such a choice. In this work, we provide a thorough empirical investigation of the advantages of representing observations as vectors of categorical values within the context of reinforcement learning. We perform evaluations on world-model learning, model-free RL, and ultimately continual RL problems, where the benefits best align with the needs of the problem setting. We find that, when compared to traditional continuous representations, world models learned over discrete representations accurately model more of the world with less capacity, and that agents trained with discrete representations learn better policies with less data. In the context of continual RL, these benefits translate into faster adapting agents. Additionally, our analysis suggests that the observed performance improvements can be attributed to the information contained within the latent vectors and potentially the encoding of the discrete representation itself.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-02T18:55:26Z</published>
+    <arxiv:comment>23 pages, 16 figures, accepted to RLC 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Edan Meyer</name>
+    </author>
+    <author>
+      <name>Adam White</name>
+    </author>
+    <author>
+      <name>Marlos C. Machado</name>
+    </author>
+  </entry>
+</feed>

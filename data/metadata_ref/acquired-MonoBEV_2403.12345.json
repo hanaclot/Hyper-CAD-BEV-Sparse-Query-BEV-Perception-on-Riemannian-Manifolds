@@ -1,0 +1,19 @@
+{
+  "id": "http://arxiv.org/abs/2403.12345v1",
+  "title": "Performance Portable Monte Carlo Particle Transport on Intel, NVIDIA, and AMD GPUs",
+  "summary": "OpenMC is an open source Monte Carlo neutral particle transport application that has recently been ported to GPU using the OpenMP target offloading model. We examine the performance of OpenMC at scale on the Frontier, Polaris, and Aurora supercomputers, demonstrating that performance portability has been achieved by OpenMC across all three major GPU vendors (AMD, NVIDIA, and Intel). OpenMC's GPU performance is compared to both the traditional CPU-based version of OpenMC as well as several other ",
+  "published": "2024-03-19T01:28:01Z",
+  "authors": [
+    "John Tramm",
+    "Paul Romano",
+    "Patrick Shriwise",
+    "Amanda Lund",
+    "Johannes Doerfert",
+    "Patrick Steinbrecher",
+    "Andrew Siegel",
+    "Gavin Ridley"
+  ],
+  "categories": [
+    "cs.DC"
+  ]
+}

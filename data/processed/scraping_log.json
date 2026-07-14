@@ -1,0 +1,116 @@
+[
+  {
+    "source": "RELLIS-3D",
+    "status": "OK",
+    "detail": "Repo metadata, 6470 bytes",
+    "time": "2026-07-10T15:19:39.549790"
+  },
+  {
+    "source": "RELLIS-3D",
+    "status": "OK",
+    "detail": "README, 18451 bytes",
+    "time": "2026-07-10T15:19:40.981369"
+  },
+  {
+    "source": "RELLIS-3D",
+    "status": "OK",
+    "detail": "Dataset page, 15961 bytes",
+    "time": "2026-07-10T15:19:45.510414"
+  },
+  {
+    "source": "Weather/ArXiv",
+    "status": "OK",
+    "detail": "Metadata, 3073 bytes",
+    "time": "2026-07-10T15:20:07.999321"
+  },
+  {
+    "source": "Weather/ArXiv",
+    "status": "OK",
+    "detail": "Abstract page, 42375 bytes",
+    "time": "2026-07-10T15:20:10.218031"
+  },
+  {
+    "source": "Weather/ArXiv",
+    "status": "OK",
+    "detail": "PDF, 2772810 bytes",
+    "time": "2026-07-10T15:22:52.986439"
+  },
+  {
+    "source": "TartanDrive2",
+    "status": "OK",
+    "detail": "Main page, 24055 bytes",
+    "time": "2026-07-10T15:22:54.032160"
+  },
+  {
+    "source": "TartanDrive2",
+    "status": "OK",
+    "detail": "Repo metadata, 6191 bytes",
+    "time": "2026-07-10T15:22:54.911309"
+  },
+  {
+    "source": "BEVFormer",
+    "status": "OK",
+    "detail": "Metadata, 3022 bytes",
+    "time": "2026-07-10T15:22:57.592247"
+  },
+  {
+    "source": "BEVFormer",
+    "status": "OK",
+    "detail": "PDF, 4739748 bytes",
+    "time": "2026-07-10T15:30:30.036688"
+  },
+  {
+    "source": "SparseAD",
+    "status": "OK",
+    "detail": "Metadata, 3407 bytes",
+    "time": "2026-07-10T15:30:32.190046"
+  },
+  {
+    "source": "SparseAD",
+    "status": "OK",
+    "detail": "PDF, 25582634 bytes",
+    "time": "2026-07-10T16:07:25.724256"
+  },
+  {
+    "source": "SparseAD",
+    "status": "OK",
+    "detail": "HTML full text, 1091764 bytes",
+    "time": "2026-07-10T16:08:10.843802"
+  },
+  {
+    "source": "EventCamera",
+    "status": "OK",
+    "detail": "Metadata, 3011 bytes",
+    "time": "2026-07-10T16:08:14.884914"
+  },
+  {
+    "source": "EventCamera",
+    "status": "OK",
+    "detail": "PDF, 824525 bytes",
+    "time": "2026-07-10T16:09:35.484635"
+  },
+  {
+    "source": "LoihiFusion",
+    "status": "OK",
+    "detail": "Metadata, 2594 bytes",
+    "time": "2026-07-10T16:09:37.884779"
+  },
+  {
+    "source": "LoihiFusion",
+    "status": "OK",
+    "detail": "HTML full text, 96990 bytes",
+    "time": "2026-07-10T16:09:39.408135"
+  },
+  {
+    "source": "SemanticKITTI",
+    "status": "OK",
+    "detail": "Main page, 15305 bytes",
+    "time": "2026-07-10T16:09:41.162994"
+  },
+  {
+    "source": "SemanticKITTI",
+    "status": "OK",
+    "detail": "Dataset page, 12984 bytes",
+    "time": "2026-07-10T16:09:42.539844"
+  }
+]

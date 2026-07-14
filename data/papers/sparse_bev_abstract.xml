@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EL7Sv1Vks9ycCtyAGc1TdAbiYLU</id>
+  <title>arXiv Query: search_query=id:2308.09244&amp;id_list=&amp;start=0&amp;max_results=1</title>
+  <updated>2026-07-12T09:49:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=id:2308.09244&amp;start=0&amp;max_results=1&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.09244v2</id>
+    <title>SparseBEV: High-Performance Sparse 3D Object Detection from Multi-Camera Videos</title>
+    <updated>2023-09-05T11:38:10Z</updated>
+    <link href="https://arxiv.org/abs/2308.09244v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.09244v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Camera-based 3D object detection in BEV (Bird's Eye View) space has drawn great attention over the past few years. Dense detectors typically follow a two-stage pipeline by first constructing a dense BEV feature and then performing object detection in BEV space, which suffers from complex view transformations and high computation cost. On the other side, sparse detectors follow a query-based paradigm without explicit dense BEV feature construction, but achieve worse performance than the dense counterparts. In this paper, we find that the key to mitigate this performance gap is the adaptability of the detector in both BEV and image space. To achieve this goal, we propose SparseBEV, a fully sparse 3D object detector that outperforms the dense counterparts. SparseBEV contains three key designs, which are (1) scale-adaptive self attention to aggregate features with adaptive receptive field in BEV space, (2) adaptive spatio-temporal sampling to generate sampling locations under the guidance of queries, and (3) adaptive mixing to decode the sampled features with dynamic weights from the queries. On the test split of nuScenes, SparseBEV achieves the state-of-the-art performance of 67.5 NDS. On the val split, SparseBEV achieves 55.8 NDS while maintaining a real-time inference speed of 23.5 FPS. Code is available at https://github.com/MCG-NJU/SparseBEV.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-18T02:11:01Z</published>
+    <arxiv:comment>Accepted to ICCV 2023. This version fixes some typos</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haisong Liu</name>
+    </author>
+    <author>
+      <name>Yao Teng</name>
+    </author>
+    <author>
+      <name>Tao Lu</name>
+    </author>
+    <author>
+      <name>Haiguang Wang</name>
+    </author>
+    <author>
+      <name>Limin Wang</name>
+    </author>
+  </entry>
+</feed>

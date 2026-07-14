@@ -1,0 +1,168 @@
+{
+  "BEVFormer": {
+    "id": "http://arxiv.org/abs/2203.17270v2",
+    "title": "BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers",
+    "summary": "3D visual perception tasks, including 3D detection and map segmentation based on multi-camera images, are essential for autonomous driving systems. In this work, we present a new framework termed BEVFormer, which learns unified BEV representations with spatiotemporal transformers to support multiple autonomous driving perception tasks. In a nutshell, BEVFormer exploits both spatial and temporal information by interacting with spatial and temporal space through predefined grid-shaped BEV queries.",
+    "published": "2022-03-31T17:59:01Z",
+    "authors": [
+      "Zhiqi Li",
+      "Wenhai Wang",
+      "Hongyang Li",
+      "Enze Xie",
+      "Chonghao Sima",
+      "Tong Lu",
+      "Qiao Yu",
+      "Jifeng Dai"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "SparseAD": {
+    "id": "http://arxiv.org/abs/2404.06892v1",
+    "title": "SparseAD: Sparse Query-Centric Paradigm for Efficient End-to-End Autonomous Driving",
+    "summary": "End-to-End paradigms use a unified framework to implement multi-tasks in an autonomous driving system. Despite simplicity and clarity, the performance of end-to-end autonomous driving methods on sub-tasks is still far behind the single-task methods. Meanwhile, the widely used dense BEV features in previous end-to-end methods make it costly to extend to more modalities or tasks. In this paper, we propose a Sparse query-centric paradigm for end-to-end Autonomous Driving (SparseAD), where the spars",
+    "published": "2024-04-10T10:34:34Z",
+    "authors": [
+      "Diankun Zhang",
+      "Guoan Wang",
+      "Runwen Zhu",
+      "Jianbo Zhao",
+      "Xiwu Chen",
+      "Siyu Zhang",
+      "Jiahao Gong",
+      "Qibin Zhou",
+      "Wenyuan Zhang",
+      "Ningzi Wang",
+      "Feiyang Tan",
+      "Hangning Zhou",
+      "Ziyao Xu",
+      "Haotian Yao",
+      "Chi Zhang",
+      "Xiaojun Liu",
+      "Xiaoguang Di",
+      "Bin Li"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "EventCamera": {
+    "id": "http://arxiv.org/abs/1711.01458v1",
+    "title": "DDD17: End-To-End DAVIS Driving Dataset",
+    "summary": "Event cameras, such as dynamic vision sensors (DVS), and dynamic and active-pixel vision sensors (DAVIS) can supplement other autonomous driving sensors by providing a concurrent stream of standard active pixel sensor (APS) images and DVS temporal contrast events. The APS stream is a sequence of standard grayscale global-shutter image sensor frames. The DVS events represent brightness changes occurring at a particular moment, with a jitter of about a millisecond under most lighting conditions. T",
+    "published": "2017-11-04T16:19:56Z",
+    "authors": [
+      "Jonathan Binas",
+      "Daniel Neil",
+      "Shih-Chii Liu",
+      "Tobi Delbruck"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "LoihiFusion": {
+    "id": "http://arxiv.org/abs/2408.16096v1",
+    "title": "Accelerating Sensor Fusion in Neuromorphic Computing: A Case Study on Loihi-2",
+    "summary": "In our study, we utilized Intel's Loihi-2 neuromorphic chip to enhance sensor fusion in fields like robotics and autonomous systems, focusing on datasets such as AIODrive, Oxford Radar RobotCar, D-Behavior (D-Set), nuScenes by Motional, and Comma2k19. Our research demonstrated that Loihi-2, using spiking neural networks, significantly outperformed traditional computing methods in speed and energy efficiency. Compared to conventional CPUs and GPUs, Loihi-2 showed remarkable energy efficiency, bei",
+    "published": "2024-08-28T18:58:36Z",
+    "authors": [
+      "Murat Isik",
+      "Karn Tiwari",
+      "Muhammed Burak Eryilmaz",
+      "I. Can Dikmen"
+    ],
+    "categories": [
+      "cs.AR"
+    ]
+  },
+  "WeatherRobustness": {
+    "id": "http://arxiv.org/abs/2206.09907v2",
+    "title": "ORFD: A Dataset and Benchmark for Off-Road Freespace Detection",
+    "summary": "Freespace detection is an essential component of autonomous driving technology and plays an important role in trajectory planning. In the last decade, deep learning-based free space detection methods have been proved feasible. However, these efforts were focused on urban road environments and few deep learning-based methods were specifically designed for off-road free space detection due to the lack of off-road benchmarks. In this paper, we present the ORFD dataset, which, to our knowledge, is t",
+    "published": "2022-06-20T17:22:57Z",
+    "authors": [
+      "Chen Min",
+      "Weizhong Jiang",
+      "Dawei Zhao",
+      "Jiaolong Xu",
+      "Liang Xiao",
+      "Yiming Nie",
+      "Bin Dai"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "SparseBEV": {
+    "id": "http://arxiv.org/abs/2303.08605v2",
+    "title": "RICO: Regularizing the Unobservable for Indoor Compositional Reconstruction",
+    "summary": "Recently, neural implicit surfaces have become popular for multi-view reconstruction. To facilitate practical applications like scene editing and manipulation, some works extend the framework with semantic masks input for the object-compositional reconstruction rather than the holistic perspective. Though achieving plausible disentanglement, the performance drops significantly when processing the indoor scenes where objects are usually partially observed. We propose RICO to address this by regul",
+    "published": "2023-03-15T13:24:36Z",
+    "authors": [
+      "Zizhang Li",
+      "Xiaoyang Lyu",
+      "Yuanyuan Ding",
+      "Mengmeng Wang",
+      "Yiyi Liao",
+      "Yong Liu"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "Sparse4D": {
+    "id": "http://arxiv.org/abs/2311.11722v1",
+    "title": "Sparse4D v3: Advancing End-to-End 3D Detection and Tracking",
+    "summary": "In autonomous driving perception systems, 3D detection and tracking are the two fundamental tasks. This paper delves deeper into this field, building upon the Sparse4D framework. We introduce two auxiliary training tasks (Temporal Instance Denoising and Quality Estimation) and propose decoupled attention to make structural improvements, leading to significant enhancements in detection performance. Additionally, we extend the detector into a tracker using a straightforward approach that assigns i",
+    "published": "2023-11-20T12:37:58Z",
+    "authors": [
+      "Xuewu Lin",
+      "Zixiang Pei",
+      "Tianwei Lin",
+      "Lichao Huang",
+      "Zhizhong Su"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ]
+  },
+  "BEVDet": {
+    "id": "http://arxiv.org/abs/2112.11790v3",
+    "title": "BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View",
+    "summary": "Autonomous driving perceives its surroundings for decision making, which is one of the most complex scenarios in visual perception. The success of paradigm innovation in solving the 2D object detection task inspires us to seek an elegant, feasible, and scalable paradigm for fundamentally pushing the performance boundary in this area. To this end, we contribute the BEVDet paradigm in this paper. BEVDet performs 3D object detection in Bird-Eye-View (BEV), where most target values are defined and r",
+    "published": "2021-12-22T10:48:06Z",
+    "authors": [
+      "Junjie Huang",
+      "Guan Huang",
+      "Zheng Zhu",
+      "Yun Ye",
+      "Dalong Du"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "MonoBEV": {
+    "id": "http://arxiv.org/abs/2403.12345v1",
+    "title": "Performance Portable Monte Carlo Particle Transport on Intel, NVIDIA, and AMD GPUs",
+    "summary": "OpenMC is an open source Monte Carlo neutral particle transport application that has recently been ported to GPU using the OpenMP target offloading model. We examine the performance of OpenMC at scale on the Frontier, Polaris, and Aurora supercomputers, demonstrating that performance portability has been achieved by OpenMC across all three major GPU vendors (AMD, NVIDIA, and Intel). OpenMC's GPU performance is compared to both the traditional CPU-based version of OpenMC as well as several other ",
+    "published": "2024-03-19T01:28:01Z",
+    "authors": [
+      "John Tramm",
+      "Paul Romano",
+      "Patrick Shriwise",
+      "Amanda Lund",
+      "Johannes Doerfert",
+      "Patrick Steinbrecher",
+      "Andrew Siegel",
+      "Gavin Ridley"
+    ],
+    "categories": [
+      "cs.DC"
+    ]
+  }
+}

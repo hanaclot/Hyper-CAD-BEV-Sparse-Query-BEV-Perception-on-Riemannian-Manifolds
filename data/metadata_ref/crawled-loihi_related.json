@@ -1,0 +1,50 @@
+{
+  "papers": [
+    {
+      "title": "An Astrocyte-Modulated Neuromorphic Central Pattern Generator for Hexapod Robot Locomotion on Intel's Loihi"
+    },
+    {
+      "title": "Event Encryption: Rethinking Privacy Exposure for Neuromorphic Imaging"
+    },
+    {
+      "title": "Accelerating Sensor Fusion in Neuromorphic Computing: A Case Study on Loihi-2"
+    },
+    {
+      "title": "Synthetic Biology meets Neuromorphic Computing: Towards a bio-inspired Olfactory Perception System"
+    },
+    {
+      "title": "InMyFace: Inertial and Mechanomyography-Based Sensor Fusion for Wearable Facial Activity Recognition"
+    },
+    {
+      "title": "Sequential Fusion Estimation for Clustered Sensor Networks"
+    },
+    {
+      "title": "A Deep Learning-based Radar and Camera Sensor Fusion Architecture for Object Detection"
+    },
+    {
+      "title": "Fully Asynchronous Neuromorphic Perception for Mobile Robot Dodging with Loihi Chips"
+    },
+    {
+      "title": "Privacy-preserving fall detection at the edge using Sony IMX636 event-based vision sensor and Intel Loihi 2 neuromorphic processor"
+    },
+    {
+      "title": "Implementing and Benchmarking the Locally Competitive Algorithm on the Loihi 2 Neuromorphic Processor"
+    },
+    {
+      "title": "SGDFuse: SAM-Guided Diffusion Model for High-Fidelity Infrared and Visible Image Fusion"
+    },
+    {
+      "title": "AngularFuse: A Closer Look at Angle-based Perception for Spatial-Sensitive Multi-Modality Image Fusion"
+    },
+    {
+      "title": "Solving QUBO on the Loihi 2 Neuromorphic Processor"
+    },
+    {
+      "title": "Neuromorphic control for optic-flow-based landings of MAVs using the Loihi processor"
+    },
+    {
+      "title": "Challenges and opportunities for AI to help deliver fusion energy"
+    }
+  ],
+  "count": 15
+}

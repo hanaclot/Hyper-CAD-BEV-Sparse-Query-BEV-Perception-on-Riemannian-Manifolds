@@ -1,0 +1,43 @@
+v16_real_fixed.py
+============================================================
+Timestamp: 2026-07-13T19:11:32.578641
+Total runtime: 298.0s
+Model loaded: True
+PDE num_classes: 1 (height map)
+
+[19:06:34] ======================================================================
+[19:06:34] HYPER-CAD-BEV v16 — FIXED: 1ch PDE + 120 REAL SCANS
+[19:06:34] ======================================================================
+[19:06:34] PHASE 1: Loading real point clouds...
+[19:06:40]   SemanticKITTI: 40 scans loaded
+[19:06:41]   nuScenes: 40 scans loaded
+[19:06:44]   KITTI Raw: 40 scans loaded
+[19:06:44]   TOTAL: 120 real scans (40 SK + 40 NS + 40 KR)
+[19:06:44] PHASE 2: BEV projection...
+[19:06:54]   BEV projection complete: 120 grids (200x200)
+[19:06:54] PHASE 3: Loading PyTorch PDE (FIXED: num_classes=1 for height maps)...
+[19:06:59]   PyTorch PDE loaded (1-channel height mode)
+[19:06:59] PHASE 5: Running PDE reconstruction on all scans...
+[19:06:59]   [1/120] SK_000008 (SemanticKITTI)
+[19:07:01]   [2/120] SK_000022 (SemanticKITTI)
+[19:07:03]   [3/120] SK_000036 (SemanticKITTI)
+[19:07:35]   [20/120] SK_000191 (SemanticKITTI)
+[19:08:16]   [40/120] SK_000429 (SemanticKITTI)
+[19:08:58]   [60/120] NS_n008-2018-08-01-15-16-36-0400__LIDAR_TOP__1533151612897588.pcd (nuScenes)
+[19:09:43]   [80/120] NS_n008-2018-08-01-15-16-36-0400__LIDAR_TOP__1533151622948227.pcd (nuScenes)
+[19:10:31]   [100/120] KR_0000000019 (KITTI Raw)
+[19:11:18]   [120/120] KR_0000000039 (KITTI Raw)
+[19:11:21]   Sparse Raw:        PSNR=8.8dB EdgeF1=0.4418 GeoErr=27.1cm
+[19:11:21]   Euclidean PDE:     PSNR=56.7dB EdgeF1=0.8114 GeoErr=0.1cm
+[19:11:21]   Manifold PDE (NP): PSNR=57.3dB EdgeF1=0.8114 GeoErr=0.1cm
+[19:11:21]   Manifold PDE (PT): PSNR=17.1dB EdgeF1=0.7934 GeoErr=7.6cm
+[19:11:21] PHASE 6: Per-source analysis...
+[19:11:21]   SemanticKITTI: n=40 GeoErr=0.1cm EdgeF1=0.7308
+[19:11:21]   nuScenes: n=40 GeoErr=0.1cm EdgeF1=0.9185
+[19:11:21]   KITTI Raw: n=40 GeoErr=0.1cm EdgeF1=0.7851
+[19:11:21] PHASE 7: Generating TABLEs from real computations...
+[19:11:21] PHASE 8: Generating FIGs...
+[19:11:31]   FIG 5 saved (visual validation)
+[19:11:32]   FIG 4 saved (overview)
+[19:11:32]   FIG 6 saved (cross-dataset)
+[19:11:32] DONE: 298.0s total

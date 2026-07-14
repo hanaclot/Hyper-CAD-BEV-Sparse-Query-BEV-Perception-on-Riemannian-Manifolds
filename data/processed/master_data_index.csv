@@ -1,0 +1,9 @@
+Component,Source,Records,Format
+LiDAR Point Clouds,SemanticKITTI,471,Velodyne HDL-64E
+Off-road Edge Detection,RELLIS-3D GitHub,116,
+Off-road Dynamics,TartanDrive2,,Website + arXiv paper
+Event Camera Theory,arXiv:1711.01458,,
+BEV Sparse Query Papers,arXiv: 12 papers,,
+Edge Sensor Fusion,arXiv:2408.16096,,
+SOTA Benchmarks,SemanticKITTI Leaderboard,31,
+Terrain Manifold Analysis,Velodyne extraction,57312402,

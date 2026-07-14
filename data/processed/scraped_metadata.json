@@ -1,0 +1,34 @@
+{
+  "rellis3d": {
+    "stars": 437,
+    "forks": 59,
+    "description": "RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics"
+  },
+  "semantickitti": {
+    "html_size": 15305,
+    "has_benchmark": true
+  },
+  "tartandrive2": {
+    "html_size": 24055
+  },
+  "bevformer": {
+    "html_size": 42836,
+    "status": "ok"
+  },
+  "sparsead": {
+    "html_size": 43273,
+    "status": "ok"
+  },
+  "event_camera": {
+    "html_size": 42313,
+    "status": "ok"
+  },
+  "loihi_fusion": {
+    "html_size": 96435,
+    "status": "ok"
+  },
+  "weather_lighting": {
+    "html_size": 42375,
+    "status": "ok"
+  }
+}

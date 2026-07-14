@@ -1,0 +1,16 @@
+{
+  "stars": 437,
+  "forks": 59,
+  "open_issues": 38,
+  "description": "RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics",
+  "updated_at": "2026-06-30T02:03:47Z",
+  "topics": [
+    "3d-segmentation",
+    "dataset",
+    "image-segmentation",
+    "lidar",
+    "off-road",
+    "ros-bag",
+    "semantic-segmentation"
+  ]
+}

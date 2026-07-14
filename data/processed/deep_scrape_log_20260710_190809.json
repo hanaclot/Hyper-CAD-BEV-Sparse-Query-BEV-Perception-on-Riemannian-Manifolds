@@ -1,0 +1,236 @@
+{
+  "started": "2026-07-10T11:08:09.679066+00:00",
+  "log_entries": [
+    {
+      "time": "18:39:24",
+      "msg": "============================================================"
+    },
+    {
+      "time": "18:39:24",
+      "msg": "Hyper-CAD-BEV v6.5-Sparse DEEP SCRAPER"
+    },
+    {
+      "time": "18:39:24",
+      "msg": "Started: 2026-07-10T10:39:24.224805+00:00"
+    },
+    {
+      "time": "18:39:24",
+      "msg": "============================================================"
+    },
+    {
+      "time": "18:39:24",
+      "msg": "=== SOURCE 1: RELLIS-3D GitHub ==="
+    },
+    {
+      "time": "18:39:24",
+      "msg": "  Fetching: https://github.com/unmannedlab/RELLIS-3D"
+    },
+    {
+      "time": "18:39:27",
+      "msg": "  -> github_main.html (370103 bytes, hash=63d947e0f194f5ed, status=200)"
+    },
+    {
+      "time": "18:39:27",
+      "msg": "  Fetching: https://raw.githubusercontent.com/unmannedlab/RELLIS-3D/master/README.md"
+    },
+    {
+      "time": "18:39:29",
+      "msg": "  -> README.md (18451 bytes, hash=0bdc7ea2eb55b6cf, status=200)"
+    },
+    {
+      "time": "18:39:29",
+      "msg": "  Fetching: https://api.github.com/repos/unmannedlab/RELLIS-3D"
+    },
+    {
+      "time": "18:39:30",
+      "msg": "  -> api_repo.json (6470 bytes, hash=fb5ec73213266804, status=200)"
+    },
+    {
+      "time": "18:39:30",
+      "msg": "  Repo: stars=437, forks=59"
+    },
+    {
+      "time": "18:39:30",
+      "msg": "  Dataset info: {'size_gb': '11', 'num_images': '6,235', 'num_classes': '20', 'lidar_points': '13,556'}"
+    },
+    {
+      "time": "18:39:30",
+      "msg": "=== SOURCE 2: SemanticKITTI ==="
+    },
+    {
+      "time": "18:39:30",
+      "msg": "  Fetching: http://semantic-kitti.org/"
+    },
+    {
+      "time": "18:39:32",
+      "msg": "  -> main.html (15305 bytes, hash=1b042c30a8ce9fff, status=200)"
+    },
+    {
+      "time": "18:39:32",
+      "msg": "  Fetching: http://semantic-kitti.org/dataset.html"
+    },
+    {
+      "time": "18:39:32",
+      "msg": "  -> dataset.html (12984 bytes, hash=1c9b2bd1758bd3b2, status=200)"
+    },
+    {
+      "time": "18:39:32",
+      "msg": "  Fetching: http://semantic-kitti.org/tasks.html"
+    },
+    {
+      "time": "18:39:33",
+      "msg": "  -> tasks.html (65891 bytes, hash=a346540f813c95d6, status=200)"
+    },
+    {
+      "time": "18:39:33",
+      "msg": "  Found 0 metrics, 23 method names"
+    },
+    {
+      "time": "18:39:33",
+      "msg": "=== SOURCE 3: TartanDrive2 ==="
+    },
+    {
+      "time": "18:39:33",
+      "msg": "  Fetching: https://theairlab.org/TartanDrive2/"
+    },
+    {
+      "time": "18:39:42",
+      "msg": "  -> main.html (24055 bytes, hash=11aac7a54aff159a, status=200)"
+    },
+    {
+      "time": "18:39:42",
+      "msg": "  Fetching: https://arxiv.org/abs/2206.09907"
+    },
+    {
+      "time": "18:39:44",
+      "msg": "  -> arxiv.html (42375 bytes, hash=8e3215dff8a4def9, status=200)"
+    },
+    {
+      "time": "18:39:45",
+      "msg": "=== SOURCES 4-8: arXiv Papers ==="
+    },
+    {
+      "time": "18:39:45",
+      "msg": "  Paper: BEVFormer: Learning Birds-Eye-View Representation from Multi-Camera Images (2203.17270)"
+    },
+    {
+      "time": "18:39:46",
+      "msg": "    metadata.xml: 3025 bytes (status=200)"
+    },
+    {
+      "time": "18:39:47",
+      "msg": "    abstract_page.html: 42836 bytes (status=200)"
+    },
+    {
+      "time": "18:39:47",
+      "msg": "  Paper: SparseAD: Sparse Query-Centric Paradigm for End-to-End Autonomous Driving (2404.06892)"
+    },
+    {
+      "time": "18:39:48",
+      "msg": "    metadata.xml: 3410 bytes (status=200)"
+    },
+    {
+      "time": "18:39:49",
+      "msg": "    abstract_page.html: 43273 bytes (status=200)"
+    },
+    {
+      "time": "19:07:52",
+      "msg": "    paper.pdf: 25582634 bytes (status=200)"
+    },
+    {
+      "time": "19:07:52",
+      "msg": "  Paper: Event-based Vision: A Survey (1711.01458)"
+    },
+    {
+      "time": "19:07:54",
+      "msg": "    metadata.xml: 3014 bytes (status=200)"
+    },
+    {
+      "time": "19:07:55",
+      "msg": "    abstract_page.html: 42313 bytes (status=200)"
+    },
+    {
+      "time": "19:07:55",
+      "msg": "  Paper: Edge Multi-Sensor Fusion: Neuromorphic Approaches (2408.16096)"
+    },
+    {
+      "time": "19:07:57",
+      "msg": "    metadata.xml: 2597 bytes (status=200)"
+    },
+    {
+      "time": "19:07:58",
+      "msg": "    abstract_page.html: 40860 bytes (status=200)"
+    },
+    {
+      "time": "19:08:03",
+      "msg": "    paper.pdf: 930751 bytes (status=200)"
+    },
+    {
+      "time": "19:08:03",
+      "msg": "  Paper: Off-Road Free Space Detection with Weather and Lighting Variations (2206.09907)"
+    },
+    {
+      "time": "19:08:08",
+      "msg": "    metadata.xml: 3076 bytes (status=200)"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "    abstract_page.html: 42375 bytes (status=200)"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "=== Creating Master Data Index ==="
+    },
+    {
+      "time": "19:08:09",
+      "msg": "  Master index: 130 data files indexed -> master_data_index_20260710_190809.csv"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "    : 3 files, 0.01 MB"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "    PNG: 1 files, 0.07 MB"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "    html: 22 files, 2.26 MB"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "    json: 21 files, 0.03 MB"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "    md: 1 files, 0.02 MB"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "    pdf: 5 files, 34.85 MB"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "    py: 53 files, 0.43 MB"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "    sh: 6 files, 0.00 MB"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "    txt: 7 files, 0.20 MB"
+    },
+    {
+      "time": "19:08:09",
+      "msg": "    xml: 11 files, 0.03 MB"
+    }
+  ],
+  "results_summary": {
+    "rellis3d": "dict",
+    "semantickitti": "dict",
+    "tartandrive2": "dict",
+    "arxiv": "dict"
+  },
+  "total_files_indexed": 130
+}

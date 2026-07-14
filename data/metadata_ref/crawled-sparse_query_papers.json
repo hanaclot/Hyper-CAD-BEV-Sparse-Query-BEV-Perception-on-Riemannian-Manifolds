@@ -1,0 +1,65 @@
+{
+  "papers": [
+    {
+      "title": "Super Sparse 3D Object Detection"
+    },
+    {
+      "title": "QE-BEV: Query Evolution for Bird's Eye View Object Detection in Varied Contexts"
+    },
+    {
+      "title": "TiG-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning"
+    },
+    {
+      "title": "M-BEV: Masked BEV Perception for Robust Autonomous Driving"
+    },
+    {
+      "title": "OA-DET3D: Embedding Object Awareness as a General Plug-in for Multi-Camera 3D Object Detection"
+    },
+    {
+      "title": "PVAFN: Point-Voxel Attention Fusion Network with Multi-Pooling Enhancing for 3D Object Detection"
+    },
+    {
+      "title": "Vision-Centric BEV Perception: A Survey"
+    },
+    {
+      "title": "PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images"
+    },
+    {
+      "title": "BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View"
+    },
+    {
+      "title": "Real-time 3D Object Detection using Feature Map Flow"
+    },
+    {
+      "title": "UAP-BEV: Uncertainty Aware Planning using Bird's Eye View generated from Surround Monocular Images"
+    },
+    {
+      "title": "BEVNeXt: Reviving Dense BEV Frameworks for 3D Object Detection"
+    },
+    {
+      "title": "3D Siamese Voxel-to-BEV Tracker for Sparse Point Clouds"
+    },
+    {
+      "title": "BEV-LGKD: A Unified LiDAR-Guided Knowledge Distillation Framework for BEV 3D Object Detection"
+    },
+    {
+      "title": "LET-3D-AP: Longitudinal Error Tolerant 3D Average Precision for Camera-Only 3D Detection"
+    },
+    {
+      "title": "MonoCInIS: Camera Independent Monocular 3D Object Detection using Instance Segmentation"
+    },
+    {
+      "title": "LRPD: Long Range 3D Pedestrian Detection Leveraging Specific Strengths of LiDAR and RGB"
+    },
+    {
+      "title": "BEV-IO: Enhancing Bird's-Eye-View 3D Detection with Instance Occupancy"
+    },
+    {
+      "title": "BEV-SAN: Accurate BEV 3D Object Detection via Slice Attention Networks"
+    },
+    {
+      "title": "Group Equivariant BEV for 3D Object Detection"
+    }
+  ],
+  "count": 20
+}

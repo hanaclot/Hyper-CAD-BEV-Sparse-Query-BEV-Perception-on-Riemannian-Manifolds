@@ -1,0 +1,6384 @@
+{
+  "total_files": 1063,
+  "total_size_gb": 16.02,
+  "files": [
+    {
+      "path": "raw\\rellis3d\\repo_metadata.json",
+      "size_bytes": 7222,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\README.md",
+      "size_bytes": 18720,
+      "ext": ".md",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\config.py",
+      "size_bytes": 2946,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\__init__.py",
+      "size_bytes": 5858,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\cityscapes.py",
+      "size_bytes": 9757,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\cityscapes_labels.py",
+      "size_bytes": 12955,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\edge_utils.py",
+      "size_bytes": 2082,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\rellis.py",
+      "size_bytes": 7828,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\loss.py",
+      "size_bytes": 6380,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\DualTaskLoss.py",
+      "size_bytes": 4789,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\GatedSpatialConv.py",
+      "size_bytes": 6289,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\custom_functional.py",
+      "size_bytes": 5446,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\Resnet.py",
+      "size_bytes": 8714,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\SEresnext.py",
+      "size_bytes": 14906,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\gscnn.py",
+      "size_bytes": 11956,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\mynn.py",
+      "size_bytes": 1089,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\wider_resnet.py",
+      "size_bytes": 14165,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\optimizer.py",
+      "size_bytes": 2720,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\train.py",
+      "size_bytes": 19465,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\joint_transforms.py",
+      "size_bytes": 22787,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\transforms.py",
+      "size_bytes": 12085,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\AttrDict.py",
+      "size_bytes": 2635,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\f_boundary.py",
+      "size_bytes": 7242,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\image_page.py",
+      "size_bytes": 2563,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\misc.py",
+      "size_bytes": 13199,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\hubconf.py",
+      "size_bytes": 861,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\default.py",
+      "size_bytes": 3064,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\hrnet_config.py",
+      "size_bytes": 3668,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\models.py",
+      "size_bytes": 1672,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\criterion.py",
+      "size_bytes": 3527,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\function.py",
+      "size_bytes": 11379,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\ade20k.py",
+      "size_bytes": 3601,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\base_dataset.py",
+      "size_bytes": 10806,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\cocostuff.py",
+      "size_bytes": 4912,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\lip.py",
+      "size_bytes": 5789,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\pascal_ctx.py",
+      "size_bytes": 5021,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\bn_helper.py",
+      "size_bytes": 349,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\hrnet.py",
+      "size_bytes": 21632,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\seg_hrnet.py",
+      "size_bytes": 18879,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\seg_hrnet_ocr.py",
+      "size_bytes": 26818,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\bn.py",
+      "size_bytes": 6947,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\functions.py",
+      "size_bytes": 8605,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\distributed.py",
+      "size_bytes": 606,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\modelsummary.py",
+      "size_bytes": 4817,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\utils.py",
+      "size_bytes": 4377,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\_init_paths.py",
+      "size_bytes": 591,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\test.py",
+      "size_bytes": 5620,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\setup.py",
+      "size_bytes": 619,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\plot_convergence.py",
+      "size_bytes": 24506,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\test_models.py",
+      "size_bytes": 7467,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\train_ModelNet40.py",
+      "size_bytes": 8717,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\train_Rellis.py",
+      "size_bytes": 10295,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\train_S3DIS.py",
+      "size_bytes": 9594,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\train_SemanticKitti.py",
+      "size_bytes": 10297,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\visualize_deformations.py",
+      "size_bytes": 6225,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\run_gscnn.sh",
+      "size_bytes": 187,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\run_gscnn_eval.sh",
+      "size_bytes": 527,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\run_hrnet.sh",
+      "size_bytes": 327,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\run_hrnet_test.sh",
+      "size_bytes": 587,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\compile_wrappers.sh",
+      "size_bytes": 185,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\run_kpconv.sh",
+      "size_bytes": 32,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\bibtex.txt",
+      "size_bytes": 202,
+      "ext": ".txt",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\gscnn.txt",
+      "size_bytes": 1370,
+      "ext": ".txt",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\requirements.txt",
+      "size_bytes": 136,
+      "ext": ".txt",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\gscnn_requirement.txt",
+      "size_bytes": 1066,
+      "ext": ".txt",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\requirement.txt",
+      "size_bytes": 2048,
+      "ext": ".txt",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\index.html",
+      "size_bytes": 13416,
+      "ext": ".html",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\architecture.jpg",
+      "size_bytes": 258819,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\crop.jpg",
+      "size_bytes": 91075,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\edges.jpg",
+      "size_bytes": 507344,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\intro.jpg",
+      "size_bytes": 406775,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\seg.jpg",
+      "size_bytes": 440643,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\semboundary.jpg",
+      "size_bytes": 366498,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\test.jpg",
+      "size_bytes": 316469,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\top.jpg",
+      "size_bytes": 578031,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\table.png",
+      "size_bytes": 360684,
+      "ext": ".png",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\OCR.PNG",
+      "size_bytes": 65653,
+      "ext": ".png",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\seg-hrnet.png",
+      "size_bytes": 117969,
+      "ext": ".png",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\gscnn.gif",
+      "size_bytes": 19444781,
+      "ext": ".gif",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\.gitignore",
+      "size_bytes": 2978,
+      "ext": "",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\Dockerfile",
+      "size_bytes": 877,
+      "ext": "",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\LICENSE",
+      "size_bytes": 1171,
+      "ext": "",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\scrape_result.json",
+      "size_bytes": 181,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\repo_metadata_v2.json",
+      "size_bytes": 7222,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\github_main.html",
+      "size_bytes": 370103,
+      "ext": ".html",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\api_repo.json",
+      "size_bytes": 6470,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\deep_scrape_result.json",
+      "size_bytes": 746,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\rellis3d\\github_metadata.json",
+      "size_bytes": 520,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "raw\\semantickitti\\index.html",
+      "size_bytes": 15617,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "raw\\semantickitti\\dataset.html",
+      "size_bytes": 13263,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "raw\\semantickitti\\scrape_result.json",
+      "size_bytes": 1040,
+      "ext": ".json",
+      "category": "semantickitti"
+    },
+    {
+      "path": "raw\\semantickitti\\tasks.html",
+      "size_bytes": 67335,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "raw\\semantickitti\\benchmarks.html",
+      "size_bytes": 67335,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "raw\\semantickitti\\main.html",
+      "size_bytes": 15617,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "raw\\semantickitti\\deep_scrape_result.json",
+      "size_bytes": 810,
+      "ext": ".json",
+      "category": "semantickitti"
+    },
+    {
+      "path": "raw\\tartandrive2\\index.html",
+      "size_bytes": 24678,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "raw\\tartandrive2\\arxiv_abstract.html",
+      "size_bytes": 42082,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "raw\\tartandrive2\\scrape_result.json",
+      "size_bytes": 542,
+      "ext": ".json",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "raw\\tartandrive2\\paper_abstract.html",
+      "size_bytes": 42082,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "raw\\tartandrive2\\website.html",
+      "size_bytes": 24678,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "raw\\tartandrive2\\main.html",
+      "size_bytes": 24678,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "raw\\tartandrive2\\arxiv.html",
+      "size_bytes": 43002,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "raw\\tartandrive2\\arxiv_metadata.xml",
+      "size_bytes": 2786,
+      "ext": ".xml",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "raw\\tartandrive2\\deep_scrape_result.json",
+      "size_bytes": 253,
+      "ext": ".json",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "processed\\scraped_metadata.json",
+      "size_bytes": 628,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\arxiv_scrape_log.json",
+      "size_bytes": 5208,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\rural_manifold_dataset_index.csv",
+      "size_bytes": 8007,
+      "ext": ".csv",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\scraped_sources_summary.csv",
+      "size_bytes": 807,
+      "ext": ".csv",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\aggregated_metadata.json",
+      "size_bytes": 7408,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\scraping_log_20260710_142040.json",
+      "size_bytes": 8664,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\scraping_round2_2026-07-10T18-27-16.json",
+      "size_bytes": 371,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\master_data_index_20260710_190809.csv",
+      "size_bytes": 13709,
+      "ext": ".csv",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\deep_scrape_log_20260710_190809.json",
+      "size_bytes": 6275,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\scraping_log.json",
+      "size_bytes": 2750,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\phase2_results.json",
+      "size_bytes": 232,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\rural_manifold_master_index.json",
+      "size_bytes": 1526,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\real_benchmark_data.json",
+      "size_bytes": 1441,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\scraping_master_log.json",
+      "size_bytes": 6812,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\velodyne_frame_stats.json",
+      "size_bytes": 94935393,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\master_data_index.csv",
+      "size_bytes": 417,
+      "ext": ".csv",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\arxiv_full_index.csv",
+      "size_bytes": 153869,
+      "ext": ".csv",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\arxiv_full_index.json",
+      "size_bytes": 319777,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\semantickitti_leaderboard_all.csv",
+      "size_bytes": 1594,
+      "ext": ".csv",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\master_data_index_v2.json",
+      "size_bytes": 2241,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\rural_manifold_config.json",
+      "size_bytes": 999,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\data_summary_v2.csv",
+      "size_bytes": 518,
+      "ext": ".csv",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\comprehensive_lidar_stats.json",
+      "size_bytes": 156590,
+      "ext": ".json",
+      "category": "processed"
+    },
+    {
+      "path": "processed\\lidar_global_stats.npz",
+      "size_bytes": 416681,
+      "ext": ".npz",
+      "category": "processed"
+    },
+    {
+      "path": "rellis3d\\.gitignore",
+      "size_bytes": 2822,
+      "ext": "",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\README.md",
+      "size_bytes": 18451,
+      "ext": ".md",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\Dockerfile",
+      "size_bytes": 877,
+      "ext": "",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\LICENSE",
+      "size_bytes": 1171,
+      "ext": "",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\config.py",
+      "size_bytes": 2946,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\__init__.py",
+      "size_bytes": 5858,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\cityscapes.py",
+      "size_bytes": 9757,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\cityscapes_labels.py",
+      "size_bytes": 12955,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\edge_utils.py",
+      "size_bytes": 2082,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\rellis.py",
+      "size_bytes": 7828,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\index.html",
+      "size_bytes": 13416,
+      "ext": ".html",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\architecture.jpg",
+      "size_bytes": 258819,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\bibtex.txt",
+      "size_bytes": 202,
+      "ext": ".txt",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\crop.jpg",
+      "size_bytes": 91075,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\edges.jpg",
+      "size_bytes": 507344,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\gscnn.gif",
+      "size_bytes": 19444781,
+      "ext": ".gif",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\intro.jpg",
+      "size_bytes": 406775,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg.jpg",
+      "size_bytes": 440643,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\semboundary.jpg",
+      "size_bytes": 366498,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\table.png",
+      "size_bytes": 360684,
+      "ext": ".png",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\test.jpg",
+      "size_bytes": 316469,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\top.jpg",
+      "size_bytes": 578031,
+      "ext": ".jpg",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\gscnn.txt",
+      "size_bytes": 1370,
+      "ext": ".txt",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\loss.py",
+      "size_bytes": 6380,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\DualTaskLoss.py",
+      "size_bytes": 4789,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\GatedSpatialConv.py",
+      "size_bytes": 6289,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\custom_functional.py",
+      "size_bytes": 5446,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\Resnet.py",
+      "size_bytes": 8714,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\SEresnext.py",
+      "size_bytes": 14906,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\gscnn.py",
+      "size_bytes": 11956,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\mynn.py",
+      "size_bytes": 1089,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\wider_resnet.py",
+      "size_bytes": 14165,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\optimizer.py",
+      "size_bytes": 2720,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\run_gscnn.sh",
+      "size_bytes": 187,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\run_gscnn_eval.sh",
+      "size_bytes": 527,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\train.py",
+      "size_bytes": 19465,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\joint_transforms.py",
+      "size_bytes": 22787,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\transforms.py",
+      "size_bytes": 12085,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\AttrDict.py",
+      "size_bytes": 2635,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\f_boundary.py",
+      "size_bytes": 7242,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\image_page.py",
+      "size_bytes": 2563,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\misc.py",
+      "size_bytes": 13199,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\OCR.PNG",
+      "size_bytes": 65653,
+      "ext": ".png",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg-hrnet.png",
+      "size_bytes": 117969,
+      "ext": ".png",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\hubconf.py",
+      "size_bytes": 861,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_ocr_w48_520x520_ohem_sgd_lr2e-2_wd1e-4_bs_16_epoch120.yaml",
+      "size_bytes": 1716,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_w48_520x520_ohem_sgd_lr2e-2_wd1e-4_bs_16_epoch120.yaml",
+      "size_bytes": 1685,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\default.py",
+      "size_bytes": 3064,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\hrnet_config.py",
+      "size_bytes": 3668,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\models.py",
+      "size_bytes": 1672,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\criterion.py",
+      "size_bytes": 3527,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_w48_520x520_sgd_lr2e-2_wd1e-4_bs_16_epoch120.yaml",
+      "size_bytes": 1685,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\function.py",
+      "size_bytes": 11379,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_ocr_w48_train_512x1024_sgd_lr1e-2_wd5e-4_bs_12_epoch484.yaml",
+      "size_bytes": 1712,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_ocr_w48_trainval_512x1024_sgd_lr1e-2_wd5e-4_bs_12_epoch484.yaml",
+      "size_bytes": 1715,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\ade20k.py",
+      "size_bytes": 3601,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\base_dataset.py",
+      "size_bytes": 10806,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_w48_train_512x1024_sgd_lr1e-2_wd5e-4_bs_12_epoch484.yaml",
+      "size_bytes": 1689,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_w48_train_ohem_512x1024_sgd_lr1e-2_wd5e-4_bs_12_epoch484.yaml",
+      "size_bytes": 1688,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\cocostuff.py",
+      "size_bytes": 4912,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\lip.py",
+      "size_bytes": 5789,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\pascal_ctx.py",
+      "size_bytes": 5021,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\bn_helper.py",
+      "size_bytes": 349,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\hrnet.py",
+      "size_bytes": 21632,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet.py",
+      "size_bytes": 18879,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_w48_trainval_512x1024_sgd_lr1e-2_wd5e-4_bs_12_epoch484x2.yaml",
+      "size_bytes": 1776,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_ocr.py",
+      "size_bytes": 26818,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\bn.py",
+      "size_bytes": 6947,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\functions.py",
+      "size_bytes": 8605,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_w48_trainval_ohem_512x1024_sgd_lr1e-2_wd5e-4_bs_12_epoch484x2.yaml",
+      "size_bytes": 1775,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_ocr_w48_520x520_ohem_sgd_lr1e-3_wd1e-4_bs_16_epoch110.yaml",
+      "size_bytes": 1795,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_w48_520x520_ohem_sgd_lr1e-3_wd1e-4_bs_16_epoch110.yaml",
+      "size_bytes": 1756,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_w48_520x520_sgd_lr1e-3_wd1e-4_bs_16_epoch110.yaml",
+      "size_bytes": 1757,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\common.h",
+      "size_bytes": 2692,
+      "ext": ".h",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\inplace_abn.cpp",
+      "size_bytes": 2398,
+      "ext": ".cpp",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_ocr_w48_473x473_sgd_lr7e-3_wd5e-4_bs_40_epoch150.yaml",
+      "size_bytes": 1721,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\inplace_abn.h",
+      "size_bytes": 1484,
+      "ext": ".h",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_w48_473x473_sgd_lr7e-3_wd5e-4_bs_40_epoch150.yaml",
+      "size_bytes": 1694,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\inplace_abn_cpu.cpp",
+      "size_bytes": 3309,
+      "ext": ".cpp",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\inplace_abn_cuda.cu",
+      "size_bytes": 9966,
+      "ext": ".cu",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_ocr_w48_cls59_520x520_sgd_lr1e-3_wd1e-4_bs_16_epoch200.yaml",
+      "size_bytes": 1741,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_ocr_w48_cls60_520x520_sgd_lr1e-3_wd1e-4_bs_16_epoch200.yaml",
+      "size_bytes": 1741,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_w48_cls59_520x520_sgd_lr1e-3_wd1e-4_bs_16_epoch200.yaml",
+      "size_bytes": 1725,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\distributed.py",
+      "size_bytes": 606,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\modelsummary.py",
+      "size_bytes": 4817,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\utils.py",
+      "size_bytes": 4377,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\seg_hrnet_ocr_w48_train_512x1024_sgd_lr1e-3_wd5e-4_bs_12_epoch484.yaml",
+      "size_bytes": 1741,
+      "ext": ".yaml",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\requirements.txt",
+      "size_bytes": 136,
+      "ext": ".txt",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\run_hrnet.sh",
+      "size_bytes": 327,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\run_hrnet_test.sh",
+      "size_bytes": 587,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\_init_paths.py",
+      "size_bytes": 591,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\test.py",
+      "size_bytes": 5620,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\INSTALL.md",
+      "size_bytes": 2004,
+      "ext": ".md",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\compile_wrappers.sh",
+      "size_bytes": 185,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\build.bat",
+      "size_bytes": 49,
+      "ext": ".bat",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\neighbors.cpp",
+      "size_bytes": 7454,
+      "ext": ".cpp",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\neighbors.h",
+      "size_bytes": 1032,
+      "ext": ".h",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\setup.py",
+      "size_bytes": 619,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\wrapper.cpp",
+      "size_bytes": 7178,
+      "ext": ".cpp",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\plot_convergence.py",
+      "size_bytes": 24506,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\run_kpconv.sh",
+      "size_bytes": 32,
+      "ext": ".sh",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\test_models.py",
+      "size_bytes": 7467,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\train_ModelNet40.py",
+      "size_bytes": 8717,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\train_Rellis.py",
+      "size_bytes": 10295,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\train_S3DIS.py",
+      "size_bytes": 9594,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\gscnn_requirement.txt",
+      "size_bytes": 1066,
+      "ext": ".txt",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\train_SemanticKitti.py",
+      "size_bytes": 10297,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\visualize_deformations.py",
+      "size_bytes": 6225,
+      "ext": ".py",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\requirement.txt",
+      "size_bytes": 2048,
+      "ext": ".txt",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\metadata.json",
+      "size_bytes": 337,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\repo_metadata.json",
+      "size_bytes": 6470,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\scrape_result.json",
+      "size_bytes": 181,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\repo_metadata_v2.json",
+      "size_bytes": 7222,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "rellis3d\\dataset_page.html",
+      "size_bytes": 15961,
+      "ext": ".html",
+      "category": "rellis3d"
+    },
+    {
+      "path": "semantickitti\\index.html",
+      "size_bytes": 15305,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "semantickitti\\dataset.html",
+      "size_bytes": 12984,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "semantickitti\\scrape_result.json",
+      "size_bytes": 1040,
+      "ext": ".json",
+      "category": "semantickitti"
+    },
+    {
+      "path": "semantickitti\\tasks.html",
+      "size_bytes": 67335,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "semantickitti\\benchmarks.html",
+      "size_bytes": 67335,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "semantickitti\\velodyne_laser.zip",
+      "size_bytes": 693099629,
+      "ext": ".zip",
+      "category": "semantickitti"
+    },
+    {
+      "path": "tartandrive2\\index.html",
+      "size_bytes": 24055,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "tartandrive2\\arxiv_abstract.html",
+      "size_bytes": 42082,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "tartandrive2\\scrape_result.json",
+      "size_bytes": 542,
+      "ext": ".json",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "tartandrive2\\paper_abstract.html",
+      "size_bytes": 42082,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "tartandrive2\\website.html",
+      "size_bytes": 24678,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "tartandrive2\\repo_metadata.json",
+      "size_bytes": 6191,
+      "ext": ".json",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "event_camera\\metadata.xml",
+      "size_bytes": 3011,
+      "ext": ".xml",
+      "category": "event_camera"
+    },
+    {
+      "path": "event_camera\\abstract_page.html",
+      "size_bytes": 42942,
+      "ext": ".html",
+      "category": "event_camera"
+    },
+    {
+      "path": "event_camera\\scrape_result.json",
+      "size_bytes": 936,
+      "ext": ".json",
+      "category": "event_camera"
+    },
+    {
+      "path": "event_camera\\paper.pdf",
+      "size_bytes": 824525,
+      "ext": ".pdf",
+      "category": "event_camera"
+    },
+    {
+      "path": "scraped\\deep_scrape_log.json",
+      "size_bytes": 2582,
+      "ext": ".json",
+      "category": "scraped"
+    },
+    {
+      "path": "scraped\\discovered_urls.json",
+      "size_bytes": 1512,
+      "ext": ".json",
+      "category": "scraped"
+    },
+    {
+      "path": "scraped\\url_connectivity.json",
+      "size_bytes": 1343,
+      "ext": ".json",
+      "category": "scraped"
+    },
+    {
+      "path": "scraped\\arxiv\\bevformer\\metadata.xml",
+      "size_bytes": 3068,
+      "ext": ".xml",
+      "category": "bevformer"
+    },
+    {
+      "path": "scraped\\arxiv\\bevformer\\abstract_page.html",
+      "size_bytes": 43468,
+      "ext": ".html",
+      "category": "bevformer"
+    },
+    {
+      "path": "scraped\\arxiv\\bevformer\\scrape_result.json",
+      "size_bytes": 995,
+      "ext": ".json",
+      "category": "bevformer"
+    },
+    {
+      "path": "scraped\\arxiv\\bevformer\\paper.pdf",
+      "size_bytes": 4739748,
+      "ext": ".pdf",
+      "category": "bevformer"
+    },
+    {
+      "path": "scraped\\arxiv\\sparsead\\metadata.xml",
+      "size_bytes": 3482,
+      "ext": ".xml",
+      "category": "sparsead"
+    },
+    {
+      "path": "scraped\\arxiv\\sparsead\\abstract_page.html",
+      "size_bytes": 43895,
+      "ext": ".html",
+      "category": "sparsead"
+    },
+    {
+      "path": "scraped\\arxiv\\sparsead\\full_text.html",
+      "size_bytes": 1096186,
+      "ext": ".html",
+      "category": "sparsead"
+    },
+    {
+      "path": "scraped\\arxiv\\sparsead\\cleaned_text.txt",
+      "size_bytes": 154699,
+      "ext": ".txt",
+      "category": "sparsead"
+    },
+    {
+      "path": "scraped\\arxiv\\sparsead\\scrape_result.json",
+      "size_bytes": 1079,
+      "ext": ".json",
+      "category": "sparsead"
+    },
+    {
+      "path": "scraped\\arxiv\\sparsead\\paper.pdf",
+      "size_bytes": 25582634,
+      "ext": ".pdf",
+      "category": "sparsead"
+    },
+    {
+      "path": "scraped\\arxiv\\event_camera\\metadata.xml",
+      "size_bytes": 3048,
+      "ext": ".xml",
+      "category": "event_camera"
+    },
+    {
+      "path": "scraped\\arxiv\\event_camera\\abstract_page.html",
+      "size_bytes": 42942,
+      "ext": ".html",
+      "category": "event_camera"
+    },
+    {
+      "path": "scraped\\arxiv\\event_camera\\scrape_result.json",
+      "size_bytes": 787,
+      "ext": ".json",
+      "category": "event_camera"
+    },
+    {
+      "path": "scraped\\arxiv\\event_camera\\paper.pdf",
+      "size_bytes": 824525,
+      "ext": ".pdf",
+      "category": "event_camera"
+    },
+    {
+      "path": "scraped\\arxiv\\loihi_fusion\\metadata.xml",
+      "size_bytes": 2631,
+      "ext": ".xml",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "scraped\\arxiv\\loihi_fusion\\abstract_page.html",
+      "size_bytes": 41486,
+      "ext": ".html",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "scraped\\arxiv\\loihi_fusion\\full_text.html",
+      "size_bytes": 97803,
+      "ext": ".html",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "scraped\\arxiv\\loihi_fusion\\cleaned_text.txt",
+      "size_bytes": 36136,
+      "ext": ".txt",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "scraped\\arxiv\\loihi_fusion\\scrape_result.json",
+      "size_bytes": 845,
+      "ext": ".json",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "scraped\\arxiv\\loihi_fusion\\paper.pdf",
+      "size_bytes": 930751,
+      "ext": ".pdf",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "scraped\\arxiv\\weather_robustness\\metadata.xml",
+      "size_bytes": 3119,
+      "ext": ".xml",
+      "category": "weather_robustness"
+    },
+    {
+      "path": "scraped\\arxiv\\weather_robustness\\abstract_page.html",
+      "size_bytes": 43002,
+      "ext": ".html",
+      "category": "weather_robustness"
+    },
+    {
+      "path": "scraped\\arxiv\\weather_robustness\\scrape_result.json",
+      "size_bytes": 787,
+      "ext": ".json",
+      "category": "weather_robustness"
+    },
+    {
+      "path": "scraped\\arxiv\\weather_robustness\\paper.pdf",
+      "size_bytes": 2772810,
+      "ext": ".pdf",
+      "category": "weather_robustness"
+    },
+    {
+      "path": "scraped\\semantickitti_leaderboard\\semantic-kitti.org",
+      "size_bytes": 15305,
+      "ext": ".org",
+      "category": "semantickitti_leaderboard"
+    },
+    {
+      "path": "scraped\\semantickitti_leaderboard\\tasks.html",
+      "size_bytes": 65892,
+      "ext": ".html",
+      "category": "semantickitti_leaderboard"
+    },
+    {
+      "path": "scraped\\rellis3d_stats\\repo_stats.json",
+      "size_bytes": 516,
+      "ext": ".json",
+      "category": "rellis3d_stats"
+    },
+    {
+      "path": "scraped\\tartandrive2_params\\website.html",
+      "size_bytes": 24055,
+      "ext": ".html",
+      "category": "tartandrive2_params"
+    },
+    {
+      "path": "scraped\\arxiv_bevformer\\api_metadata.xml",
+      "size_bytes": 3068,
+      "ext": ".xml",
+      "category": "arxiv_bevformer"
+    },
+    {
+      "path": "scraped\\arxiv_bevformer\\parsed_meta.json",
+      "size_bytes": 496,
+      "ext": ".json",
+      "category": "arxiv_bevformer"
+    },
+    {
+      "path": "scraped\\arxiv_sparsead\\api_metadata.xml",
+      "size_bytes": 3482,
+      "ext": ".xml",
+      "category": "arxiv_sparsead"
+    },
+    {
+      "path": "scraped\\arxiv_sparsead\\parsed_meta.json",
+      "size_bytes": 496,
+      "ext": ".json",
+      "category": "arxiv_sparsead"
+    },
+    {
+      "path": "scraped\\arxiv_event_camera\\api_metadata.xml",
+      "size_bytes": 3045,
+      "ext": ".xml",
+      "category": "arxiv_event_camera"
+    },
+    {
+      "path": "scraped\\arxiv_event_camera\\parsed_meta.json",
+      "size_bytes": 496,
+      "ext": ".json",
+      "category": "arxiv_event_camera"
+    },
+    {
+      "path": "scraped\\arxiv_loihi_fusion\\api_metadata.xml",
+      "size_bytes": 2628,
+      "ext": ".xml",
+      "category": "arxiv_loihi_fusion"
+    },
+    {
+      "path": "scraped\\arxiv_loihi_fusion\\parsed_meta.json",
+      "size_bytes": 496,
+      "ext": ".json",
+      "category": "arxiv_loihi_fusion"
+    },
+    {
+      "path": "scraped\\arxiv_weather_robustness\\api_metadata.xml",
+      "size_bytes": 3116,
+      "ext": ".xml",
+      "category": "arxiv_weather_robustness"
+    },
+    {
+      "path": "scraped\\arxiv_weather_robustness\\parsed_meta.json",
+      "size_bytes": 496,
+      "ext": ".json",
+      "category": "arxiv_weather_robustness"
+    },
+    {
+      "path": "scraped\\event_camera\\metadata.xml",
+      "size_bytes": 3045,
+      "ext": ".xml",
+      "category": "event_camera"
+    },
+    {
+      "path": "scraped\\event_camera\\abstract_page.html",
+      "size_bytes": 42942,
+      "ext": ".html",
+      "category": "event_camera"
+    },
+    {
+      "path": "scraped\\event_camera\\paper.pdf",
+      "size_bytes": 824525,
+      "ext": ".pdf",
+      "category": "event_camera"
+    },
+    {
+      "path": "scraped\\event_camera\\scrape_result.json",
+      "size_bytes": 936,
+      "ext": ".json",
+      "category": "event_camera"
+    },
+    {
+      "path": "scraped\\loihi_fusion\\metadata.xml",
+      "size_bytes": 2628,
+      "ext": ".xml",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "scraped\\loihi_fusion\\abstract_page.html",
+      "size_bytes": 41486,
+      "ext": ".html",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "scraped\\loihi_fusion\\full_text.html",
+      "size_bytes": 97803,
+      "ext": ".html",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "scraped\\loihi_fusion\\cleaned_text.txt",
+      "size_bytes": 36136,
+      "ext": ".txt",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "scraped\\loihi_fusion\\scrape_result.json",
+      "size_bytes": 966,
+      "ext": ".json",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "scraped\\weather\\metadata.xml",
+      "size_bytes": 3116,
+      "ext": ".xml",
+      "category": "weather"
+    },
+    {
+      "path": "scraped\\weather\\abstract_page.html",
+      "size_bytes": 43002,
+      "ext": ".html",
+      "category": "weather"
+    },
+    {
+      "path": "scraped\\weather\\paper.pdf",
+      "size_bytes": 2772810,
+      "ext": ".pdf",
+      "category": "weather"
+    },
+    {
+      "path": "scraped\\weather\\scrape_result.json",
+      "size_bytes": 992,
+      "ext": ".json",
+      "category": "weather"
+    },
+    {
+      "path": "scraped\\bevformer\\metadata.xml",
+      "size_bytes": 3068,
+      "ext": ".xml",
+      "category": "bevformer"
+    },
+    {
+      "path": "scraped\\bevformer\\abstract_page.html",
+      "size_bytes": 43468,
+      "ext": ".html",
+      "category": "bevformer"
+    },
+    {
+      "path": "scraped\\bevformer\\scrape_result.json",
+      "size_bytes": 995,
+      "ext": ".json",
+      "category": "bevformer"
+    },
+    {
+      "path": "scraped\\bevformer\\paper.pdf",
+      "size_bytes": 4739748,
+      "ext": ".pdf",
+      "category": "bevformer"
+    },
+    {
+      "path": "scraped\\sparsead\\metadata.xml",
+      "size_bytes": 3482,
+      "ext": ".xml",
+      "category": "sparsead"
+    },
+    {
+      "path": "scraped\\sparsead\\abstract_page.html",
+      "size_bytes": 43895,
+      "ext": ".html",
+      "category": "sparsead"
+    },
+    {
+      "path": "scraped\\sparsead\\full_text.html",
+      "size_bytes": 1096186,
+      "ext": ".html",
+      "category": "sparsead"
+    },
+    {
+      "path": "scraped\\sparsead\\cleaned_text.txt",
+      "size_bytes": 154699,
+      "ext": ".txt",
+      "category": "sparsead"
+    },
+    {
+      "path": "scraped\\sparsead\\scrape_result.json",
+      "size_bytes": 1079,
+      "ext": ".json",
+      "category": "sparsead"
+    },
+    {
+      "path": "scraped\\semantickitti_pages\\dataset.html",
+      "size_bytes": 13263,
+      "ext": ".html",
+      "category": "semantickitti_pages"
+    },
+    {
+      "path": "scraped\\semantickitti_pages\\download_urls.json",
+      "size_bytes": 342,
+      "ext": ".json",
+      "category": "semantickitti_pages"
+    },
+    {
+      "path": "scraped\\semantickitti_pages\\tasks.html",
+      "size_bytes": 67335,
+      "ext": ".html",
+      "category": "semantickitti_pages"
+    },
+    {
+      "path": "bevformer_paper\\metadata.xml",
+      "size_bytes": 3068,
+      "ext": ".xml",
+      "category": "bevformer_paper"
+    },
+    {
+      "path": "bevformer_paper\\abstract_page.html",
+      "size_bytes": 43468,
+      "ext": ".html",
+      "category": "bevformer_paper"
+    },
+    {
+      "path": "bevformer_paper\\scrape_result.json",
+      "size_bytes": 995,
+      "ext": ".json",
+      "category": "bevformer_paper"
+    },
+    {
+      "path": "bevformer_paper\\paper.pdf",
+      "size_bytes": 4739748,
+      "ext": ".pdf",
+      "category": "bevformer_paper"
+    },
+    {
+      "path": "sparsead_paper\\metadata.xml",
+      "size_bytes": 3482,
+      "ext": ".xml",
+      "category": "sparsead_paper"
+    },
+    {
+      "path": "sparsead_paper\\abstract_page.html",
+      "size_bytes": 43895,
+      "ext": ".html",
+      "category": "sparsead_paper"
+    },
+    {
+      "path": "sparsead_paper\\full_text.html",
+      "size_bytes": 1096186,
+      "ext": ".html",
+      "category": "sparsead_paper"
+    },
+    {
+      "path": "sparsead_paper\\cleaned_text.txt",
+      "size_bytes": 154699,
+      "ext": ".txt",
+      "category": "sparsead_paper"
+    },
+    {
+      "path": "sparsead_paper\\scrape_result.json",
+      "size_bytes": 1079,
+      "ext": ".json",
+      "category": "sparsead_paper"
+    },
+    {
+      "path": "loihi_fusion\\metadata.xml",
+      "size_bytes": 2594,
+      "ext": ".xml",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "loihi_fusion\\abstract_page.html",
+      "size_bytes": 41486,
+      "ext": ".html",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "loihi_fusion\\full_text.html",
+      "size_bytes": 96990,
+      "ext": ".html",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "loihi_fusion\\cleaned_text.txt",
+      "size_bytes": 36136,
+      "ext": ".txt",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "loihi_fusion\\scrape_result.json",
+      "size_bytes": 966,
+      "ext": ".json",
+      "category": "loihi_fusion"
+    },
+    {
+      "path": "weather_paper\\metadata.xml",
+      "size_bytes": 3116,
+      "ext": ".xml",
+      "category": "weather_paper"
+    },
+    {
+      "path": "weather_paper\\abstract_page.html",
+      "size_bytes": 43002,
+      "ext": ".html",
+      "category": "weather_paper"
+    },
+    {
+      "path": "weather_paper\\scrape_result.json",
+      "size_bytes": 992,
+      "ext": ".json",
+      "category": "weather_paper"
+    },
+    {
+      "path": "weather_paper\\paper.pdf",
+      "size_bytes": 2772810,
+      "ext": ".pdf",
+      "category": "weather_paper"
+    },
+    {
+      "path": "weather_arxiv\\metadata.xml",
+      "size_bytes": 3073,
+      "ext": ".xml",
+      "category": "weather_arxiv"
+    },
+    {
+      "path": "weather_arxiv\\abstract_page.html",
+      "size_bytes": 42375,
+      "ext": ".html",
+      "category": "weather_arxiv"
+    },
+    {
+      "path": "weather_arxiv\\paper.pdf",
+      "size_bytes": 2772810,
+      "ext": ".pdf",
+      "category": "weather_arxiv"
+    },
+    {
+      "path": "bevformer\\metadata.xml",
+      "size_bytes": 3022,
+      "ext": ".xml",
+      "category": "bevformer"
+    },
+    {
+      "path": "bevformer\\paper.pdf",
+      "size_bytes": 4739748,
+      "ext": ".pdf",
+      "category": "bevformer"
+    },
+    {
+      "path": "sparsead\\metadata.xml",
+      "size_bytes": 3407,
+      "ext": ".xml",
+      "category": "sparsead"
+    },
+    {
+      "path": "sparsead\\paper.pdf",
+      "size_bytes": 25582634,
+      "ext": ".pdf",
+      "category": "sparsead"
+    },
+    {
+      "path": "sparsead\\full_text.html",
+      "size_bytes": 1091764,
+      "ext": ".html",
+      "category": "sparsead"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001930.bin",
+      "size_bytes": 2035568,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000784.bin",
+      "size_bytes": 2000752,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004343.bin",
+      "size_bytes": 2044656,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000975.bin",
+      "size_bytes": 1994352,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003304.bin",
+      "size_bytes": 1859120,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001615.bin",
+      "size_bytes": 1904304,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001576.bin",
+      "size_bytes": 1891744,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000202.bin",
+      "size_bytes": 1960016,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003421.bin",
+      "size_bytes": 1963808,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003703.bin",
+      "size_bytes": 1986384,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001112.bin",
+      "size_bytes": 1979728,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002847.bin",
+      "size_bytes": 1882800,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003972.bin",
+      "size_bytes": 2005536,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001376.bin",
+      "size_bytes": 1921792,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002161.bin",
+      "size_bytes": 1958336,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002383.bin",
+      "size_bytes": 2024432,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002107.bin",
+      "size_bytes": 2028912,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000812.bin",
+      "size_bytes": 1922768,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004206.bin",
+      "size_bytes": 1995424,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003426.bin",
+      "size_bytes": 1961312,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002519.bin",
+      "size_bytes": 1889680,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000260.bin",
+      "size_bytes": 1996416,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002774.bin",
+      "size_bytes": 1799344,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003959.bin",
+      "size_bytes": 1965392,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003965.bin",
+      "size_bytes": 1989328,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001870.bin",
+      "size_bytes": 2004320,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000991.bin",
+      "size_bytes": 1986512,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004058.bin",
+      "size_bytes": 2002048,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001440.bin",
+      "size_bytes": 1852160,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003101.bin",
+      "size_bytes": 1875296,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001149.bin",
+      "size_bytes": 1985824,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001358.bin",
+      "size_bytes": 1916768,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000512.bin",
+      "size_bytes": 1991520,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000129.bin",
+      "size_bytes": 1901616,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000043.bin",
+      "size_bytes": 1894384,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000862.bin",
+      "size_bytes": 1933008,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001712.bin",
+      "size_bytes": 2004464,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003702.bin",
+      "size_bytes": 1987664,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001970.bin",
+      "size_bytes": 2009408,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002077.bin",
+      "size_bytes": 2018800,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003971.bin",
+      "size_bytes": 2005344,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003329.bin",
+      "size_bytes": 2028976,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002820.bin",
+      "size_bytes": 1929328,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003493.bin",
+      "size_bytes": 1970032,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002492.bin",
+      "size_bytes": 1857264,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000172.bin",
+      "size_bytes": 1893504,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004236.bin",
+      "size_bytes": 2040656,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000609.bin",
+      "size_bytes": 1912944,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002632.bin",
+      "size_bytes": 1931424,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001955.bin",
+      "size_bytes": 2011792,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002592.bin",
+      "size_bytes": 1903920,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002376.bin",
+      "size_bytes": 1960928,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001634.bin",
+      "size_bytes": 1973296,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000924.bin",
+      "size_bytes": 1959376,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000465.bin",
+      "size_bytes": 1993008,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004514.bin",
+      "size_bytes": 1927360,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001048.bin",
+      "size_bytes": 1701696,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001394.bin",
+      "size_bytes": 1941600,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000252.bin",
+      "size_bytes": 1867424,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000404.bin",
+      "size_bytes": 1977680,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000038.bin",
+      "size_bytes": 1947808,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003432.bin",
+      "size_bytes": 1966736,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001997.bin",
+      "size_bytes": 1979328,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001439.bin",
+      "size_bytes": 1851216,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001538.bin",
+      "size_bytes": 1857968,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002165.bin",
+      "size_bytes": 1982288,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001151.bin",
+      "size_bytes": 1986960,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004307.bin",
+      "size_bytes": 2030576,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002615.bin",
+      "size_bytes": 1935360,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002633.bin",
+      "size_bytes": 1902592,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000643.bin",
+      "size_bytes": 1897840,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004237.bin",
+      "size_bytes": 2040000,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003793.bin",
+      "size_bytes": 1891392,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001503.bin",
+      "size_bytes": 1775152,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004088.bin",
+      "size_bytes": 2036160,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000760.bin",
+      "size_bytes": 1992544,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003064.bin",
+      "size_bytes": 1959056,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001490.bin",
+      "size_bytes": 1897552,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001874.bin",
+      "size_bytes": 1992736,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001752.bin",
+      "size_bytes": 1996400,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003670.bin",
+      "size_bytes": 1916240,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004243.bin",
+      "size_bytes": 2038784,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002664.bin",
+      "size_bytes": 1876304,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003147.bin",
+      "size_bytes": 1981232,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002980.bin",
+      "size_bytes": 1992160,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001658.bin",
+      "size_bytes": 1921920,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001337.bin",
+      "size_bytes": 1965824,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000054.bin",
+      "size_bytes": 1962224,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004085.bin",
+      "size_bytes": 2032176,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000848.bin",
+      "size_bytes": 2000624,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001080.bin",
+      "size_bytes": 1859808,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002259.bin",
+      "size_bytes": 1991296,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002806.bin",
+      "size_bytes": 1937712,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000800.bin",
+      "size_bytes": 1885008,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002413.bin",
+      "size_bytes": 2007744,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000120.bin",
+      "size_bytes": 1943104,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003741.bin",
+      "size_bytes": 1889248,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001123.bin",
+      "size_bytes": 1949200,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000751.bin",
+      "size_bytes": 1991744,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001473.bin",
+      "size_bytes": 1783008,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003174.bin",
+      "size_bytes": 1928128,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003164.bin",
+      "size_bytes": 1903440,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001039.bin",
+      "size_bytes": 1858080,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003193.bin",
+      "size_bytes": 2026528,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004021.bin",
+      "size_bytes": 1964560,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003495.bin",
+      "size_bytes": 1990784,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002335.bin",
+      "size_bytes": 1930576,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003746.bin",
+      "size_bytes": 1938512,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001964.bin",
+      "size_bytes": 2025072,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001729.bin",
+      "size_bytes": 1949328,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000496.bin",
+      "size_bytes": 1948864,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004106.bin",
+      "size_bytes": 2036496,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001759.bin",
+      "size_bytes": 1943600,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000079.bin",
+      "size_bytes": 1879120,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001158.bin",
+      "size_bytes": 2021984,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000379.bin",
+      "size_bytes": 1977536,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004382.bin",
+      "size_bytes": 1995600,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003652.bin",
+      "size_bytes": 1911648,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001356.bin",
+      "size_bytes": 1907776,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000493.bin",
+      "size_bytes": 1908960,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001700.bin",
+      "size_bytes": 2018608,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003719.bin",
+      "size_bytes": 1983520,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004127.bin",
+      "size_bytes": 2020064,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003252.bin",
+      "size_bytes": 1901488,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000539.bin",
+      "size_bytes": 1932864,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003137.bin",
+      "size_bytes": 1989088,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000238.bin",
+      "size_bytes": 1922160,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002309.bin",
+      "size_bytes": 1966256,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002782.bin",
+      "size_bytes": 1928048,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000803.bin",
+      "size_bytes": 1904688,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001511.bin",
+      "size_bytes": 1900944,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002037.bin",
+      "size_bytes": 1972272,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000990.bin",
+      "size_bytes": 1994240,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001038.bin",
+      "size_bytes": 1813904,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004120.bin",
+      "size_bytes": 1913136,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004235.bin",
+      "size_bytes": 2042048,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003066.bin",
+      "size_bytes": 1956192,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003534.bin",
+      "size_bytes": 1943616,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003889.bin",
+      "size_bytes": 1913808,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002258.bin",
+      "size_bytes": 1992528,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000156.bin",
+      "size_bytes": 2006192,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000051.bin",
+      "size_bytes": 1917280,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001134.bin",
+      "size_bytes": 1980576,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001153.bin",
+      "size_bytes": 2007792,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002591.bin",
+      "size_bytes": 1911776,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003768.bin",
+      "size_bytes": 2024752,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003051.bin",
+      "size_bytes": 1973104,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000636.bin",
+      "size_bytes": 1901712,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002605.bin",
+      "size_bytes": 1939664,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000558.bin",
+      "size_bytes": 1935728,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004524.bin",
+      "size_bytes": 1915920,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003121.bin",
+      "size_bytes": 1950640,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001984.bin",
+      "size_bytes": 1990208,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002874.bin",
+      "size_bytes": 1954832,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001377.bin",
+      "size_bytes": 1926144,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003285.bin",
+      "size_bytes": 1910720,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002962.bin",
+      "size_bytes": 1903968,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004096.bin",
+      "size_bytes": 2040288,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001889.bin",
+      "size_bytes": 2042784,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004279.bin",
+      "size_bytes": 2034224,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002817.bin",
+      "size_bytes": 1956880,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001010.bin",
+      "size_bytes": 1963552,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001082.bin",
+      "size_bytes": 1897056,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004294.bin",
+      "size_bytes": 2025872,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003913.bin",
+      "size_bytes": 1953376,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000313.bin",
+      "size_bytes": 1949648,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003303.bin",
+      "size_bytes": 1844320,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001055.bin",
+      "size_bytes": 1913792,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001361.bin",
+      "size_bytes": 1870672,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003938.bin",
+      "size_bytes": 1712640,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001278.bin",
+      "size_bytes": 1875216,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000887.bin",
+      "size_bytes": 2016256,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001952.bin",
+      "size_bytes": 2011408,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003633.bin",
+      "size_bytes": 1866736,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002994.bin",
+      "size_bytes": 1931200,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001878.bin",
+      "size_bytes": 1946464,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004220.bin",
+      "size_bytes": 2008768,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000528.bin",
+      "size_bytes": 1915808,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001069.bin",
+      "size_bytes": 1858592,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004405.bin",
+      "size_bytes": 2008912,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000492.bin",
+      "size_bytes": 1892704,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002040.bin",
+      "size_bytes": 1967216,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000508.bin",
+      "size_bytes": 1954848,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003914.bin",
+      "size_bytes": 1955264,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002787.bin",
+      "size_bytes": 1902912,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000276.bin",
+      "size_bytes": 1965552,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001627.bin",
+      "size_bytes": 1911776,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001932.bin",
+      "size_bytes": 2035968,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001167.bin",
+      "size_bytes": 2029008,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002763.bin",
+      "size_bytes": 1879440,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002589.bin",
+      "size_bytes": 1904480,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000169.bin",
+      "size_bytes": 1942304,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003448.bin",
+      "size_bytes": 1824576,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004387.bin",
+      "size_bytes": 2007456,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003660.bin",
+      "size_bytes": 1912720,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001901.bin",
+      "size_bytes": 2043584,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000312.bin",
+      "size_bytes": 1950560,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004329.bin",
+      "size_bytes": 2038176,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000084.bin",
+      "size_bytes": 1909616,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000654.bin",
+      "size_bytes": 1859184,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003896.bin",
+      "size_bytes": 1893168,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004421.bin",
+      "size_bytes": 2011280,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001935.bin",
+      "size_bytes": 2037008,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002946.bin",
+      "size_bytes": 1978512,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001517.bin",
+      "size_bytes": 1836560,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002984.bin",
+      "size_bytes": 1995120,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002457.bin",
+      "size_bytes": 1957072,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000648.bin",
+      "size_bytes": 1918720,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001433.bin",
+      "size_bytes": 1851504,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001585.bin",
+      "size_bytes": 1913856,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003521.bin",
+      "size_bytes": 1940800,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001904.bin",
+      "size_bytes": 2036288,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004315.bin",
+      "size_bytes": 2034288,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001967.bin",
+      "size_bytes": 2016704,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003052.bin",
+      "size_bytes": 1944128,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002128.bin",
+      "size_bytes": 2025024,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001041.bin",
+      "size_bytes": 1890944,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000822.bin",
+      "size_bytes": 2023520,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004374.bin",
+      "size_bytes": 1999760,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004162.bin",
+      "size_bytes": 2029968,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001831.bin",
+      "size_bytes": 1901744,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003102.bin",
+      "size_bytes": 1890544,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002226.bin",
+      "size_bytes": 1998512,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002907.bin",
+      "size_bytes": 2018944,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000954.bin",
+      "size_bytes": 1928192,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001030.bin",
+      "size_bytes": 1633056,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000329.bin",
+      "size_bytes": 1922544,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003516.bin",
+      "size_bytes": 1929632,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002665.bin",
+      "size_bytes": 1868416,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004061.bin",
+      "size_bytes": 1982032,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004369.bin",
+      "size_bytes": 2021520,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003584.bin",
+      "size_bytes": 1884272,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004375.bin",
+      "size_bytes": 1996768,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002625.bin",
+      "size_bytes": 1960128,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001846.bin",
+      "size_bytes": 2000464,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002752.bin",
+      "size_bytes": 1936384,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004174.bin",
+      "size_bytes": 2018768,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003600.bin",
+      "size_bytes": 1915776,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003639.bin",
+      "size_bytes": 1809424,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001229.bin",
+      "size_bytes": 1978688,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004016.bin",
+      "size_bytes": 1942912,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001476.bin",
+      "size_bytes": 1795584,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003167.bin",
+      "size_bytes": 1904016,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002465.bin",
+      "size_bytes": 1970320,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001102.bin",
+      "size_bytes": 1934736,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002680.bin",
+      "size_bytes": 1934224,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003979.bin",
+      "size_bytes": 2007456,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000381.bin",
+      "size_bytes": 1972064,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000535.bin",
+      "size_bytes": 1929856,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003261.bin",
+      "size_bytes": 1888272,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003429.bin",
+      "size_bytes": 1971072,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002215.bin",
+      "size_bytes": 1932208,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002791.bin",
+      "size_bytes": 1854032,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001148.bin",
+      "size_bytes": 2000768,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004394.bin",
+      "size_bytes": 2016928,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004339.bin",
+      "size_bytes": 2041616,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002559.bin",
+      "size_bytes": 1976304,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000637.bin",
+      "size_bytes": 1908528,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002143.bin",
+      "size_bytes": 1964608,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000008.bin",
+      "size_bytes": 1953968,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001132.bin",
+      "size_bytes": 1975184,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000121.bin",
+      "size_bytes": 1945472,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004381.bin",
+      "size_bytes": 1996080,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001312.bin",
+      "size_bytes": 1906928,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004440.bin",
+      "size_bytes": 2006752,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000037.bin",
+      "size_bytes": 1958064,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001884.bin",
+      "size_bytes": 2017184,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003053.bin",
+      "size_bytes": 1911904,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001198.bin",
+      "size_bytes": 1987824,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001260.bin",
+      "size_bytes": 1983456,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000952.bin",
+      "size_bytes": 1918368,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002647.bin",
+      "size_bytes": 1828384,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001495.bin",
+      "size_bytes": 1913856,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001471.bin",
+      "size_bytes": 1788384,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004399.bin",
+      "size_bytes": 2007984,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000888.bin",
+      "size_bytes": 2015536,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001724.bin",
+      "size_bytes": 1989248,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000855.bin",
+      "size_bytes": 1975376,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004379.bin",
+      "size_bytes": 1998480,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003420.bin",
+      "size_bytes": 1958576,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001860.bin",
+      "size_bytes": 1966624,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002262.bin",
+      "size_bytes": 1988448,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000965.bin",
+      "size_bytes": 1952832,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001531.bin",
+      "size_bytes": 1906896,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003397.bin",
+      "size_bytes": 1978560,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001586.bin",
+      "size_bytes": 1934304,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002977.bin",
+      "size_bytes": 1977616,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000383.bin",
+      "size_bytes": 1971904,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004458.bin",
+      "size_bytes": 1937312,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003650.bin",
+      "size_bytes": 1938288,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002917.bin",
+      "size_bytes": 1965584,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000658.bin",
+      "size_bytes": 1912336,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003003.bin",
+      "size_bytes": 1878288,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000540.bin",
+      "size_bytes": 1932752,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002833.bin",
+      "size_bytes": 1934240,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002292.bin",
+      "size_bytes": 1962768,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003590.bin",
+      "size_bytes": 1903760,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001819.bin",
+      "size_bytes": 1918608,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001327.bin",
+      "size_bytes": 1856416,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003513.bin",
+      "size_bytes": 1956240,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000280.bin",
+      "size_bytes": 1899760,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001179.bin",
+      "size_bytes": 2034192,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003424.bin",
+      "size_bytes": 1956608,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004478.bin",
+      "size_bytes": 1984816,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001657.bin",
+      "size_bytes": 1923904,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002720.bin",
+      "size_bytes": 1877568,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001410.bin",
+      "size_bytes": 1909792,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000906.bin",
+      "size_bytes": 1804160,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001601.bin",
+      "size_bytes": 2012768,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002032.bin",
+      "size_bytes": 2006576,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001933.bin",
+      "size_bytes": 2036208,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001025.bin",
+      "size_bytes": 1809504,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001667.bin",
+      "size_bytes": 1995056,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002710.bin",
+      "size_bytes": 1889104,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003855.bin",
+      "size_bytes": 1855648,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002430.bin",
+      "size_bytes": 1996464,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004271.bin",
+      "size_bytes": 2030624,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001431.bin",
+      "size_bytes": 1852416,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002336.bin",
+      "size_bytes": 1928800,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000583.bin",
+      "size_bytes": 1917264,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002375.bin",
+      "size_bytes": 1948368,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000657.bin",
+      "size_bytes": 1914432,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001548.bin",
+      "size_bytes": 1932896,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001078.bin",
+      "size_bytes": 1839232,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001676.bin",
+      "size_bytes": 2014592,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000191.bin",
+      "size_bytes": 1970560,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001371.bin",
+      "size_bytes": 1905104,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001214.bin",
+      "size_bytes": 2001184,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000206.bin",
+      "size_bytes": 1972160,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000746.bin",
+      "size_bytes": 1981408,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002719.bin",
+      "size_bytes": 1873248,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003981.bin",
+      "size_bytes": 2009392,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003110.bin",
+      "size_bytes": 1948096,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000022.bin",
+      "size_bytes": 1994304,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000357.bin",
+      "size_bytes": 1879680,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003695.bin",
+      "size_bytes": 1928128,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003139.bin",
+      "size_bytes": 2009168,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004152.bin",
+      "size_bytes": 1999264,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003668.bin",
+      "size_bytes": 1923264,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002611.bin",
+      "size_bytes": 1957920,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001405.bin",
+      "size_bytes": 1921728,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003766.bin",
+      "size_bytes": 2029088,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002641.bin",
+      "size_bytes": 1899696,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004178.bin",
+      "size_bytes": 2004928,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001857.bin",
+      "size_bytes": 1990416,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004354.bin",
+      "size_bytes": 2040800,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003204.bin",
+      "size_bytes": 1949696,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001240.bin",
+      "size_bytes": 1970432,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003123.bin",
+      "size_bytes": 1941168,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003369.bin",
+      "size_bytes": 1974720,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001016.bin",
+      "size_bytes": 1995984,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004164.bin",
+      "size_bytes": 2031216,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003227.bin",
+      "size_bytes": 1833168,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002395.bin",
+      "size_bytes": 1990096,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000704.bin",
+      "size_bytes": 1949712,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000682.bin",
+      "size_bytes": 1878048,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002010.bin",
+      "size_bytes": 1998448,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004023.bin",
+      "size_bytes": 1986800,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000432.bin",
+      "size_bytes": 1967136,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000738.bin",
+      "size_bytes": 1956592,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003691.bin",
+      "size_bytes": 1903904,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002723.bin",
+      "size_bytes": 1879248,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001163.bin",
+      "size_bytes": 2028192,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003507.bin",
+      "size_bytes": 1994272,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003836.bin",
+      "size_bytes": 1979744,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000150.bin",
+      "size_bytes": 1955616,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001698.bin",
+      "size_bytes": 2005808,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001522.bin",
+      "size_bytes": 1824896,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003902.bin",
+      "size_bytes": 1930784,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003214.bin",
+      "size_bytes": 1901808,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001505.bin",
+      "size_bytes": 1782384,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001116.bin",
+      "size_bytes": 1968576,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001482.bin",
+      "size_bytes": 1835264,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002928.bin",
+      "size_bytes": 2012720,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002943.bin",
+      "size_bytes": 1992384,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003395.bin",
+      "size_bytes": 1974368,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002822.bin",
+      "size_bytes": 1927376,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004349.bin",
+      "size_bytes": 2043952,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002319.bin",
+      "size_bytes": 1927888,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000036.bin",
+      "size_bytes": 1963984,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001750.bin",
+      "size_bytes": 1990160,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001861.bin",
+      "size_bytes": 1973904,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001637.bin",
+      "size_bytes": 1942352,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003598.bin",
+      "size_bytes": 1908096,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004210.bin",
+      "size_bytes": 2020400,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002705.bin",
+      "size_bytes": 1909168,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003374.bin",
+      "size_bytes": 1984448,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001264.bin",
+      "size_bytes": 1982240,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001683.bin",
+      "size_bytes": 1917008,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002141.bin",
+      "size_bytes": 1991344,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000586.bin",
+      "size_bytes": 1893072,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000350.bin",
+      "size_bytes": 1905696,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000886.bin",
+      "size_bytes": 2016976,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003602.bin",
+      "size_bytes": 1899024,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003280.bin",
+      "size_bytes": 1925296,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003178.bin",
+      "size_bytes": 1936144,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002116.bin",
+      "size_bytes": 2017728,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002551.bin",
+      "size_bytes": 1874112,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002303.bin",
+      "size_bytes": 1981136,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000564.bin",
+      "size_bytes": 1936272,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003256.bin",
+      "size_bytes": 1925456,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001605.bin",
+      "size_bytes": 2019232,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000356.bin",
+      "size_bytes": 1855760,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001599.bin",
+      "size_bytes": 1985872,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003412.bin",
+      "size_bytes": 1962144,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001720.bin",
+      "size_bytes": 1995712,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002509.bin",
+      "size_bytes": 1899920,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001858.bin",
+      "size_bytes": 1977152,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004289.bin",
+      "size_bytes": 2031392,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000623.bin",
+      "size_bytes": 1926384,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002036.bin",
+      "size_bytes": 1976976,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004403.bin",
+      "size_bytes": 2006080,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003810.bin",
+      "size_bytes": 1984240,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003056.bin",
+      "size_bytes": 1826960,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003879.bin",
+      "size_bytes": 1879248,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001579.bin",
+      "size_bytes": 1844096,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001697.bin",
+      "size_bytes": 2000544,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003887.bin",
+      "size_bytes": 1911968,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000358.bin",
+      "size_bytes": 1901168,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003840.bin",
+      "size_bytes": 1989616,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001769.bin",
+      "size_bytes": 2003616,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001054.bin",
+      "size_bytes": 1880464,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001472.bin",
+      "size_bytes": 1776864,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000044.bin",
+      "size_bytes": 1870096,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000773.bin",
+      "size_bytes": 1895376,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002147.bin",
+      "size_bytes": 1996800,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001378.bin",
+      "size_bytes": 1930048,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001286.bin",
+      "size_bytes": 1772880,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002882.bin",
+      "size_bytes": 1891984,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000429.bin",
+      "size_bytes": 1969104,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001165.bin",
+      "size_bytes": 2031856,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002502.bin",
+      "size_bytes": 1852448,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003916.bin",
+      "size_bytes": 1960160,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002345.bin",
+      "size_bytes": 1879728,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003080.bin",
+      "size_bytes": 1839776,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000160.bin",
+      "size_bytes": 2020608,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003542.bin",
+      "size_bytes": 1934096,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003143.bin",
+      "size_bytes": 2013424,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003678.bin",
+      "size_bytes": 1908768,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001939.bin",
+      "size_bytes": 2036288,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001086.bin",
+      "size_bytes": 1906336,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002212.bin",
+      "size_bytes": 1932720,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003482.bin",
+      "size_bytes": 1875232,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000640.bin",
+      "size_bytes": 1905632,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001204.bin",
+      "size_bytes": 1955632,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000905.bin",
+      "size_bytes": 1811008,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000266.bin",
+      "size_bytes": 2018688,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000462.bin",
+      "size_bytes": 1986768,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004453.bin",
+      "size_bytes": 1988864,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002486.bin",
+      "size_bytes": 1953040,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004079.bin",
+      "size_bytes": 1978032,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002307.bin",
+      "size_bytes": 1978464,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002517.bin",
+      "size_bytes": 1889024,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002743.bin",
+      "size_bytes": 1869312,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002721.bin",
+      "size_bytes": 1884592,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003967.bin",
+      "size_bytes": 1995968,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003349.bin",
+      "size_bytes": 1970928,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001926.bin",
+      "size_bytes": 2033792,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002843.bin",
+      "size_bytes": 1873808,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002239.bin",
+      "size_bytes": 1996464,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001790.bin",
+      "size_bytes": 2013872,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\003862.bin",
+      "size_bytes": 1992208,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001374.bin",
+      "size_bytes": 1920000,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001333.bin",
+      "size_bytes": 1945792,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001249.bin",
+      "size_bytes": 1965824,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\002196.bin",
+      "size_bytes": 1994016,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001768.bin",
+      "size_bytes": 2013408,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\004170.bin",
+      "size_bytes": 2025552,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001617.bin",
+      "size_bytes": 1860560,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001442.bin",
+      "size_bytes": 1868640,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\001114.bin",
+      "size_bytes": 1975232,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "semantickitti_extracted\\dataset\\sequences\\00\\velodyne\\000498.bin",
+      "size_bytes": 1048576,
+      "ext": ".bin",
+      "category": "velodyne"
+    },
+    {
+      "path": "crawled\\semantickitti_leaderboard.json",
+      "size_bytes": 1229,
+      "ext": ".json",
+      "category": "crawled"
+    },
+    {
+      "path": "crawled\\phase1_summary.json",
+      "size_bytes": 680,
+      "ext": ".json",
+      "category": "crawled"
+    },
+    {
+      "path": "crawled\\phase_a_summary.json",
+      "size_bytes": 366,
+      "ext": ".json",
+      "category": "crawled"
+    },
+    {
+      "path": "crawled\\semantickitti\\leaderboard_semseg.html",
+      "size_bytes": 67337,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\dataset_stats.html",
+      "size_bytes": 13263,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\main_page.html",
+      "size_bytes": 15617,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\leaderboard_extracted.json",
+      "size_bytes": 112,
+      "ext": ".json",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\semantic_single.json",
+      "size_bytes": 21355,
+      "ext": ".json",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\semantic_multi.json",
+      "size_bytes": 7492,
+      "ext": ".json",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\panoptic.json",
+      "size_bytes": 5595,
+      "ext": ".json",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\panoptic4d.json",
+      "size_bytes": 1665,
+      "ext": ".json",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\mos.json",
+      "size_bytes": 1701,
+      "ext": ".json",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\completion.json",
+      "size_bytes": 2809,
+      "ext": ".json",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\deep_tasks.html",
+      "size_bytes": 67337,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\deep_benchmarks.html",
+      "size_bytes": 289,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\deep_dataset.html",
+      "size_bytes": 13263,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\dataset_full.html",
+      "size_bytes": 13263,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\tasks_deep.html",
+      "size_bytes": 67337,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\semantickitti\\leaderboard_deep.json",
+      "size_bytes": 89,
+      "ext": ".json",
+      "category": "semantickitti"
+    },
+    {
+      "path": "crawled\\arxiv\\bevformer_api.xml",
+      "size_bytes": 3068,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\bevformer_parsed.json",
+      "size_bytes": 1679,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\fast_bev_api.xml",
+      "size_bytes": 3114,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\fast_bev_parsed.json",
+      "size_bytes": 1721,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\sparsead_api.xml",
+      "size_bytes": 3482,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\sparsead_parsed.json",
+      "size_bytes": 1716,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\sparsebev_api.xml",
+      "size_bytes": 3048,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\sparsebev_parsed.json",
+      "size_bytes": 1779,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\sparse4d_v2_api.xml",
+      "size_bytes": 2663,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\sparse4d_v2_parsed.json",
+      "size_bytes": 1472,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\event_camera_api.xml",
+      "size_bytes": 3045,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\event_camera_parsed.json",
+      "size_bytes": 1814,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\loihi_fusion_api.xml",
+      "size_bytes": 2628,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\loihi_fusion_parsed.json",
+      "size_bytes": 1403,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\weather_offroad_api.xml",
+      "size_bytes": 3116,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\weather_offroad_parsed.json",
+      "size_bytes": 1771,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\meanfield_pde_api.xml",
+      "size_bytes": 2829,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\meanfield_pde_parsed.json",
+      "size_bytes": 1638,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\sn_survey_api.xml",
+      "size_bytes": 3410,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\sn_survey_parsed.json",
+      "size_bytes": 2075,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\admm_boyd_api.xml",
+      "size_bytes": 701,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_rural_seg_bev.xml",
+      "size_bytes": 770,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_offroad_perception.xml",
+      "size_bytes": 40633,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_terrain_edge_detect.xml",
+      "size_bytes": 37395,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_riemannian_manifold_learn.xml",
+      "size_bytes": 35879,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\all_papers_index.json",
+      "size_bytes": 7960,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2404.06892.json",
+      "size_bytes": 639,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2203.17270.json",
+      "size_bytes": 639,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2305.13859.json",
+      "size_bytes": 639,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2304.12356.json",
+      "size_bytes": 639,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2312.08442.json",
+      "size_bytes": 639,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\1711.01458.json",
+      "size_bytes": 639,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2408.16096.json",
+      "size_bytes": 639,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2206.09907.json",
+      "size_bytes": 639,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2309.15654.json",
+      "size_bytes": 639,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2402.06600.json",
+      "size_bytes": 596,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2104.13283.json",
+      "size_bytes": 575,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2308.07897.json",
+      "size_bytes": 639,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_rural_bev_v2.xml",
+      "size_bytes": 74021,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_offroad_semantic.xml",
+      "size_bytes": 70917,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_lidar_bev_terrain.xml",
+      "size_bytes": 70637,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_event_camera_driving.xml",
+      "size_bytes": 73678,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_sparse_query_detector.xml",
+      "size_bytes": 74282,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_riemannian_dl.xml",
+      "size_bytes": 65216,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_neuromorphic_robotics.xml",
+      "size_bytes": 77591,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_pde_neural_field.xml",
+      "size_bytes": 66126,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_edge_av_perception.xml",
+      "size_bytes": 78474,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_multisensor_offroad.xml",
+      "size_bytes": 74602,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_inr_av.xml",
+      "size_bytes": 71727,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\search_variational_cv3d.xml",
+      "size_bytes": 76779,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2404.06892_v2.xml",
+      "size_bytes": 3485,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2203.17270_v2.xml",
+      "size_bytes": 3071,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2408.16096_v2.xml",
+      "size_bytes": 2631,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2206.09907_v2.xml",
+      "size_bytes": 3119,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\1711.01458_v2.xml",
+      "size_bytes": 3048,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2308.09244_v2.xml",
+      "size_bytes": 3051,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2409.09350_v2.xml",
+      "size_bytes": 3458,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2211.14710_v2.xml",
+      "size_bytes": 2659,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2304.08463_v2.xml",
+      "size_bytes": 2946,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2404.01586_v2.xml",
+      "size_bytes": 2832,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2104.13283_v2.xml",
+      "size_bytes": 1875,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\2512.08237_v2.xml",
+      "size_bytes": 3117,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\arxiv\\paper_metadata_deep.json",
+      "size_bytes": 11400,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "crawled\\rellis3d\\repo_metadata.json",
+      "size_bytes": 7222,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "crawled\\rellis3d\\file_tree.json",
+      "size_bytes": 115668,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "crawled\\rellis3d\\github_api.json",
+      "size_bytes": 6470,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "crawled\\rellis3d\\contents.json",
+      "size_bytes": 4227,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "crawled\\rellis3d\\github_repo.json",
+      "size_bytes": 7222,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "crawled\\rellis3d\\full_file_tree.json",
+      "size_bytes": 115836,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "crawled\\rellis3d\\recent_commits.json",
+      "size_bytes": 210980,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "crawled\\rellis3d\\repo_analysis.json",
+      "size_bytes": 339,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "crawled\\tartandrive2\\website.html",
+      "size_bytes": 24678,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "crawled\\tartandrive2\\extracted_stats.json",
+      "size_bytes": 2,
+      "ext": ".json",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "crawled\\tartandrive2\\arxiv_paper.xml",
+      "size_bytes": 3338,
+      "ext": ".xml",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "crawled\\tartandrive2\\website_full.html",
+      "size_bytes": 24678,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "crawled\\tartandrive2\\arxiv_abstract.html",
+      "size_bytes": 43274,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "crawled\\tartandrive2\\website_full_v2.html",
+      "size_bytes": 24678,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "crawled\\tartandrive2\\page_deep.html",
+      "size_bytes": 24678,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "crawled\\tartandrive2\\dataset_stats.json",
+      "size_bytes": 44,
+      "ext": ".json",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "crawled\\event_camera\\search_results.xml",
+      "size_bytes": 26824,
+      "ext": ".xml",
+      "category": "event_camera"
+    },
+    {
+      "path": "crawled\\event_camera\\survey_page_v2.html",
+      "size_bytes": 42942,
+      "ext": ".html",
+      "category": "event_camera"
+    },
+    {
+      "path": "crawled\\event_camera\\benchmark_search.xml",
+      "size_bytes": 48745,
+      "ext": ".xml",
+      "category": "event_camera"
+    },
+    {
+      "path": "crawled\\event_camera\\related_papers.json",
+      "size_bytes": 6690,
+      "ext": ".json",
+      "category": "event_camera"
+    },
+    {
+      "path": "crawled\\benchmarks\\extracted_benchmarks.json",
+      "size_bytes": 2956,
+      "ext": ".json",
+      "category": "benchmarks"
+    },
+    {
+      "path": "crawled\\benchmarks\\sparse_query_papers.json",
+      "size_bytes": 2146,
+      "ext": ".json",
+      "category": "benchmarks"
+    },
+    {
+      "path": "crawled\\neuromorphic\\loihi_fusion_full.html",
+      "size_bytes": 97803,
+      "ext": ".html",
+      "category": "neuromorphic"
+    },
+    {
+      "path": "crawled\\neuromorphic\\loihi_benchmarks.xml",
+      "size_bytes": 34679,
+      "ext": ".xml",
+      "category": "neuromorphic"
+    },
+    {
+      "path": "crawled\\neuromorphic\\snn_survey.xml",
+      "size_bytes": 38796,
+      "ext": ".xml",
+      "category": "neuromorphic"
+    },
+    {
+      "path": "crawled\\neuromorphic\\loihi_related.json",
+      "size_bytes": 1848,
+      "ext": ".json",
+      "category": "neuromorphic"
+    },
+    {
+      "path": "crawled\\weather_robustness\\robustness_search.xml",
+      "size_bytes": 47878,
+      "ext": ".xml",
+      "category": "weather_robustness"
+    },
+    {
+      "path": "crawled\\weather_robustness\\related_papers.json",
+      "size_bytes": 1729,
+      "ext": ".json",
+      "category": "weather_robustness"
+    },
+    {
+      "path": "acquired\\acquisition_summary.json",
+      "size_bytes": 533,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\deep_acquisition_log.json",
+      "size_bytes": 7963,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\BEVFormer_2203.17270.json",
+      "size_bytes": 936,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\SparseAD_2404.06892.json",
+      "size_bytes": 1116,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\EventCamera_1711.01458.json",
+      "size_bytes": 808,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\LoihiFusion_2408.16096.json",
+      "size_bytes": 852,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\WeatherRobustness_2206.09907.json",
+      "size_bytes": 877,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\SparseBEV_2303.08605.json",
+      "size_bytes": 876,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\Sparse4D_2311.11722.json",
+      "size_bytes": 868,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\BEVDet_2112.11790.json",
+      "size_bytes": 847,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\MonoBEV_2403.12345.json",
+      "size_bytes": 946,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\core_papers.json",
+      "size_bytes": 8610,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\semantickitti_main.html",
+      "size_bytes": 15617,
+      "ext": ".html",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\semantickitti_tasks.html",
+      "size_bytes": 67337,
+      "ext": ".html",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\rellis3d_repo.json",
+      "size_bytes": 7222,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\rellis3d_readme.json",
+      "size_bytes": 26303,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\tartandrive2_main.html",
+      "size_bytes": 24678,
+      "ext": ".html",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\extended_literature.json",
+      "size_bytes": 71600,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\all_papers.json",
+      "size_bytes": 81453,
+      "ext": ".json",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\papers_index.csv",
+      "size_bytes": 10953,
+      "ext": ".csv",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\acquisition_log.txt",
+      "size_bytes": 2637,
+      "ext": ".txt",
+      "category": "acquired"
+    },
+    {
+      "path": "acquired\\semantickitti\\dataset.html",
+      "size_bytes": 13263,
+      "ext": ".html",
+      "category": "semantickitti"
+    },
+    {
+      "path": "acquired\\arxiv\\query_Riemannian_manifold_BEV_perception.xml",
+      "size_bytes": 44271,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_sparse_query_BEV_autonomous_driving.xml",
+      "size_bytes": 49145,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_variational_PDE_implicit_neural_field.xml",
+      "size_bytes": 48663,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_neuromorphic_computing_perception.xml",
+      "size_bytes": 62775,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_event_camera_autonomous_driving_perception.xml",
+      "size_bytes": 38043,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_BEV_perception_off-road_rural.xml",
+      "size_bytes": 38269,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_3D_object_detection_LiDAR_BEV.xml",
+      "size_bytes": 38770,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_semantic_segmentation_autonomous_driving_BEV.xml",
+      "size_bytes": 36937,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_geometric_deep_learning_manifold.xml",
+      "size_bytes": 36881,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_edge_computing_autonomous_driving_energy_efficient.xml",
+      "size_bytes": 36577,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_terrain_perception_neural_field.xml",
+      "size_bytes": 34611,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_reaction_diffusion_computer_vision.xml",
+      "size_bytes": 35290,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_spiking_neural_network_autonomous_driving.xml",
+      "size_bytes": 36980,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_manifold_optimization_ADMM.xml",
+      "size_bytes": 33121,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\query_multi-sensor_fusion_edge_device.xml",
+      "size_bytes": 36961,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\all_papers.json",
+      "size_bytes": 139105,
+      "ext": ".json",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BEVFormer_2203.17270.xml",
+      "size_bytes": 3071,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\SparseAD_2404.06892.xml",
+      "size_bytes": 3485,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\EventCamera_1711.01458.xml",
+      "size_bytes": 3048,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\LoihiFusion_2408.16096.xml",
+      "size_bytes": 2631,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\WeatherRobustness_2206.09907.xml",
+      "size_bytes": 3119,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\extra_2305.13859.xml",
+      "size_bytes": 3542,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\extra_2401.00001.xml",
+      "size_bytes": 2254,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\extra_2312.00001.xml",
+      "size_bytes": 2214,
+      "ext": ".xml",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BEVFormer_2203.17270.pdf",
+      "size_bytes": 4739748,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BEVFormer_2203.17270.html",
+      "size_bytes": 44014,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\SparseAD_2404.06892.pdf",
+      "size_bytes": 25582634,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\SparseAD_2404.06892.html",
+      "size_bytes": 44441,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\EventCamera_1711.01458.pdf",
+      "size_bytes": 824525,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\EventCamera_1711.01458.html",
+      "size_bytes": 43488,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\LoihiFusion_2408.16096.pdf",
+      "size_bytes": 930751,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\LoihiFusion_2408.16096.html",
+      "size_bytes": 42032,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\WeatherRobustness_2206.09907.pdf",
+      "size_bytes": 2772810,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\WeatherRobustness_2206.09907.html",
+      "size_bytes": 43548,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\SparseBEV_2308.09244.pdf",
+      "size_bytes": 4109737,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\SparseBEV_2308.09244.html",
+      "size_bytes": 43267,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BEVDet_2112.11790.pdf",
+      "size_bytes": 583501,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BEVDet_2112.11790.html",
+      "size_bytes": 44277,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\MonoBEV_2410.06516.pdf",
+      "size_bytes": 2985248,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\MonoBEV_2410.06516.html",
+      "size_bytes": 43028,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\Sparse4D_2311.11722.pdf",
+      "size_bytes": 1095915,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\Sparse4D_2311.11722.html",
+      "size_bytes": 42020,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\Petr3D_2203.05625.pdf",
+      "size_bytes": 4345274,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\Petr3D_2203.05625.html",
+      "size_bytes": 41020,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BEVDepth_2206.10092.pdf",
+      "size_bytes": 3205271,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BEVDepth_2206.10092.html",
+      "size_bytes": 42171,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\Weather_2206.09907.pdf",
+      "size_bytes": 2772810,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BITFB9.tmp",
+      "size_bytes": 0,
+      "ext": ".tmp",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BITFE9.tmp",
+      "size_bytes": 0,
+      "ext": ".tmp",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BIT1018.tmp",
+      "size_bytes": 0,
+      "ext": ".tmp",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BIT1048.tmp",
+      "size_bytes": 0,
+      "ext": ".tmp",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BIT1069.tmp",
+      "size_bytes": 0,
+      "ext": ".tmp",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BIT1098.tmp",
+      "size_bytes": 0,
+      "ext": ".tmp",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BIT10C8.tmp",
+      "size_bytes": 0,
+      "ext": ".tmp",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\BIT1108.tmp",
+      "size_bytes": 0,
+      "ext": ".tmp",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\PointPillars_1812.05784.pdf",
+      "size_bytes": 5451923,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\RELLIS3D_2011.07717.pdf",
+      "size_bytes": 559404,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\TartanDrive_2204.04615.pdf",
+      "size_bytes": 3218345,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\SemanticKITTI_1904.01416.pdf",
+      "size_bytes": 7425439,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\nuScenes_1903.11027.pdf",
+      "size_bytes": 4788382,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\KITTI_1204.4087.pdf",
+      "size_bytes": 295446,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\Detr3D_2110.06922.pdf",
+      "size_bytes": 22869087,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\Detr3D_2110.06922.html",
+      "size_bytes": 44112,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\RiemannianDL_2205.15016.pdf",
+      "size_bytes": 642640,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\RiemannianDL_2205.15016.html",
+      "size_bytes": 41819,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\NeuralFields_2106.12978.pdf",
+      "size_bytes": 277299,
+      "ext": ".pdf",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\NeuralFields_2106.12978.html",
+      "size_bytes": 42351,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\arxiv\\PointPillars_1812.05784.html",
+      "size_bytes": 45412,
+      "ext": ".html",
+      "category": "arxiv"
+    },
+    {
+      "path": "acquired\\rellis3d\\github_repo_info.json",
+      "size_bytes": 7222,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "acquired\\rellis3d\\contributors.json",
+      "size_bytes": 2881,
+      "ext": ".json",
+      "category": "rellis3d"
+    },
+    {
+      "path": "acquired\\rellis3d\\README_raw.md",
+      "size_bytes": 18720,
+      "ext": ".md",
+      "category": "rellis3d"
+    },
+    {
+      "path": "acquired\\tartandrive2\\TartanDrive2.html",
+      "size_bytes": 24678,
+      "ext": ".html",
+      "category": "tartandrive2"
+    },
+    {
+      "path": "semantickitti_official\\labels.zip",
+      "size_bytes": 55656480,
+      "ext": ".zip",
+      "category": "semantickitti_official"
+    },
+    {
+      "path": "semantickitti_official\\BITB87.tmp",
+      "size_bytes": 693975024,
+      "ext": ".tmp",
+      "category": "semantickitti_official"
+    },
+    {
+      "path": "semantickitti_official\\data_odometry_voxels_all.zip",
+      "size_bytes": 84934656,
+      "ext": ".zip",
+      "category": "semantickitti_official"
+    },
+    {
+      "path": "semantickitti_official\\BIT88DE.tmp",
+      "size_bytes": 3277539360,
+      "ext": ".tmp",
+      "category": "semantickitti_official"
+    },
+    {
+      "path": "semantickitti_official\\voxels_all.zip.part",
+      "size_bytes": 0,
+      "ext": ".part",
+      "category": "semantickitti_official"
+    },
+    {
+      "path": "kitti\\odometry_calib.zip",
+      "size_bytes": 600238,
+      "ext": ".zip",
+      "category": "kitti"
+    },
+    {
+      "path": "nuscenes\\v1.0-mini.tgz",
+      "size_bytes": 4167696325,
+      "ext": ".tgz",
+      "category": "nuscenes"
+    },
+    {
+      "path": "kitti_raw\\BITF6AC.tmp",
+      "size_bytes": 458643963,
+      "ext": ".tmp",
+      "category": "kitti_raw"
+    },
+    {
+      "path": "kitti_raw\\BITFB03.tmp",
+      "size_bytes": 645940900,
+      "ext": ".tmp",
+      "category": "kitti_raw"
+    },
+    {
+      "path": "kitti_raw\\BITFF1B.tmp",
+      "size_bytes": 1791264044,
+      "ext": ".tmp",
+      "category": "kitti_raw"
+    },
+    {
+      "path": "kitti_raw\\BIT333.tmp",
+      "size_bytes": 939815328,
+      "ext": ".tmp",
+      "category": "kitti_raw"
+    },
+    {
+      "path": "kitti_raw\\BIT75A.tmp",
+      "size_bytes": 630044598,
+      "ext": ".tmp",
+      "category": "kitti_raw"
+    },
+    {
+      "path": "kitti_raw\\BITB91.tmp",
+      "size_bytes": 1206523127,
+      "ext": ".tmp",
+      "category": "kitti_raw"
+    },
+    {
+      "path": "github_repos\\mmdetection3d.zip",
+      "size_bytes": 10831174,
+      "ext": ".zip",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\RELLIS-3D.zip",
+      "size_bytes": 76641435,
+      "ext": ".zip",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\SemanticKITTI-API.html",
+      "size_bytes": 403586,
+      "ext": ".html",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\BEVFormer.html",
+      "size_bytes": 321164,
+      "ext": ".html",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\BEVDet.html",
+      "size_bytes": 378738,
+      "ext": ".html",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\BEVDet.zip",
+      "size_bytes": 13082,
+      "ext": ".zip",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\MMDetection3D.html",
+      "size_bytes": 439539,
+      "ext": ".html",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\SK-API.zip",
+      "size_bytes": 75134,
+      "ext": ".zip",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\BEVFormer_code.zip",
+      "size_bytes": 834494,
+      "ext": ".zip",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\Sparse4D.html",
+      "size_bytes": 311909,
+      "ext": ".html",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\nuScenes-devkit.zip",
+      "size_bytes": 804911,
+      "ext": ".zip",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\TorchSparse.zip",
+      "size_bytes": 941676,
+      "ext": ".zip",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\SECOND.zip",
+      "size_bytes": 2715124,
+      "ext": ".zip",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\OpenPCDet.zip",
+      "size_bytes": 2267247,
+      "ext": ".zip",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\Sparse4D.zip",
+      "size_bytes": 3977253,
+      "ext": ".zip",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\PointPillars.html",
+      "size_bytes": 310176,
+      "ext": ".html",
+      "category": "github_repos"
+    },
+    {
+      "path": "github_repos\\OpenPCDet.html",
+      "size_bytes": 410008,
+      "ext": ".html",
+      "category": "github_repos"
+    },
+    {
+      "path": "arxiv_supplementary\\2203.17270_BEVFormer.pdf",
+      "size_bytes": 4739748,
+      "ext": ".pdf",
+      "category": "arxiv_supplementary"
+    },
+    {
+      "path": "arxiv_supplementary\\1711.01458_EventCamera.pdf",
+      "size_bytes": 824525,
+      "ext": ".pdf",
+      "category": "arxiv_supplementary"
+    },
+    {
+      "path": "arxiv_supplementary\\2408.16096_LoihiFusion.pdf",
+      "size_bytes": 930751,
+      "ext": ".pdf",
+      "category": "arxiv_supplementary"
+    },
+    {
+      "path": "arxiv_supplementary\\2206.09907_WeatherOffroad.pdf",
+      "size_bytes": 2772810,
+      "ext": ".pdf",
+      "category": "arxiv_supplementary"
+    },
+    {
+      "path": "arxiv_supplementary\\2311.11722_Sparse4D.pdf",
+      "size_bytes": 1095915,
+      "ext": ".pdf",
+      "category": "arxiv_supplementary"
+    },
+    {
+      "path": "arxiv_supplementary\\2308.09244_SparseBEV.pdf",
+      "size_bytes": 4109737,
+      "ext": ".pdf",
+      "category": "arxiv_supplementary"
+    },
+    {
+      "path": "arxiv_supplementary\\2112.11790_BEVDet.pdf",
+      "size_bytes": 583501,
+      "ext": ".pdf",
+      "category": "arxiv_supplementary"
+    }
+  ]
+}

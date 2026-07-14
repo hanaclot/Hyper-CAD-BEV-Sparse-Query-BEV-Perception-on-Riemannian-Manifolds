@@ -1,0 +1,18 @@
+{
+  "id": "http://arxiv.org/abs/2311.11722v1",
+  "title": "Sparse4D v3: Advancing End-to-End 3D Detection and Tracking",
+  "summary": "In autonomous driving perception systems, 3D detection and tracking are the two fundamental tasks. This paper delves deeper into this field, building upon the Sparse4D framework. We introduce two auxiliary training tasks (Temporal Instance Denoising and Quality Estimation) and propose decoupled attention to make structural improvements, leading to significant enhancements in detection performance. Additionally, we extend the detector into a tracker using a straightforward approach that assigns i",
+  "published": "2023-11-20T12:37:58Z",
+  "authors": [
+    "Xuewu Lin",
+    "Zixiang Pei",
+    "Tianwei Lin",
+    "Lichao Huang",
+    "Zhizhong Su"
+  ],
+  "categories": [
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
+  ]
+}

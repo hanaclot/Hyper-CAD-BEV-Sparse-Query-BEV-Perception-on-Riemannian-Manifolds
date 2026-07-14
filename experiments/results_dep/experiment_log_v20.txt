@@ -1,0 +1,43 @@
+[21:01:45] ======================================================================
+[21:01:45] v20 LEAN — PURE NUMPY PDE ABLATION ON 120 REAL LIDAR SCANS
+[21:01:45] ======================================================================
+[21:01:45] PHASE 1: Loading EXACTLY 40 scans per dataset (120 total)...
+[21:01:45]   SemanticKITTI: found 472 files, loading 40
+[21:01:48]   nuScenes: found 404 files, loading 40
+[21:01:50]   KITTI Raw: found 108 files, loading 40
+[21:01:52]   TOTAL loaded: 120 real scans: SemanticKITTI:40, nuScenes:40, KITTI Raw:40
+[21:01:52] PHASE 2: BEV projection...
+[21:01:55]   BEV projection: 120 grids done
+[21:01:55] PHASE 3: Computing Riemannian metrics...
+[21:01:55] PHASE 7: Running 3-method PDE ablation...
+[21:01:55]   [1/120] SE_000008 (SemanticKITTI) — 10s elapsed
+[21:02:00]   [10/120] SE_000079 (SemanticKITTI) — 14s elapsed
+[21:02:01]   [20/120] SE_000191 (SemanticKITTI) — 16s elapsed
+[21:02:02]   [30/120] SE_000313 (SemanticKITTI) — 17s elapsed
+[21:02:03]   [40/120] SE_000429 (SemanticKITTI) — 18s elapsed
+[21:02:05]   [50/120] NU_n008-2018-08-01-15-16-36-0400__LIDAR_TOP__1533151608048151.pcd (nuScenes) — 19s elapsed
+[21:02:06]   [60/120] NU_n008-2018-08-01-15-16-36-0400__LIDAR_TOP__1533151612897588.pcd (nuScenes) — 20s elapsed
+[21:02:07]   [70/120] NU_n008-2018-08-01-15-16-36-0400__LIDAR_TOP__1533151617947237.pcd (nuScenes) — 22s elapsed
+[21:02:09]   [80/120] NU_n008-2018-08-01-15-16-36-0400__LIDAR_TOP__1533151622948227.pcd (nuScenes) — 24s elapsed
+[21:02:11]   [90/120] KI_0000000009 (KITTI Raw) — 25s elapsed
+[21:02:12]   [100/120] KI_0000000019 (KITTI Raw) — 27s elapsed
+[21:02:14]   [110/120] KI_0000000029 (KITTI Raw) — 29s elapsed
+[21:02:16]   [120/120] KI_0000000039 (KITTI Raw) — 30s elapsed
+[21:02:16] 
+[21:02:16]   ╔════════════════════ RESULTS ═══════════════════╗
+[21:02:16]   ║  Method          PSNR(dB)  EdgeF1  GeoErr(cm)  ║
+[21:02:16]   ║  Sparse Raw          8.7   0.4157        27.2  ║
+[21:02:16]   ║  Euclidean PDE      38.3   0.8119         0.9  ║
+[21:02:16]   ║  Manifold PDE       39.4   0.8119         0.8  ║
+[21:02:16]   ╠════════════════════════════════════════════════╣
+[21:02:16]   ║  ΔRiemannian = +0.10cm | ΔPDE = +26.4cm      ║
+[21:02:16]   ╚════════════════════════════════════════════════╝
+[21:02:16]   Total time: 31s for 120 scans
+[21:02:16]   SemanticKITTI: n=40, pts=121352, geo=0.84cm, slope_σ=0.4095
+[21:02:16]   nuScenes: n=40, pts=34723, geo=0.68cm, slope_σ=1.2579
+[21:02:16]   KITTI Raw: n=40, pts=121706, geo=0.92cm, slope_σ=0.4306
+[21:02:16]   Weather: 35088 total records, extreme: {'fog': 0, 'rain': 2729, 'snow': 263, 'thunderstorm': 0, 'night_rain': 942, 'total_hours': 17544}
+[21:02:16] PHASE 10: Generating tables...
+[21:02:16] PHASE 11: Generating figures...
+[21:02:21]   FIG 4a saved
+[21:02:25]   FIG 4b saved

@@ -1,0 +1,5 @@
+{
+  "id": "2408.16096",
+  "title": "arXiv Query: search_query=&amp;id_list=2408.16096&amp;start=0&amp;max_results=1",
+  "summary": "In our study, we utilized Intel's Loihi-2 neuromorphic chip to enhance sensor fusion in fields like robotics and autonomous systems, focusing on datasets such as AIODrive, Oxford Radar RobotCar, D-Behavior (D-Set), nuScenes by Motional, and Comma2k19. Our research demonstrated that Loihi-2, using spiking neural networks, significantly outperformed traditional computing methods in speed and energy efficiency. Compared to conventional CPUs and GPUs, Loihi-2 showed remarkable energy efficiency, bei"
+}

@@ -1,0 +1,88 @@
+{
+  "version": "v20_lean",
+  "timestamp": "2026-07-13T21:02:25.549001",
+  "runtime_seconds": 30.57809066772461,
+  "num_scans": 120,
+  "scans_per_dataset": 40,
+  "pde_steps": 50,
+  "diffusion_coefficient": 0.05,
+  "num_queries": 250,
+  "results": {
+    "sparse_raw": {
+      "psnr": 8.748528179570034,
+      "edge": 0.4156718194833019,
+      "geo": 27.22481046902166
+    },
+    "euclidean": {
+      "psnr": 38.25250913563908,
+      "edge": 0.8119014667459603,
+      "geo": 0.9087093354266149
+    },
+    "manifold": {
+      "psnr": 39.39263175285093,
+      "edge": 0.8119037484586122,
+      "geo": 0.8097016154104055
+    },
+    "delta_riemannian_cm": 0.09900772001620939,
+    "delta_pde_cm": 26.415108853611255
+  },
+  "source_metrics": {
+    "SemanticKITTI": {
+      "n": 40,
+      "geo": 0.8387056292721018,
+      "edge": 0.7317219432402385,
+      "psnr": 39.057840096529844,
+      "mean_pts": 121352,
+      "slope_std": 0.4095210998526776,
+      "lidar": "64ch_HDL64E",
+      "sample_hash": "9fb6a159"
+    },
+    "nuScenes": {
+      "n": 40,
+      "geo": 0.6750332651579768,
+      "edge": 0.9190218946121862,
+      "psnr": 40.592605846493356,
+      "mean_pts": 34723,
+      "slope_std": 1.2579418093260464,
+      "lidar": "32ch_HDL32E",
+      "sample_hash": "743e73e5"
+    },
+    "KITTI Raw": {
+      "n": 40,
+      "geo": 0.9153659518011379,
+      "edge": 0.7849674075234121,
+      "psnr": 38.52744931552959,
+      "mean_pts": 121706,
+      "slope_std": 0.4306274122624876,
+      "lidar": "64ch_HDL64E",
+      "sample_hash": "a7a5f3b3"
+    }
+  },
+  "weather": {
+    "available": true,
+    "records": 35088,
+    "extreme": {
+      "fog": 0,
+      "rain": 2729,
+      "snow": 263,
+      "thunderstorm": 0,
+      "night_rain": 942,
+      "total_hours": 17544
+    },
+    "berlin_records": 17544,
+    "pittsburgh_records": 17544
+  },
+  "data_provenance": {
+    "all_scans_from": [
+      "SemanticKITTI sequences/00/velodyne/*.bin (real HDL-64E)",
+      "nuScenes v1.0-mini/samples/LIDAR_TOP/*.pcd.bin (real HDL-32E)",
+      "KITTI Raw 2011_09_26_drive_0001_sync/velodyne_points/data/*.bin (real HDL-64E)"
+    ],
+    "no_synthetic_data": true,
+    "empty_datasets_honestly_labeled": [
+      "waymo",
+      "rellis3d",
+      "tartandrive2"
+    ]
+  }
+}

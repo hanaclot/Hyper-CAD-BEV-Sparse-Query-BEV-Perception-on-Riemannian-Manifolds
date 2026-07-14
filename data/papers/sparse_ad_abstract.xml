@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ol69fAu91tJWaJbKlMMKsQiOqOk</id>
+  <title>arXiv Query: search_query=id:2404.06892&amp;id_list=&amp;start=0&amp;max_results=1</title>
+  <updated>2026-07-12T09:49:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=id:2404.06892&amp;start=0&amp;max_results=1&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.06892v1</id>
+    <title>SparseAD: Sparse Query-Centric Paradigm for Efficient End-to-End Autonomous Driving</title>
+    <updated>2024-04-10T10:34:34Z</updated>
+    <link href="https://arxiv.org/abs/2404.06892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.06892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>End-to-End paradigms use a unified framework to implement multi-tasks in an autonomous driving system. Despite simplicity and clarity, the performance of end-to-end autonomous driving methods on sub-tasks is still far behind the single-task methods. Meanwhile, the widely used dense BEV features in previous end-to-end methods make it costly to extend to more modalities or tasks. In this paper, we propose a Sparse query-centric paradigm for end-to-end Autonomous Driving (SparseAD), where the sparse queries completely represent the whole driving scenario across space, time and tasks without any dense BEV representation. Concretely, we design a unified sparse architecture for perception tasks including detection, tracking, and online mapping. Moreover, we revisit motion prediction and planning, and devise a more justifiable motion planner framework. On the challenging nuScenes dataset, SparseAD achieves SOTA full-task performance among end-to-end methods and significantly narrows the performance gap between end-to-end paradigms and single-task methods. Codes will be released soon.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-10T10:34:34Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Diankun Zhang</name>
+    </author>
+    <author>
+      <name>Guoan Wang</name>
+    </author>
+    <author>
+      <name>Runwen Zhu</name>
+    </author>
+    <author>
+      <name>Jianbo Zhao</name>
+    </author>
+    <author>
+      <name>Xiwu Chen</name>
+    </author>
+    <author>
+      <name>Siyu Zhang</name>
+    </author>
+    <author>
+      <name>Jiahao Gong</name>
+    </author>
+    <author>
+      <name>Qibin Zhou</name>
+    </author>
+    <author>
+      <name>Wenyuan Zhang</name>
+    </author>
+    <author>
+      <name>Ningzi Wang</name>
+    </author>
+    <author>
+      <name>Feiyang Tan</name>
+    </author>
+    <author>
+      <name>Hangning Zhou</name>
+    </author>
+    <author>
+      <name>Ziyao Xu</name>
+    </author>
+    <author>
+      <name>Haotian Yao</name>
+    </author>
+    <author>
+      <name>Chi Zhang</name>
+    </author>
+    <author>
+      <name>Xiaojun Liu</name>
+    </author>
+    <author>
+      <name>Xiaoguang Di</name>
+    </author>
+    <author>
+      <name>Bin Li</name>
+    </author>
+  </entry>
+</feed>

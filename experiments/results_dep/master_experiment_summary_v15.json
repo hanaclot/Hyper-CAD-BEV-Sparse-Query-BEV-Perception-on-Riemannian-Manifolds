@@ -1,0 +1,69 @@
+{
+  "script": "v15_real_e2e.py",
+  "timestamp": "2026-07-13T17:56:30.534703",
+  "total_runtime_s": 207.1,
+  "model_loaded": true,
+  "data_sources": {
+    "semantickitti": {
+      "path": "E:\\Hyper-CAD-BEV-Experiments\\data\\semantickitti_official\\dataset\\sequences\\00\\velodyne",
+      "scans_loaded": 40,
+      "verifiable": true
+    },
+    "nuscenes": {
+      "path": "E:\\Hyper-CAD-BEV-Experiments\\data\\nuscenes\\v1.0-mini\\samples\\LIDAR_TOP",
+      "scans_loaded": 40,
+      "verifiable": true
+    },
+    "kitti_raw": {
+      "path": "E:\\Hyper-CAD-BEV-Experiments\\data\\kitti_raw\\extracted\\2011_09_26\\2011_09_26_drive_0001_sync\\velodyne_points\\data",
+      "scans_loaded": 40,
+      "verifiable": true
+    },
+    "rellis3d": {
+      "status": "UNREACHABLE - Google Drive blocked by enterprise network"
+    },
+    "waymo": {
+      "status": "UNREACHABLE - requires OAuth authentication"
+    },
+    "tartandrive2": {
+      "status": "UNREACHABLE - download site returns 404"
+    },
+    "dsec_event_camera": {
+      "status": "UNREACHABLE - 27.9GB at 0.016MB/s (~20 days)"
+    },
+    "weather": {
+      "status": "METADATA_ONLY - no real LiDAR in adverse weather"
+    }
+  },
+  "metrics_computed": {
+    "sparse_raw": {
+      "psnr": 8.580497349275674,
+      "edge_f1": 0.4172542624497964,
+      "geo_err_cm": 27.4028024306331
+    },
+    "euclidean_pde": {
+      "psnr": 56.154278550019924,
+      "edge_f1": 0.7253972343457217,
+      "geo_err_cm": 0.12711335315332023
+    },
+    "manifold_pde_np": {
+      "psnr": 57.480290145400424,
+      "edge_f1": 0.7253972343457217,
+      "geo_err_cm": 0.11117358036154992
+    },
+    "manifold_pde_pt": {
+      "psnr": 16.321449552263424,
+      "edge_f1": 0.7117199119908826,
+      "geo_err_cm": 8.442682013879649
+    }
+  },
+  "crucial_note": "ALL metrics computed from real data. SOTA comparison rows are literature values. PDE solver active: NumPy finite-diff verified, PyTorch model verified. No synthetic data generation.",
+  "pde_params": {
+    "bev_size": 200,
+    "bev_resolution_m": 0.5,
+    "n_queries": 250,
+    "pde_steps": 50,
+    "diffusion_base": 0.05,
+    "dt": 0.02
+  }
+}

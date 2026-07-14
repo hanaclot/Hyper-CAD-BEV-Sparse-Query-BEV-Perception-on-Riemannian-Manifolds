@@ -1,0 +1,153 @@
+{
+  "results": [
+    {
+      "desc": "SK calibration",
+      "size": 0,
+      "status": "fail",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "desc": "SK poses GT",
+      "size": 0,
+      "status": "fail",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "desc": "KITTI Odometry Velodyne",
+      "size": 0,
+      "status": "fail",
+      "error": ""
+    },
+    {
+      "desc": "KITTI Odometry Calib",
+      "size": 600238,
+      "status": "ok"
+    },
+    {
+      "desc": "GitHub: BEVFormer",
+      "size": 0,
+      "status": "fail",
+      "error": "<urlopen error [WinError 10060] \u7531\u4e8e\u8fde\u63a5\u65b9\u5728\u4e00\u6bb5\u65f6\u95f4\u540e\u6ca1\u6709\u6b63\u786e\u7b54\u590d\u6216\u8fde\u63a5\u7684\u4e3b\u673a\u6ca1\u6709\u53cd\u5e94\uff0c\u8fde\u63a5\u5c1d\u8bd5\u5931\u8d25\u3002>"
+    },
+    {
+      "desc": "GitHub: Sparse4D",
+      "size": 0,
+      "status": "fail",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "desc": "GitHub: BEVDet",
+      "size": 0,
+      "status": "fail",
+      "error": "<urlopen error [WinError 10060] \u7531\u4e8e\u8fde\u63a5\u65b9\u5728\u4e00\u6bb5\u65f6\u95f4\u540e\u6ca1\u6709\u6b63\u786e\u7b54\u590d\u6216\u8fde\u63a5\u7684\u4e3b\u673a\u6ca1\u6709\u53cd\u5e94\uff0c\u8fde\u63a5\u5c1d\u8bd5\u5931\u8d25\u3002>"
+    },
+    {
+      "desc": "GitHub: SparseBEV",
+      "size": 0,
+      "status": "fail",
+      "error": "<urlopen error [WinError 10060] \u7531\u4e8e\u8fde\u63a5\u65b9\u5728\u4e00\u6bb5\u65f6\u95f4\u540e\u6ca1\u6709\u6b63\u786e\u7b54\u590d\u6216\u8fde\u63a5\u7684\u4e3b\u673a\u6ca1\u6709\u53cd\u5e94\uff0c\u8fde\u63a5\u5c1d\u8bd5\u5931\u8d25\u3002>"
+    },
+    {
+      "desc": "GitHub: OpenPCDet",
+      "size": 0,
+      "status": "fail",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "desc": "GitHub: mmdetection3d",
+      "size": 10790938,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: BEVFormer",
+      "size": 4739748,
+      "status": "ok"
+    },
+    {
+      "desc": "nuScenes mini",
+      "size": 4167696325,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: EventCamera",
+      "size": 824525,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: LoihiFusion",
+      "size": 930751,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: WeatherOffroad",
+      "size": 2772810,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: Sparse4D",
+      "size": 1095915,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: SparseBEV",
+      "size": 4109737,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: BEVDet",
+      "size": 583501,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: BEVerse",
+      "size": 5452825,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: SparseAD",
+      "size": 25582634,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: FB-BEV",
+      "size": 985417,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: PETRv2",
+      "size": 2577170,
+      "status": "ok"
+    },
+    {
+      "desc": "ArXiv: PolarBEV",
+      "size": 7474240,
+      "status": "ok"
+    },
+    {
+      "desc": "GitHub: TartanDrive2",
+      "size": 196151516,
+      "status": "ok"
+    },
+    {
+      "desc": "KITTI Odometry Gray",
+      "size": 0,
+      "status": "fail",
+      "error": "The read operation timed out"
+    },
+    {
+      "desc": "SK voxels ALL sequences",
+      "size": 0,
+      "status": "fail",
+      "error": "timed out"
+    },
+    {
+      "desc": "KITTI Object Image2",
+      "size": 0,
+      "status": "fail",
+      "error": "The read operation timed out"
+    }
+  ],
+  "total_bytes": 4432368290,
+  "elapsed": 13663.923258066177,
+  "disk_total": 26181028244
+}

@@ -1,0 +1,15 @@
+{
+  "name": "meanfield_pde",
+  "arxiv_id": "2404.01586",
+  "title": "Efficient Computation of Mean field Control based Barycenters from Reaction-Diffusion Systems",
+  "abstract": "We develop a class of barycenter problems based on mean field control problems in three dimensions with associated reactive-diffusion systems of unnormalized multi-species densities. This problem is the generalization of the Wasserstein barycenter problem for single probability density functions. The primary objective is to present a comprehensive framework for efficiently computing the proposed variational problem: generalized Benamou-Brenier formulas with multiple input density vectors as boundary conditions. Our approach involves the utilization of high-order finite element discretizations of the spacetime domain to achieve improved accuracy. The discrete optimization problem is then solved using the primal-dual hybrid gradient (PDHG) algorithm, a first-order optimization method for effectively addressing a wide range of constrained optimization problems. The efficacy and robustness of our proposed framework are illustrated through several numerical examples in three dimensions, such as the computation of the barycenter of multi-density systems consisting of Gaussian distributions and reactive-diffusive multi-density systems involving 3D voxel densities. Additional examples highlighting computations on 2D embedded surfaces are also provided.",
+  "published": "2024-04-02T02:27:54Z",
+  "category": "",
+  "authors": [
+    "Arjun Vijaywargiya",
+    "Guosheng Fu",
+    "Stanley Osher",
+    "Wuchen Li"
+  ],
+  "comments": ""
+}

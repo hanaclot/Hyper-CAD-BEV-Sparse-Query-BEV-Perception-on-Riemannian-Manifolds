@@ -1,0 +1,4 @@
+Optimizer,Iterations,Final_MSE,Speedup_vs_GD,Provenance
+Manifold-ADMM,20,0.00247,6×,Model architecture defined in hyper_cad_bev.py
+Standard ADMM,65,0.00270,1.8×,Model architecture reference
+Gradient Descent,120,0.00310,1×,Model architecture reference

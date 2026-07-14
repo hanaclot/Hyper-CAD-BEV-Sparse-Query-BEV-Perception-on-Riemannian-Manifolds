@@ -1,0 +1,225 @@
+{
+  "start_time": "2026-07-10T14:20:40.372561",
+  "sources": {
+    "rellis3d": {
+      "source": "RELLIS-3D",
+      "url": "https://github.com/unmannedlab/RELLIS-3D",
+      "stars": 437,
+      "forks": 59,
+      "description": "RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics",
+      "language": "Jupyter Notebook",
+      "created_at": "2020-10-22T04:00:15Z",
+      "updated_at": "2026-06-30T02:03:47Z",
+      "topics": [
+        "3d-segmentation",
+        "dataset",
+        "image-segmentation",
+        "lidar",
+        "off-road",
+        "ros-bag",
+        "semantic-segmentation"
+      ],
+      "size_kb": 80141,
+      "readme_chars": 18301,
+      "extracted_classes": [
+        "p align",
+        "a href",
+        "img src",
+        "a href",
+        "img src",
+        "p align",
+        "a href",
+        "a href",
+        "a href",
+        "a href",
+        "a href",
+        "channels Lidar",
+        "Channels Lidar",
+        "Stereo Camera",
+        "RGB Camera",
+        "BaiDu Pan",
+        "4gk3 提取码",
+        "Annotated Data",
+        "Images Statics",
+        "span style"
+      ],
+      "files_downloaded": 0,
+      "timestamp": "2026-07-10T14:44:59.069127"
+    },
+    "semantickitti": {
+      "source": "SemanticKITTI",
+      "url": "http://semantic-kitti.org/",
+      "page_size": 15305,
+      "sequences_found": 22,
+      "classes_extracted": 26,
+      "title": "SemanticKITTI - A Dataset for LiDAR-based Semantic Scene Understanding",
+      "dataset_page_size": 12984,
+      "semantic_classes": {
+        "0": "unlabeled",
+        "1": "car",
+        "2": "bicycle",
+        "3": "motorcycle",
+        "4": "truck",
+        "5": "other-vehicle",
+        "6": "person",
+        "7": "bicyclist",
+        "8": "motorcyclist",
+        "9": "road",
+        "10": "parking",
+        "11": "sidewalk",
+        "12": "other-ground",
+        "13": "building",
+        "14": "fence",
+        "15": "vegetation",
+        "16": "trunk",
+        "17": "terrain",
+        "18": "pole",
+        "19": "traffic-sign"
+      },
+      "num_classes": 20,
+      "splits": {
+        "train": [
+          "00",
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07"
+        ],
+        "val": [
+          "08"
+        ],
+        "test": [
+          "09",
+          "10"
+        ]
+      },
+      "timestamp": "2026-07-10T14:45:00.722703"
+    },
+    "tartandrive2": {
+      "source": "TartanDrive 2.0",
+      "url": "https://theairlab.org/TartanDrive2/",
+      "page_size": 24055,
+      "title": "TartanDrive 2.0 ",
+      "paper_page_size": 41458,
+      "features": {
+        "speed_range": "up to 10 m/s",
+        "terrain_types": [
+          "gravel",
+          "dirt",
+          "mud",
+          "grass",
+          "rocky",
+          "snow"
+        ],
+        "sensors": [
+          "RGB",
+          "LiDAR",
+          "IMU",
+          "GPS",
+          "wheel_odometry"
+        ],
+        "total_trajectories": "200+ km"
+      },
+      "timestamp": "2026-07-10T14:45:02.460026"
+    },
+    "bevformer": {
+      "source": "BEVFormer (Dense BEV Transformer)",
+      "arxiv_id": "2203.17270",
+      "title": "arXiv Query: search_query=&amp;id_list=2203.17270&amp;start=0&amp;max_results=1",
+      "abstract": "3D visual perception tasks, including 3D detection and map segmentation based on multi-camera images, are essential for autonomous driving systems. In this work, we present a new framework termed BEVFormer, which learns unified BEV representations with spatiotemporal transformers to support multiple autonomous driving perception tasks. In a nutshell, BEVFormer exploits both spatial and temporal information by interacting with spatial and temporal space through predefined grid-shaped BEV queries.",
+      "authors": [
+        "Zhiqi Li",
+        "Wenhai Wang",
+        "Hongyang Li",
+        "Enze Xie",
+        "Chonghao Sima",
+        "Tong Lu",
+        "Qiao Yu",
+        "Jifeng Dai"
+      ],
+      "metadata_chars": 3022,
+      "abs_page_chars": 42836,
+      "pdf_size_bytes": 4739748,
+      "timestamp": "2026-07-10T14:49:47.570324"
+    },
+    "sparsead": {
+      "source": "SparseAD (Sparse Query Paradigm)",
+      "arxiv_id": "2404.06892",
+      "title": "arXiv Query: search_query=&amp;id_list=2404.06892&amp;start=0&amp;max_results=1",
+      "abstract": "End-to-End paradigms use a unified framework to implement multi-tasks in an autonomous driving system. Despite simplicity and clarity, the performance of end-to-end autonomous driving methods on sub-tasks is still far behind the single-task methods. Meanwhile, the widely used dense BEV features in previous end-to-end methods make it costly to extend to more modalities or tasks. In this paper, we propose a Sparse query-centric paradigm for end-to-end Autonomous Driving (SparseAD), where the spars",
+      "authors": [
+        "Diankun Zhang",
+        "Guoan Wang",
+        "Runwen Zhu",
+        "Jianbo Zhao",
+        "Xiwu Chen",
+        "Siyu Zhang",
+        "Jiahao Gong",
+        "Qibin Zhou",
+        "Wenyuan Zhang",
+        "Ningzi Wang"
+      ],
+      "metadata_chars": 3407,
+      "abs_page_chars": 43273,
+      "full_text_chars": 1086222,
+      "cleaned_text_chars": 150128,
+      "timestamp": "2026-07-10T14:52:55.377164"
+    },
+    "event_camera": {
+      "source": "Event Camera Survey (Low-light HDR)",
+      "arxiv_id": "1711.01458",
+      "title": "arXiv Query: search_query=&amp;id_list=1711.01458&amp;start=0&amp;max_results=1",
+      "abstract": "Event cameras, such as dynamic vision sensors (DVS), and dynamic and active-pixel vision sensors (DAVIS) can supplement other autonomous driving sensors by providing a concurrent stream of standard active pixel sensor (APS) images and DVS temporal contrast events. The APS stream is a sequence of standard grayscale global-shutter image sensor frames. The DVS events represent brightness changes occurring at a particular moment, with a jitter of about a millisecond under most lighting conditions. T",
+      "authors": [
+        "Jonathan Binas",
+        "Daniel Neil",
+        "Shih-Chii Liu",
+        "Tobi Delbruck"
+      ],
+      "metadata_chars": 3011,
+      "abs_page_chars": 42313,
+      "pdf_size_bytes": 824525,
+      "timestamp": "2026-07-10T14:53:18.467653"
+    },
+    "loihi_fusion": {
+      "source": "Loihi 2 Multi-Sensor Fusion",
+      "arxiv_id": "2408.16096",
+      "title": "arXiv Query: search_query=&amp;id_list=2408.16096&amp;start=0&amp;max_results=1",
+      "abstract": "In our study, we utilized Intel's Loihi-2 neuromorphic chip to enhance sensor fusion in fields like robotics and autonomous systems, focusing on datasets such as AIODrive, Oxford Radar RobotCar, D-Behavior (D-Set), nuScenes by Motional, and Comma2k19. Our research demonstrated that Loihi-2, using spiking neural networks, significantly outperformed traditional computing methods in speed and energy efficiency. Compared to conventional CPUs and GPUs, Loihi-2 showed remarkable energy efficiency, bei",
+      "authors": [
+        "Murat Isik",
+        "Karn Tiwari",
+        "Muhammed Burak Eryilmaz",
+        "I. Can Dikmen"
+      ],
+      "metadata_chars": 2594,
+      "abs_page_chars": 40860,
+      "full_text_chars": 96435,
+      "cleaned_text_chars": 35861,
+      "timestamp": "2026-07-10T14:53:28.801939"
+    },
+    "weather": {
+      "source": "Weather-Robust Off-Road Free Space Detection",
+      "arxiv_id": "2206.09907",
+      "title": "arXiv Query: search_query=&amp;id_list=2206.09907&amp;start=0&amp;max_results=1",
+      "abstract": "Freespace detection is an essential component of autonomous driving technology and plays an important role in trajectory planning. In the last decade, deep learning-based free space detection methods have been proved feasible. However, these efforts were focused on urban road environments and few deep learning-based methods were specifically designed for off-road free space detection due to the lack of off-road benchmarks. In this paper, we present the ORFD dataset, which, to our knowledge, is t",
+      "authors": [
+        "Chen Min",
+        "Weizhong Jiang",
+        "Dawei Zhao",
+        "Jiaolong Xu",
+        "Liang Xiao",
+        "Yiming Nie",
+        "Bin Dai"
+      ],
+      "metadata_chars": 3073,
+      "abs_page_chars": 42375,
+      "pdf_size_bytes": 2772810,
+      "timestamp": "2026-07-10T14:56:17.852199"
+    }
+  },
+  "end_time": "2026-07-10T14:56:17.864241"
+}

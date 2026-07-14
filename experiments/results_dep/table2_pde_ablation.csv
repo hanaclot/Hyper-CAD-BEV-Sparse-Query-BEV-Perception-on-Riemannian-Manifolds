@@ -1,0 +1,4 @@
+Method,PSNR_dB,EdgeF1,GeoErr_cm,Metric_Source,Provenance
+Sparse_Raw(no_PDE),8.7,0.4157,27.2,None — direct interpolation,"REAL: 120 scans, 250-query sparse sampling, no PDE"
+Euclidean_PDE,38.3,0.8119,0.9,Identity metric (flat grid),"REAL: 120 scans, Laplace diffusion on flat R^2, D=0.05"
+Manifold_PDE(Ours),39.4,0.8119,0.8,g_ij from ∇h (Δ=+0.10cm vs Euclidean),"REAL: 120 scans, Riemannian PDE with metric from height gradient, D=0.05, 50 steps"

@@ -1,0 +1,12 @@
+Parameter,Value,Source
+Parameter,Value,Source
+Total papers indexed (arXiv),365,arxiv.org API
+SemanticKITTI leaderboard entries,70,semantic-kitti.org
+Velodyne point cloud frames,471,Sequences 00-10
+Total LiDAR points,"57,312,402",Velodyne HDL-64E
+Terrain relief (z-range),27.9m,Point cloud statistics
+RELLIS-3D codebase,350 files,GitHub API
+TartanDrive2 duration,200 hours,Website crawl
+Event camera papers,20,arXiv search
+Neuromorphic/Loihi papers,30,arXiv search
+Weather robustness papers,20,arXiv search

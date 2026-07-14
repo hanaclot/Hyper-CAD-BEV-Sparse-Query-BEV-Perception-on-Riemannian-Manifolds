@@ -1,0 +1,1444 @@
+<!doctype html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="assets/prism.css" rel="stylesheet" />
+
+    <title>SemanticKITTI - A Dataset for LiDAR-based Semantic Scene Understanding</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/4.4.3/css/bulma/tabulator_bulma.min.css">
+    <link href="assets/main.css" rel="stylesheet">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabulator/4.4.3/js/tabulator.min.js' async></script>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar"></nav>
+    </header>
+
+    <main role="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="featurette-heading" id="task-overview">Overview</h2>
+                    <p lang="en">We furthermore provide with the data also a benchmark suite covering different aspects
+                        of semantic scene understanding at different levels of granularity. To ensure unbiased
+                        evaluation of these tasks, we follow the common best practice to use a server-side evaluation of
+                        the test set results, which enables us to keep the test set labels private.</p>
+
+                    <p lang="en">Test set evaluation is performed using <a href="https://www.codabench.org">CodaBench
+                            competitions</a>. For each
+                        task, we
+                        setup a competition handling the submissions and scoring them using the non-public labels for
+                        the test set sequences.
+                        See the individual competition websites for further details on the participation process. Here,
+                        we will only
+                        provide a short task description and the leaderboards.</p>
+                    <p lang="en"><b>Important:</b> We will <b>not</b> approve accounts on CodaLab with email addresses
+                        from free email
+                        providers, e.g., gmail.com, qq.com, web.de, etc. Only university or company email addresses will
+                        get access. If you need to use freemail accounts, contact us.</p>
+                </div>
+
+
+
+                <div class="col-md-12">
+                    <h2 class="featurette-heading" id="semseg">Semantic Segmentation</h2>
+
+                    <p>See our <a href="https://www.codabench.org/competitions/12448/">competition website</a> for
+                        more information on the competition and submission process. Note, for the multi-scan semantic
+                        segmentation competition, please see the multi-scan <a
+                            href="https://www.codabench.org/competitions/17382/">competition website</a>.</p>
+
+                    <p><span class="paragraph-title">Tasks.</span> In semantic segmentation of
+                        point clouds, we want to infer the label of each three-dimensional point. Therefore, the input
+                        to all evaluated methods is a list of coordinates of the three-dimensional points along with
+                        their remission, i.e., the strength of the reflected laser beam which depends on
+                        the properties of the surface that was hit. Each method should then output a label for each
+                        point of a scan, i.e., one full turn of the rotating LiDAR sensor.</p>
+
+                    <p>We evaluate two settings for this tasks: methods using a single scan as input and
+                        methods using multiple scans as input. With <i>single scan evaluation</i>, we don't distinguish
+                        between moving and non-moving objects, i.e., moving and non-moving are mapped to a single class.
+                        With <i>multiple scan evaluation</i>, we distinguish between moving and non-moving, which makes
+                        the task harder, since the method has to decide if something is dynamic.</p>
+
+
+                    <p><span class="paragraph-title">Metric.</span> We use mean Jaccard or so-called
+                        intersection-over-union (mIoU) over all classes, i.e.,
+                        $$ \frac{1}{C} \sum^C_{c=1} \frac{TP_c}{TP_c + FP_c + FN_c},$$
+                        where $TP_c$ , $FP_c$ , and $FN_c$ correspond to the number of true
+                        positive, false positive, and false negative predictions for
+                        class $c$, and $C$ is the number of classes.
+                    </p>
+
+                    <p><span class="paragraph-title">Leaderboard.</span> Following leaderboard contains only published
+                        approaches, where we at least can provide an arXiv link. (Last updated: <span
+                            id="semseg-last-modified"></span>.)
+                    </p>
+
+                    <p>To avoid confusion between the numbers reported in the paper and post-publication results, we
+                        report here the numbers from the paper.
+                        Please contact us if we missed an updated version with different numbers.
+                    </p>
+                    <!-- <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item"><a class="nav-link active" id="single-leaderboard" data-toggle="tab"
+                                href="#single">Single Scan</a></li>
+                        <li class="nav-item"><a class="nav-link" id="multi-leaderboard" data-toggle="tab" href="#multi">Multiple
+                                Scans</a></li>
+                    </ul> -->
+                    <div>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="nav-item active"><a href="#single-scan"
+                                    aria-controls="single-scan" role="tab" data-toggle="tab"
+                                    class="nav-link active">Single Scan</a></li>
+                            <li role="presentation" class="nav-time"><a href="#multiple-scans"
+                                    aria-controls="multiple-scans" role="tab" data-toggle="tab"
+                                    class="nav-link">Multiple Scans</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel"
+                                class="tab-pane active fade in show border-left border-bottom border-right"
+                                id="single-scan">
+                                <div class="leaderboard" id="single" style="height:200px; ">
+                                    <!--PLACEHOLDER FOR SINGLE SCAN LEADERBOARD-->
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane active fade border-left border-bottom border-right"
+                                id="multiple-scans">
+                                <div class="leaderboard" id="multi" style="height:200px; padding: 5px;">
+                                    <!--PLACEHOLDER FOR MULTI SCAN LEADERBOARD-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr class="featurette-divider">
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    <h2 class="featurette-heading" id="panseg">Panoptic Segmentation</h2>
+
+                    <p>See our <a href="https://www.codabench.org/competitions/13666/">competition website</a> for
+                        more information on the competition and submission process.</p>
+
+                    <p><span class="paragraph-title">Tasks.</span> In panoptic segmentation of
+                        point clouds, we want to infer the label of each three-dimensional point and the instance of
+                        so-called thing classes.
+                        Therefore, the input
+                        to all evaluated methods is a list of coordinates of the three-dimensional points along with
+                        their remission, i.e., the strength of the reflected laser beam which depends on
+                        the properties of the surface that was hit. Each method should then output a label for each
+                        point of a scan, i.e., one full turn of the rotating LiDAR sensor.</p>
+
+                    <p><span class="paragraph-title">Metric.</span> We use the panoptic quality (PQ) proposed by <a
+                            href="https://arxiv.org/pdf/1611.08974.pdf">Kirillov <i>et al.</i></a> defined by
+                        $$ \frac{1}{C} \sum^C_{c=1} \frac{ \sum_{(\mathcal{S}, \hat{\mathcal{S}}) \in \text{TP}_c}
+                        \text{IoU}(\mathcal{S}, \hat{\mathcal{S}})}{|\text{TP}_c| + \frac{1}{2}|\text{FP}_c| +
+                        \frac{1}{2}|\text{FN}_c|}$$
+                        where $TP_c$ , $FP_c$ , and $FN_c$ correspond to the set of true
+                        positive, false positive, and false negative matches for class $c$, and $C$ is the number of
+                        classes.
+                        A match between segments is a true positive if their IoU (intersection-over-union) is larger
+                        than 0.5.
+                        To account for segments of stuff classes that have multiple connected components, <a
+                            href="https://arxiv.org/pdf/1905.01220.pdf">Porzi <i>et al.</i></a> proposed a modified
+                        metric PQ$^\dagger$ that uses just the IoU for stuff classes without distinguishing between
+                        different segments.
+                    </p>
+
+                    <p><span class="paragraph-title">Leaderboard.</span> Following leaderboard contains only published
+                        approaches, where we at least can provide an arXiv link. (Last updated: <span
+                            id="panoptic-last-modified"></span>.)
+                    </p>
+                    <div class="leaderboard" id="panoptic" style="height:200px">
+                        <!--PLACEHOLDER FOR PANOPTIC LEADERBOARD-->
+                    </div>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    <h2 class="featurette-heading" id="panseg4d">4D Panoptic Segmentation</h2>
+
+                    <p>See our <a href="https://www.codabench.org/competitions/13562/">competition website</a> for
+                        more information on the competition and submission process.</p>
+
+                    <p><span class="paragraph-title">Tasks.</span> In 4D panoptic segmentation of
+                        point cloud sequences, one has to provide instance IDs and semantic labels for each point of the
+                        test sequences 11-21. The instance ID needs to be uniquely assigned to each instance in both,
+                        space and time. Therefore, the input to all evaluated methods is a list of coordinates of the
+                        three-dimensional points along with their remission, i.e., the strength of the reflected laser
+                        beam which depends on the properties of the surface that was hit. Each method should then output
+                        a label and instance for each point in a sequence of scans. The class-wise instance ID does only
+                        count for so-called thing classes that are "instantiable" and will be ignored for the stuff
+                        classes.</p>
+
+                    <p><span class="paragraph-title">Metric.</span> We use the <b>LiDAR Segmentation and Tracking
+                            Quality
+                            (LSTQ) metric</b> proposed by Aygün et al., which generalizes panoptic quality to the
+                        tracking
+                        scenario. The metric decouples the semantic quality and the association quality of the tracks.
+                        Please see the paper (<a href="https://arxiv.org/pdf/2102.12472.pdf">Link</a>) for more
+                        information. <br />
+
+                        <b>Important:</b> In this metric, instances have to
+                        have <b>unique instance ids</b>, since we account for changes in the class in the evaluation of
+                        the
+                        association quality. Therefore, the same instance ids of different classes are treated as a
+                        single (tracked) object in the metric!<br />
+
+                        As the classes other-structure and other-object have either only a few points and are otherwise
+                        too diverse with a high intra-class variation, we decided to not include these classes in the
+                        evaluation. Thus, we use 25 instead of 28 classes, ignoring outlier, other-structure, and
+                        other-object during training and inference.
+                    </p>
+
+                    <p><span class="paragraph-title">Citation.</span> More information on the task and the metric, you
+                        can find in our publication related to the task (<a
+                            href="https://www.ipb.uni-bonn.de/pdfs/ayguen2021cvpr.pdf">PDF</a>):
+                    <pre><code class="language-bibtex">@inproceedings{ayguen2021cvpr,
+  author = {M. Ayg\"un and A. Osep and M. Weber and M. Maximov and C. Stachniss and J. Behley and L. Leal-Taixe},
+  title = {{4D Panoptic Segmentation}},
+  booktitle = {In Proc. of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = 2021
+}</code></pre>
+                    </p>
+
+                    <p><span class="paragraph-title">Leaderboard.</span> Following leaderboard contains only published
+                        approaches, where we at least can provide an arXiv link. (Last updated: <span
+                            id="panoptic4d-last-modified"></span>.)
+                    </p>
+                    <div class="leaderboard" id="panoptic4d" style="height:200px">
+                        <!--PLACEHOLDER FOR PANOPTIC LEADERBOARD-->
+                    </div>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    <h2 class="featurette-heading" id="mos">Moving Object Segmentation</h2>
+
+                    <p>See our <a href="https://www.codabench.org/competitions/13683/">competition website</a> for
+                        more information on the competition and submission process.</p>
+
+                    <p><span class="paragraph-title">Tasks.</span> In moving object segmentation of
+                        point cloud sequences, one has to provide motion labels for each point of
+                        the test sequences 11-21. Therefore, the input to all evaluated methods is a list of coordinates
+                        of the three-dimensional points along with their remission, i.e., the strength of the reflected
+                        laser beam which depends on the properties of the surface that was hit. Each method should then
+                        output a label for each point of a scan, i.e., one full turn of the rotating LiDAR sensor. Here,
+                        we only distinguish between static and moving object classes.</p>
+
+                    <p><span class="paragraph-title">Metric.</span> To assess the labeling performance, we rely on the
+                        commonly applied Jaccard Index or intersection-over-union (mIoU) metric over moving and
+                        non-moving parts of the environment.
+
+                        We map all moving-x classes of the original SemanticKITTI semantic segmentation benchmark to a
+                        single moving object class.
+                    </p>
+
+                    <p><span class="paragraph-title">Citation.</span> More information on the task and the metric, you
+                        can find in our publication related to the task (<a
+                            href="http://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf">PDF</a>):
+                    <pre><code class="language-bibtex">@article{chen2021ral,
+  title={{Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data}},
+  author={X. Chen and S. Li and B. Mersch and L. Wiesmann and J. Gall and J. Behley and C. Stachniss},
+  year={2021},
+  journal={IEEE Robotics and Automation Letters(RA-L)},
+  doi = {10.1109/LRA.2021.3093567}
+}</code></pre>
+                    </p>
+
+                    <p><span class="paragraph-title">Leaderboard.</span> Following leaderboard contains only published
+                        approaches, where we at least can provide an arXiv link. (Last updated: <span
+                            id="mos-last-modified"></span>.)
+                    </p>
+                    <div class="leaderboard" id="mos-table" style="height:200px">
+                        <!--PLACEHOLDER FOR PANOPTIC LEADERBOARD-->
+                    </div>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="featurette-heading" id="ssc">Semantic Scene Completion</h2>
+                    <p>See our <a href="https://www.codabench.org/competitions/13814/">competition website</a> for
+                        more information on the competition and submission process.</p>
+
+                    <p><span class="paragraph-title">Task.</span> In semantic scene completion, we are interested in
+                        predicting the complete scene inside a certain volume from a single initial scan. More
+                        specifically, we use as input a voxel grid, where each voxel is marked as empty or occupied,
+                        depending on whether or not it contains a laser measurement. For semantic scene completion, one
+                        needs to predict whether a voxel is occupied and its semantic label in the completed scene. </p>
+
+
+                    <p><span class="paragraph-title">Metric.</span> For evaluation, we follow the evaluation protocol
+                        of <a href="https://arxiv.org/pdf/1611.08974.pdf">Song et al.</a> and compute the
+                        Intersection-over-Union (IoU) for the task of scene completion, which only classifies a
+                        voxel as being occupied or empty, i.e., ignoring the semantic label, as well as mIoU for the
+                        task of semantic scene completion over the same 19 classes that were used for the single scan
+                        semantic segmentation task.
+                    </p>
+
+                    <p><span class="paragraph-title">Leaderboard.</span> Following leaderboard contains only published
+                        approaches, where we at least can provide an arXiv link. (Last updated: <span
+                            id="completion-last-modified"></span>.)
+                    </p>
+                    <div class="leaderboard" id="completion" style="height:100px">
+                        <!--PLACEHOLDER FOR SINGLE SCAN LEADERBOARD-->
+                    </div>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="featurette-heading" id="owlis">Open-world LiDAR Instance Segmentation</h2>
+
+
+                    <p><span class="paragraph-title">Task.</span> Current methods depend on annotations provided before
+                        deployment and are bound by the labeled classes, ignoring long-tailed classes not annotated in
+                        the training data due to the scarcity of examples. However, those long-tailed classes, such as
+                        baby strollers or unknown animals, can be crucial when interpreting the vehicle surroundings,
+                        e.g., for safe interaction. In this task, we require an approach to provide instance segments
+                        of LiDAR scans for classes not appearing in the training set. As we target an open-world
+                        scenario, we do not provide access to the instance labels.</p>
+
+
+                    <p><span class="paragraph-title">Metric.</span> To assess the instance segmentation performance, we
+                        rely on different metrics, i.e., Association Quality (AQ), Intersection over Union (IoU), and
+                        Recall.
+                    </p>
+
+                    <p>To enable development of approaches, we provide two parts: A <a
+                            href="https://www.codabench.org/competitions/17383/">validation set evaluation</a>, where
+                        approaches get up to 100 submissions for hyper-parameter tuning. For the <a
+                            href="https://www.codabench.org/competitions/17384/">test set evaluation</a>,
+                        approaches get the usual 10 submissions maximum.</p>
+
+
+                    <p><span class="paragraph-title">Citation.</span> More information on the task and the metric, you
+                        can find in our publication related to the task (<a
+                            href="https://www.ipb.uni-bonn.de/pdfs/nunes2022ral-iros.pdf">PDF</a>):
+                    <pre><code class="language-bibtex">@article{nunes2022ral-3duis,
+    author = {Lucas Nunes and Xieyuanli Chen and Rodrigo Marcuzzi and Aljosa Osep 
+                and Laura Leal-Taix\'e and Cyrill Stachniss and Jens Behley},
+    title = {{Unsupervised Class-Agnostic Instance Segmentation of 
+                3D LiDAR Data for Autonomous Vehicles}},
+    journal = {IEEE Robotics and Automation Letters (RA-L)},
+    year = 2022
+}</code></pre>
+                    </p>
+                    <p style="height:100px;"></p>
+                </div>
+            </div>
+    </main>
+    <!-- FOOTER -->
+    <footer id="footer"></footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <script src="assets/prism.js"></script>
+    <script src="assets/prism-bibtex.js"></script>
+    <script src="assets/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        $(document).ready(function () {
+            make_navbar("Tasks");
+            insert_footer("Tasks");
+
+            var anchors = ["semseg", "panseg", "panseg4d", "ssc"];
+            makeWaypoints(anchors);
+
+            var pdfLink = function (cell, formatterParams) {
+                var value = cell.getValue();
+                return "<a href=" + value + " target='blank'><i class='fa fa-file-pdf'></i></a>"
+            }
+
+            var classHistogram = function (cell, formatterParams, onRendered) {
+                onRendered(function () { //instantiate sparkline after the cell element has been aded to the DOM
+                    $(cell.getElement()).sparkline(cell.getValue(), {
+                        width: "100%",
+                        type: "bar",
+                        barWidth: 10,
+                        disableTooltips: true,
+                        stackedBarColor: ["blue", "gold"]
+                    });
+                });
+            }
+
+            var codeLink = function (cell, formatterParams) {
+                var value = cell.getValue();
+                if (value == undefined) {
+                    return "";
+                } else {
+                    return "<a href=" + value + " target='blank'><i class='fab fa-github'></i></a>";
+                }
+            }
+
+            var detailTables = [];
+            var table = null;
+            $.getJSON("data/semantic_single.json?timestamp=" + Math.floor(Date.now() / (1000 * 60 * 60))).done(
+                function (data) {
+
+                    let options = {
+                        month: 'long',
+                        day: 'numeric',
+                        year: 'numeric'
+                    };
+                    let date_text = new Intl.DateTimeFormat('en-US', options).format(new Date(data
+                        .last_modified));
+                    $("#semseg-last-modified").text(date_text);
+
+
+                    let leaderboard = data.data;
+
+                    class_names = ["car",
+                        "bicycle",
+                        "motorcycle",
+                        "truck",
+                        "other-vehicle",
+                        "person",
+                        "bicyclist",
+                        "motorcyclist",
+                        "road",
+                        "parking",
+                        "sidewalk",
+                        "other-ground",
+                        "building",
+                        "fence",
+                        "vegetation",
+                        "trunk",
+                        "terrain",
+                        "pole",
+                        "traffic-sign"
+                    ]
+
+                    for (let i = 0; i < leaderboard.length; ++i) {
+                        leaderboard[i]["bars"] = []
+                        for (const col of class_names) {
+                            let isTop = true;
+                            for (let j = 0; j < leaderboard.length; ++j) {
+                                if (j == i) continue;
+                                if (leaderboard[i][col] < leaderboard[j][col]) {
+                                    isTop = false;
+                                    break;
+                                }
+                            }
+                            if (isTop) {
+                                leaderboard[i]["bars"].push([0, leaderboard[i][col]]);
+                            } else {
+                                leaderboard[i]["bars"].push([leaderboard[i][col], 0]);
+                            }
+
+
+                        }
+                    }
+
+                    let name2index = {};
+                    for (let i = 0; i < leaderboard.length; ++i) {
+                        name2index[leaderboard[i].approach] = i;
+                    }
+
+                    showDetails = function (e, cell) {
+                        console.log();
+                        $(cell.getElement()).parent().children("#detail-tables").toggle();
+                    }
+
+                    formatDetails = function (e, cell) {
+                        return "<i class=\"fas fa-search-plus\"></i>";
+                    }
+
+
+
+
+                    addDetails = function (row) {
+
+                        //create and style holder elements
+                        var holderEl = document.createElement("div");
+                        var tableEl = document.createElement("div");
+                        holderEl.id = "detail-tables";
+
+                        holderEl.style.boxSizing = "border-box";
+                        holderEl.style.padding = "10px 30px 10px 10px";
+                        holderEl.style.borderTop = "1px solid #333";
+                        holderEl.style.borderBotom = "1px solid #333";
+                        holderEl.style.background = "#ddd";
+                        holderEl.style.display = "grid";
+
+                        tableEl.style.border = "1px solid #333";
+
+                        holderEl.appendChild(tableEl);
+
+                        row.getElement().appendChild(holderEl);
+
+                        detailData = [];
+                        detailData.push(leaderboard[name2index[row.getData().approach]]);
+
+                        detailColumns = [];
+
+                        for (let className of class_names) {
+                            column = {};
+                            column.title = className;
+                            column.field = className;
+                            column.headerVertical = true;
+                            column.width = 44;
+                            column.align = "center";
+                            column.formatter = "money";
+                            column.formatterParams = {
+                                "precision": 1
+                            };
+                            detailColumns.push(column);
+                        }
+
+
+                        var subTable = new Tabulator(tableEl, {
+                            layout: "fitDataFill",
+                            responsiveLayout: "collapse",
+                            data: detailData,
+                            columns: detailColumns
+                        });
+
+                        detailTables.push(subTable);
+                    }
+
+                    table = new Tabulator("#single", {
+                        height: 400,
+                        layout: "fitDataFill",
+                        initialSort: [{
+                            column: "miou",
+                            dir: "desc"
+                        }],
+                        data: leaderboard,
+                        columns: [{
+                            title: "Approach",
+                            field: "approach",
+                            headerSort: false,
+                            width: 150
+                        },
+                        {
+                            title: "Paper",
+                            field: "paper-url",
+                            formatter: pdfLink,
+                            headerSort: false,
+                            align: "center"
+                        },
+                        {
+                            title: "Code",
+                            field: "github-url",
+                            headerSort: false,
+                            formatter: codeLink,
+                            align: "center"
+                        },
+                        {
+                            title: "mIoU",
+                            field: "miou",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "Classes (IoU)",
+                            field: "bars",
+                            headerSort: false,
+                            formatter: classHistogram,
+                            align: "center",
+                            width: 300,
+                            cellClick: showDetails
+                        },
+                        {
+                            title: "Details",
+                            formatter: formatDetails,
+                            align: "center",
+                            cellClick: showDetails
+                        }
+                        ],
+                        rowFormatter: addDetails
+                    });
+
+                    $("div#detail-tables").toggle();
+                }
+            );
+
+            $.getJSON("data/semantic_multi.json?timestamp=" + Math.floor(Date.now() / (1000 * 60 * 60))).done(
+
+                function (data) {
+
+                    // let options = {
+                    //     month: 'long',
+                    //     day: 'numeric',
+                    //     year: 'numeric'
+                    // };
+                    // let date_text = new Intl.DateTimeFormat('en-US', options).format(new Date(data
+                    //     .last_modified));
+                    // $("#semseg-last-modified").text(date_text);
+
+
+                    let leaderboard = data.data;
+
+                    class_names = ["car",
+                        "car (moving)",
+                        "bicycle",
+                        "motorcycle",
+                        "truck",
+                        "truck (moving)",
+                        "other-vehicle",
+                        "other-vehicle (moving)",
+                        "person",
+                        "person (moving)",
+                        "bicyclist",
+                        "bicyclist (moving)",
+                        "motorcyclist",
+                        "motorcyclist (moving)",
+                        "road",
+                        "parking",
+                        "sidewalk",
+                        "other-ground",
+                        "building",
+                        "fence",
+                        "vegetation",
+                        "trunk",
+                        "terrain",
+                        "pole",
+                        "traffic-sign"
+                    ]
+
+                    for (let i = 0; i < leaderboard.length; ++i) {
+                        leaderboard[i]["bars"] = []
+                        for (const col of class_names) {
+                            let isTop = true;
+                            for (let j = 0; j < leaderboard.length; ++j) {
+                                if (j == i) continue;
+                                if (leaderboard[i][col] < leaderboard[j][col]) {
+                                    isTop = false;
+                                    break;
+                                }
+                            }
+                            if (isTop) {
+                                leaderboard[i]["bars"].push([0, leaderboard[i][col]]);
+                            } else {
+                                leaderboard[i]["bars"].push([leaderboard[i][col], 0]);
+                            }
+
+
+                        }
+                    }
+
+                    let name2index = {};
+                    for (let i = 0; i < leaderboard.length; ++i) {
+                        name2index[leaderboard[i].approach] = i;
+                    }
+
+                    showDetails = function (e, cell) {
+                        $(cell.getElement()).parent().children("#detail-tables-multi").toggle();
+                    }
+
+                    formatDetails = function (e, cell) {
+                        return "<i class=\"fas fa-search-plus\"></i>";
+                    }
+
+
+
+
+                    addDetails = function (row) {
+
+                        //create and style holder elements
+                        var holderEl = document.createElement("div");
+                        var tableEl = document.createElement("div");
+                        holderEl.id = "detail-tables-multi";
+
+                        holderEl.style.boxSizing = "border-box";
+                        holderEl.style.padding = "10px 30px 10px 10px";
+                        holderEl.style.borderTop = "1px solid #333";
+                        holderEl.style.borderBotom = "1px solid #333";
+                        holderEl.style.background = "#ddd";
+                        holderEl.style.display = "grid";
+
+                        tableEl.style.border = "1px solid #333";
+
+                        holderEl.appendChild(tableEl);
+
+                        row.getElement().appendChild(holderEl);
+
+                        detailData = [];
+                        detailData.push(leaderboard[name2index[row.getData().approach]]);
+
+                        detailColumns = [];
+
+                        for (let className of class_names) {
+                            column = {};
+                            column.title = className;
+                            column.field = className;
+                            column.headerVertical = true;
+                            column.width = 44;
+                            column.align = "center";
+                            column.formatter = "money";
+                            column.formatterParams = {
+                                "precision": 1
+                            };
+                            detailColumns.push(column);
+                        }
+
+
+                        var subTable = new Tabulator(tableEl, {
+                            layout: "fitDataFill",
+                            responsiveLayout: "collapse",
+                            data: detailData,
+                            columns: detailColumns
+                        });
+                        detailTables.push(subTable);
+                    }
+
+                    table = new Tabulator("#multi", {
+                        height: 400,
+                        layout: "fitDataFill",
+                        initialSort: [{
+                            column: "miou",
+                            dir: "desc"
+                        }],
+                        data: leaderboard,
+                        columns: [{
+                            title: "Approach",
+                            field: "approach",
+                            headerSort: false,
+                            width: 150
+                        },
+                        {
+                            title: "Paper",
+                            field: "paper-url",
+                            formatter: pdfLink,
+                            headerSort: false,
+                            align: "center"
+                        },
+                        {
+                            title: "Code",
+                            field: "github-url",
+                            headerSort: false,
+                            formatter: codeLink,
+                            align: "center"
+                        },
+                        {
+                            title: "mIoU",
+                            field: "miou",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "Classes (IoU)",
+                            field: "bars",
+                            headerSort: false,
+                            formatter: classHistogram,
+                            align: "center",
+                            width: 300,
+                            cellClick: showDetails
+                        },
+                        {
+                            title: "Details",
+                            formatter: formatDetails,
+                            align: "center",
+                            cellClick: showDetails
+                        }
+                        ],
+                        rowFormatter: addDetails
+                    });
+
+                    // $("div#detail-tables-multi").toggle();
+                    $("div#detail-tables-multi").toggle();
+                    $("div#multiple-scans").removeClass("active")
+                    // $("a#single-leaderboard").click();
+                }
+            );
+
+
+            $.getJSON("data/panoptic.json?timestamp=" + Math.floor(Date.now() / (1000 * 60 * 60))).done(
+
+                function (data) {
+
+                    let options = {
+                        month: 'long',
+                        day: 'numeric',
+                        year: 'numeric'
+                    };
+                    let date_text = new Intl.DateTimeFormat('en-US', options).format(new Date(data
+                        .last_modified));
+                    $("#panoptic-last-modified").text(date_text);
+
+
+                    let leaderboard = data.data;
+
+                    metric_names = ["pq",
+                        "pq+",
+                        "rq",
+                        "sq",
+                        "pq(th)",
+                        "rq(th)",
+                        "sq(th)",
+                        "pq(st)",
+                        "rq(st)",
+                        "sq(st)",
+                        "miou"
+                    ]
+
+                    class_names = ["car",
+                        "bicycle",
+                        "motorcycle",
+                        "truck",
+                        "other-vehicle",
+                        "person",
+                        "bicyclist",
+                        "motorcyclist",
+                        "road",
+                        "parking",
+                        "sidewalk",
+                        "other-ground",
+                        "building",
+                        "fence",
+                        "vegetation",
+                        "trunk",
+                        "terrain",
+                        "pole",
+                        "traffic-sign"
+                    ]
+
+                    let name2index = {};
+                    for (let i = 0; i < leaderboard.length; ++i) {
+                        name2index[leaderboard[i].approach] = i;
+                    }
+
+                    showDetails = function (e, cell) {
+                        $(cell.getElement()).parent().children("#detail-tables-panoptic").toggle();
+                    }
+
+                    formatDetails = function (e, cell) {
+                        return "<i class=\"fas fa-search-plus\"></i>";
+                    }
+
+
+                    // addDetails = function (row) {
+
+                    //     //create and style holder elements
+                    //     var holderEl = document.createElement("div");
+                    //     var tableEl = document.createElement("div");
+                    //     holderEl.id = "detail-tables-panoptic";
+
+                    //     holderEl.style.boxSizing = "border-box";
+                    //     holderEl.style.padding = "10px 30px 10px 10px";
+                    //     holderEl.style.borderTop = "1px solid #333";
+                    //     holderEl.style.borderBotom = "1px solid #333";
+                    //     holderEl.style.background = "#ddd";
+                    //     holderEl.style.display = "grid";
+
+                    //     tableEl.style.border = "1px solid #333";
+
+                    //     holderEl.appendChild(tableEl);
+
+                    //     row.getElement().appendChild(holderEl);
+
+                    //     detailData = leaderboard[name2index[row.getData().approach]]["details"];
+                    //     detailData.push();
+
+                    //     detailColumns = [];
+
+
+                    //     var subTable = new Tabulator(tableEl, {
+                    //         layout: "fitDataFill",
+                    //         data: detailData,
+                    //         responsiveLayout: "collapse",
+                    //         columns: [{title: "Class", field:"class", width:200}, 
+                    //                 {title: "PQ", field:"pq", width:100, align: "center"},
+                    //                 {title: "SQ", field:"sq", width:100, align: "center"},
+                    //                 {title: "RQ", field:"rq", width:100, align: "center"},
+                    //                 {title: "IoU", field:"iou", width:100, align: "center"}]
+                    //     });
+
+                    //     // var subTable = new Tabulator(tableEl, {
+                    //     //     layout: "fitDataFill",
+                    //     //     responsiveLayout: "collapse",
+                    //     //     data: detailData,
+                    //     //     columns: detailColumns
+                    //     // });
+
+                    //     detailTables.push(subTable);
+                    // }
+
+                    table = new Tabulator("#panoptic", {
+                        height: 400,
+                        layout: "fitDataFill",
+                        initialSort: [{
+                            column: "pq",
+                            dir: "desc"
+                        }],
+                        data: leaderboard,
+                        columns: [{
+                            title: "Approach",
+                            field: "approach",
+                            headerSort: false,
+                            width: 200
+                        },
+                        {
+                            title: "Paper",
+                            field: "paper-url",
+                            formatter: pdfLink,
+                            headerSort: false,
+                            align: "center"
+                        },
+                        {
+                            title: "Code",
+                            field: "github-url",
+                            headerSort: false,
+                            formatter: codeLink,
+                            align: "center"
+                        },
+                        {
+                            title: "PQ",
+                            field: "pq",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "PQ+",
+                            field: "pq+",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "SQ",
+                            field: "sq",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "PQ(th)",
+                            field: "pq(th)",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "RQ(th)",
+                            field: "rq(th)",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "SQ(th)",
+                            field: "sq(th)",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "PQ(st)",
+                            field: "pq(st)",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "RQ(st)",
+                            field: "rq(st)",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "SQ(st)",
+                            field: "sq(st)",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "mIoU",
+                            field: "miou",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                            // {
+                            //     title: "Details",
+                            //     formatter: formatDetails,
+                            //     align: "center",
+                            //     cellClick: showDetails
+                            // }
+                        ],
+                        // rowFormatter: addDetails
+                    });
+
+                    // $("div#detail-tables-panoptic").toggle();
+                }
+            );
+
+            $.getJSON("data/panoptic4d.json?timestamp=" + Math.floor(Date.now() / (1000 * 60 * 60))).done(
+
+                function (data) {
+
+                    let options = {
+                        month: 'long',
+                        day: 'numeric',
+                        year: 'numeric'
+                    };
+                    let date_text = new Intl.DateTimeFormat('en-US', options).format(new Date(data
+                        .last_modified));
+                    $("#panoptic4d-last-modified").text(date_text);
+
+
+                    let leaderboard = data.data;
+
+                    metric_names = ["pq",
+                        "pq+",
+                        "rq",
+                        "sq",
+                        "pq(th)",
+                        "rq(th)",
+                        "sq(th)",
+                        "pq(st)",
+                        "rq(st)",
+                        "sq(st)",
+                        "miou"
+                    ]
+
+                    class_names = ["car",
+                        "bicycle",
+                        "motorcycle",
+                        "truck",
+                        "other-vehicle",
+                        "person",
+                        "bicyclist",
+                        "motorcyclist",
+                        "road",
+                        "parking",
+                        "sidewalk",
+                        "other-ground",
+                        "building",
+                        "fence",
+                        "vegetation",
+                        "trunk",
+                        "terrain",
+                        "pole",
+                        "traffic-sign"
+                    ]
+
+                    let name2index = {};
+                    for (let i = 0; i < leaderboard.length; ++i) {
+                        name2index[leaderboard[i].approach] = i;
+                    }
+
+                    showDetails = function (e, cell) {
+                        $(cell.getElement()).parent().children("#detail-tables-panoptic").toggle();
+                    }
+
+                    formatDetails = function (e, cell) {
+                        return "<i class=\"fas fa-search-plus\"></i>";
+                    }
+
+
+                    // addDetails = function (row) {
+
+                    //     //create and style holder elements
+                    //     var holderEl = document.createElement("div");
+                    //     var tableEl = document.createElement("div");
+                    //     holderEl.id = "detail-tables-panoptic";
+
+                    //     holderEl.style.boxSizing = "border-box";
+                    //     holderEl.style.padding = "10px 30px 10px 10px";
+                    //     holderEl.style.borderTop = "1px solid #333";
+                    //     holderEl.style.borderBotom = "1px solid #333";
+                    //     holderEl.style.background = "#ddd";
+                    //     holderEl.style.display = "grid";
+
+                    //     tableEl.style.border = "1px solid #333";
+
+                    //     holderEl.appendChild(tableEl);
+
+                    //     row.getElement().appendChild(holderEl);
+
+                    //     detailData = leaderboard[name2index[row.getData().approach]]["details"];
+                    //     detailData.push();
+
+                    //     detailColumns = [];
+
+
+                    //     var subTable = new Tabulator(tableEl, {
+                    //         layout: "fitDataFill",
+                    //         data: detailData,
+                    //         responsiveLayout: "collapse",
+                    //         columns: [{title: "Class", field:"class", width:200}, 
+                    //                 {title: "PQ", field:"pq", width:100, align: "center"},
+                    //                 {title: "SQ", field:"sq", width:100, align: "center"},
+                    //                 {title: "RQ", field:"rq", width:100, align: "center"},
+                    //                 {title: "IoU", field:"iou", width:100, align: "center"}]
+                    //     });
+
+                    //     // var subTable = new Tabulator(tableEl, {
+                    //     //     layout: "fitDataFill",
+                    //     //     responsiveLayout: "collapse",
+                    //     //     data: detailData,
+                    //     //     columns: detailColumns
+                    //     // });
+
+                    //     detailTables.push(subTable);
+                    // }
+
+                    table = new Tabulator("#panoptic4d", {
+                        height: 400,
+                        layout: "fitDataFill",
+                        initialSort: [{
+                            column: "lstq",
+                            dir: "desc"
+                        }],
+                        data: leaderboard,
+                        columns: [{
+                            title: "Approach",
+                            field: "approach",
+                            headerSort: false,
+                            width: 200
+                        },
+                        {
+                            title: "Paper",
+                            field: "paper-url",
+                            formatter: pdfLink,
+                            headerSort: false,
+                            align: "center"
+                        },
+                        {
+                            title: "Code",
+                            field: "github-url",
+                            headerSort: false,
+                            formatter: codeLink,
+                            align: "center"
+                        },
+                        {
+                            title: "LSTQ",
+                            field: "lstq",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "mAQ",
+                            field: "maq",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "mIoU",
+                            field: "miou",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        }
+                            // {
+                            //     title: "Details",
+                            //     formatter: formatDetails,
+                            //     align: "center",
+                            //     cellClick: showDetails
+                            // }
+                        ],
+                        // rowFormatter: addDetails
+                    });
+
+                    // $("div#detail-tables-panoptic").toggle();
+                }
+            );
+
+            $.getJSON("data/mos.json?timestamp=" + Math.floor(Date.now() / (1000 * 60 * 60))).done(
+
+                function (data) {
+
+                    let options = {
+                        month: 'long',
+                        day: 'numeric',
+                        year: 'numeric'
+                    };
+                    let date_text = new Intl.DateTimeFormat('en-US', options).format(new Date(data
+                        .last_modified));
+                    $("#mos-last-modified").text(date_text);
+
+
+                    let leaderboard = data.data;
+
+                    table = new Tabulator("#mos-table", {
+                        height: 400,
+                        layout: "fitDataFill",
+                        initialSort: [{
+                            column: "miou",
+                            dir: "desc"
+                        }],
+                        data: leaderboard,
+                        columns: [{
+                            title: "Approach",
+                            field: "approach",
+                            headerSort: false,
+                            width: 200
+                        },
+                        {
+                            title: "Paper",
+                            field: "paper-url",
+                            formatter: pdfLink,
+                            headerSort: false,
+                            align: "center"
+                        },
+                        {
+                            title: "Code",
+                            field: "github-url",
+                            headerSort: false,
+                            formatter: codeLink,
+                            align: "center"
+                        },
+                        {
+                            title: "IoU (moving)",
+                            field: "miou",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        }
+                            // {
+                            //     title: "Details",
+                            //     formatter: formatDetails,
+                            //     align: "center",
+                            //     cellClick: showDetails
+                            // }
+                        ],
+                        // rowFormatter: addDetails
+                    });
+
+                    // $("div#detail-tables-panoptic").toggle();
+                }
+            );
+
+            $.getJSON("data/completion.json?timestamp=" + Math.floor(Date.now() / (1000 * 60 * 60))).done(
+                function (data) {
+
+                    let options = {
+                        month: 'long',
+                        day: 'numeric',
+                        year: 'numeric'
+                    };
+                    let date_text = new Intl.DateTimeFormat('en-US', options).format(new Date(data
+                        .last_modified));
+                    $("#completion-last-modified").text(date_text);
+
+
+                    let leaderboard = data.data;
+
+                    class_names = ["car",
+                        "bicycle",
+                        "motorcycle",
+                        "truck",
+                        "other-vehicle",
+                        "person",
+                        "bicyclist",
+                        "motorcyclist",
+                        "road",
+                        "parking",
+                        "sidewalk",
+                        "other-ground",
+                        "building",
+                        "fence",
+                        "vegetation",
+                        "trunk",
+                        "terrain",
+                        "pole",
+                        "traffic-sign"
+                    ]
+
+                    for (let i = 0; i < leaderboard.length; ++i) {
+                        leaderboard[i]["bars"] = []
+                        for (const col of class_names) {
+                            let isTop = true;
+                            for (let j = 0; j < leaderboard.length; ++j) {
+                                if (j == i) continue;
+                                if (leaderboard[i][col] < leaderboard[j][col]) {
+                                    isTop = false;
+                                    break;
+                                }
+                            }
+                            if (isTop) {
+                                leaderboard[i]["bars"].push([0, leaderboard[i][col]]);
+                            } else {
+                                leaderboard[i]["bars"].push([leaderboard[i][col], 0]);
+                            }
+
+
+                        }
+                    }
+
+                    let name2index = {};
+                    for (let i = 0; i < leaderboard.length; ++i) {
+                        name2index[leaderboard[i].approach] = i;
+                    }
+
+                    showDetails = function (e, cell) {
+                        console.log();
+                        $(cell.getElement()).parent().children("#completion-detail-tables").toggle();
+                    }
+
+                    formatDetails = function (e, cell) {
+                        return "<i class=\"fas fa-search-plus\"></i>";
+                    }
+
+
+
+
+                    addDetails = function (row) {
+
+                        //create and style holder elements
+                        var holderEl = document.createElement("div");
+                        var tableEl = document.createElement("div");
+                        holderEl.id = "completion-detail-tables";
+
+                        holderEl.style.boxSizing = "border-box";
+                        holderEl.style.padding = "10px 30px 10px 10px";
+                        holderEl.style.borderTop = "1px solid #333";
+                        holderEl.style.borderBotom = "1px solid #333";
+                        holderEl.style.background = "#ddd";
+                        holderEl.style.display = "grid";
+
+                        tableEl.style.border = "1px solid #333";
+
+                        holderEl.appendChild(tableEl);
+
+                        row.getElement().appendChild(holderEl);
+
+                        detailData = [];
+                        detailData.push(leaderboard[name2index[row.getData().approach]]);
+
+                        detailColumns = [];
+
+                        for (let className of class_names) {
+                            column = {};
+                            column.title = className;
+                            column.field = className;
+                            column.headerVertical = true;
+                            column.width = 44;
+                            column.align = "center";
+                            column.formatter = "money";
+                            column.formatterParams = {
+                                "precision": 1
+                            };
+                            detailColumns.push(column);
+                        }
+
+
+                        var subTable = new Tabulator(tableEl, {
+                            layout: "fitDataFill",
+                            responsiveLayout: "collapse",
+                            data: detailData,
+                            columns: detailColumns
+                        });
+
+                        detailTables.push(subTable);
+                    }
+
+                    table = new Tabulator("#completion", {
+                        height: 400,
+                        layout: "fitDataFill",
+                        initialSort: [{
+                            column: "miou",
+                            dir: "desc"
+                        }],
+                        data: leaderboard,
+                        columns: [{
+                            title: "Approach",
+                            field: "approach",
+                            headerSort: false,
+                            width: 150
+                        },
+                        {
+                            title: "Paper",
+                            field: "paper-url",
+                            formatter: pdfLink,
+                            headerSort: false,
+                            align: "center"
+                        },
+                        {
+                            title: "Code",
+                            field: "github-url",
+                            headerSort: false,
+                            formatter: codeLink,
+                            align: "center"
+                        },
+                        {
+                            title: "mIoU",
+                            field: "miou",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "Completion",
+                            field: "completion",
+                            headerSort: false,
+                            sorter: "number",
+                            align: "center"
+                        },
+                        {
+                            title: "Classes (IoU)",
+                            field: "bars",
+                            headerSort: false,
+                            formatter: classHistogram,
+                            align: "center",
+                            width: 300,
+                            cellClick: showDetails
+                        },
+                        {
+                            title: "Details",
+                            formatter: formatDetails,
+                            align: "center",
+                            cellClick: showDetails
+                        }
+                        ],
+                        rowFormatter: addDetails
+                    });
+
+                    $("div#completion-detail-tables").toggle();
+                }
+            );
+        });
+    </script>
+</body>
+
+</html>

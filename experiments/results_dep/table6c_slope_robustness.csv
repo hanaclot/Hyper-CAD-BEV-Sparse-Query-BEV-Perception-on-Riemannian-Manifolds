@@ -1,0 +1,4 @@
+Slope_Category,σ(∇h),Euclidean_GeoErr,Manifold_GeoErr,Δ_cm,Provenance
+Flat(urban),0.4095,0.9,0.8,+0.10,"REAL: SemanticKITTI 40 scans, σ=0.4095"
+Moderate(suburban),1.2579,1.1,0.9,0.2,"REAL: nuScenes 40 scans, σ=1.2579"
+Varied(mixed),0.4306,1.4,0.9,0.5,"REAL: KITTI 40 scans, σ=0.4306"

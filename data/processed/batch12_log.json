@@ -1,0 +1,10 @@
+{
+  "total": 873273442,
+  "log": [
+    "  DOWNLOAD SK Labels (179MB) from http://semantic-kitti.org/assets/data_odometry_labels.zip...",
+    "  DONE SK Labels (179MB): 179.3MB",
+    "  DOWNLOAD SK Voxels (694MB) from http://semantic-kitti.org/assets/data_odometry_voxels.zip...",
+    "  DONE SK Voxels (694MB): 694.0MB",
+    "Batch 1+2 total: 873.3MB"
+  ]
+}

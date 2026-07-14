@@ -1,0 +1,17 @@
+{
+  "id": "http://arxiv.org/abs/2303.08605v2",
+  "title": "RICO: Regularizing the Unobservable for Indoor Compositional Reconstruction",
+  "summary": "Recently, neural implicit surfaces have become popular for multi-view reconstruction. To facilitate practical applications like scene editing and manipulation, some works extend the framework with semantic masks input for the object-compositional reconstruction rather than the holistic perspective. Though achieving plausible disentanglement, the performance drops significantly when processing the indoor scenes where objects are usually partially observed. We propose RICO to address this by regul",
+  "published": "2023-03-15T13:24:36Z",
+  "authors": [
+    "Zizhang Li",
+    "Xiaoyang Lyu",
+    "Yuanyuan Ding",
+    "Mengmeng Wang",
+    "Yiyi Liao",
+    "Yong Liu"
+  ],
+  "categories": [
+    "cs.CV"
+  ]
+}

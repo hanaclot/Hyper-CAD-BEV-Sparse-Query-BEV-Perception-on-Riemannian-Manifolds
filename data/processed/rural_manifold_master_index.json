@@ -1,0 +1,63 @@
+{
+  "dataset_name": "Rural-Manifold Dataset",
+  "version": "1.0",
+  "description": "Multi-source real dataset for rural BEV perception on Riemannian manifolds",
+  "build_date": "2026-07-10T21:09:44.922520",
+  "components": [
+    {
+      "name": "LiDAR Point Clouds",
+      "source": "SemanticKITTI",
+      "frames": 471,
+      "format": "Velodyne HDL-64E",
+      "size_mb": 921.0,
+      "terrain_z": "[-24.87, 3.05]m"
+    },
+    {
+      "name": "Off-road Edge Detection",
+      "source": "RELLIS-3D GitHub",
+      "files": 116
+    },
+    {
+      "name": "Off-road Dynamics",
+      "source": "TartanDrive2",
+      "format": "Website + arXiv paper"
+    },
+    {
+      "name": "Event Camera Theory",
+      "source": "arXiv:1711.01458"
+    },
+    {
+      "name": "BEV Sparse Query Papers",
+      "source": "arXiv: 12 papers",
+      "list": [
+        "2404.06892",
+        "2203.17270",
+        "2305.13859",
+        "2304.12356",
+        "2312.08442",
+        "1711.01458",
+        "2408.16096",
+        "2206.09907",
+        "2309.15654",
+        "2402.06600",
+        "2104.13283",
+        "2308.07897"
+      ]
+    },
+    {
+      "name": "Edge Sensor Fusion",
+      "source": "arXiv:2408.16096"
+    },
+    {
+      "name": "SOTA Benchmarks",
+      "source": "SemanticKITTI Leaderboard",
+      "entries": 31
+    },
+    {
+      "name": "Terrain Manifold Analysis",
+      "source": "Velodyne extraction",
+      "points": 57312402
+    }
+  ],
+  "no_synthetic_data": true
+}
