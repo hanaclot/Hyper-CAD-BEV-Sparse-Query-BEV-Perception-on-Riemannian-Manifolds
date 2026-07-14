@@ -1,0 +1,90 @@
+﻿# ─────────────────────────────────────────────────
+# Gitignore for Hyper-CAD-BEV-Experiments
+# ─────────────────────────────────────────────────
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Large data files ──
+*.zip
+*.tgz
+*.tar.gz
+*.tfrecord
+*.npz
+*.pcd.bin
+*.part
+
+# Large data directories
+data/semantickitti_official/
+data/nuscenes/v1.0-mini/
+data/kitti_raw/extracted/
+data/event_camera/extracted/
+data/event_camera/events/
+data/waymo/real_samples/
+data/rellis3d/real_samples/
+data/tartandrive2/real_samples/
+data/tartandrive2/repo/
+data/waymo/repo/
+data/rellis3d/repo/
+
+# Large JSON weather files
+data/weather_real/*.json
+
+# Papers (copyrighted)
+data/papers/
+
+# Large scraped metadata (95MB velodyne stats, large arxiv indexes)
+data/processed/velodyne_frame_stats.json
+data/processed/arxiv_full_index.csv
+data/processed/arxiv_full_index.json
+data/processed/comprehensive_lidar_stats.json
+data/processed/lidar_global_stats.npz
+
+# Archive directory
+archive/
+
+# Legacy scripts
+scripts/legacy/
+scripts/archive/
+scripts/__pycache__/
+
+# Old experiment archives
+experiments/archive/
+experiments/logs/
+experiments/checkpoints/
+experiments/results/legacy/
+
+# Temp and part files
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Git LFS
+.gitattributes

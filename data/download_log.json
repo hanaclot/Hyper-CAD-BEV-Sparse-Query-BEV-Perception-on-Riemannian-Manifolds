@@ -1,0 +1,10 @@
+{
+  "date": "2026-07-12 18:18:28",
+  "datasets_downloaded": [
+    "RELLIS-3D (image examples + metadata)",
+    "TartanDrive2 (dataset metadata)",
+    "KITTI Raw (sync drive + calib)",
+    "Event Camera DVS (shapes_translation, shapes_rotation)",
+    "Weather (Berlin + Pittsburgh 2023-2024)"
+  ]
+}

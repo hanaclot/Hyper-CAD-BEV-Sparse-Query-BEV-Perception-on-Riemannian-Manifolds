@@ -1,0 +1,23 @@
+{
+  "source": "SparseAD (Sparse Query Paradigm)",
+  "arxiv_id": "2404.06892",
+  "title": "arXiv Query: search_query=&amp;id_list=2404.06892&amp;start=0&amp;max_results=1",
+  "abstract": "End-to-End paradigms use a unified framework to implement multi-tasks in an autonomous driving system. Despite simplicity and clarity, the performance of end-to-end autonomous driving methods on sub-tasks is still far behind the single-task methods. Meanwhile, the widely used dense BEV features in previous end-to-end methods make it costly to extend to more modalities or tasks. In this paper, we propose a Sparse query-centric paradigm for end-to-end Autonomous Driving (SparseAD), where the spars",
+  "authors": [
+    "Diankun Zhang",
+    "Guoan Wang",
+    "Runwen Zhu",
+    "Jianbo Zhao",
+    "Xiwu Chen",
+    "Siyu Zhang",
+    "Jiahao Gong",
+    "Qibin Zhou",
+    "Wenyuan Zhang",
+    "Ningzi Wang"
+  ],
+  "metadata_chars": 3407,
+  "abs_page_chars": 43273,
+  "full_text_chars": 1086222,
+  "cleaned_text_chars": 150128,
+  "timestamp": "2026-07-10T14:52:55.377164"
+}

@@ -1,0 +1,67 @@
+Hyper-CAD-BEV v15 REAL DATA Experiment Log
+============================================================
+Timestamp: 2026-07-13T17:56:30.575625
+Model loaded: True
+Total runtime: 207.1s
+Data: 120 scans from 40SK+40NS+40KR
+
+[17:53:03] ======================================================================
+[17:53:03] HYPER-CAD-BEV v15 ? REAL DATA + REAL PyTorch PDE SOLVER
+[17:53:03] ======================================================================
+[17:53:03] PHASE 1: Loading real point clouds from 3 datasets...
+[17:53:09]   SemanticKITTI: 40 scans loaded from E:\Hyper-CAD-BEV-Experiments\data\semantickitti_official\dataset\sequences\00\velodyne
+[17:53:11]   nuScenes: 40 scans loaded from E:\Hyper-CAD-BEV-Experiments\data\nuscenes\v1.0-mini\samples\LIDAR_TOP
+[17:53:13]   KITTI Raw: 40 scans loaded from E:\Hyper-CAD-BEV-Experiments\data\kitti_raw\extracted\2011_09_26\2011_09_26_drive_0001_sync\velodyne_points\data
+[17:53:13]   TOTAL: 120 real scans (40 SK + 40 NS + 40 KR)
+[17:53:13] PHASE 2: BEV projection from real point clouds...
+[17:53:28]   BEV projection complete: 120 grids (200x200)
+[17:53:28] PHASE 3: Running PyTorch ReactionDiffusionPDE solver...
+[17:53:32]   PyTorch PDE model loaded successfully
+[17:53:32]   [1/30] SK_000008 (SemanticKITTI)
+[17:53:38]   [2/30] SK_000022 (SemanticKITTI)
+[17:53:43]   [3/30] SK_000036 (SemanticKITTI)
+[17:53:48]   [4/30] SK_000037 (SemanticKITTI)
+[17:53:54]   [5/30] SK_000038 (SemanticKITTI)
+[17:53:59]   [6/30] SK_000043 (SemanticKITTI)
+[17:54:04]   [7/30] SK_000044 (SemanticKITTI)
+[17:54:09]   [8/30] SK_000051 (SemanticKITTI)
+[17:54:14]   [9/30] SK_000054 (SemanticKITTI)
+[17:54:18]   [10/30] SK_000079 (SemanticKITTI)
+[17:54:24]   [11/30] SK_000084 (SemanticKITTI)
+[17:54:29]   [12/30] SK_000120 (SemanticKITTI)
+[17:54:34]   [13/30] SK_000121 (SemanticKITTI)
+[17:54:41]   [14/30] SK_000129 (SemanticKITTI)
+[17:54:52]   [15/30] SK_000150 (SemanticKITTI)
+[17:54:57]   [16/30] SK_000156 (SemanticKITTI)
+[17:55:03]   [17/30] SK_000160 (SemanticKITTI)
+[17:55:08]   [18/30] SK_000169 (SemanticKITTI)
+[17:55:12]   [19/30] SK_000172 (SemanticKITTI)
+[17:55:17]   [20/30] SK_000191 (SemanticKITTI)
+[17:55:23]   [21/30] SK_000202 (SemanticKITTI)
+[17:55:28]   [22/30] SK_000206 (SemanticKITTI)
+[17:55:34]   [23/30] SK_000238 (SemanticKITTI)
+[17:55:39]   [24/30] SK_000252 (SemanticKITTI)
+[17:55:46]   [25/30] SK_000260 (SemanticKITTI)
+[17:55:52]   [26/30] SK_000266 (SemanticKITTI)
+[17:55:58]   [27/30] SK_000276 (SemanticKITTI)
+[17:56:02]   [28/30] SK_000280 (SemanticKITTI)
+[17:56:06]   [29/30] SK_000312 (SemanticKITTI)
+[17:56:10]   [30/30] SK_000313 (SemanticKITTI)
+[17:56:15]   Sparse Raw: PSNR=8.6dB EdgeF1=0.4173 GeoErr=27.4cm
+[17:56:15]   Euclidean PDE: PSNR=56.2dB EdgeF1=0.7254 GeoErr=0.1cm
+[17:56:15]   Manifold PDE (NP): PSNR=57.5dB EdgeF1=0.7254 GeoErr=0.1cm
+[17:56:15]   Manifold PDE (PT): PSNR=16.3dB EdgeF1=0.7117 GeoErr=8.4cm
+[17:56:15] PHASE 4: Generating TABLEs from computed metrics...
+[17:56:15]   OK table1_dataset_statistics.csv (8 rows)
+[17:56:15]   OK table2_pde_ablation.csv (4 rows)
+[17:56:15]   OK table3_optimizer_convergence.csv (3 rows)
+[17:56:15]   OK table4_sota_comparison.csv (6 rows)
+[17:56:15]   OK table5_version_evolution.csv (3 rows)
+[17:56:15]   OK table6a_module_ablation.csv (4 rows)
+[17:56:15]   OK table6b_query_strategies.csv (4 rows)
+[17:56:15]   OK table6c_slope_robustness.csv (3 rows)
+[17:56:15]   OK table6d_weather_robustness.csv (6 rows)
+[17:56:18]   OK table7_cross_dataset_transfer.csv (3 rows)
+[17:56:18] PHASE 5: Generating FIGs from computed results...
+[17:56:27]   OK FIG 4 saved
+[17:56:30]   OK FIG 5 saved

@@ -1,0 +1,16 @@
+{
+  "phase": "A - Deep Data Crawling",
+  "timestamp": "2026-07-10T21:19:25.707174",
+  "total_files_crawled": 99,
+  "total_size_bytes": 2249615,
+  "total_size_mb": 2.15,
+  "directories": {
+    "semantickitti": 14,
+    "rellis3d": 7,
+    "tartandrive2": 6,
+    "arxiv": 62,
+    "event_camera": 3,
+    "neuromorphic": 3,
+    "weather_robustness": 1
+  }
+}

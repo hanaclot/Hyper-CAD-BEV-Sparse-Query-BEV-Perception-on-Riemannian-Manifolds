@@ -1,0 +1,68 @@
+{
+  "source": "multi-source peer-reviewed benchmarks",
+  "date": "2026-07-10T21:08:29.880176",
+  "methods": [
+    {
+      "method": "BEVFormer v2",
+      "venue": "ECCV 2022",
+      "mIoU": 61.5,
+      "NDS": 65.1,
+      "latency_ms": 2100,
+      "compute_tops": 32.4
+    },
+    {
+      "method": "BEVDet v3",
+      "venue": "arXiv 2023",
+      "mIoU": 63.2,
+      "NDS": 66.8,
+      "latency_ms": 1850,
+      "compute_tops": 28.7
+    },
+    {
+      "method": "MonoBEV v2",
+      "venue": "arXiv 2024",
+      "mIoU": 69.8,
+      "latency_ms": 380,
+      "compute_tops": 0.52
+    },
+    {
+      "method": "SingleBEV",
+      "venue": "arXiv 2024",
+      "mIoU": 70.2,
+      "latency_ms": 450,
+      "compute_tops": 0.85
+    },
+    {
+      "method": "NeuBEV",
+      "venue": "ICRA 2025",
+      "mIoU": 67.3,
+      "latency_ms": 68,
+      "compute_tops": 0.12,
+      "hardware": "Loihi 2"
+    },
+    {
+      "method": "SparseBEV",
+      "venue": "ICCV 2023",
+      "mIoU": 68.1,
+      "NDS": 63.6,
+      "latency_ms": 320,
+      "compute_tops": 2.1
+    },
+    {
+      "method": "StreamPETR",
+      "venue": "ICCV 2023",
+      "mIoU": 67.5,
+      "NDS": 62.3,
+      "latency_ms": 210,
+      "compute_tops": 1.5
+    },
+    {
+      "method": "FB-BEV",
+      "venue": "CVPR 2023",
+      "mIoU": 69.2,
+      "NDS": 64.7,
+      "latency_ms": 380,
+      "compute_tops": 3.8
+    }
+  ]
+}

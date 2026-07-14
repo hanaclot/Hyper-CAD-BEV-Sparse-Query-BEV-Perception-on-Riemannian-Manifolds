@@ -1,0 +1,52 @@
+{
+  "last_modified": "2024-02-06",
+  "data": [
+    {
+      "approach": "InsMOS",
+      "paper-url": "https://arxiv.org/pdf/2303.03909.pdf",
+      "github-url": "https://github.com/nubot-nudt/InsMOS",
+      "miou": "75.6"
+    },
+    {
+      "approach": "MF-MOS",
+      "paper-url": "https://arxiv.org/pdf/2401.17023.pdf",
+      "github-url": "https://github.com/SCNU-RISLAB/MF-MOS",
+      "miou": "76.7"
+    },
+    {
+      "approach": "MapMOS",
+      "paper-url": "https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/mersch2023ral.pdf",
+      "github-url": "https://github.com/PRBonn/MapMOS",
+      "miou": "66.0"
+    },
+    {
+      "approach": "MotionSeg3D",
+      "paper-url": "https://arxiv.org/pdf/2207.02201.pdf",
+      "github-url": "https://github.com/haomo-ai/MotionSeg3D",
+      "miou": "70.2"
+    },
+    {
+      "approach": "4DMOS",
+      "paper-url": "https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/mersch2022ral.pdf",
+      "github-url": "https://github.com/PRBonn/4DMOS",
+      "miou": "65.2"
+    },
+    {
+      "approach": "Auto-mos",
+      "paper-url": "https://arxiv.org/pdf/2201.04501.pdf",
+      "github-url": "https://github.com/PRBonn/auto-mos",
+      "miou": "62.3"
+    },
+    {
+      "approach": "RVMOS",
+      "paper-url": "https://ieeexplore.ieee.org/abstract/document/9806157?casa_token=JFmbk846-gEAAAAA:vmyEz4oy0-Ml10erNuSsRClj93aJa-28m7IDS91c1Hwdbk69HdGU0ug7Lebk-k1Anbq456bkyRw",
+      "miou": "73.3"
+    },
+    {
+      "approach": "LMNet",
+      "paper-url": "http://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf",
+      "github-url": "https://github.com/PRBonn/LiDAR-MOS",
+      "miou": "62.5"
+    }
+  ]
+}

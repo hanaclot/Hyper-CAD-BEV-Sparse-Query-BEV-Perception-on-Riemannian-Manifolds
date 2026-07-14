@@ -1,0 +1,182 @@
+{
+  "scrape_time": "2026-07-10T20:54:10.546802",
+  "sources_scanned": 4,
+  "values": {
+    "bevformer": {
+      "path": "E:\\Hyper-CAD-BEV-Experiments\\data\\scraped\\bevformer\\abstract_page.html",
+      "size": 42836,
+      "numeric_patterns": [
+        [
+          "13",
+          "J"
+        ],
+        [
+          "13",
+          "J"
+        ]
+      ]
+    },
+    "sparsead": {
+      "path": "E:\\Hyper-CAD-BEV-Experiments\\data\\scraped\\sparsead\\cleaned_text.txt",
+      "size": 150128,
+      "numeric_patterns": [
+        [
+          "10",
+          "Ap"
+        ],
+        [
+          "35",
+          "%"
+        ],
+        [
+          "47.5",
+          "%"
+        ],
+        [
+          "57.8",
+          "%"
+        ],
+        [
+          "53",
+          "%"
+        ],
+        [
+          "60.8",
+          "%"
+        ],
+        [
+          "0.09",
+          "%"
+        ],
+        [
+          "53.6",
+          "%"
+        ],
+        [
+          "62.5",
+          "%"
+        ],
+        [
+          "60.6",
+          "%"
+        ],
+        [
+          "34.2",
+          "%"
+        ],
+        [
+          "18.7",
+          "%"
+        ],
+        [
+          "16",
+          "w"
+        ],
+        [
+          "2023.",
+          "Ap"
+        ],
+        [
+          "1",
+          "J"
+        ],
+        [
+          "56.6",
+          "%"
+        ],
+        [
+          "64.8",
+          "%"
+        ],
+        [
+          "58.8",
+          "%"
+        ],
+        [
+          "29.6",
+          "%"
+        ],
+        [
+          "83.1",
+          "%"
+        ],
+        [
+          "36.2",
+          "%"
+        ],
+        [
+          "9.4",
+          "%"
+        ],
+        [
+          "26.1",
+          "%"
+        ],
+        [
+          "5.4",
+          "%"
+        ],
+        [
+          "8.1",
+          "%"
+        ],
+        [
+          "2.1",
+          "%"
+        ],
+        [
+          "100.0",
+          "%"
+        ],
+        [
+          "100",
+          "%"
+        ],
+        [
+          "287",
+          "ms"
+        ],
+        [
+          "36.2",
+          "%"
+        ]
+      ]
+    },
+    "loihi_fusion": {
+      "path": "E:\\Hyper-CAD-BEV-Experiments\\data\\scraped\\loihi_fusion\\cleaned_text.txt",
+      "size": 35861,
+      "numeric_patterns": [
+        [
+          "2",
+          "w"
+        ],
+        [
+          "1.55",
+          "W"
+        ]
+      ]
+    },
+    "weather": {
+      "path": "E:\\Hyper-CAD-BEV-Experiments\\data\\scraped\\weather\\abstract_page.html",
+      "size": 42375,
+      "numeric_patterns": [
+        [
+          "20",
+          "J"
+        ],
+        [
+          "26",
+          "J"
+        ],
+        [
+          "20",
+          "J"
+        ],
+        [
+          "26",
+          "J"
+        ]
+      ]
+    }
+  }
+}

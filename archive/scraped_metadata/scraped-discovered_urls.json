@@ -1,0 +1,56 @@
+{
+  "semantickitti_dataset": {
+    "urls": [
+      "http://www.cvlibs.net/datasets/kitti/",
+      "http://www.cvlibs.net/datasets/kitti/eval_odometry.php",
+      "http://www.cvlibs.net/download.php?file=data_odometry_calib.zip",
+      "http://www.cvlibs.net/download.php?file=data_odometry_velodyne.zip"
+    ],
+    "html_len": 12984
+  },
+  "semantickitti_main": {
+    "urls": [
+      "https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/behley2021ijrr.pdf"
+    ],
+    "html_len": 15305
+  },
+  "rellis3d_github": {
+    "urls": [],
+    "html_len": 0
+  },
+  "rellis3d_readme": {
+    "urls": [],
+    "html_len": 0
+  },
+  "tartandrive2": {
+    "urls": [],
+    "html_len": 24055
+  },
+  "nuscenes_download": {
+    "urls": [],
+    "html_len": 6427
+  },
+  "kitti_raw": {
+    "urls": [
+      "https://www.cvlibs.net/datasets/kitti",
+      "https://www.cvlibs.net/publications/Geiger2013IJRR.pdf"
+    ],
+    "html_len": 10649
+  },
+  "kitti_odometry": {
+    "urls": [
+      "http://cs.nyu.edu/~silberman/datasets/",
+      "http://cvpr.in.tum.de/data/datasets/rgbd-dataset",
+      "http://www.mrpt.org/MalagaUrbanDataset",
+      "http://www.mrpt.org/Paper:Malaga_Dataset_2009",
+      "https://www.cvlibs.net/datasets/kitti",
+      "https://www.cvlibs.net/datasets/kitti/backups/2013_10_03_09_08_11_odometry.html",
+      "https://www.cvlibs.net/publications/Geiger2012CVPR.pdf"
+    ],
+    "html_len": 138919
+  },
+  "waymo": {
+    "urls": [],
+    "html_len": 0
+  }
+}

@@ -1,0 +1,4 @@
+﻿Version,Year,Core Innovation,Hardware,Compute(TOPS),mIoU(%),Geo Error(cm),Energy(mJ),Improvement
+v5.2,2025,Zero-Calibration Monocular BEV,Allwinner V853,0.18,71.5,80,42,Baseline
+v6.0-Neuro,2026,PDE-Neuromorphic Mapping,Loihi 2,0.042,72.8,5.1,27,"+1.3 mIoU, -93.6% err, -35.7% energy"
+v6.5-Sparse,2026,Manifold Sparse Query,Loihi 2,0.037,73.8,4.7,22,"+1.0 mIoU, -7.8% err, -18.5% energy"

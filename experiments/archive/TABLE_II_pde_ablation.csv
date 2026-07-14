@@ -1,0 +1,4 @@
+Model,mIoU_mean,mIoU_std,GeoErr_cm_mean,GeoErr_cm_std,EdgeSmooth_mean
+IBEV-Field (no PDE),100.0,0.00,210.8,132.57,0.019
+Euclidean PDE Regularization,100.0,0.00,213.5,132.72,0.017
+Manifold PDE Regularization,100.0,0.00,211.2,132.67,0.019

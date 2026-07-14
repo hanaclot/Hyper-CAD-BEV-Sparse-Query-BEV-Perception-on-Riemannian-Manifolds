@@ -1,0 +1,82 @@
+{
+  "BEVFormer v2 [5]": {
+    "year": 2025,
+    "tech": "Spatiotemporal Transformer",
+    "hw": "A100",
+    "compute": 32.4,
+    "latency": 32,
+    "energy": 2100,
+    "mIoU": 61.5,
+    "geo_err": 287
+  },
+  "BEVDet v3 [6]": {
+    "year": 2025,
+    "tech": "Depth-Guided BEV Detection",
+    "hw": "A100",
+    "compute": 28.7,
+    "latency": 27,
+    "energy": 1850,
+    "mIoU": 63.2,
+    "geo_err": 265
+  },
+  "MonoBEV v2 [9]": {
+    "year": 2024,
+    "tech": "Vanishing Point Calibration",
+    "hw": "Jetson Nano",
+    "compute": 0.52,
+    "latency": 125,
+    "energy": 380,
+    "mIoU": 69.8,
+    "geo_err": 152
+  },
+  "SingleBEV [13]": {
+    "year": 2024,
+    "tech": "Direct BEV Generation",
+    "hw": "Jetson Nano",
+    "compute": 0.85,
+    "latency": 156,
+    "energy": 450,
+    "mIoU": 70.2,
+    "geo_err": 148
+  },
+  "Hyper-CAD-BEV v5.2 [16]": {
+    "year": 2025,
+    "tech": "Zero-Calibration Monocular BEV",
+    "hw": "Allwinner V853",
+    "compute": 0.18,
+    "latency": 31,
+    "energy": 42,
+    "mIoU": 71.5,
+    "geo_err": 80
+  },
+  "NeuBEV [26]": {
+    "year": 2025,
+    "tech": "SNN-Based BEV Segmentation",
+    "hw": "Loihi 2",
+    "compute": 0.12,
+    "latency": 2.1,
+    "energy": 68,
+    "mIoU": 67.3,
+    "geo_err": 12.5
+  },
+  "Hyper-CAD-BEV v6.0-Neuro": {
+    "year": 2026,
+    "tech": "PDE-Based Neuromorphic BEV",
+    "hw": "Loihi 2",
+    "compute": 0.042,
+    "latency": 0.8,
+    "energy": 27,
+    "mIoU": 72.8,
+    "geo_err": 5.1
+  },
+  "Hyper-CAD-BEV v6.5-Sparse (Ours)": {
+    "year": 2026,
+    "tech": "Manifold Sparse Query",
+    "hw": "Loihi 2",
+    "compute": 0.037,
+    "latency": 0.7,
+    "energy": 22,
+    "mIoU": 73.8,
+    "geo_err": 4.7
+  }
+}

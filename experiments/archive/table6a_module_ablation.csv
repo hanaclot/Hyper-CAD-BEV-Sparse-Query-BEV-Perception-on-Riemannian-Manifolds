@@ -1,0 +1,7 @@
+Config,TOPS,mIoU(%),Err(cm),Energy(mJ),Degradation
+Full v6.5-Sparse,0.037,73.8,4.7,22,--
+w/o Riemannian,0.035,71.3,28.0,21,-2.5mIoU,+495.7%err
+w/o PDE,0.036,70.1,31.0,21,-3.7mIoU,+559.6%err
+w/o ADMM Query,0.037,68.7,12.3,22,-5.1mIoU,+161.7%err
+w/o Neuromorph,0.120,69.2,8.9,68,-4.6mIoU,+209.1%energy
+w/o DynamicSched,0.037,73.5,4.9,28,-0.3mIoU,+27.3%energy

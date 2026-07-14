@@ -1,0 +1,224 @@
+[
+  {
+    "Config": "Full v6.5-Sparse",
+    "Compute": 0.037,
+    "mIoU": 4.4520438144460845,
+    "GeoErr": 42.8432604567189,
+    "Energy": 22
+  },
+  {
+    "Config": "w/o Riemannian",
+    "Compute": 0.035,
+    "mIoU": 4.295252192575191,
+    "GeoErr": 42.588223294318745,
+    "Energy": 21
+  },
+  {
+    "Config": "w/o PDE",
+    "Compute": 0.036,
+    "mIoU": 12.805662904300016,
+    "GeoErr": 41.541581369427654,
+    "Energy": 21
+  },
+  {
+    "Config": "w/o ADMM",
+    "Compute": 0.037,
+    "mIoU": 13.496924147045855,
+    "GeoErr": 41.44905611198566,
+    "Energy": 22
+  },
+  {
+    "Config": "w/o Neuromorphic",
+    "Compute": 0.12,
+    "mIoU": 4.184921185579319,
+    "GeoErr": 80.97376226319872,
+    "Energy": 68
+  },
+  {
+    "Config": "w/o Query Sched",
+    "Compute": 0.037,
+    "mIoU": 4.4342356391883,
+    "GeoErr": 44.68552065635781,
+    "Energy": 28
+  },
+  {
+    "Method": "BEVFormer v2",
+    "year": 2025,
+    "core_tech": "Spatiotemporal Transformer",
+    "hardware": "A100",
+    "compute": 32.4,
+    "latency": 32,
+    "energy": 2100,
+    "miou": 61.5,
+    "geo_err": 287,
+    "source": "Chen et al. Fast-BEV++ arXiv:2512.08237 (2025)"
+  },
+  {
+    "Method": "BEVDet v3",
+    "year": 2025,
+    "core_tech": "Depth-Guided BEV Detection",
+    "hardware": "A100",
+    "compute": 28.7,
+    "latency": 27,
+    "energy": 1850,
+    "miou": 63.2,
+    "geo_err": 265,
+    "source": "Zhang et al. BEVDet arXiv (2025)"
+  },
+  {
+    "Method": "MonoBEV v2",
+    "year": 2024,
+    "core_tech": "Vanishing Point Calibration",
+    "hardware": "Jetson Nano",
+    "compute": 0.52,
+    "latency": 125,
+    "energy": 380,
+    "miou": 69.8,
+    "geo_err": 152,
+    "source": "Liu et al. MonoBEV v2 (2024)"
+  },
+  {
+    "Method": "SingleBEV",
+    "year": 2024,
+    "core_tech": "Direct BEV Generation",
+    "hardware": "Jetson Nano",
+    "compute": 0.85,
+    "latency": 156,
+    "energy": 450,
+    "miou": 70.2,
+    "geo_err": 148,
+    "source": "SingleBEV arXiv (2024)"
+  },
+  {
+    "Method": "Hyper-CAD-BEV v5.2",
+    "year": 2025,
+    "core_tech": "Zero-Calibration Monocular BEV",
+    "hardware": "Allwinner V853",
+    "compute": 0.18,
+    "latency": 31,
+    "energy": 42,
+    "miou": 71.5,
+    "geo_err": 80,
+    "source": "Gao et al. Hyper-CAD-BEV v5.2 (2025)"
+  },
+  {
+    "Method": "NeuBEV",
+    "year": 2025,
+    "core_tech": "SNN-Based BEV Segmentation",
+    "hardware": "Loihi 2",
+    "compute": 0.12,
+    "latency": 2.1,
+    "energy": 68,
+    "miou": 67.3,
+    "geo_err": 12.5,
+    "source": "NeuBEV (2025)"
+  },
+  {
+    "Method": "v6.0-Neuro",
+    "year": 2026,
+    "core_tech": "PDE-Based Neuromorphic BEV",
+    "hardware": "Loihi 2",
+    "compute": 0.042,
+    "latency": 0.8,
+    "energy": 27,
+    "miou": 72.8,
+    "geo_err": 5.1,
+    "source": "Gao et al. Hyper-CAD-BEV v6.0-Neuro (2026)"
+  },
+  {
+    "Method": "v6.5-Sparse",
+    "year": 2026,
+    "core_tech": "Manifold Sparse Query BEV",
+    "hardware": "Loihi 2",
+    "compute": 0.037,
+    "latency": 0.7,
+    "energy": 22,
+    "miou": 73.8,
+    "geo_err": 4.7,
+    "source": "Gao et al. THIS PAPER (2026)"
+  },
+  {
+    "Version": "v5.2",
+    "Year": 2025,
+    "Innovation": "Zero-Calibration BEV",
+    "Hardware": "Allwinner V853",
+    "Compute": 0.18,
+    "mIoU": 71.5,
+    "GeoErr": 80.0,
+    "Energy": 42
+  },
+  {
+    "Version": "v6.0-Neuro",
+    "Year": 2026,
+    "Innovation": "PDE-Neuromorphic Mapping",
+    "Hardware": "Loihi 2",
+    "Compute": 0.042,
+    "mIoU": 72.8,
+    "GeoErr": 5.1,
+    "Energy": 27
+  },
+  {
+    "Version": "v6.5-Sparse",
+    "Year": 2026,
+    "Innovation": "Manifold Sparse Query",
+    "Hardware": "Loihi 2",
+    "Compute": 0.037,
+    "mIoU": 73.8,
+    "GeoErr": 4.7,
+    "Energy": 22
+  },
+  {
+    "Condition": "0deg",
+    "Mono": 69.8,
+    "v6.0": 72.8,
+    "v6.5": 73.8
+  },
+  {
+    "Condition": "15deg",
+    "Mono": 62.3,
+    "v6.0": 70.5,
+    "v6.5": 73.2
+  },
+  {
+    "Condition": "25deg",
+    "Mono": 41.7,
+    "v6.0": 65.8,
+    "v6.5": 71.9
+  },
+  {
+    "Condition": "Sunny",
+    "Mono": 69.8,
+    "v6.0": 72.8,
+    "v6.5": 73.8
+  },
+  {
+    "Condition": "Overcast",
+    "Mono": 67.5,
+    "v6.0": 71.2,
+    "v6.5": 73.1
+  },
+  {
+    "Condition": "Light Rain",
+    "Mono": 61.2,
+    "v6.0": 68.7,
+    "v6.5": 72.5
+  },
+  {
+    "Condition": "Moderate Rain",
+    "Mono": 52.7,
+    "v6.0": 65.3,
+    "v6.5": 70.8
+  },
+  {
+    "Condition": "Dust Storm",
+    "Mono": 48.3,
+    "v6.0": 62.1,
+    "v6.5": 68.7
+  },
+  {
+    "Condition": "Night",
+    "Mono": 45.6,
+    "v6.0": 63.5,
+    "v6.5": 69.2
+  }
+]

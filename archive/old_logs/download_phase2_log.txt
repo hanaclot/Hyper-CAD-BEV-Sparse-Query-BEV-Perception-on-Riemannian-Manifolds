@@ -1,0 +1,19 @@
+16:38:29 === Phase 2: Real Data Download ===
+16:38:29 
+[1/5] KITTI Raw: Downloading drive_0001_sync...
+17:03:34 
+[2/5] KITTI Raw: Calibration files...
+17:03:35   Calibration extracted
+17:03:35 
+[3/5] RELLIS-3D: Metadata + sample paths...
+17:03:36   GitHub API: HTTP Error 404: Not Found
+17:03:36 
+[4/5] TartanDrive 2.0: Sample metadata...
+17:03:37   Got 8 top-level items
+17:03:37 
+[5/5] Waymo: Documentation + metadata...
+17:03:38   Got 8 top-level items
+17:03:38 
+=== Download Phase 2 Complete ===
+17:03:38 KITTI Raw: drive_0001_sync (0.0 MB)
+17:03:38 All metadata JSONs saved to respective data/ subdirs

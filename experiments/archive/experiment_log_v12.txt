@@ -1,0 +1,30 @@
+[15:04:08] ======================================================================
+[15:04:08] V12-FIXED UNIFIED EXPERIMENT
+[15:04:08] ======================================================================
+[15:04:08] PHASE 1: Loading data...
+[15:04:18]   SemanticKITTI: 40 scans
+[15:04:27]   KITTI Raw: 40 scans
+[15:04:30]   nuScenes: 40 scans
+[15:04:30] PHASE 2: Dense PDE Baseline (v6.0 calibration)...
+[15:04:55]   Manifold: GeoErr=2.8 cm, Euclidean: GeoErr=2.9 cm
+[15:04:55] PHASE 3: Sparse Query Reconstruction (250 queries)...
+[15:05:26]   Sparse Raw: PSNR=8.62, EdgeF1=0.3638, GeoErr=27.4 cm
+[15:05:26]   Euclidean:  PSNR=8.95, EdgeF1=0.3952, GeoErr=28.1 cm
+[15:05:26]   Manifold:   PSNR=8.95, EdgeF1=0.3915, GeoErr=28.0 cm
+[15:05:26]   Coverage: 27.4%
+[15:05:26] PHASE 4: Query Strategy Comparison...
+[15:05:37]   Uniform: GeoErr=28.9 cm
+[15:05:50]   Edge-Weighted: GeoErr=28.7 cm
+[15:06:04]   Hessian-Guided: GeoErr=27.4 cm
+[15:06:04] PHASE 5: Cross-Dataset Transfer...
+[15:06:17]   nuscenes: GeoErr=22.4 cm, EdgeF1=0.5726
+[15:06:29]   kitti_raw: GeoErr=33.1 cm, EdgeF1=0.3919
+[15:06:29] PHASE 6: Writing tables...
+[15:06:29] 
+[15:06:29] ======================================================================
+[15:06:29] V12-FIXED COMPLETE in 141.0s!
+[15:06:29]   Dense PDE v6.0: Manifold GeoErr=2.8 cm, Euclidean=2.9 cm
+[15:06:29]   Sparse v6.5:  Manifold GeoErr=28.0 cm, Euclidean=28.1 cm
+[15:06:29]   Manifold advantage: +0.09 cm geo
+[15:06:29]   Strategies: Uniform=28.9, Edge=28.7, Hessian=27.4
+[15:06:29]   Cross: nuScenes GeoErr=22.4, KITTI GeoErr=33.1

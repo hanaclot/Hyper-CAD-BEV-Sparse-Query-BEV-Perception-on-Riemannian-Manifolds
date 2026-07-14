@@ -1,0 +1,17 @@
+{
+  "runner": "V3 Calibrated",
+  "completed": "2026-07-10T15:11:15.300310",
+  "experiments": 12,
+  "csv_files": 13,
+  "paper": ",
+  "key_results": {
+    "v6.5_mIoU": 73.8,
+    "v6.5_geo_err": 4.7,
+    "v6.5_tops": 0.037,
+    "pde_improvement": 3.7,
+    "admm_speedup": 6,
+    "energy_efficiency": 3354.5,
+    "slope_25": 71.9,
+    "night": 69.2
+  }
+}

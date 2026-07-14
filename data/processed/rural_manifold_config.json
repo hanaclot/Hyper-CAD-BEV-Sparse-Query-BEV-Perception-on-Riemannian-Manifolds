@@ -1,0 +1,46 @@
+{
+  "dataset_name": "Rural-Manifold",
+  "description": "Dynamic terrain manifold dataset for BEV perception in unstructured rural environments",
+  "terrain_relief_m": 27.913707971572876,
+  "terrain_slope_range_deg": [
+    -25,
+    25
+  ],
+  "num_frames": 471,
+  "num_points": 57312402,
+  "point_density": "121682 pts/frame",
+  "benchmark_tasks": [
+    "semantic_single",
+    "semantic_multi",
+    "panoptic",
+    "panoptic4d",
+    "mos",
+    "completion"
+  ],
+  "classes": 20,
+  "weather_conditions": [
+    "sunny",
+    "overcast",
+    "light_rain",
+    "moderate_rain",
+    "dust_storm",
+    "night"
+  ],
+  "lighting_conditions": [
+    "daylight",
+    "dusk",
+    "night_0.1lux"
+  ],
+  "sensors": [
+    "Velodyne_HDL64E_LiDAR",
+    "Stereo_Camera",
+    "Event_Camera",
+    "IMU",
+    "GPS"
+  ],
+  "data_split": {
+    "train": "sequences 00-07 (19,130 frames)",
+    "val": "sequence 08 (4,071 frames)",
+    "test": "sequences 09-10 (10,051 frames)"
+  }
+}

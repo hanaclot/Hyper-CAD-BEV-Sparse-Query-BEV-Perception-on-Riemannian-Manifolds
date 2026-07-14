@@ -1,0 +1,53 @@
+{
+  "principle": "ALL data from real public sources. NO synthetic generation whatsoever.",
+  "timestamp": "2026-07-12T14:55:34.136497",
+  "sources": {
+    "terrain_elevation": {
+      "source": "SemanticKITTI Velodyne HDL-64E",
+      "url": "http://semantic-kitti.org/",
+      "description": "471 real LiDAR frames, 57,312,402 points",
+      "z_range_m": [
+        -24.867494583129883,
+        3.046213388442993
+      ],
+      "file": "data/processed/velodyne_frame_stats.json",
+      "size_mb": 90.54
+    },
+    "velodyne_raw_zip": {
+      "source": "SemanticKITTI",
+      "url": "http://semantic-kitti.org/dataset.html",
+      "file": "data/semantickitti/velodyne_laser.zip",
+      "size_mb": 878.37
+    },
+    "sota_benchmarks": {
+      "BEVFormer": "arXiv:2203.17270",
+      "BEVDet": "arXiv:2305.13859",
+      "SparseAD": "arXiv:2404.06892",
+      "event_camera": "arXiv:1711.01458",
+      "loihi_fusion": "arXiv:2408.16096",
+      "weather_robustness": "arXiv:2206.09907"
+    },
+    "rellis3d": {
+      "source": "GitHub API",
+      "url": "https://github.com/unmannedlab/RELLIS-3D",
+      "stars": 437,
+      "file": "data/crawled/rellis3d/github_api.json"
+    },
+    "tartandrive2": {
+      "source": "AirLab website",
+      "url": "https://theairlab.org/TartanDrive2/",
+      "file": "data/crawled/tartandrive2/website.html"
+    },
+    "semantickitti_leaderboard": {
+      "source": "semantic-kitti.org",
+      "entries": 31,
+      "files": [
+        "semantic_single.json",
+        "semantic_multi.json",
+        "panoptic.json"
+      ]
+    }
+  },
+  "total_scraped_arxiv_papers": 365,
+  "total_crawled_directories": 8
+}

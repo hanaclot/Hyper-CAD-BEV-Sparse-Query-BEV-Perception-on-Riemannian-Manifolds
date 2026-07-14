@@ -1,0 +1,35 @@
+[14:26:59] ======================================================================
+[14:26:59] HYPER-CAD-BEV v9 — CONSERVATIVE MANIFOLD PDE EXPERIMENT
+[14:26:59] ======================================================================
+[14:26:59] Config: D_base=0.005, steps=50, dt=0.02, sigma=0.15, reaction=0.08
+[14:26:59] Physics: diff_len=5.0m (10px), D/lambda=0.0625 (reaction dominates 16x)
+[14:26:59] PHASE 1: Loading data...
+[14:27:05]   SemanticKITTI: 50 scans, 50 labeled
+[14:27:05]   nuScenes: 40
+[14:27:05]   KITTI Raw: 40
+[14:27:05] PHASE 2: DENOISING EXPERIMENT (v9 CONSERVATIVE)...
+[14:27:16]   Progress: 10/40 scans
+[14:27:16]     NoPDE=16.96  Euclid=16.96  Manifold=16.96
+[14:27:16]     NoPDE=11.32  Euclid=11.30  Manifold=11.30
+[14:27:26]   Progress: 20/40 scans
+[14:27:26]     NoPDE=16.93  Euclid=16.94  Manifold=16.94
+[14:27:26]     NoPDE=11.36  Euclid=11.34  Manifold=11.34
+[14:27:38]   Progress: 30/40 scans
+[14:27:38]     NoPDE=16.97  Euclid=16.97  Manifold=16.97
+[14:27:38]     NoPDE=11.31  Euclid=11.31  Manifold=11.31
+[14:27:47]   Progress: 40/40 scans
+[14:27:47]     NoPDE=17.01  Euclid=17.01  Manifold=17.01
+[14:27:47]     NoPDE=11.26  Euclid=11.25  Manifold=11.25
+[14:27:47] 
+[14:27:47] ==================================================
+[14:27:47] V9 RESULTS:
+[14:27:47]   No PDE (Noisy):     PSNR=17.01 dB  EdgeF1=0.6995  Smooth=0.2065  GeoErr=11.3 cm
+[14:27:47]   Euclidean PDE:      PSNR=17.01 dB  EdgeF1=0.6987  Smooth=0.2061  GeoErr=11.3 cm
+[14:27:47]   Manifold PDE (v9):  PSNR=17.01 dB  EdgeF1=0.6989  Smooth=0.2062  GeoErr=11.3 cm
+[14:27:47]   Checks: PSNR=[OK], Edge=[OK], Geo=[WARN], Smooth=[OK]
+[14:27:47]   KEY: Manifold vs Noisy Geo: [BETTER ✓]
+[14:27:47]   Geometric Error Reduction: 0.1%
+[14:27:47]   Total diffusion: D*total_time = 0.0050, char_length = 5.0m
+[14:27:53] Generating figures...
+[14:27:58]   [OK] Fig 4 saved
+[14:28:07]   [OK] Fig 5 saved

@@ -1,0 +1,1 @@
+import sys; sys.path.insert(0,'D:/HyperCAD_BEV_2026'); from utils.dataset_loader import SemanticKITTIDataset; ds=SemanticKITTIDataset(); print('Dataset OK:', len(ds), 'frames'); d=ds[0]; print('Shape:', d['points'].shape); print('First 3 points:', d['points'][:3])

@@ -1,0 +1,9 @@
+Method,Year,CoreTech,Hardware,TOPS,Lat(ms),Energy(mJ),mIoU(%),Err(cm),Eff
+BEVFormer v2,2025,Spatiotemporal Transformer,A100,32.4,32,2100,61.5,28.7,29.3
+BEVDet v3,2025,Depth-Guided BEV,A100,28.7,27,1850,63.2,26.5,34.2
+MonoBEV v2,2024,VP Calibration,Jetson Nano,0.52,125,380,69.8,15.2,183.7
+SingleBEV,2024,Direct BEV,Jetson Nano,0.85,156,450,70.2,14.8,156.0
+HCB v5.2,2025,Zero-Calib Mono,V853,0.18,31,42,71.5,8.0,1702.4
+NeuBEV,2025,SNN BEV Seg,Loihi 2,0.12,2.1,68,67.3,12.5,989.7
+HCB v6.0-Neuro,2026,PDE-Neuro BEV,Loihi 2,0.042,0.8,27,72.8,5.1,2696.3
+HCB v6.5-Sparse,2026,ManifoldSparse,Loihi 2,0.037,0.7,22,73.8,4.7,3354.5

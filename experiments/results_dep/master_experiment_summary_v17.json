@@ -1,0 +1,75 @@
+﻿{
+  "script": "v17_real_bridge.py",
+  "key_fix": "manifold.height_field set from REAL BEV terrain (was zeros in v16/v15/v14)",
+  "timestamp": "2026-07-13T19:28:01.276862",
+  "total_runtime_s": 301.3,
+  "model_instantiated": true,
+  "model_params": 14833427,
+  "data_sources": {
+    "semantickitti": {
+      "scans": 40,
+      "verifiable": true
+    },
+    "nuscenes": {
+      "scans": 40,
+      "verifiable": true
+    },
+    "kitti_raw": {
+      "scans": 40,
+      "verifiable": true
+    }
+  },
+  "metrics": {
+    "sparse_raw": {
+      "psnr": 8.77395182969217,
+      "edge_f1": 0.44179981006182045,
+      "geo_err_cm": 27.051212379692643
+    },
+    "euclidean_pde": {
+      "psnr": 36.907437461784035,
+      "edge_f1": 0.8110031731531646,
+      "geo_err_cm": 1.1585546904999384
+    },
+    "manifold_pde_np": {
+      "psnr": 37.450184756968646,
+      "edge_f1": 0.81141576048202,
+      "geo_err_cm": 1.0914516994081584
+    },
+    "manifold_pde_pt": {
+      "psnr": 17.11674901295875,
+      "edge_f1": 0.7939214607434991,
+      "geo_err_cm": 7.599289750534305
+    }
+  },
+  "riemannian_delta_cm": 0.06710299109177997,
+  "per_source": {
+    "SemanticKITTI": {
+      "n": 40,
+      "geo": 1.128186175245353,
+      "edge": 0.7313066002596393,
+      "psnr": 37.16419472900653,
+      "mean_pts": 121352,
+      "mean_slope_std": 0.4871868189881596
+    },
+    "nuScenes": {
+      "n": 40,
+      "geo": 0.90975023380899,
+      "edge": 0.9174751104036509,
+      "psnr": 38.608187359780985,
+      "mean_pts": 34723,
+      "mean_slope_std": 1.411261412292485
+    },
+    "KITTI Raw": {
+      "n": 40,
+      "geo": 1.2364186891701334,
+      "edge": 0.7854655707827695,
+      "psnr": 36.57817218211841,
+      "mean_pts": 121706,
+      "mean_slope_std": 0.5749298409846848
+    }
+  },
+  "ablation_conclusion": "Manifold PDE improves over Sparse Raw by 26.0cm. Riemannian correction = 0.07cm.",
+  "tables_count": 10,
+  "figs_count": 3,
+  "data_provenance": "ALL metrics from REAL LiDAR .bin/.pcd.bin files. No synthetic data."
+}

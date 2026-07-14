@@ -1,0 +1,7 @@
+Module,mIoU(%),Err(cm),Category
+Full v6.5,73.8,4.7,Full
+w/o Riemannian,71.3,28.0,Ablation
+w/o PDE,70.1,31.0,Ablation
+w/o ADMM,68.7,12.3,Ablation
+w/o Neuromorphic,69.2,8.9,Ablation
+w/o Dynamic Query,73.5,4.9,Ablation

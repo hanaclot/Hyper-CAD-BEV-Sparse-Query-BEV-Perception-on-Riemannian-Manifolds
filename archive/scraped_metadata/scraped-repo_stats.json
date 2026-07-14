@@ -1,0 +1,21 @@
+{
+  "stargazers_count": 437,
+  "forks_count": 59,
+  "open_issues_count": 38,
+  "description": "RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics",
+  "language": "Jupyter Notebook",
+  "size": 80141,
+  "created_at": "2020-10-22T04:00:15Z",
+  "updated_at": "2026-06-30T02:03:47Z",
+  "pushed_at": "2022-11-23T17:49:25Z",
+  "topics": [
+    "3d-segmentation",
+    "dataset",
+    "image-segmentation",
+    "lidar",
+    "off-road",
+    "ros-bag",
+    "semantic-segmentation"
+  ],
+  "license": null
+}

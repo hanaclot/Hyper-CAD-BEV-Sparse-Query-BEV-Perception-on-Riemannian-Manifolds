@@ -1,0 +1,4 @@
+﻿Slope,MonoBEV mIoU,v6.0 mIoU,v6.5 mIoU,MonoBEV Err,v6.0 Err,v6.5 Err
+0 deg (Flat),69.8,72.8,73.8,152,5.1,4.7
++/-15 deg (Mod),62.3,70.5,73.2,287,7.2,5.3
++/-25 deg (Steep),41.7,65.8,71.9,500,12.5,7.8

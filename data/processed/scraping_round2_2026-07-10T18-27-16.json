@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-07-10T18:27:16.239879",
+  "results": {
+    "tartandrive2": {
+      "status": "OK",
+      "size": 24055,
+      "stats": "[]"
+    },
+    "semantickitti_benchmarks": {
+      "status": "OK",
+      "size": 65891,
+      "leaderboards": 80
+    },
+    "rellis3d": {
+      "status": "OK",
+      "stars": 437,
+      "forks": 59
+    }
+  }
+}

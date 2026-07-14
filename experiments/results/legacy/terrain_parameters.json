@@ -1,0 +1,49 @@
+{
+  "source": "Extracted from RELLIS-3D (GitHub API) and TartanDrive2 (website)",
+  "datasets": {
+    "rellis3d": {
+      "description": "Off-road terrain dataset with semantic labels",
+      "terrain_types": [
+        "dirt",
+        "grass",
+        "gravel",
+        "asphalt",
+        "mud",
+        "bush",
+        "tree",
+        "pole",
+        "fence",
+        "water",
+        "sky"
+      ],
+      "num_classes": 20,
+      "resolution": "1920x1200 @ 30Hz (ZED stereo)",
+      "lidar": "OS1-64 LiDAR",
+      "gps": "RTK-GPS for ground truth",
+      "source_url": "https://github.com/unmannedlab/RELLIS-3D"
+    },
+    "tartandrive2": {
+      "description": "High-speed off-road dynamic scenarios with geometric modeling",
+      "speed_range": "0-15 m/s",
+      "terrain_types": [
+        "gravel",
+        "dirt",
+        "grass",
+        "mud",
+        "snow"
+      ],
+      "sensors": [
+        "LiDAR",
+        "stereo",
+        "IMU",
+        "GPS"
+      ],
+      "source_url": "https://theairlab.org/TartanDrive2/"
+    }
+  },
+  "slope_angles": {
+    "0_deg": "Flat terrain - reference baseline",
+    "15_deg": "Moderate slope - common in rural roads",
+    "25_deg": "Steep slope - extreme off-road condition"
+  }
+}

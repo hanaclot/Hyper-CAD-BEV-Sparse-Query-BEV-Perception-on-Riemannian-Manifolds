@@ -1,0 +1,356 @@
+{
+  "acquired": {
+    "files": 94,
+    "size_mb": 96.6,
+    "size_gb": 0.094,
+    "max_file_kb": 24983.0,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".xml": 23,
+      ".pdf": 21,
+      ".html": 20,
+      ".json": 19,
+      ".tmp": 8
+    }
+  },
+  "arxiv_supplementary": {
+    "files": 30,
+    "size_mb": 121.76,
+    "size_gb": 0.119,
+    "max_file_kb": 24983.0,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".pdf": 30
+    }
+  },
+  "bevformer": {
+    "files": 2,
+    "size_mb": 4.52,
+    "size_gb": 0.004,
+    "max_file_kb": 4628.7,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".xml": 1,
+      ".pdf": 1
+    }
+  },
+  "bevformer_paper": {
+    "files": 4,
+    "size_mb": 4.57,
+    "size_gb": 0.004,
+    "max_file_kb": 4628.7,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".xml": 1,
+      ".html": 1,
+      ".json": 1,
+      ".pdf": 1
+    }
+  },
+  "crawled": {
+    "files": 110,
+    "size_mb": 2.26,
+    "size_gb": 0.002,
+    "max_file_kb": 206.0,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".json": 45,
+      ".xml": 41,
+      ".html": 14
+    }
+  },
+  "event_camera": {
+    "files": 6,
+    "size_mb": 2.09,
+    "size_gb": 0.002,
+    "max_file_kb": 805.2,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".pdf": 3,
+      ".xml": 1,
+      ".html": 1,
+      ".json": 1
+    }
+  },
+  "external_sensors": {
+    "files": 2,
+    "size_mb": 0.0,
+    "size_gb": 0.0,
+    "max_file_kb": 0.5,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".json": 1,
+      ".txt": 1
+    }
+  },
+  "github_repos": {
+    "files": 28,
+    "size_mb": 391.94,
+    "size_gb": 0.383,
+    "max_file_kb": 191554.2,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".zip": 21,
+      ".html": 7
+    }
+  },
+  "kitti": {
+    "files": 2,
+    "size_mb": 1.14,
+    "size_gb": 0.001,
+    "max_file_kb": 586.2,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".zip": 2
+    }
+  },
+  "kitti_raw": {
+    "files": 14,
+    "size_mb": 5409.46,
+    "size_gb": 5.283,
+    "max_file_kb": 1749281.3,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".tmp": 12,
+      ".json": 1,
+      ".txt": 1
+    }
+  },
+  "loihi_fusion": {
+    "files": 5,
+    "size_mb": 0.17,
+    "size_gb": 0.0,
+    "max_file_kb": 94.7,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".html": 2,
+      ".xml": 1,
+      ".txt": 1,
+      ".json": 1
+    }
+  },
+  "nuscenes": {
+    "files": 15,
+    "size_mb": 4006.38,
+    "size_gb": 3.912,
+    "max_file_kb": 4070015.9,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".json": 14,
+      ".tgz": 1
+    }
+  },
+  "processed": {
+    "files": 34,
+    "size_mb": 97.4,
+    "size_gb": 0.095,
+    "max_file_kb": 92710.3,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".json": 21,
+      ".csv": 8,
+      ".png": 4,
+      ".npz": 1
+    }
+  },
+  "raw": {
+    "files": 104,
+    "size_mb": 23.08,
+    "size_gb": 0.023,
+    "max_file_kb": 18989.0,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".py": 53,
+      ".html": 11,
+      ".json": 9,
+      ".jpg": 8,
+      ".sh": 6
+    }
+  },
+  "rellis3d": {
+    "files": 114,
+    "size_mb": 22.44,
+    "size_gb": 0.022,
+    "max_file_kb": 18989.0,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".py": 47,
+      ".yaml": 18,
+      ".jpg": 8,
+      ".sh": 5,
+      ".cpp": 4
+    }
+  },
+  "rellis3d_data": {
+    "files": 1,
+    "size_mb": 0.01,
+    "size_gb": 0.0,
+    "max_file_kb": 8.2,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".json": 1
+    }
+  },
+  "scraped": {
+    "files": 3805,
+    "size_mb": 461.22,
+    "size_gb": 0.45,
+    "max_file_kb": 74834.9,
+    "has_pointcloud": true,
+    "has_labels": true,
+    "top_extensions": {
+      ".xml": 38,
+      ".json": 24,
+      ".html": 20,
+      ".pdf": 11,
+      ".txt": 4
+    }
+  },
+  "semantickitti": {
+    "files": 7455,
+    "size_mb": 4821.4,
+    "size_gb": 4.708,
+    "max_file_kb": 676855.1,
+    "has_pointcloud": true,
+    "has_labels": true,
+    "top_extensions": {
+      ".label": 86,
+      ".txt": 8,
+      ".html": 4,
+      ".json": 1,
+      ".zip": 1
+    }
+  },
+  "semantickitti_extracted": {
+    "files": 944,
+    "size_mb": 1751.04,
+    "size_gb": 1.71,
+    "max_file_kb": 1996.7,
+    "has_pointcloud": true,
+    "has_labels": false,
+    "top_extensions": {
+      ".bin": 100
+    }
+  },
+  "semantickitti_official": {
+    "files": 29284,
+    "size_mb": 26290.53,
+    "size_gb": 25.674,
+    "max_file_kb": 3200722.0,
+    "has_pointcloud": true,
+    "has_labels": true,
+    "top_extensions": {
+      ".bin": 91,
+      ".zip": 4,
+      ".tmp": 3,
+      ".part": 2
+    }
+  },
+  "sparsead": {
+    "files": 3,
+    "size_mb": 25.44,
+    "size_gb": 0.025,
+    "max_file_kb": 24983.0,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".xml": 1,
+      ".pdf": 1,
+      ".html": 1
+    }
+  },
+  "sparsead_paper": {
+    "files": 6,
+    "size_mb": 2.79,
+    "size_gb": 0.003,
+    "max_file_kb": 1583.6,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".html": 2,
+      ".xml": 1,
+      ".txt": 1,
+      ".json": 1,
+      ".pdf": 1
+    }
+  },
+  "tartandrive2": {
+    "files": 6,
+    "size_mb": 0.13,
+    "size_gb": 0.0,
+    "max_file_kb": 41.1,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".html": 4,
+      ".json": 2
+    }
+  },
+  "tartandrive2_data": {
+    "files": 3,
+    "size_mb": 0.01,
+    "size_gb": 0.0,
+    "max_file_kb": 7.8,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".json": 2,
+      ".txt": 1
+    }
+  },
+  "waymo": {
+    "files": 3,
+    "size_mb": 0.01,
+    "size_gb": 0.0,
+    "max_file_kb": 9.2,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".json": 2,
+      ".txt": 1
+    }
+  },
+  "weather_arxiv": {
+    "files": 3,
+    "size_mb": 2.69,
+    "size_gb": 0.003,
+    "max_file_kb": 2707.8,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".xml": 1,
+      ".html": 1,
+      ".pdf": 1
+    }
+  },
+  "weather_paper": {
+    "files": 4,
+    "size_mb": 2.69,
+    "size_gb": 0.003,
+    "max_file_kb": 2707.8,
+    "has_pointcloud": false,
+    "has_labels": false,
+    "top_extensions": {
+      ".xml": 1,
+      ".html": 1,
+      ".json": 1,
+      ".pdf": 1
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "fast_bev",
+  "arxiv_id": "2512.08237",
+  "title": "Fast-BEV++: Fast by Algorithm, Deployable by Design",
+  "abstract": "The advancement of vision-only Bird's-Eye-View (BEV) perception, a core paradigm for cost-effective autonomous driving, is hindered by the long-standing fundamental trade-off between perception accuracy and on-device deployment efficiency. In this work, we introduce Fast-BEV++, a BEV perception framework that resolves this tension through two fundamental design principles: Fast by Algorithm and Deployable by Design. By decomposing the core view transformation module into a hardware-oriented standard Index-Gather-Reshape pipeline, Fast-BEV++ eliminates dependencies on custom kernels while achieving no less than 3 times speedup over the Fast-BEV baseline across mainstream edge platforms. Empirically, Fast-BEV++ establishes a new state-of-the-art result of 0.488 NDS on the nuScenes 3D object detection benchmark, simultaneously delivering real-time inference at more than 134 FPS via our acceleration design. In particular, our integrated, learnable depth module yields consistent performance gains, maintaining the highest accuracy among comparable methods. Overall, this inherently decomposed architecture enables seamless real-time deployment across diverse production-grade automotive platforms, alleviating hardware limitations without compromising perception accuracy or inference efficiency.",
+  "published": "2025-12-09T04:37:46Z",
+  "category": "",
+  "authors": [
+    "Yuanpeng Chen",
+    "Hui Song",
+    "Sheng Yang",
+    "Wei Tao",
+    "Shanhui Mo",
+    "Shuang Zhang",
+    "Xiao Hua",
+    "Tiankun Zhao"
+  ],
+  "comments": "most up-to-date version"
+}

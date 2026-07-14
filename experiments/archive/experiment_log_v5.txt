@@ -1,0 +1,30 @@
+[20:03:04] ======================================================================
+[20:03:04] HYPER-CAD-BEV v6.5-Sparse DEEP EXPERIMENT (v5: FIXED PDE)
+[20:03:04] ======================================================================
+[20:03:04] Phase 1: Loading data...
+[20:03:04]   Velo dir: exists=True, Label dir: exists=True
+[20:03:15]   SemanticKITTI: 40 scans loaded, 40 labeled
+[20:03:20]   nuScenes: 30, KITTI Raw: 30
+[20:03:20] Phase 2: BEV projection...
+[20:03:20] Phase 4: PDE solving (FIXED manifold diffusion)...
+[20:03:20]   Euclidean: div(D * grad u)
+[20:03:20]   Manifold:  (1/sqrt(g)) * div(D * sqrt(g) * g^{-1} * grad u)
+[20:03:20] ======================================================================
+[20:03:20] RUNNING ALL EXPERIMENTS
+[20:03:20] ======================================================================
+[20:03:20] TABLE II: PDE Ablation...
+[20:04:25]   No PDE:      ReconErr=0.0000, EdgePres=1.0000, Smooth=0.0139
+[20:04:25]   Euclidean:   ReconErr=0.3003, EdgePres=0.0373, Smooth=0.4051
+[20:04:25]   Manifold:    ReconErr=0.1350, EdgePres=-0.0545, Smooth=0.1805
+[20:04:25]   EdgePres check: [WARN]
+[20:04:25]   Smoothness check: [WARN]
+[20:04:25] TABLE III: Optimizer Convergence...
+[20:04:25]   Gradient Descent    :   1 iters, MSE=0.0000, 0.0s
+[20:04:25]   Standard ADMM       :   1 iters, MSE=0.0000, 0.0s
+[20:04:25]   Manifold-ADMM       :   1 iters, MSE=0.0000, 0.0s
+[20:04:25] TABLE I: Dataset Statistics...
+[20:04:25] Writing CSV files...
+[20:04:39]   [OK] All 10 CSVs written
+[20:04:39] Generating figures...
+[20:04:47]   [OK] Fig 4 saved
+[20:05:00]   [OK] Fig 5 saved

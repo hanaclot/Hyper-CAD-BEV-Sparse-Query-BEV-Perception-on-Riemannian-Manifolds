@@ -1,0 +1,7 @@
+[
+  "http://www.cvlibs.net/download.php?file=data_odometry_velodyne.zip",
+  "http://semantic-kitti.org/assets/data_odometry_voxels.zip",
+  "http://semantic-kitti.org/assets/data_odometry_voxels_all.zip",
+  "http://www.cvlibs.net/download.php?file=data_odometry_calib.zip",
+  "http://semantic-kitti.org/assets/data_odometry_labels.zip"
+]

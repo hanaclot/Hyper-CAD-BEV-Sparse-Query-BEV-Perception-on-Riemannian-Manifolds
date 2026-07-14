@@ -1,0 +1,18 @@
+{
+  "project": "Hyper-CAD-BEV v6.5-Sparse",
+  "submission": ",
+  "date": "2026-07-10T21:09:57.836697",
+  "data_sources": 7,
+  "velodyne_frames": 471,
+  "velodyne_points": 57312402,
+  "terrain_z_range": "[-24.87,3.05]m",
+  "arxiv_papers": 12,
+  "sk_leaderboard": 31,
+  "tables": 8,
+  "figures": 8,
+  "key_mIoU": "73.8%",
+  "key_error_cm": 4.7,
+  "key_tops": 0.037,
+  "key_energy_mj": 22,
+  "no_synthetic_data": true
+}

@@ -1,0 +1,45 @@
+v17_real_bridge.py
+============================================================
+Timestamp: 2026-07-13T19:28:01.275353
+Total runtime: 301.3s
+KEY FIX: manifold.height_field set from REAL terrain data
+Model: HyperCADBEVv65Sparse instantiated with 14,833,427 params
+
+[19:22:59] ======================================================================
+[19:22:59] HYPER-CAD-BEV v17 — BRIDGE: Real PyTorch Model + Real Terrain Metric
+[19:22:59] ======================================================================
+[19:22:59] PHASE 1: Loading real LiDAR scans...
+[19:23:02]   SemanticKITTI: 40 scans
+[19:23:02]   nuScenes: 40 scans
+[19:23:02]   KITTI Raw: 40 scans
+[19:23:02]   TOTAL: 120 real scans
+[19:23:15]   BEV projection: 120 grids
+[19:23:15] PHASE 2: Loading Core PyTorch Model Components...
+[19:23:19]   HyperCADBEVv65Sparse instantiated: 14,833,427 params
+[19:23:19]   All 8 submodules accessible: manifold, ibev, pde, admm, neuro, sg_net, scheduler
+[19:23:19]   PDE 1-channel solver created (for height map reconstruction)
+[19:23:19] PHASE 3: Metric tensor + Sparse queries + PDE reconstruction...
+[19:23:19] PHASE 4: Running 4-method ablation on all scans...
+[19:23:19]   [1/120] SK_000008 (SemanticKITTI)
+[19:23:56]   [20/120] SK_000191 (SemanticKITTI)
+[19:24:35]   [40/120] SK_000429 (SemanticKITTI)
+[19:25:18]   [60/120] NS_n008-2018-08-01-15-16-36-0400__LIDAR_TOP__1533151612897588.pcd (nuScenes)
+[19:26:08]   [80/120] NS_n008-2018-08-01-15-16-36-0400__LIDAR_TOP__1533151622948227.pcd (nuScenes)
+[19:27:00]   [100/120] KR_0000000019 (KITTI Raw)
+[19:27:50]   [120/120] KR_0000000039 (KITTI Raw)
+[19:27:52]   ── RESULTS ──
+[19:27:52]   Sparse Raw:        PSNR=8.8dB  EdgeF1=0.4418  GeoErr=27.1cm
+[19:27:52]   Euclidean PDE:     PSNR=36.9dB  EdgeF1=0.8110  GeoErr=1.2cm
+[19:27:52]   Manifold PDE (NP): PSNR=37.5dB  EdgeF1=0.8114  GeoErr=1.1cm
+[19:27:52]   Δ(Euclidean - Manifold NP) = 0.07cm  [SIGNIFICANT ]
+[19:27:52]   Manifold PDE (PT): PSNR=17.1dB  EdgeF1=0.7939  GeoErr=7.6cm
+[19:27:52] PHASE 5: Per-source analysis...
+[19:27:52]   SemanticKITTI: n=40 GeoErr=1.13cm EdgeF1=0.7313 slope_std=0.4872
+[19:27:52]   nuScenes: n=40 GeoErr=0.91cm EdgeF1=0.9175 slope_std=1.4113
+[19:27:52]   KITTI Raw: n=40 GeoErr=1.24cm EdgeF1=0.7855 slope_std=0.5749
+[19:27:52] PHASE 6: Generating CSVs...
+[19:27:52] PHASE 7: Generating FIGs...
+[19:27:54]   FIG 4 saved
+[19:28:01]   FIG 5 saved
+[19:28:01]   FIG 6 saved
+[19:28:01] DONE: 301.3s

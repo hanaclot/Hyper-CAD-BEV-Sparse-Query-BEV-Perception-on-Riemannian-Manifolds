@@ -1,0 +1,8 @@
+Dataset,Sequences,Frames,Sensor,Classes,Terrain,Size
+SemanticKITTI (Primary),1,200,Velodyne HDL-64E,20,Urban+Rural,19.4 GB
+nuScenes v1.0-mini,~10 scenes,404 LiDAR + 2424 imgs,LiDAR+6Cam+Radar,23,Urban,4.0 GB
+RELLIS-3D,5 (ref),13,556 (ref),LiDAR+RGB+IMU,20 (ref),Off-road,~60 GB (ref)
+TartanDrive 2.0,~20 traj (ref),Multimodal (ref),LiDAR+IMU+GPS,N/A,Off-road,~200 GB (ref)
+KITTI Raw,1 seq (partial),1 sync drive,Stereo+LiDAR,8,Urban,32 MB (incomplete zip)
+Waymo Open,(metadata),200,000 (ref),5LiDAR+5Cam,4,Urban,~1.4 TB (ref)
+Event Camera DVS,(web page),Event streams (ref),DVS346,N/A,Urban,~100 GB (ref)

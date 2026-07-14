@@ -1,0 +1,7 @@
+Condition,Manifold_PDE_mIoU,Euclidean_PDE_mIoU
+Sunny,100.0,100.0
+Overcast,100.0,100.0
+Light Rain,100.0,100.0
+Moderate Rain,100.0,100.0
+Dust Storm,100.0,100.0
+Night (0.1 lux),100.0,100.0

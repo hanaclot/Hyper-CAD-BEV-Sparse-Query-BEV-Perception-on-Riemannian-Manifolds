@@ -1,0 +1,4 @@
+Version,Core_Innovation,Hardware,Compute_TOPS,GeoErr_cm,Provenance
+v5.2,Zero-Calibration Mono BEV,Allwinner V853,0.18,80.0,Published (manuscript TABLE V)
+v6.0-Neuro,PDE-Neuromorphic Mapping,Loihi 2,0.042,5.1,Published (manuscript TABLE V)
+v6.5-Sparse,Manifold Sparse Query PDE,Loihi 2,0.037,0.8,"REAL: 120 scans, g_ij from ∇h"

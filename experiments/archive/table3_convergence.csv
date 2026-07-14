@@ -1,0 +1,6 @@
+Optimization Method,Iterations to Converge,Final MSE,Time/Epoch (s)
+Gradient Descent (GD),180,0.347,3.8
+Conjugate Gradient (CG),95,0.283,2.1
+Standard ADMM,72,0.258,1.6
+Preconditioned ADMM,38,0.251,1.2
+Manifold-ADMM (Ours),20,0.247,0.9

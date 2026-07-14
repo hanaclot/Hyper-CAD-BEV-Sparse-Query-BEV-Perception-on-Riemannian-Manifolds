@@ -1,0 +1,52 @@
+{
+  "SK_labels": {
+    "status": "ok",
+    "size": "179.3MB",
+    "url": "http://semantic-kitti.org/assets/data_odometry_labels.zip"
+  },
+  "SK_voxels": {
+    "status": "ok",
+    "size": "694.0MB",
+    "url": "http://semantic-kitti.org/assets/data_odometry_voxels.zip"
+  },
+  "SK_voxels_all": {
+    "status": "ok",
+    "size": "3277.5MB",
+    "url": "http://semantic-kitti.org/assets/data_odometry_voxels_all.zip"
+  },
+  "KITTI_calib": {
+    "status": "ok",
+    "size": "unknown",
+    "url": "http://www.cvlibs.net/download.php?file=data_odometry_calib.zip"
+  },
+  "KITTI_velodyne_all": {
+    "status": "ok",
+    "size": "unknown",
+    "url": "http://www.cvlibs.net/download.php?file=data_odometry_velodyne.zip"
+  },
+  "weather_paper": {
+    "status": "ok",
+    "size": "2.8MB",
+    "url": "https://arxiv.org/pdf/2206.09907.pdf"
+  },
+  "event_camera": {
+    "status": "ok",
+    "size": "0.8MB",
+    "url": "https://arxiv.org/pdf/1711.01458.pdf"
+  },
+  "sparsead": {
+    "status": "ok",
+    "size": "25.6MB",
+    "url": "https://arxiv.org/pdf/2404.06892.pdf"
+  },
+  "bevformer": {
+    "status": "ok",
+    "size": "4.7MB",
+    "url": "https://arxiv.org/pdf/2203.17270.pdf"
+  },
+  "loihi_fusion": {
+    "status": "ok",
+    "size": "0.9MB",
+    "url": "https://arxiv.org/pdf/2408.16096.pdf"
+  }
+}

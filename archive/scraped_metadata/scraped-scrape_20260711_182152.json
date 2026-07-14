@@ -1,0 +1,143 @@
+{
+  "start": "2026-07-11T18:21:52.618152",
+  "items": [
+    {
+      "desc": "arxiv:2408.16096_LoihiFusion",
+      "size": 930751,
+      "status": "ok"
+    },
+    {
+      "desc": "arxiv:2311.11722_Sparse4D",
+      "size": 1095915,
+      "status": "ok"
+    },
+    {
+      "desc": "arxiv:2308.09244_SparseBEV",
+      "size": 4109737,
+      "status": "ok"
+    },
+    {
+      "desc": "arxiv:2112.11790_BEVDet",
+      "size": 583501,
+      "status": "ok"
+    },
+    {
+      "desc": "arxiv:2206.10092_BEVDepth",
+      "size": 3205271,
+      "status": "ok"
+    },
+    {
+      "desc": "arxiv:2211.12786_PolarBEV",
+      "size": 7474240,
+      "status": "ok"
+    },
+    {
+      "desc": "arxiv:2110.06922_DETR3D",
+      "size": 22869087,
+      "status": "ok"
+    },
+    {
+      "desc": "arxiv:1912.08432_EventSurvey",
+      "size": 1737670,
+      "status": "ok"
+    },
+    {
+      "desc": "arxiv:2106.12978_NeRF",
+      "size": 277299,
+      "status": "ok"
+    },
+    {
+      "desc": "arxiv:2304.12345_PETRv2",
+      "size": 2577170,
+      "status": "ok"
+    },
+    {
+      "desc": "gh:RELLIS-3D",
+      "size": 76630905,
+      "status": "ok"
+    },
+    {
+      "desc": "gh:SemanticKITTI-API",
+      "size": 74366,
+      "status": "ok"
+    },
+    {
+      "desc": "gh:BEVFormer",
+      "size": 825450,
+      "status": "ok"
+    },
+    {
+      "desc": "gh:OpenPCDet",
+      "size": 2256663,
+      "status": "ok"
+    },
+    {
+      "desc": "gh:mmdetection3d",
+      "size": 10790938,
+      "status": "ok"
+    },
+    {
+      "desc": "gh:Sparse4D",
+      "size": 3974327,
+      "status": "ok"
+    },
+    {
+      "desc": "gh:nuscenes-devkit",
+      "size": 800211,
+      "status": "ok"
+    },
+    {
+      "desc": "gh:TorchSparse",
+      "size": 935566,
+      "status": "ok"
+    },
+    {
+      "desc": "gh:BEVDepth",
+      "size": 2627449,
+      "status": "ok"
+    },
+    {
+      "desc": "kitti:devkit",
+      "size": 16798,
+      "status": "ok"
+    },
+    {
+      "desc": "kitti:labels",
+      "status": "http_404"
+    },
+    {
+      "desc": "web:semantickitti_home",
+      "size": 15305,
+      "status": "ok"
+    },
+    {
+      "desc": "web:rellis3d_home",
+      "size": 370102,
+      "status": "ok"
+    },
+    {
+      "desc": "web:tartandrive2_paper",
+      "size": 24055,
+      "status": "ok"
+    },
+    {
+      "desc": "web:kitti_home",
+      "size": 19499,
+      "status": "ok"
+    },
+    {
+      "desc": "web:nuscenes_home",
+      "size": 6427,
+      "status": "ok"
+    },
+    {
+      "desc": "web:waymo_open",
+      "status": "failed"
+    },
+    {
+      "desc": "web:event_camera_home",
+      "size": 281868,
+      "status": "ok"
+    }
+  ]
+}

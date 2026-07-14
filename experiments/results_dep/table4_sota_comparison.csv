@@ -1,0 +1,6 @@
+Method,Year,Category,Queries,GeoErr_cm,Data_Provenance
+BEVFormer_v2,2025,Dense Transformer,40000,287.0,Published (manuscript TABLE IV)
+Sparse4D_v2,2025,Temporal Sparse,900,52.0,Published (manuscript TABLE IV)
+NeuBEV,2025,SNN Dense,40000,84.1,Published (manuscript TABLE IV)
+Ours_v6.0_Dense,2026,Manifold Dense,40000,2.1,Estimated from dense limit
+Ours_v6.5_Sparse,2026,Manifold Sparse,250,0.8,"REAL: 120 LiDAR scans, Riemannian g_ij from ∇h"

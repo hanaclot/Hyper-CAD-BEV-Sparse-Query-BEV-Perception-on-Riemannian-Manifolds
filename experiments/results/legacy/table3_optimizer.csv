@@ -1,0 +1,4 @@
+﻿Method,Iterations,Final MSE,Time/Epoch(s),Total(s)
+Gradient Descent,120,1.0,0.004,0.48
+Standard ADMM,65,3.4816,0.0008,0.05
+Manifold-ADMM,20,7.2673,0.0039,0.08

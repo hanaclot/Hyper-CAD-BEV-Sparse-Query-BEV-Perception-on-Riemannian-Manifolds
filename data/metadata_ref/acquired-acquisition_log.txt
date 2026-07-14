@@ -1,0 +1,33 @@
+[12:16:23] === Phase 1: arXiv Core Papers ===
+[12:16:24]   arXiv BEVFormer (2203.17270): BEVFormer: Learning Bird's-Eye-View Representation from Mult...
+[12:16:26]   arXiv SparseAD (2404.06892): SparseAD: Sparse Query-Centric Paradigm for Efficient End-to...
+[12:16:27]   arXiv EventCamera (1711.01458): DDD17: End-To-End DAVIS Driving Dataset...
+[12:16:28]   arXiv LoihiFusion (2408.16096): Accelerating Sensor Fusion in Neuromorphic Computing: A Case...
+[12:16:29]   arXiv WeatherRobustness (2206.09907): ORFD: A Dataset and Benchmark for Off-Road Freespace Detecti...
+[12:16:31]   arXiv SparseBEV (2303.08605): RICO: Regularizing the Unobservable for Indoor Compositional...
+[12:16:32]   arXiv Sparse4D (2311.11722): Sparse4D v3: Advancing End-to-End 3D Detection and Tracking...
+[12:16:34]   arXiv BEVDet (2112.11790): BEVDet: High-performance Multi-camera 3D Object Detection in...
+[12:16:36]   arXiv MonoBEV (2403.12345): Performance Portable Monte Carlo Particle Transport on Intel...
+[12:16:37] === Phase 2: SemanticKITTI Benchmark ===
+[12:16:38]   Main page: 200, 15305 bytes
+[12:16:38]   Tasks page: 200, 65892 bytes
+[12:16:38] === Phase 3: RELLIS-3D GitHub ===
+[12:16:39]   Repo: unmannedlab/RELLIS-3D, stars=437, forks=59, size=80141
+[12:16:40]   README: 25015 chars base64
+[12:16:40] === Phase 4: TartanDrive2 ===
+[12:16:41]   Main page: 200, 24055 bytes
+[12:16:42]   TartanDrive2: FAIL ? 400 Client Error: Bad Request for url: https://export.arxiv.org/api/query?id_list=TartanDrive%202.0&max_results=5
+[12:16:42] === Phase 5: Extended arXiv Literature ===
+[12:16:43]   Query 'BEV perception autonomous driving semantic segment...': 10 papers
+[12:16:46]   Query 'sparse query object detection bird eye view...': 10 papers
+[12:16:49]   Query 'neuromorphic computing autonomous driving percepti...': 10 papers
+[12:16:52]   Query 'Riemannian manifold deep learning computer vision...': 10 papers
+[12:16:56]   Query 'event camera low light autonomous driving percepti...': 10 papers
+[12:16:59]   Query 'multi-sensor fusion edge device autonomous driving...': 10 papers
+[12:17:03]   Query 'terrain perception off-road unstructured neural fi...': 10 papers
+[12:17:07]   Query 'implicit neural representation 3D scene understand...': 10 papers
+[12:17:11]   Query 'geometric deep learning manifold optimization ADMM...': 10 papers
+[12:17:15]   Query 'reaction diffusion equation computer vision...': 10 papers
+[12:17:17]   Total unique extended papers: 78
+[12:17:17] === Phase 6: Building CSV Indexes ===
+[12:17:17]   Papers CSV: 87 rows -> E:\Hyper-CAD-BEV-Experiments\data\acquired\papers_index.csv

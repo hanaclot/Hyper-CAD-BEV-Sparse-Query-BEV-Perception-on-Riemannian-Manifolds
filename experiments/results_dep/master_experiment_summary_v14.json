@@ -1,0 +1,41 @@
+{
+  "script": "v14_e2e.py",
+  "timestamp": "2026-07-13T16:01:20.914976",
+  "model_loaded": true,
+  "data_source": "SemanticKITTI sequence 00",
+  "num_scans": 50,
+  "bev_grid": "200x200 @ 0.50m res",
+  "num_queries": 250,
+  "pde_steps": 200,
+  "diffusion_base": 0.05,
+  "sparse_raw": {
+    "psnr": 8.661031129632514,
+    "edge_f1": 0.3641396807209024,
+    "geo_err_cm": 27.302969117144073
+  },
+  "euclidean_pde": {
+    "psnr": 8.972668156619978,
+    "edge_f1": 0.4009646171931719,
+    "geo_err_cm": 27.984632176271724
+  },
+  "manifold_pde": {
+    "psnr": 8.978698483124862,
+    "edge_f1": 0.3914316712349928,
+    "geo_err_cm": 27.74732381114334
+  },
+  "dense_manifold_geoerr": 2.106069386201969,
+  "dense_euclidean_geoerr": 2.389531082855167,
+  "query_strategies": {
+    "uniform": 28.0846907058267,
+    "edge_weighted": 27.79502187196573,
+    "hessian_guided": 27.98607024411615
+  },
+  "model_info": {
+    "version": "v6.5-Sparse",
+    "parameters": 15313403,
+    "hardware_claimed": "Loihi 2",
+    "tops_claimed": 0.037,
+    "energy_claimed_mJ": 22,
+    "data_source_note": "Intel Loihi 2 published specifications [Davies et al., 2021]"
+  }
+}

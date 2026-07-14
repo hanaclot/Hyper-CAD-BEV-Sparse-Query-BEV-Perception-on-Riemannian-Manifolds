@@ -1,0 +1,16 @@
+Experiment,Metric,Best Value,Baseline/Comparison,Improvement,Conclusion
+TABLE II,mIoU,73.8% (Manifold PDE),70.1% (No PDE),+3.7pp,Riemannian manifold is essential
+TABLE II,Geo Error,4.7 cm,31.0 cm,-84.8%,Manifold PDE eliminates geometric distortion
+TABLE III,Convergence,20 iters (M-ADMM),120 iters (GD),6x faster,Manifold constraints accelerate opt
+TABLE IV,Energy Eff,3354.5 mIoU/J,29.3 mIoU/J (BEVFormer),114x,Dominates edge deployment
+TABLE IV,Compute,0.037 TOPS,32.4 TOPS (BEVFormer),876x less,Sparse query reduces compute
+TABLE V,Version Evolution,"v6.5: 73.8%, 4.7cm","v5.2: 71.5%, 80cm",-94.1% error,Three generations of optimization
+TABLE VI(a),Critical Module,Riemannian manifold,Remove -> +495.7% err,N/A,Manifold is accuracy foundation
+TABLE VI(b),Query Efficiency,250 queries (SG-Net),40000 queries (Dense),160x fewer,Near-dense accuracy w/ sparse
+TABLE VI(c),Slope Robustness,71.9% at 25deg,41.7% at 25deg (Mono),+30.2pp,Manifold PDE handles curved terrain
+TABLE VI(d),Night Robustness,69.2% (v6.5),45.6% (MonoBEV),+23.6pp,Event camera + SNN for low light
+TABLE VI(d),Dust Storm,68.7% (v6.5),48.3% (MonoBEV),+20.4pp,PDE regularization resists noise
+Fig 4(a),Pareto Frontier,v6.5 dominates all,All 7 baselines,N/A,Breaks accuracy-efficiency frontier
+Fig 4(b),Module Ranking,Riemannian > ADMM > PDE,N/A,N/A,Quantifies module contributions
+Fig 4(c),Slope Degradation,v6.5: -2.6% at 25deg,MonoBEV: -40.3% at 25deg,15.5x better,Manifold slope invariance
+Fig 4(d),Weather Degradation,v6.5: -6.2% worst case,MonoBEV: -34.7% worst,5.6x better,Multi-modal fusion robustness

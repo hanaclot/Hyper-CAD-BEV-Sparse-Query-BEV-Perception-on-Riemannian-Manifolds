@@ -1,0 +1,9 @@
+Method,mIoU,Compute,Eff
+BEVFormer,61.5,32.4,29.3
+BEVDet,63.2,28.7,34.2
+MonoBEV,69.8,0.52,183.7
+SingleBEV,70.2,0.85,156.0
+HyperCAD v5.2,71.5,0.18,1702.4
+NeuBEV,67.3,0.12,989.7
+HyperCAD v6.0,72.8,0.042,2696.3
+HyperCAD v6.5,73.8,0.037,3354.5

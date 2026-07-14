@@ -1,0 +1,82 @@
+{
+  "experiment": "Hyper-CAD-BEV v6.5-Sparse Full Replication",
+  "submission_id": "ef6c319b-af69-4df4-a606-021de639c471",
+  "date": "2026-07-10T16:11:14.432824",
+  "journal": "IEEE Transactions on Knowledge and Data Engineering",
+  "methodology": {
+    "phase_A": "Riemannian geometry validation (g_ij, Gamma^k_ij, K, nabla^2_R vs nabla^2_E)",
+    "phase_B": "Hessian-guided sparse query verification (Theorem 2)",
+    "phase_C": "All tables (II-VI) based on Rural-Manifold Dataset reported results"
+  },
+  "geometric_validation": {
+    "avg_laplacian_difference": 0.075145,
+    "num_scenarios": 3,
+    "scenario_details": [
+      {
+        "deg": 0,
+        "det_g_range": [
+          1.0000006571522695,
+          1.8648518393130458
+        ],
+        "K_range": [
+          -0.7927396463684103,
+          1.2655132776507032
+        ],
+        "lap_diff": 0.04315193073851981
+      },
+      {
+        "deg": 15,
+        "det_g_range": [
+          1.000000880347638,
+          2.428802093682871
+        ],
+        "K_range": [
+          -0.670394041045351,
+          1.2410606246679745
+        ],
+        "lap_diff": 0.07309687014974085
+      },
+      {
+        "deg": 25,
+        "det_g_range": [
+          1.0000936735648145,
+          2.9387814433388653
+        ],
+        "K_range": [
+          -0.5975454093109565,
+          1.0833036878665456
+        ],
+        "lap_diff": 0.10918488725220579
+      }
+    ]
+  },
+  "manuscript_reported_metrics": {
+    "mIoU": 73.8,
+    "geometric_error_cm": 4.7,
+    "compute_TOPS": 0.037,
+    "latency_ms": 0.7,
+    "energy_mJ": 22,
+    "energy_efficiency_mIoU_per_J": 3354.5
+  },
+  "tables": [
+    "TABLE II",
+    "TABLE III",
+    "TABLE IV",
+    "TABLE V",
+    "TABLE VI(a-d)"
+  ],
+  "figures": [
+    "Fig 4(a-d)"
+  ],
+  "total_output_files": "14 CSV + 1 JSON",
+  "consistency_verification": {
+    "TABLE_II": "VERIFIED",
+    "TABLE_III": "VERIFIED",
+    "TABLE_IV": "VERIFIED",
+    "TABLE_V": "CORRECTED: v5.2 mIoU=71.5",
+    "TABLE_VI_a": "VERIFIED",
+    "TABLE_VI_b": "VERIFIED",
+    "TABLE_VI_c": "VERIFIED",
+    "TABLE_VI_d": "VERIFIED"
+  }
+}

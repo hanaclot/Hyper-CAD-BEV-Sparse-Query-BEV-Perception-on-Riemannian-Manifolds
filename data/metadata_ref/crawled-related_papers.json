@@ -1,0 +1,50 @@
+{
+  "papers": [
+    {
+      "title": "Vision-Centric BEV Perception: A Survey"
+    },
+    {
+      "title": "Advancing Off-Road Autonomous Driving: The Large-Scale ORAD-3D Dataset and Comprehensive Benchmarks"
+    },
+    {
+      "title": "M-BEV: Masked BEV Perception for Robust Autonomous Driving"
+    },
+    {
+      "title": "Dynamics Models in the Aggressive Off-Road Driving Regime"
+    },
+    {
+      "title": "BenchNav: Simulation Platform for Benchmarking Off-road Navigation Algorithms with Probabilistic Traversability"
+    },
+    {
+      "title": "Verification of Space Weather Forecasts issued by the Met Office Space Weather Operations Centre"
+    },
+    {
+      "title": "B-TMS: Bayesian Traversable Terrain Modeling and Segmentation Across 3D LiDAR Scans and Maps for Enhanced Off-Road Navigation"
+    },
+    {
+      "title": "Flare forecasting at the Met Office Space Weather Operations Centre"
+    },
+    {
+      "title": "The importance of ensemble techniques for operational space weather forecasting"
+    },
+    {
+      "title": "Advancing Heliophysics and Space Weather Modeling through Open Science"
+    },
+    {
+      "title": "International Coordination and Support for SmallSat-enabled Space Weather Activities"
+    },
+    {
+      "title": "TiG-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning"
+    },
+    {
+      "title": "Addressing Gaps in Space Weather Operations and Understanding with Small Satellites"
+    },
+    {
+      "title": "Small Satellite Mission Concepts for Space Weather Research and as Pathfinders for Operations"
+    },
+    {
+      "title": "RESBev: Making BEV Perception More Robust"
+    }
+  ],
+  "count": 15
+}

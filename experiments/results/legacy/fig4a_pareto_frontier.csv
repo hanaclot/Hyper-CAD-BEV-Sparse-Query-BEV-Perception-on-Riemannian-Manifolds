@@ -1,0 +1,9 @@
+Method,Type,TOPS,mIoU(%),Energy(mJ),Pareto_Optimal
+BEVFormer v2,Dense,32.4,61.5,2100,No
+BEVDet v3,Dense,28.7,63.2,1850,No
+MonoBEV v2,Monocular,0.52,69.8,380,No
+SingleBEV,Monocular,0.85,70.2,450,No
+Hyper-CAD v5.2,Monocular,0.18,71.5,42,No
+NeuBEV,Neuromorphic,0.12,67.3,68,No
+Hyper-CAD v6.0,Neuromorphic,0.042,72.8,27,No
+Hyper-CAD v6.5,Neuromorphic,0.037,73.8,22,Yes

@@ -1,0 +1,13 @@
+{
+  "name": "sparse4d_v2",
+  "arxiv_id": "2405.16110",
+  "title": "A Study of Cosmological Models Based on Long Gamma-ray Bursts Duration Histogram",
+  "abstract": "The duration of more than one thousand gamma-ray bursts (GRBs) has been measured by Swift satellite. Besides the redshift distribution of GRBs, the burst duration could be another significant property of GRBs that can be analyzed. In this project, First, we find the detection rate of Swift/BAT for a cosmological model with the $ ωCDM$ model, then by performing a Monte-Carlo simulation, we find the \"long\" GRB duration histogram to compare the cosmological model with the $ ωCDM$ model and the $ΛCDM$ model. The $χ^2$ minimization method is employed to determine the optimal value of $α$ in the dark energy equation of state, $P= c ω(z) ρ$, with $ω(z)=1+αz$ as $α=0.08 ^{+ 0.04}_{-0.02}$. We showed that the $ωCDM$ model is statistically favored over the $ΛCDM$ model. Other studies by measuring the expansion rate of the Universe directly from the SNIa data by Pantheon and DES-SN3YR samples and the combinations of SNIa, CMB, and BAO data confirmed that the value of $α$ in the dark energy equation of state is not zero \\citep{Dark_energy_Abbott, 2011Beutler, 2014Anderson, 2015Ross, 2016PlanckCollaboration, Alam2017, Mazumdar2021}.",
+  "published": "2024-05-25T07:48:58Z",
+  "category": "",
+  "authors": [
+    "Zeinab Kalantari",
+    "Sohrab Rahvar"
+  ],
+  "comments": ""
+}

@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-07-11 21:32:00",
+  "experiment_id": "HyperCAD-BEV-v6.5-Sparse-Full-v3",
+  "manuscript": "Sparse Query BEV Perception on Riemannian Manifolds (IEEE TKDE)",
+  "tables_generated": [
+    "TABLE I: Dataset Statistics",
+    "TABLE II: PDE Ablation",
+    "TABLE III: Optimizer Convergence",
+    "TABLE IV: SOTA Comparison (11 methods)",
+    "TABLE V: Version Evolution",
+    "TABLE VI-A: Module Ablation",
+    "TABLE VI-B: Query Strategy",
+    "TABLE VI-C: Slope Robustness",
+    "TABLE VI-D: Weather Robustness",
+    "TABLE VII: Cross-Dataset Transfer"
+  ],
+  "figures_generated": [
+    "FIG4: Comprehensive 6-panel",
+    "FIG5: PDE/SNN Visualization 6-panel",
+    "FIG6: Supplementary Analysis 6-panel"
+  ],
+  "total_tables": 10,
+  "total_figures": 3,
+  "total_panels": 18,
+  "methods_compared": 11,
+  "data_sources": {
+    "semantickitti": {
+      "files": 0,
+      "source": "http://semantic-kitti.org/"
+    },
+    "semantickitti_labels": {
+      "files": 6968,
+      "source": "http://semantic-kitti.org/"
+    },
+    "nuscenes": {
+      "files": 3531,
+      "source": "https://www.nuscenes.org/"
+    },
+    "rellis3d": {
+      "linked": true,
+      "source": "https://github.com/unmannedlab/RELLIS-3D"
+    },
+    "tartandrive2": {
+      "linked": true,
+      "source": "https://theairlab.org/TartanDrive2/"
+    },
+    "arxiv_papers": {
+      "downloaded": true,
+      "source": "https://arxiv.org/"
+    }
+  },
+  "key_results": {
+    "best_miou": "73.8% (HyperCAD v6.5-Sparse)",
+    "best_geo_error": "4.7 cm (HyperCAD v6.5-Sparse)",
+    "best_efficiency": "3354.5 mIoU/J (HyperCAD v6.5-Sparse)",
+    "best_latency": "0.7 ms (HyperCAD v6.5-Sparse)",
+    "ablation_biggest_impact": "Manifold-ADMM: -5.1 mIoU when removed",
+    "query_efficiency": "0.625% compute for 96.9% of dense accuracy"
+  }
+}

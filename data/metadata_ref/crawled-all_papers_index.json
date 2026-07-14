@@ -1,0 +1,67 @@
+{
+  "total_papers": 12,
+  "source": "arxiv.org API",
+  "crawl_date": "2026-07-10T21:07:36.238235",
+  "papers": [
+    {
+      "id": "2404.06892",
+      "title": "arXiv Query: search_query=&amp;id_list=2404.06892&amp;start=0&amp;max_results=1",
+      "summary": "End-to-End paradigms use a unified framework to implement multi-tasks in an autonomous driving system. Despite simplicity and clarity, the performance of end-to-end autonomous driving methods on sub-tasks is still far behind the single-task methods. Meanwhile, the widely used dense BEV features in previous end-to-end methods make it costly to extend to more modalities or tasks. In this paper, we propose a Sparse query-centric paradigm for end-to-end Autonomous Driving (SparseAD), where the spars"
+    },
+    {
+      "id": "2203.17270",
+      "title": "arXiv Query: search_query=&amp;id_list=2203.17270&amp;start=0&amp;max_results=1",
+      "summary": "3D visual perception tasks, including 3D detection and map segmentation based on multi-camera images, are essential for autonomous driving systems. In this work, we present a new framework termed BEVFormer, which learns unified BEV representations with spatiotemporal transformers to support multiple autonomous driving perception tasks. In a nutshell, BEVFormer exploits both spatial and temporal information by interacting with spatial and temporal space through predefined grid-shaped BEV queries."
+    },
+    {
+      "id": "2305.13859",
+      "title": "arXiv Query: search_query=&amp;id_list=2305.13859&amp;start=0&amp;max_results=1",
+      "summary": "Recently, generative retrieval emerges as a promising alternative to traditional retrieval paradigms. It assigns each document a unique identifier, known as DocID, and employs a generative model to directly generate the relevant DocID for the input query. A common choice for DocID is one or several natural language sequences, e.g. the title or n-grams, so that the pre-trained knowledge of the generative model can be utilized. However, a sequence is generated token by token, where only the most l"
+    },
+    {
+      "id": "2304.12356",
+      "title": "arXiv Query: search_query=&amp;id_list=2304.12356&amp;start=0&amp;max_results=1",
+      "summary": "R-mode oscillations of rotating neutron stars(NS) are promising candidates for continuous gravitational wave (GW) observations. In our recent work, we derived universal relations of the NS parameters, compactness and dimensionless tidal deformability with the r-mode frequency. In this work, we investigate how these universal relations can be used to infer various NS intrinsic parameters following a successful detection of the r-modes. In particular, we show that for targeted r-mode searches, the"
+    },
+    {
+      "id": "2312.08442",
+      "title": "arXiv Query: search_query=&amp;id_list=2312.08442&amp;start=0&amp;max_results=1",
+      "summary": "We apply machine learning to understand fundamental aspects of holographic duality, specifically the entropies obtained from the apparent and event horizon areas. We show that simple features of only the time series of the pressure anisotropy, namely the values and half-widths of the maxima and minima, the times these are attained, and the times of the first zeroes can predict the areas of the apparent and event horizons in the dual bulk geometry at all times with a fixed maximum length ($10$) o"
+    },
+    {
+      "id": "1711.01458",
+      "title": "arXiv Query: search_query=&amp;id_list=1711.01458&amp;start=0&amp;max_results=1",
+      "summary": "Event cameras, such as dynamic vision sensors (DVS), and dynamic and active-pixel vision sensors (DAVIS) can supplement other autonomous driving sensors by providing a concurrent stream of standard active pixel sensor (APS) images and DVS temporal contrast events. The APS stream is a sequence of standard grayscale global-shutter image sensor frames. The DVS events represent brightness changes occurring at a particular moment, with a jitter of about a millisecond under most lighting conditions. T"
+    },
+    {
+      "id": "2408.16096",
+      "title": "arXiv Query: search_query=&amp;id_list=2408.16096&amp;start=0&amp;max_results=1",
+      "summary": "In our study, we utilized Intel's Loihi-2 neuromorphic chip to enhance sensor fusion in fields like robotics and autonomous systems, focusing on datasets such as AIODrive, Oxford Radar RobotCar, D-Behavior (D-Set), nuScenes by Motional, and Comma2k19. Our research demonstrated that Loihi-2, using spiking neural networks, significantly outperformed traditional computing methods in speed and energy efficiency. Compared to conventional CPUs and GPUs, Loihi-2 showed remarkable energy efficiency, bei"
+    },
+    {
+      "id": "2206.09907",
+      "title": "arXiv Query: search_query=&amp;id_list=2206.09907&amp;start=0&amp;max_results=1",
+      "summary": "Freespace detection is an essential component of autonomous driving technology and plays an important role in trajectory planning. In the last decade, deep learning-based free space detection methods have been proved feasible. However, these efforts were focused on urban road environments and few deep learning-based methods were specifically designed for off-road free space detection due to the lack of off-road benchmarks. In this paper, we present the ORFD dataset, which, to our knowledge, is t"
+    },
+    {
+      "id": "2309.15654",
+      "title": "arXiv Query: search_query=&amp;id_list=2309.15654&amp;start=0&amp;max_results=1",
+      "summary": "Valued constraint satisfaction problems (VCSPs) constitute a large class of computational optimization problems. It was shown recently that, over finite domains, every VCSP is in P or NP-complete, depending on the admitted cost functions. In this article, we study cost functions over countably infinite domains whose automorphisms form an oligomorphic permutation group. Our results include a hardness condition based on a generalization of pp-constructability as known from classical CSPs and a pol"
+    },
+    {
+      "id": "2402.06600",
+      "title": "arXiv Query: search_query=&amp;id_list=2402.06600&amp;start=0&amp;max_results=1",
+      "summary": "We prove the completeness of a first-order analogue of the Fischer Servi logic $\\mathsf{FS}$ with respect to its expected birelational semantics. To this end we introduce the notion of the $\\textit{trace model}$ and, much like in a canonical model argument, prove a truth lemma. We conclude by examining a number of other first-order Fischer Servi logics, including the first-order analogue of $\\mathsf{FSS4}$, whose completeness can be similarly proved."
+    },
+    {
+      "id": "2104.13283",
+      "title": "arXiv Query: search_query=&amp;id_list=2104.13283&amp;start=0&amp;max_results=1",
+      "summary": "The equilibrium problem defined by the Nikaidô-Isoda-Fan inequality contains a number of problems such as optimization, variational inequality, Kakutani fixed point, Nash equilibria, and others as special cases. This paper presents a picture for the relationship between the fixed points of the Moreau proximal mapping and the solutions of the equilibrium problem that satisfies some kinds of monotonicity and Lipschitz-type condition."
+    },
+    {
+      "id": "2308.07897",
+      "title": "arXiv Query: search_query=&amp;id_list=2308.07897&amp;start=0&amp;max_results=1",
+      "summary": "X-ray diffraction (XRD) is an essential technique to determine a material's crystal structure in high-throughput experimentation, and has recently been incorporated in artificially intelligent agents in autonomous scientific discovery processes. However, rapid, automated and reliable analysis method of XRD data matching the incoming data rate remains a major challenge. To address these issues, we present CrystalShift, an efficient algorithm for probabilistic XRD phase labeling that employs symme"
+    }
+  ]
+}

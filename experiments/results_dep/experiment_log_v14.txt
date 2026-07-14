@@ -1,0 +1,50 @@
+Hyper-CAD-BEV v14 E2E Experiment Log
+============================================================
+Timestamp: 2026-07-13T16:01:20.935377
+Model loaded: True
+Runtime: 122.3s
+
+[15:59:18] ======================================================================
+[15:59:18] HYPER-CAD-BEV v14 - END-TO-END: Calling models/hyper_cad_bev.py
+[15:59:18] ======================================================================
+[15:59:18] PHASE 1: Loading SemanticKITTI point clouds...
+[15:59:21]   Loaded 50 labeled scans from SemanticKITTI seq 00
+[15:59:21] PHASE 2: Importing and validating core PyTorch model...
+[15:59:36]   ✅ models/hyper_cad_bev.py imported successfully
+[15:59:36]      Modules: RiemannianManifold2D, ReactionDiffusionPDE, IBEVField
+[15:59:36]               LIFNeuron, NeuromorphicPDESolver, SGNet, ManifoldADMM
+[15:59:36]               DynamicQueryScheduler, HyperCADBEVv65Sparse
+[16:00:01]   ✅ Full model instantiated: 15,313,403 parameters
+[16:00:01]   ✅ Manifold: 200×200 grid
+[16:00:01]   ✅ IBEV Field: SIREN 5×256 hidden
+[16:00:01]   ✅ SG-Net: 250 query outputs
+[16:00:01]   ✅ Neuromorphic Solver: LIF neurons
+[16:00:01]   ✅ Manifold-ADMM: rho=1.0, mu=0.1, eta=0.01
+[16:00:01]   ✅ Dynamic Query Scheduler: base 250 queries
+[16:00:01] PHASE 3: Running PDE reconstruction (with model awareness)...
+[16:00:19]   Progress: 10/40 scans [61s]
+[16:00:38]   Progress: 20/40 scans [80s]
+[16:00:55]   Progress: 30/40 scans [97s]
+[16:01:13]   Progress: 40/40 scans [114s]
+[16:01:13]   SPARSE: Raw(G=27.3) Euclid(G=28.0) Manifold(G=27.7)
+[16:01:13]   DENSE:  Manifold(G=2.1) Euclid(G=2.4)
+[16:01:13]   STRATEGIES: Uniform=28.1 Edge=27.8 Hessian=28.0
+[16:01:13] PHASE 4: Computing model-aware metrics from hyper_cad_bev.py...
+[16:01:14]   ✅ Manifold Hessian norm (sample): 0.082375
+[16:01:14]   ✅ Metric tensor: g11=1.0000, g22=1.0000, det_g=1.000000
+[16:01:14]   ✅ LIF Neuron: spike rate=0.0000, v_final mean=-0.000
+[16:01:15]   ⚠️ Model metric computation failed: The size of tensor a (1000) must match the size of tensor b (256) at non-singleton dimension 1
+[16:01:15] PHASE 5: Generating TABLEs and FIGs...
+[16:01:15]   ✅ table2_pde_ablation.csv (3 rows)
+[16:01:15]   ✅ table1_dataset_statistics.csv (8 rows)
+[16:01:15]   ✅ table3_optimizer_convergence.csv (3 rows)
+[16:01:15]   ✅ table4_sota_comparison.csv (9 rows)
+[16:01:15]   ✅ table5_version_evolution.csv (3 rows)
+[16:01:15]   ✅ table6a_module_ablation.csv (6 rows)
+[16:01:15]   ✅ table6b_query_strategies.csv (5 rows)
+[16:01:15]   ✅ table6c_slope_robustness.csv (3 rows)
+[16:01:15]   ✅ table6d_weather_robustness.csv (6 rows)
+[16:01:15]   ✅ table7_cross_dataset_transfer.csv (2 rows)
+[16:01:18]   ✅ FIG 4 saved: fig4_comprehensive.png/pdf
+[16:01:20]   ✅ FIG 5 saved: fig5_visual_validation.png/pdf
+[16:01:20]   ✅ Summary saved: master_experiment_summary_v14.json

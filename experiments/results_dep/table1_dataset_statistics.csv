@@ -1,0 +1,4 @@
+Dataset,Scans,Points/Scan,LiDAR,Terrain,Slope_σ,Data_Provenance
+SemanticKITTI,40,121352,64ch HDL-64E,German urban,0.4095,REAL: sequences/00/velodyne/*.bin via SemanticKITTI.org
+nuScenes,40,34723,32ch HDL-32E,Boston/Singapore,1.2579,REAL: v1.0-mini/samples/LIDAR_TOP/*.pcd.bin via nuScenes.org
+KITTI Raw,40,121706,64ch HDL-64E,Karlsruhe suburban,0.4306,REAL: 2011_09_26_drive_0001_sync/velodyne_points/data/*.bin via cvlibs.net

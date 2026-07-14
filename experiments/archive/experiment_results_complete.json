@@ -1,0 +1,135 @@
+{
+  "configuration": {
+    "grid_size": [
+      256,
+      256
+    ],
+    "x_range": [
+      -51.2,
+      51.2
+    ],
+    "z_range": [
+      -51.2,
+      51.2
+    ],
+    "n_samples": 200,
+    "n_classes": 20,
+    "real_data_source": "SemanticKITTI + NuScenes"
+  },
+  "TABLE_II_pde_ablation": {
+    "no_pde": {
+      "mIoU": {
+        "mean": 100.0,
+        "std": 0.0,
+        "min": 100.0,
+        "max": 100.0,
+        "median": 100.0
+      },
+      "geo_err": {
+        "mean": 210.76611567497253,
+        "std": 132.5689992753848,
+        "min": 27.974002838134766,
+        "max": 546.5714111328125,
+        "median": 162.66332244873047
+      },
+      "edge_smooth": {
+        "mean": 0.018602595133706927,
+        "std": 0.0025809529235916212,
+        "min": 0.012635631486773491,
+        "max": 0.02583547867834568,
+        "median": 0.018512262031435966
+      }
+    },
+    "euclidean_pde": {
+      "mIoU": {
+        "mean": 100.0,
+        "std": 0.0,
+        "min": 100.0,
+        "max": 100.0,
+        "median": 100.0
+      },
+      "geo_err": {
+        "mean": 213.48185513496398,
+        "std": 132.71618963394346,
+        "min": 31.065183639526367,
+        "max": 550.5322265625,
+        "median": 164.60177612304688
+      },
+      "edge_smooth": {
+        "mean": 0.016920675737783313,
+        "std": 0.002288971246099458,
+        "min": 0.011678730137646198,
+        "max": 0.023183120414614677,
+        "median": 0.016844448633491993
+      }
+    },
+    "manifold_pde": {
+      "mIoU": {
+        "mean": 100.0,
+        "std": 0.0,
+        "min": 100.0,
+        "max": 100.0,
+        "median": 100.0
+      },
+      "geo_err": {
+        "mean": 211.1793137741089,
+        "std": 132.67061650180986,
+        "min": 28.229019165039062,
+        "max": 547.3828735351562,
+        "median": 163.0434112548828
+      },
+      "edge_smooth": {
+        "mean": 0.018533033546991647,
+        "std": 0.002573114594679548,
+        "min": 0.012593185529112816,
+        "max": 0.025715969502925873,
+        "median": 0.01842520572245121
+      }
+    }
+  },
+  "TABLE_VIc_slope_robustness": {
+    "0 deg (Flat)": {
+      "mIoU": 100.0,
+      "geo_err": 215.22820272190916
+    },
+    "15 deg (Moderate)": {
+      "mIoU": 100.0,
+      "geo_err": 473.60884563021995
+    },
+    "25 deg (Steep)": {
+      "mIoU": 100.0,
+      "geo_err": 1007.2671523127548
+    }
+  },
+  "TABLE_VId_weather_robustness": {
+    "Sunny": {
+      "manifold_mIoU": 100.0,
+      "euclidean_mIoU": 100.0
+    },
+    "Overcast": {
+      "manifold_mIoU": 100.0,
+      "euclidean_mIoU": 100.0
+    },
+    "Light Rain": {
+      "manifold_mIoU": 100.0,
+      "euclidean_mIoU": 100.0
+    },
+    "Moderate Rain": {
+      "manifold_mIoU": 100.0,
+      "euclidean_mIoU": 100.0
+    },
+    "Dust Storm": {
+      "manifold_mIoU": 100.0,
+      "euclidean_mIoU": 100.0
+    },
+    "Night (0.1 lux)": {
+      "manifold_mIoU": 100.0,
+      "euclidean_mIoU": 100.0
+    }
+  },
+  "slope_distribution": {
+    "flat": 200,
+    "moderate": 0,
+    "steep": 0
+  }
+}

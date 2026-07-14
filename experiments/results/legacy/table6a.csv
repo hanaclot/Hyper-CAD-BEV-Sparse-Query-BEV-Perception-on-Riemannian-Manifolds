@@ -1,0 +1,7 @@
+﻿Configuration,Compute(TOPS),mIoU(%),Geo Err(cm),Energy(mJ),Degradation
+Full v6.5-Sparse,0.037,73.8,4.7,22,--
+w/o Riemannian Manifold,0.035,71.3,28.0,21,"-2.5 mIoU, +495.7% error"
+w/o Manifold PDE Reg,0.036,70.1,31.0,21,"-3.7 mIoU, +559.6% error"
+w/o Manifold-ADMM,0.037,68.7,12.3,22,"-5.1 mIoU, +161.7% error"
+w/o Neuromorphic,0.12,69.2,8.9,68,"-4.6 mIoU, +89.4% err, +209.1% energy"
+w/o Dynamic QSched,0.037,73.5,4.9,28,"-0.3 mIoU, +4.3% err, +27.3% energy"

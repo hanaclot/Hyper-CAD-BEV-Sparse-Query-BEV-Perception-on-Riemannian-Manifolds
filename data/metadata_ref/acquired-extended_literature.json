@@ -1,0 +1,1339 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2312.12144v1",
+    "title": "M-BEV: Masked BEV Perception for Robust Autonomous Driving",
+    "summary": "3D perception is a critical problem in autonomous driving. Recently, the Bird-Eye-View (BEV) approach has attracted extensive attention, due to low-cost deployment and desirable vision detection capacity. However, the existing models ignore a realistic scenario during the driving procedure, i.e., one or more view cameras may be failed, which largely deteriorates the performance. To tackle this problem, we propose a generic Masked BEV (M-BEV) perception framework, which can effectively improve ro",
+    "published": "2023-12-19T13:25:45Z",
+    "authors": [
+      "Siran Chen",
+      "Yue Ma",
+      "Yu Qiao",
+      "Yali Wang"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2208.02797v2",
+    "title": "Vision-Centric BEV Perception: A Survey",
+    "summary": "In recent years, vision-centric Bird's Eye View (BEV) perception has garnered significant interest from both industry and academia due to its inherent advantages, such as providing an intuitive representation of the world and being conducive to data fusion. The rapid advancements in deep learning have led to the proposal of numerous methods for addressing vision-centric BEV perception challenges. However, there has been no recent survey encompassing this novel and burgeoning research field. To c",
+    "published": "2022-08-04T17:53:17Z",
+    "authors": [
+      "Yuexin Ma",
+      "Tai Wang",
+      "Xuyang Bai",
+      "Huitong Yang",
+      "Yuenan Hou",
+      "Yaming Wang",
+      "Yu Qiao",
+      "Ruigang Yang",
+      "Dinesh Manocha",
+      "Xinge Zhu"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2301.06262v4",
+    "title": "Collaborative Perception in Autonomous Driving: Methods, Datasets and Challenges",
+    "summary": "Collaborative perception is essential to address occlusion and sensor failure issues in autonomous driving. In recent years, theoretical and experimental investigations of novel works for collaborative perception have increased tremendously. So far, however, few reviews have focused on systematical collaboration modules and large-scale collaborative perception datasets. This work reviews recent achievements in this field to bridge this gap and motivate future research. We start with a brief over",
+    "published": "2023-01-16T05:08:50Z",
+    "authors": [
+      "Yushan Han",
+      "Hui Zhang",
+      "Huifang Li",
+      "Yi Jin",
+      "Congyan Lang",
+      "Yidong Li"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.07290v1",
+    "title": "LiDAR Sensor modeling and Data augmentation with GANs for Autonomous driving",
+    "summary": "In the autonomous driving domain, data collection and annotation from real vehicles are expensive and sometimes unsafe. Simulators are often used for data augmentation, which requires realistic sensor models that are hard to formulate and model in closed forms. Instead, sensors models can be learned from real data. The main challenge is the absence of paired data set, which makes traditional supervised learning techniques not suitable. In this work, we formulate the problem as image translation ",
+    "published": "2019-05-17T14:30:07Z",
+    "authors": [
+      "Ahmad El Sallab",
+      "Ibrahim Sobh",
+      "Mohamed Zahran",
+      "Nader Essam"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.RO",
+      "eess.IV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2206.11428v2",
+    "title": "LidarMultiNet: Unifying LiDAR Semantic Segmentation, 3D Object Detection, and Panoptic Segmentation in a Single Multi-task Network",
+    "summary": "This technical report presents the 1st place winning solution for the Waymo Open Dataset 3D semantic segmentation challenge 2022. Our network, termed LidarMultiNet, unifies the major LiDAR perception tasks such as 3D semantic segmentation, object detection, and panoptic segmentation in a single framework. At the core of LidarMultiNet is a strong 3D voxel-based encoder-decoder network with a novel Global Context Pooling (GCP) module extracting global contextual features from a LiDAR frame to comp",
+    "published": "2022-06-23T00:22:13Z",
+    "authors": [
+      "Dongqiangzi Ye",
+      "Weijia Chen",
+      "Zixiang Zhou",
+      "Yufei Xie",
+      "Yu Wang",
+      "Panqu Wang",
+      "Hassan Foroosh"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2302.08785v2",
+    "title": "Few-shot 3D LiDAR Semantic Segmentation for Autonomous Driving",
+    "summary": "In autonomous driving, the novel objects and lack of annotations challenge the traditional 3D LiDAR semantic segmentation based on deep learning. Few-shot learning is a feasible way to solve these issues. However, currently few-shot semantic segmentation methods focus on camera data, and most of them only predict the novel classes without considering the base classes. This setting cannot be directly applied to autonomous driving due to safety concerns. Thus, we propose a few-shot 3D LiDAR semant",
+    "published": "2023-02-17T09:52:36Z",
+    "authors": [
+      "Jilin Mei",
+      "Junbao Zhou",
+      "Yu Hu"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2211.09445v3",
+    "title": "aiMotive Dataset: A Multimodal Dataset for Robust Autonomous Driving with Long-Range Perception",
+    "summary": "Autonomous driving is a popular research area within the computer vision research community. Since autonomous vehicles are highly safety-critical, ensuring robustness is essential for real-world deployment. While several public multimodal datasets are accessible, they mainly comprise two sensor modalities (camera, LiDAR) which are not well suited for adverse weather. In addition, they lack far-range annotations, making it harder to train neural networks that are the base of a highway assistant f",
+    "published": "2022-11-17T10:19:59Z",
+    "authors": [
+      "Tamás Matuszka",
+      "Iván Barton",
+      "Ádám Butykai",
+      "Péter Hajas",
+      "Dávid Kiss",
+      "Domonkos Kovács",
+      "Sándor Kunsági-Máté",
+      "Péter Lengyel",
+      "Gábor Németh",
+      "Levente Pető",
+      "Dezső Ribli",
+      "Dávid Szeghy",
+      "Szabolcs Vajna",
+      "Bálint Varga"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2003.00601v1",
+    "title": "3D Point Cloud Processing and Learning for Autonomous Driving",
+    "summary": "We present a review of 3D point cloud processing and learning for autonomous driving. As one of the most important sensors in autonomous vehicles, light detection and ranging (LiDAR) sensors collect 3D point clouds that precisely record the external surfaces of objects and scenes. The tools for 3D point cloud processing and learning are critical to the map creation, localization, and perception modules in an autonomous vehicle. While much attention has been paid to data collected from cameras, s",
+    "published": "2020-03-01T22:13:46Z",
+    "authors": [
+      "Siheng Chen",
+      "Baoan Liu",
+      "Chen Feng",
+      "Carlos Vallespi-Gonzalez",
+      "Carl Wellington"
+    ],
+    "categories": [
+      "cs.CV",
+      "eess.SP"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2305.17181v1",
+    "title": "Selective Communication for Cooperative Perception in End-to-End Autonomous Driving",
+    "summary": "The reliability of current autonomous driving systems is often jeopardized in situations when the vehicle's field-of-view is limited by nearby occluding objects. To mitigate this problem, vehicle-to-vehicle communication to share sensor information among multiple autonomous driving vehicles has been proposed. However, to enable timely processing and use of shared sensor data, it is necessary to constrain communication bandwidth, and prior work has done so by restricting the number of other coope",
+    "published": "2023-05-26T18:13:17Z",
+    "authors": [
+      "Hsu-kuang Chiu",
+      "Stephen F. Smith"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2505.21581v4",
+    "title": "CogAD: Cognitive-Hierarchy Guided End-to-End Autonomous Driving",
+    "summary": "While end-to-end autonomous driving has advanced significantly, prevailing methods remain fundamentally misaligned with human cognitive principles in both perception and planning. In this paper, we propose CogAD, a novel end-to-end autonomous driving model that emulates the hierarchical cognition mechanisms of human drivers. CogAD implements dual hierarchical mechanisms: global-to-local context processing for human-like perception and intent-conditioned multi-mode trajectory generation for cogni",
+    "published": "2025-05-27T09:58:43Z",
+    "authors": [
+      "Zhennan Wang",
+      "Jianing Teng",
+      "Canqun Xiang",
+      "Kangliang Chen",
+      "Xing Pan",
+      "Lu Deng",
+      "Weihao Gu"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2301.02562v1",
+    "title": "Super Sparse 3D Object Detection",
+    "summary": "As the perception range of LiDAR expands, LiDAR-based 3D object detection contributes ever-increasingly to the long-range perception in autonomous driving. Mainstream 3D object detectors often build dense feature maps, where the cost is quadratic to the perception range, making them hardly scale up to the long-range settings. To enable efficient long-range detection, we first propose a fully sparse object detector termed FSD. FSD is built upon the general sparse voxel encoder and a novel sparse ",
+    "published": "2023-01-05T17:03:56Z",
+    "authors": [
+      "Lue Fan",
+      "Yuxue Yang",
+      "Feng Wang",
+      "Naiyan Wang",
+      "Zhaoxiang Zhang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2112.11790v3",
+    "title": "BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View",
+    "summary": "Autonomous driving perceives its surroundings for decision making, which is one of the most complex scenarios in visual perception. The success of paradigm innovation in solving the 2D object detection task inspires us to seek an elegant, feasible, and scalable paradigm for fundamentally pushing the performance boundary in this area. To this end, we contribute the BEVDet paradigm in this paper. BEVDet performs 3D object detection in Bird-Eye-View (BEV), where most target values are defined and r",
+    "published": "2021-12-22T10:48:06Z",
+    "authors": [
+      "Junjie Huang",
+      "Guan Huang",
+      "Zheng Zhu",
+      "Yun Ye",
+      "Dalong Du"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2209.05324v4",
+    "title": "Delving into the Devils of Bird's-eye-view Perception: A Review, Evaluation and Recipe",
+    "summary": "Learning powerful representations in bird's-eye-view (BEV) for perception tasks is trending and drawing extensive attention both from industry and academia. Conventional approaches for most autonomous driving algorithms perform detection, segmentation, tracking, etc., in a front or perspective view. As sensor configurations get more complex, integrating multi-source information from different sensors and representing features in a unified view come of vital importance. BEV perception inherits se",
+    "published": "2022-09-12T15:29:13Z",
+    "authors": [
+      "Hongyang Li",
+      "Chonghao Sima",
+      "Jifeng Dai",
+      "Wenhai Wang",
+      "Lewei Lu",
+      "Huijie Wang",
+      "Jia Zeng",
+      "Zhiqi Li",
+      "Jiazhi Yang",
+      "Hanming Deng",
+      "Hao Tian",
+      "Enze Xie",
+      "Jiangwei Xie",
+      "Li Chen",
+      "Tianyu Li",
+      "Yang Li",
+      "Yulu Gao",
+      "Xiaosong Jia",
+      "Si Liu",
+      "Jianping Shi",
+      "Dahua Lin",
+      "Yu Qiao"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2310.05989v3",
+    "title": "QE-BEV: Query Evolution for Bird's Eye View Object Detection in Varied Contexts",
+    "summary": "3D object detection plays a pivotal role in autonomous driving and robotics, demanding precise interpretation of Bird's Eye View (BEV) images. The dynamic nature of real-world environments necessitates the use of dynamic query mechanisms in 3D object detection to adaptively capture and process the complex spatio-temporal relationships present in these scenes. However, prior implementations of dynamic queries have often faced difficulties in effectively leveraging these relationships, particularl",
+    "published": "2023-10-07T21:55:29Z",
+    "authors": [
+      "Jiawei Yao",
+      "Yingxin Lai",
+      "Hongrui Kou",
+      "Tong Wu",
+      "Ruixi Liu"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2301.05711v3",
+    "title": "OA-DET3D: Embedding Object Awareness as a General Plug-in for Multi-Camera 3D Object Detection",
+    "summary": "The recent advance in multi-camera 3D object detection is featured by bird's-eye view (BEV) representation or object queries. However, the ill-posed transformation from image-plane view to 3D space inevitably causes feature clutter and distortion, making the objects blur into the background. To this end, we explore how to incorporate supplementary cues for differentiating objects in the transformed feature representation. Formally, we introduce OA-DET3D, a general plug-in module that improves 3D",
+    "published": "2023-01-13T06:02:31Z",
+    "authors": [
+      "Xiaomeng Chu",
+      "Jiajun Deng",
+      "Jianmin Ji",
+      "Yu Zhang",
+      "Houqiang Li",
+      "Yanyong Zhang"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2302.10473v6",
+    "title": "Oriented object detection in optical remote sensing images using deep learning: a survey",
+    "summary": "Oriented object detection is a fundamental yet challenging task in remote sensing (RS), aiming to locate and classify objects with arbitrary orientations. Recent advancements in deep learning have significantly enhanced the capabilities of oriented object detection methods. Given the rapid development of this field, a comprehensive survey of the recent advances in oriented object detection is presented in this paper. Specifically, we begin by tracing the technical evolution from horizontal objec",
+    "published": "2023-02-21T06:31:53Z",
+    "authors": [
+      "Kun Wang",
+      "Zi Wang",
+      "Zhang Li",
+      "Ang Su",
+      "Xichao Teng",
+      "Erting Pan",
+      "Minhao Liu",
+      "Qifeng Yu"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2003.04188v1",
+    "title": "BirdNet+: End-to-End 3D Object Detection in LiDAR Bird's Eye View",
+    "summary": "On-board 3D object detection in autonomous vehicles often relies on geometry information captured by LiDAR devices. Albeit image features are typically preferred for detection, numerous approaches take only spatial data as input. Exploiting this information in inference usually involves the use of compact representations such as the Bird's Eye View (BEV) projection, which entails a loss of information and thus hinders the joint inference of all the parameters of the objects' 3D boxes. In this pa",
+    "published": "2020-03-09T15:08:40Z",
+    "authors": [
+      "Alejandro Barrera",
+      "Carlos Guindel",
+      "Jorge Beltrán",
+      "Fernando García"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.11692v1",
+    "title": "Semi-Supervised Object Detection with Sparsely Annotated Dataset",
+    "summary": "In training object detector based on convolutional neural networks, selection of effective positive examples for training is an important factor. However, when training an anchor-based detectors with sparse annotations on an image, effort to find effective positive examples can hinder training performance. When using the anchor-based training for the ground truth bounding box to collect positive examples under given IoU, it is often possible to include objects from other classes in the current t",
+    "published": "2020-06-21T02:26:48Z",
+    "authors": [
+      "Jihun Yoon",
+      "Seungbum Hong",
+      "Sanha Jeong",
+      "Min-Kook Choi"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1711.06703v3",
+    "title": "Fusing Bird View LIDAR Point Cloud and Front View Camera Image for Deep Object Detection",
+    "summary": "We propose a new method for fusing a LIDAR point cloud and camera-captured images in the deep convolutional neural network (CNN). The proposed method constructs a new layer called non-homogeneous pooling layer to transform features between bird view map and front view map. The sparse LIDAR point cloud is used to construct the mapping between the two maps. The pooling layer allows efficient fusion of the bird view and front view features at any stage of the network. This is favorable for the 3D-o",
+    "published": "2017-11-17T19:36:49Z",
+    "authors": [
+      "Zining Wang",
+      "Wei Zhan",
+      "Masayoshi Tomizuka"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2408.14600v1",
+    "title": "PVAFN: Point-Voxel Attention Fusion Network with Multi-Pooling Enhancing for 3D Object Detection",
+    "summary": "The integration of point and voxel representations is becoming more common in LiDAR-based 3D object detection. However, this combination often struggles with capturing semantic information effectively. Moreover, relying solely on point features within regions of interest can lead to information loss and limitations in local feature representation. To tackle these challenges, we propose a novel two-stage 3D object detector, called Point-Voxel Attention Fusion Network (PVAFN). PVAFN leverages an a",
+    "published": "2024-08-26T19:43:01Z",
+    "authors": [
+      "Yidi Li",
+      "Jiahao Wen",
+      "Bin Ren",
+      "Wenhao Li",
+      "Zhenhuan Xu",
+      "Hao Guo",
+      "Hong Liu",
+      "Nicu Sebe"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.10053v2",
+    "title": "Synthetic Biology meets Neuromorphic Computing: Towards a bio-inspired Olfactory Perception System",
+    "summary": "In this study, we explore how the combination of synthetic biology, neuroscience modeling, and neuromorphic electronic systems offers a new approach to creating an artificial system that mimics the natural sense of smell. We argue that a co-design approach offers significant advantages in replicating the complex dynamics of odor sensing and processing. We propose a hybrid system of synthetic sensory neurons that provides three key features: (a) receptor-gated ion channels, (b) interface between ",
+    "published": "2025-04-14T09:57:20Z",
+    "authors": [
+      "Kevin Max",
+      "Larissa Sames",
+      "Shimeng Ye",
+      "Jan Steinkühler",
+      "Federico Corradi"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.ET",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2306.03369v3",
+    "title": "Event Encryption: Rethinking Privacy Exposure for Neuromorphic Imaging",
+    "summary": "Bio-inspired neuromorphic cameras sense illumination changes on a per-pixel basis and generate spatiotemporal streaming events within microseconds in response, offering visual information with high temporal resolution over a high dynamic range. Such devices often serve in surveillance systems due to their applicability and robustness in environments with high dynamics and harsh lighting, where they can still supply clearer recordings than traditional imaging. In other words, when it comes to pri",
+    "published": "2023-06-06T03:00:53Z",
+    "authors": [
+      "Pei Zhang",
+      "Shuo Zhu",
+      "Edmund Y. Lam"
+    ],
+    "categories": [
+      "eess.SP"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2011.08729v3",
+    "title": "Control Strategies for Autonomous Vehicles",
+    "summary": "This chapter focuses on the self-driving technology from a control perspective and investigates the control strategies used in autonomous vehicles and advanced driver-assistance systems from both theoretical and practical viewpoints. First, we introduce the self-driving technology as a whole, including perception, planning and control techniques required for accomplishing the challenging task of autonomous driving. We then dwell upon each of these operations to explain their role in the autonomo",
+    "published": "2020-11-17T16:04:39Z",
+    "authors": [
+      "Chinmay Vilas Samak",
+      "Tanmay Vilas Samak",
+      "Sivanathan Kandhasamy"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2108.04230v1",
+    "title": "Workshop on Autonomous Driving at CVPR 2021: Technical Report for Streaming Perception Challenge",
+    "summary": "In this report, we introduce our real-time 2D object detection system for the realistic autonomous driving scenario. Our detector is built on a newly designed YOLO model, called YOLOX. On the Argoverse-HD dataset, our system achieves 41.0 streaming AP, which surpassed second place by 7.8/6.1 on detection-only track/fully track, respectively. Moreover, equipped with TensorRT, our model achieves the 30FPS inference speed with a high-resolution input size (e.g., 1440-2304). Code and models will be ",
+    "published": "2021-07-27T06:36:06Z",
+    "authors": [
+      "Songyang Zhang",
+      "Lin Song",
+      "Songtao Liu",
+      "Zheng Ge",
+      "Zeming Li",
+      "Xuming He",
+      "Jian Sun"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2605.12217v1",
+    "title": "Heterogeneous SoC Integrating an Open-Source Recurrent SNN Accelerator for Neuromorphic Edge Computing on FPGA",
+    "summary": "The growing popularity of Spiking Neural Networks (SNNs) and their applications has led to a significant fast-paced increase of neuromorphic architectures capable of mimicking the spike-based data processing typical of biological neurons. The efficient power consumption and parallel computing capabilities of the SNNs lead researchers towards the development of digital accelerators, which exploit such features to bring fast and low-power computation on edge devices. The spread of digital neuromor",
+    "published": "2026-05-12T14:55:21Z",
+    "authors": [
+      "Michelangelo Barocci",
+      "Vittorio Fra",
+      "Enrico Macii",
+      "Gianvito Urgese"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1909.10225v1",
+    "title": "WiCV 2019: The Sixth Women In Computer Vision Workshop",
+    "summary": "In this paper we present the Women in Computer Vision Workshop - WiCV 2019, organized in conjunction with CVPR 2019. This event is meant for increasing the visibility and inclusion of women researchers in the computer vision field. Computer vision and machine learning have made incredible progress over the past years, but the number of female researchers is still low both in academia and in industry. WiCV is organized especially for the following reason: to raise visibility of female researchers",
+    "published": "2019-09-23T08:52:33Z",
+    "authors": [
+      "Irene Amerini",
+      "Elena Balashova",
+      "Sayna Ebrahimi",
+      "Kathryn Leonard",
+      "Arsha Nagrani",
+      "Amaia Salvador"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2301.00942v1",
+    "title": "Deep Learning and Computational Physics (Lecture Notes)",
+    "summary": "These notes were compiled as lecture notes for a course developed and taught at the University of the Southern California. They should be accessible to a typical engineering graduate student with a strong background in Applied Mathematics.\n  The main objective of these notes is to introduce a student who is familiar with concepts in linear algebra and partial differential equations to select topics in deep learning. These lecture notes exploit the strong connections between deep learning algorit",
+    "published": "2023-01-03T03:56:19Z",
+    "authors": [
+      "Deep Ray",
+      "Orazio Pinti",
+      "Assad A. Oberai"
+    ],
+    "categories": [
+      "cs.LG",
+      "math-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2306.11113v2",
+    "title": "Learn to Accumulate Evidence from All Training Samples: Theory and Practice",
+    "summary": "Evidential deep learning, built upon belief theory and subjective logic, offers a principled and computationally efficient way to turn a deterministic neural network uncertainty-aware. The resultant evidential models can quantify fine-grained uncertainty using the learned evidence. To ensure theoretically sound evidential models, the evidence needs to be non-negative, which requires special activation functions for model training and inference. This constraint often leads to inferior predictive ",
+    "published": "2023-06-19T18:27:12Z",
+    "authors": [
+      "Deep Pandey",
+      "Qi Yu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2111.11066v1",
+    "title": "FedCV: A Federated Learning Framework for Diverse Computer Vision Tasks",
+    "summary": "Federated Learning (FL) is a distributed learning paradigm that can learn a global or personalized model from decentralized datasets on edge devices. However, in the computer vision domain, model performance in FL is far behind centralized training due to the lack of exploration in diverse tasks with a unified FL framework. FL has rarely been demonstrated effectively in advanced computer vision tasks such as object detection and image segmentation. To bridge the gap and facilitate the developmen",
+    "published": "2021-11-22T09:26:08Z",
+    "authors": [
+      "Chaoyang He",
+      "Alay Dilipbhai Shah",
+      "Zhenheng Tang",
+      "Di Fan1Adarshan Naiynar Sivashunmugam",
+      "Keerti Bhogaraju",
+      "Mita Shimpi",
+      "Li Shen",
+      "Xiaowen Chu",
+      "Mahdi Soltanolkotabi",
+      "Salman Avestimehr"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2011.03712v1",
+    "title": "DeepCFL: Deep Contextual Features Learning from a Single Image",
+    "summary": "Recently, there is a vast interest in developing image feature learning methods that are independent of the training data, such as deep image prior, InGAN, SinGAN, and DCIL. These methods are unsupervised and are used to perform low-level vision tasks such as image restoration, image editing, and image synthesis. In this work, we proposed a new training data-independent framework, called Deep Contextual Features Learning (DeepCFL), to perform image synthesis and image restoration based on the se",
+    "published": "2020-11-07T06:54:59Z",
+    "authors": [
+      "Indra Deep Mastan",
+      "Shanmuganathan Raman"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2105.04026v2",
+    "title": "The Modern Mathematics of Deep Learning",
+    "summary": "We describe the new field of mathematical analysis of deep learning. This field emerged around a list of research questions that were not answered within the classical framework of learning theory. These questions concern: the outstanding generalization power of overparametrized neural networks, the role of depth in deep architectures, the apparent absence of the curse of dimensionality, the surprisingly successful optimization performance despite the non-convexity of the problem, understanding ",
+    "published": "2021-05-09T21:30:42Z",
+    "authors": [
+      "Julius Berner",
+      "Philipp Grohs",
+      "Gitta Kutyniok",
+      "Philipp Petersen"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1910.13796v1",
+    "title": "Deep Learning vs. Traditional Computer Vision",
+    "summary": "Deep Learning has pushed the limits of what was possible in the domain of Digital Image Processing. However, that is not to say that the traditional computer vision techniques which had been undergoing progressive development in years prior to the rise of DL have become obsolete. This paper will analyse the benefits and drawbacks of each approach. The aim of this paper is to promote a discussion on whether knowledge of classical computer vision techniques should be maintained. The paper will als",
+    "published": "2019-10-30T12:25:10Z",
+    "authors": [
+      "Niall O' Mahony",
+      "Sean Campbell",
+      "Anderson Carvalho",
+      "Suman Harapanahalli",
+      "Gustavo Velasco-Hernandez",
+      "Lenka Krpalkova",
+      "Daniel Riordan",
+      "Joseph Walsh"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1708.09485v2",
+    "title": "Learning Invariant Riemannian Geometric Representations Using Deep Nets",
+    "summary": "Non-Euclidean constraints are inherent in many kinds of data in computer vision and machine learning, typically as a result of specific invariance requirements that need to be respected during high-level inference. Often, these geometric constraints can be expressed in the language of Riemannian geometry, where conventional vector space machine learning does not apply directly. The central question this paper deals with is: How does one train deep neural nets whose final outputs are elements on ",
+    "published": "2017-08-30T21:57:17Z",
+    "authors": [
+      "Suhas Lohit",
+      "Pavan Turaga"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1903.03040v2",
+    "title": "Deep learning observables in computational fluid dynamics",
+    "summary": "Many large scale problems in computational fluid dynamics such as uncertainty quantification, Bayesian inversion, data assimilation and PDE constrained optimization are considered very challenging computationally as they require a large number of expensive (forward) numerical solutions of the corresponding PDEs. We propose a machine learning algorithm, based on deep artificial neural networks, that predicts the underlying \\emph{input parameters to observable} map from a few training samples (com",
+    "published": "2019-03-07T16:57:52Z",
+    "authors": [
+      "Kjetil O. Lye",
+      "Siddhartha Mishra",
+      "Deep Ray"
+    ],
+    "categories": [
+      "physics.comp-ph",
+      "cs.LG",
+      "math.NA",
+      "physics.flu-dyn",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2502.05498v2",
+    "title": "Riemannian Manifold Learning for Stackelberg Games with Neural Flow Representations",
+    "summary": "We present a novel framework for online learning in Stackelberg general-sum games, where two agents, the leader and follower, engage in sequential turn-based interactions. At the core of this approach is a learned diffeomorphism that maps the joint action space to a smooth spherical Riemannian manifold, referred to as the Stackelberg manifold. This mapping, facilitated by neural normalizing flows, ensures the formation of tractable isoplanar subspaces, enabling efficient techniques for online le",
+    "published": "2025-02-08T09:10:44Z",
+    "authors": [
+      "Larkin Liu",
+      "Kashif Rasul",
+      "Yutong Chao",
+      "Jalal Etesami"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.GT",
+      "cs.MA"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2409.17988v1",
+    "title": "Deblur e-NeRF: NeRF from Motion-Blurred Events under High-speed or Low-light Conditions",
+    "summary": "The stark contrast in the design philosophy of an event camera makes it particularly ideal for operating under high-speed, high dynamic range and low-light conditions, where standard cameras underperform. Nonetheless, event cameras still suffer from some amount of motion blur, especially under these challenging conditions, in contrary to what most think. This is attributed to the limited bandwidth of the event sensor pixel, which is mostly proportional to the light intensity. Thus, to ensure tha",
+    "published": "2024-09-26T15:57:20Z",
+    "authors": [
+      "Weng Fei Low",
+      "Gim Hee Lee"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.GR",
+      "cs.RO",
+      "eess.SY"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1911.01054v2",
+    "title": "SoildNet: Soiling Degradation Detection in Autonomous Driving",
+    "summary": "In the field of autonomous driving, camera sensors are extremely prone to soiling because they are located outside of the car and interact with environmental sources of soiling such as rain drops, snow, dust, sand, mud and so on. This can lead to either partial or complete vision degradation. Hence detecting such decay in vision is very important for safety and overall to preserve the functionality of the \"autonomous\" components in autonomous driving. The contribution of this work involves: 1) D",
+    "published": "2019-11-04T07:13:26Z",
+    "authors": [
+      "Arindam Das"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.RO",
+      "eess.IV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.08733v3",
+    "title": "Topological Control of Chirality and Spin with Structured Light",
+    "summary": "Structured light beams with engineered topological properties offer a powerful means to control spin angular momentum (SAM) and optical chirality, key quantities shaped by spin-orbit interaction (SOI) in light. Such effects are typically regarded as emerging only through light-matter interactions. Here, we show that higher-order Poincaré modes, carrying a tunable Pancharatnam topological charge $\\ell_p$, enable precise control of SOI purely from the intrinsic topology of the light field, without",
+    "published": "2025-08-12T08:24:51Z",
+    "authors": [
+      "Light Mkhumbuza",
+      "Pedro Ornelas",
+      "Angela Dudley",
+      "Isaac Nape",
+      "Kayn A. Forbes"
+    ],
+    "categories": [
+      "physics.optics"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1911.04175v1",
+    "title": "Multi-Agent Connected Autonomous Driving using Deep Reinforcement Learning",
+    "summary": "The capability to learn and adapt to changes in the driving environment is crucial for developing autonomous driving systems that are scalable beyond geo-fenced operational design domains. Deep Reinforcement Learning (RL) provides a promising and scalable framework for developing adaptive learning based solutions. Deep RL methods usually model the problem as a (Partially Observable) Markov Decision Process in which an agent acts in a stationary environment to learn an optimal behavior policy. Ho",
+    "published": "2019-11-11T10:55:25Z",
+    "authors": [
+      "Praveen Palanisamy"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.MA",
+      "cs.RO",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2411.03702v1",
+    "title": "Graph-Based Multi-Modal Sensor Fusion for Autonomous Driving",
+    "summary": "The growing demand for robust scene understanding in mobile robotics and autonomous driving has highlighted the importance of integrating multiple sensing modalities. By combining data from diverse sensors like cameras and LIDARs, fusion techniques can overcome the limitations of individual sensors, enabling a more complete and accurate perception of the environment. We introduce a novel approach to multi-modal sensor fusion, focusing on developing a graph-based state representation that support",
+    "published": "2024-11-06T06:58:17Z",
+    "authors": [
+      "Depanshu Sani",
+      "Saket Anand"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.23922v1",
+    "title": "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation",
+    "summary": "Closed-loop evaluation is increasingly critical for end-to-end autonomous driving. Current closed-loop benchmarks using the CARLA simulator rely on manually configured traffic scenarios, which can diverge from real-world conditions, limiting their ability to reflect actual driving performance. To address these limitations, we introduce a simple yet challenging closed-loop evaluation framework that closely integrates real-world driving scenarios into the CARLA simulator with infrastructure cooper",
+    "published": "2025-09-28T14:55:14Z",
+    "authors": [
+      "Haibao Yu",
+      "Wenxian Yang",
+      "Ruiyang Hao",
+      "Chuanye Wang",
+      "Jiaru Zhong",
+      "Ping Luo",
+      "Zaiqing Nie"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.00034v2",
+    "title": "GaussianFusion: Gaussian-Based Multi-Sensor Fusion for End-to-End Autonomous Driving",
+    "summary": "Multi-sensor fusion is crucial for improving the performance and robustness of end-to-end autonomous driving systems. Existing methods predominantly adopt either attention-based flatten fusion or bird's eye view fusion through geometric transformations. However, these approaches often suffer from limited interpretability or dense computational overhead. In this paper, we introduce GaussianFusion, a Gaussian-based multi-sensor fusion framework for end-to-end autonomous driving. Our method employs",
+    "published": "2025-05-27T01:43:02Z",
+    "authors": [
+      "Shuai Liu",
+      "Quanmin Liang",
+      "Zefeng Li",
+      "Boyang Li",
+      "Kai Huang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2312.06351v1",
+    "title": "Evaluation of Large Language Models for Decision Making in Autonomous Driving",
+    "summary": "Various methods have been proposed for utilizing Large Language Models (LLMs) in autonomous driving. One strategy of using LLMs for autonomous driving involves inputting surrounding objects as text prompts to the LLMs, along with their coordinate and velocity information, and then outputting the subsequent movements of the vehicle. When using LLMs for such purposes, capabilities such as spatial recognition and planning are essential. In particular, two foundational capabilities are required: (1)",
+    "published": "2023-12-11T12:56:40Z",
+    "authors": [
+      "Kotaro Tanahashi",
+      "Yuichi Inoue",
+      "Yu Yamaguchi",
+      "Hidetatsu Yaginuma",
+      "Daiki Shiotsuka",
+      "Hiroyuki Shimatani",
+      "Kohei Iwamasa",
+      "Yoshiaki Inoue",
+      "Takafumi Yamaguchi",
+      "Koki Igari",
+      "Tsukasa Horinouchi",
+      "Kento Tokuhiro",
+      "Yugo Tokuchi",
+      "Shunsuke Aoki"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CL",
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2001.03908v2",
+    "title": "Self-Driving like a Human driver instead of a Robocar: Personalized comfortable driving experience for autonomous vehicles",
+    "summary": "This paper issues an integrated control system of self-driving autonomous vehicles based on the personal driving preference to provide personalized comfortable driving experience to autonomous vehicle users. We propose an Occupant's Preference Metric (OPM) which is defining a preferred lateral and longitudinal acceleration region with maximum allowable jerk for users. Moreover, we propose a vehicle controller based on control parameters enabling integrated lateral and longitudinal control via pr",
+    "published": "2020-01-12T11:07:07Z",
+    "authors": [
+      "Il Bae",
+      "Jaeyoung Moon",
+      "Junekyo Jhung",
+      "Ho Suk",
+      "Taewoo Kim",
+      "Hyungbin Park",
+      "Jaekwang Cha",
+      "Jinhyuk Kim",
+      "Dohyun Kim",
+      "Shiho Kim"
+    ],
+    "categories": [
+      "eess.SY",
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.16500v1",
+    "title": "Advancing Off-Road Autonomous Driving: The Large-Scale ORAD-3D Dataset and Comprehensive Benchmarks",
+    "summary": "A major bottleneck in off-road autonomous driving research lies in the scarcity of large-scale, high-quality datasets and benchmarks. To bridge this gap, we present ORAD-3D, which, to the best of our knowledge, is the largest dataset specifically curated for off-road autonomous driving. ORAD-3D covers a wide spectrum of terrains, including woodlands, farmlands, grasslands, riversides, gravel roads, cement roads, and rural areas, while capturing diverse environmental variations across weather con",
+    "published": "2025-10-18T13:39:28Z",
+    "authors": [
+      "Chen Min",
+      "Jilin Mei",
+      "Heng Zhai",
+      "Shuai Wang",
+      "Tong Sun",
+      "Fanjie Kong",
+      "Haoyang Li",
+      "Fangyuan Mao",
+      "Fuyang Liu",
+      "Shuo Wang",
+      "Yiming Nie",
+      "Qi Zhu",
+      "Liang Xiao",
+      "Dawei Zhao",
+      "Yu Hu"
+    ],
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2406.18138v1",
+    "title": "B-TMS: Bayesian Traversable Terrain Modeling and Segmentation Across 3D LiDAR Scans and Maps for Enhanced Off-Road Navigation",
+    "summary": "Recognizing traversable terrain from 3D point cloud data is critical, as it directly impacts the performance of autonomous navigation in off-road environments. However, existing segmentation algorithms often struggle with challenges related to changes in data distribution, environmental specificity, and sensor variations. Moreover, when encountering sunken areas, their performance is frequently compromised, and they may even fail to recognize them. To address these challenges, we introduce B-TMS",
+    "published": "2024-06-26T07:43:38Z",
+    "authors": [
+      "Minho Oh",
+      "Gunhee Shin",
+      "Seoyeon Jang",
+      "Seungjae Lee",
+      "Dongkyu Lee",
+      "Wonho Song",
+      "Byeongho Yu",
+      "Hyungtae Lim",
+      "Jaeyoung Lee",
+      "Hyun Myung"
+    ],
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2101.00290v1",
+    "title": "Robot Adaptation for Generating Consistent Navigational Behaviors over Unstructured Off-Road Terrain",
+    "summary": "Terrain adaptation is an essential capability for a ground robot to effectively traverse unstructured off-road terrain in real-world field environments such as forests. However, the expected robot behaviors generated by terrain adaptation methods cannot always be executed accurately due to setbacks such as wheel slip and reduced tire pressure. To address this problem, we propose a novel approach for consistent behavior generation that enables the ground robot's actual behaviors to more accuratel",
+    "published": "2021-01-01T18:38:30Z",
+    "authors": [
+      "Sriram Siva",
+      "Maggie Wigness",
+      "John G. Rogers",
+      "Hao Zhang"
+    ],
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2405.16487v1",
+    "title": "Dynamics Models in the Aggressive Off-Road Driving Regime",
+    "summary": "Current developments in autonomous off-road driving are steadily increasing performance through higher speeds and more challenging, unstructured environments. However, this operating regime subjects the vehicle to larger inertial effects, where consideration of higher-order states is necessary to avoid failures such as rollovers or excessive impact forces. Aggressive driving through Model Predictive Control (MPC) in these conditions requires dynamics models that accurately predict safety-critica",
+    "published": "2024-05-26T08:52:16Z",
+    "authors": [
+      "Tyler Han",
+      "Sidharth Talia",
+      "Rohan Panicker",
+      "Preet Shah",
+      "Neel Jawale",
+      "Byron Boots"
+    ],
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2102.12667v2",
+    "title": "Learning Inverse Kinodynamics for Accurate High-Speed Off-Road Navigation on Unstructured Terrain",
+    "summary": "This paper presents a learning-based approach to consider the effect of unobservable world states in kinodynamic motion planning in order to enable accurate high-speed off-road navigation on unstructured terrain. Existing kinodynamic motion planners either operate in structured and homogeneous environments and thus do not need to explicitly account for terrain-vehicle interaction, or assume a set of discrete terrain classes. However, when operating on unstructured terrain, especially at high spe",
+    "published": "2021-02-25T03:46:35Z",
+    "authors": [
+      "Xuesu Xiao",
+      "Joydeep Biswas",
+      "Peter Stone"
+    ],
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2405.13318v1",
+    "title": "BenchNav: Simulation Platform for Benchmarking Off-road Navigation Algorithms with Probabilistic Traversability",
+    "summary": "As robotic navigation techniques in perception and planning advance, mobile robots increasingly venture into off-road environments involving complex traversability. However, selecting suitable planning methods remains a challenge due to their algorithmic diversity, as each offers unique benefits. To aid in algorithm design, we introduce BenchNav, an open-source PyTorch-based simulation platform for benchmarking off-road navigation with uncertain traversability. Built upon Gymnasium, BenchNav pro",
+    "published": "2024-05-22T03:23:10Z",
+    "authors": [
+      "Masafumi Endo",
+      "Kohei Honda",
+      "Genya Ishigami"
+    ],
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.18183v3",
+    "title": "Off-Road Navigation via Implicit Neural Representation of Terrain Traversability",
+    "summary": "Autonomous off-road navigation requires robots to estimate terrain traversability from onboard sensors and plan motion accordingly. Conventional approaches typically rely on sampling-based planners such as MPPI to generate short-term control actions that aim to minimize traversal time and risk measures derived from the traversability estimates. These planners can react quickly but optimize only over a short look-ahead window, limiting their ability to reason about the full path geometry, which i",
+    "published": "2025-11-22T20:39:31Z",
+    "authors": [
+      "Yixuan Jia",
+      "Qingyuan Li",
+      "Jonathan P. How"
+    ],
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.12731v1",
+    "title": "Learning to Predict Mobile Robot Stability in Off-Road Environments",
+    "summary": "Navigating in off-road environments for wheeled mobile robots is challenging due to dynamic and rugged terrain. Traditional physics-based stability metrics, such as Static Stability Margin (SSM) or Zero Moment Point (ZMP) require knowledge of contact forces, terrain geometry, and the robot's precise center-of-mass that are difficult to measure accurately in real-world field conditions. In this work, we propose a learning-based approach to estimate robot platform stability directly from proprioce",
+    "published": "2025-07-17T02:24:35Z",
+    "authors": [
+      "Nathaniel Rose",
+      "Arif Ahmed",
+      "Emanuel Gutierrez-Cornejo",
+      "Parikshit Maini"
+    ],
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2603.17056v1",
+    "title": "DesertFormer: Transformer-Based Semantic Segmentation for Off-Road Desert Terrain Classification in Autonomous Navigation Systems",
+    "summary": "Reliable terrain perception is a fundamental requirement for autonomous navigation in unstructured, off-road environments. Desert landscapes present unique challenges due to low chromatic contrast between terrain categories, extreme lighting variability, and sparse vegetation that defy the assumptions of standard road-scene segmentation models. We present DesertFormer, a semantic segmentation pipeline for off-road desert terrain analysis based on SegFormer B2 with a hierarchical Mix Transformer ",
+    "published": "2026-03-17T18:42:21Z",
+    "authors": [
+      "Yasaswini Chebolu"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2004.04697v1",
+    "title": "Learning to Drive Off Road on Smooth Terrain in Unstructured Environments Using an On-Board Camera and Sparse Aerial Images",
+    "summary": "We present a method for learning to drive on smooth terrain while simultaneously avoiding collisions in challenging off-road and unstructured outdoor environments using only visual inputs. Our approach applies a hybrid model-based and model-free reinforcement learning method that is entirely self-supervised in labeling terrain roughness and collisions using on-board sensors. Notably, we provide both first-person and overhead aerial image inputs to our model. We find that the fusion of these comp",
+    "published": "2020-04-09T17:27:09Z",
+    "authors": [
+      "Travis Manderson",
+      "Stefan Wapnick",
+      "David Meger",
+      "Gregory Dudek"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.14981v4",
+    "title": "SPATIALGEN: Layout-guided 3D Indoor Scene Generation",
+    "summary": "Creating high-fidelity 3D models of indoor environments is essential for applications in design, virtual reality, and robotics. However, manual 3D modeling remains time-consuming and labor-intensive. While recent advances in generative AI have enabled automated scene synthesis, existing methods often face challenges in balancing visual quality, diversity, semantic consistency, and user control. A major bottleneck is the lack of a large-scale, high-quality dataset tailored to this task. To addres",
+    "published": "2025-09-18T14:12:32Z",
+    "authors": [
+      "Chuan Fang",
+      "Heng Li",
+      "Yixun Liang",
+      "Jia Zheng",
+      "Yongsen Mao",
+      "Yuan Liu",
+      "Rui Tang",
+      "Zihan Zhou",
+      "Ping Tan"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2404.06442v2",
+    "title": "QueSTMaps: Queryable Semantic Topological Maps for 3D Scene Understanding",
+    "summary": "Robotic tasks such as planning and navigation require a hierarchical semantic understanding of a scene, which could include multiple floors and rooms. Current methods primarily focus on object segmentation for 3D scene understanding. However, such methods struggle to segment out topological regions like \"kitchen\" in the scene. In this work, we introduce a two-step pipeline to solve this problem. First, we extract a topological map, i.e., floorplan of the indoor scene using a novel multi-channel ",
+    "published": "2024-04-09T16:42:54Z",
+    "authors": [
+      "Yash Mehan",
+      "Kumaraditya Gupta",
+      "Rohit Jayanti",
+      "Anirudh Govil",
+      "Sourav Garg",
+      "Madhava Krishna"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2207.02363v1",
+    "title": "SNeRF: Stylized Neural Implicit Representations for 3D Scenes",
+    "summary": "This paper presents a stylized novel view synthesis method. Applying state-of-the-art stylization methods to novel views frame by frame often causes jittering artifacts due to the lack of cross-view consistency. Therefore, this paper investigates 3D scene stylization that provides a strong inductive bias for consistent novel view synthesis. Specifically, we adopt the emerging neural radiance fields (NeRF) as our choice of 3D scene representation for their capability to render high-quality novel ",
+    "published": "2022-07-05T23:45:02Z",
+    "authors": [
+      "Thu Nguyen-Phuoc",
+      "Feng Liu",
+      "Lei Xiao"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2505.05474v1",
+    "title": "3D Scene Generation: A Survey",
+    "summary": "3D scene generation seeks to synthesize spatially structured, semantically meaningful, and photorealistic environments for applications such as immersive media, robotics, autonomous driving, and embodied AI. Early methods based on procedural rules offered scalability but limited diversity. Recent advances in deep generative models (e.g., GANs, diffusion models) and 3D representations (e.g., NeRF, 3D Gaussians) have enabled the learning of real-world scene distributions, improving fidelity, diver",
+    "published": "2025-05-08T17:59:54Z",
+    "authors": [
+      "Beichen Wen",
+      "Haozhe Xie",
+      "Zhaoxi Chen",
+      "Fangzhou Hong",
+      "Ziwei Liu"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2011.10379v3",
+    "title": "Neural Scene Graphs for Dynamic Scenes",
+    "summary": "Recent implicit neural rendering methods have demonstrated that it is possible to learn accurate view synthesis for complex scenes by predicting their volumetric density and color supervised solely by a set of RGB images. However, existing methods are restricted to learning efficient representations of static scenes that encode all scene objects into a single neural network, and lack the ability to represent dynamic scenes and decompositions into individual scene objects. In this work, we presen",
+    "published": "2020-11-20T12:37:10Z",
+    "authors": [
+      "Julian Ost",
+      "Fahim Mannan",
+      "Nils Thuerey",
+      "Julian Knodt",
+      "Felix Heide"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.GR"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.07152v1",
+    "title": "Controllable 3D Outdoor Scene Generation via Scene Graphs",
+    "summary": "Three-dimensional scene generation is crucial in computer vision, with applications spanning autonomous driving, gaming and the metaverse. Current methods either lack user control or rely on imprecise, non-intuitive conditions. In this work, we propose a method that uses, scene graphs, an accessible, user friendly control format to generate outdoor 3D scenes. We develop an interactive system that transforms a sparse scene graph into a dense BEV (Bird's Eye View) Embedding Map, which guides a con",
+    "published": "2025-03-10T10:26:08Z",
+    "authors": [
+      "Yuheng Liu",
+      "Xinke Li",
+      "Yuning Zhang",
+      "Lu Qi",
+      "Xin Li",
+      "Wenping Wang",
+      "Chongshou Li",
+      "Xueting Li",
+      "Ming-Hsuan Yang"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2312.00732v2",
+    "title": "Gaussian Grouping: Segment and Edit Anything in 3D Scenes",
+    "summary": "The recent Gaussian Splatting achieves high-quality and real-time novel-view synthesis of the 3D scenes. However, it is solely concentrated on the appearance and geometry modeling, while lacking in fine-grained object-level scene understanding. To address this issue, we propose Gaussian Grouping, which extends Gaussian Splatting to jointly reconstruct and segment anything in open-world 3D scenes. We augment each Gaussian with a compact Identity Encoding, allowing the Gaussians to be grouped acco",
+    "published": "2023-12-01T17:09:31Z",
+    "authors": [
+      "Mingqiao Ye",
+      "Martin Danelljan",
+      "Fisher Yu",
+      "Lei Ke"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2107.04004v2",
+    "title": "3D Neural Scene Representations for Visuomotor Control",
+    "summary": "Humans have a strong intuitive understanding of the 3D environment around us. The mental model of the physics in our brain applies to objects of different materials and enables us to perform a wide range of manipulation tasks that are far beyond the reach of current robots. In this work, we desire to learn models for dynamic 3D scenes purely from 2D visual observations. Our model combines Neural Radiance Fields (NeRF) and time contrastive learning with an autoencoding framework, which learns vie",
+    "published": "2021-07-08T17:49:37Z",
+    "authors": [
+      "Yunzhu Li",
+      "Shuang Li",
+      "Vincent Sitzmann",
+      "Pulkit Agrawal",
+      "Antonio Torralba"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2103.06422v3",
+    "title": "Holistic 3D Scene Understanding from a Single Image with Implicit Representation",
+    "summary": "We present a new pipeline for holistic 3D scene understanding from a single image, which could predict object shapes, object poses, and scene layout. As it is a highly ill-posed problem, existing methods usually suffer from inaccurate estimation of both shapes and layout especially for the cluttered scene due to the heavy occlusion between objects. We propose to utilize the latest deep implicit representation to solve this challenge. We not only propose an image-based local structured implicit n",
+    "published": "2021-03-11T02:52:46Z",
+    "authors": [
+      "Cheng Zhang",
+      "Zhaopeng Cui",
+      "Yinda Zhang",
+      "Bing Zeng",
+      "Marc Pollefeys",
+      "Shuaicheng Liu"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2304.00837v1",
+    "title": "Disorder-invariant Implicit Neural Representation",
+    "summary": "Implicit neural representation (INR) characterizes the attributes of a signal as a function of corresponding coordinates which emerges as a sharp weapon for solving inverse problems. However, the expressive power of INR is limited by the spectral bias in the network training. In this paper, we find that such a frequency-related problem could be greatly solved by re-arranging the coordinates of the input signal, for which we propose the disorder-invariant implicit neural representation (DINER) by",
+    "published": "2023-04-03T09:28:48Z",
+    "authors": [
+      "Hao Zhu",
+      "Shaowen Xie",
+      "Zhen Liu",
+      "Fengyi Liu",
+      "Qi Zhang",
+      "You Zhou",
+      "Yi Lin",
+      "Zhan Ma",
+      "Xun Cao"
+    ],
+    "categories": [
+      "cs.CV",
+      "eess.SP"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1902.02060v3",
+    "title": "On ADMM in Deep Learning: Convergence and Saturation-Avoidance",
+    "summary": "In this paper, we develop an alternating direction method of multipliers (ADMM) for deep neural networks training with sigmoid-type activation functions (called \\textit{sigmoid-ADMM pair}), mainly motivated by the gradient-free nature of ADMM in avoiding the saturation of sigmoid-type activations and the advantages of deep neural networks with sigmoid-type activations (called deep sigmoid nets) over their rectified linear unit (ReLU) counterparts (called deep ReLU nets) in terms of approximation",
+    "published": "2019-02-06T08:22:08Z",
+    "authors": [
+      "Jinshan Zeng",
+      "Shao-Bo Lin",
+      "Yuan Yao",
+      "Ding-Xuan Zhou"
+    ],
+    "categories": [
+      "cs.LG",
+      "math.OC",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1604.00647v1",
+    "title": "Multi-Relational Learning at Scale with ADMM",
+    "summary": "Learning from multiple-relational data which contains noise, ambiguities, or duplicate entities is essential to a wide range of applications such as statistical inference based on Web Linked Data, recommender systems, computational biology, and natural language processing. These tasks usually require working with very large and complex datasets - e.g., the Web graph - however, current approaches to multi-relational learning are not practical for such scenarios due to their high computational com",
+    "published": "2016-04-03T15:42:36Z",
+    "authors": [
+      "Lucas Drumond",
+      "Ernesto Diaz-Aviles",
+      "Lars Schmidt-Thieme"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2603.29261v1",
+    "title": "Monodense Deep Neural Model for Determining Item Price Elasticity",
+    "summary": "Item Price Elasticity is used to quantify the responsiveness of consumer demand to changes in item prices, enabling businesses to create pricing strategies and optimize revenue management. Sectors such as store retail, e-commerce, and consumer goods rely on elasticity information derived from historical sales and pricing data. This elasticity provides an understanding of purchasing behavior across different items, consumer discount sensitivity, and demand elastic departments. This information is",
+    "published": "2026-03-31T04:50:51Z",
+    "authors": [
+      "Lakshya Garg",
+      "Sai Yaswanth",
+      "Deep Narayan Mishra",
+      "Karthik Kumaran",
+      "Anupriya Sharma",
+      "Mayank Uniyal"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.23753v1",
+    "title": "Generalized Regularized Evidential Deep Learning Models: Theory and Comprehensive Evaluation",
+    "summary": "Evidential deep learning (EDL) models, based on Subjective Logic, introduce a principled and computationally efficient way to make deterministic neural networks uncertainty-aware. The resulting evidential models can quantify fine-grained uncertainty using learned evidence. However, the Subjective-Logic framework constrains evidence to be non-negative, requiring specific activation functions whose geometric properties can induce activation-dependent learning-freeze behavior: a regime where gradie",
+    "published": "2025-12-27T11:26:18Z",
+    "authors": [
+      "Deep Shankar Pandey",
+      "Hyomin Choi",
+      "Qi Yu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2302.09566v2",
+    "title": "Optimization Methods in Deep Learning: A Comprehensive Overview",
+    "summary": "In recent years, deep learning has achieved remarkable success in various fields such as image recognition, natural language processing, and speech recognition. The effectiveness of deep learning largely depends on the optimization methods used to train deep neural networks. In this paper, we provide an overview of first-order optimization methods such as Stochastic Gradient Descent, Adagrad, Adadelta, and RMSprop, as well as recent momentum-based and adaptive gradient methods such as Nesterov a",
+    "published": "2023-02-19T13:01:53Z",
+    "authors": [
+      "David Shulman"
+    ],
+    "categories": [
+      "cs.LG",
+      "math.OC"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1711.00146v1",
+    "title": "A multitask deep learning model for real-time deployment in embedded systems",
+    "summary": "We propose an approach to Multitask Learning (MTL) to make deep learning models faster and lighter for applications in which multiple tasks need to be solved simultaneously, which is particularly useful in embedded, real-time systems. We develop a multitask model for both Object Detection and Semantic Segmentation and analyze the challenges that appear during its training. Our multitask network is 1.6x faster, lighter and uses less memory than deploying the single-task models in parallel. We con",
+    "published": "2017-10-31T23:59:23Z",
+    "authors": [
+      "Miquel Martí",
+      "Atsuto Maki"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2205.04675v2",
+    "title": "Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination",
+    "summary": "Insects are the most important global pollinator of crops and play a key role in maintaining the sustainability of natural ecosystems. Insect pollination monitoring and management are therefore essential for improving crop production and food security. Computer vision facilitated pollinator monitoring can intensify data collection over what is feasible using manual approaches. The new data it generates may provide a detailed understanding of insect distributions and facilitate fine-grained analy",
+    "published": "2022-05-10T05:11:28Z",
+    "authors": [
+      "Malika Nisal Ratnayake",
+      "Don Chathurika Amarathunga",
+      "Asaduz Zaman",
+      "Adrian G. Dyer",
+      "Alan Dorin"
+    ],
+    "categories": [
+      "cs.CV",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2409.06606v1",
+    "title": "A surprising regularizing effect of the nonlinear semigroup associated to the semilinear heat equation and applications to reaction diffusion systems",
+    "summary": "In this paper we prove that positive weak solutions for quasilinear parabolic equations on bounded domains subject to homogenous Neumann boundary conditions becme classical and global under the unique condition that the reaction doesn't change sign after certain positive time. We apply this result to reaction diffusion systems and prove global existence of theirs positive weak solutions under the same condition on theirs reactions. The nonlinearities growth isn't taken in consideration. The proo",
+    "published": "2024-09-10T15:58:21Z",
+    "authors": [
+      "Said Kouachi"
+    ],
+    "categories": [
+      "math.DS"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2010.01177v4",
+    "title": "Global Adaptive Filtering Layer for Computer Vision",
+    "summary": "We devise a universal adaptive neural layer to \"learn\" optimal frequency filter for each image together with the weights of the base neural network that performs some computer vision task. The proposed approach takes the source image in the spatial domain, automatically selects the best frequencies from the frequency domain, and transmits the inverse-transform image to the main neural network. Remarkably, such a simple add-on layer dramatically improves the performance of the main network regard",
+    "published": "2020-10-02T19:43:49Z",
+    "authors": [
+      "Viktor Shipitsin",
+      "Iaroslav Bespalov",
+      "Dmitry V. Dylov"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2107.14072v2",
+    "title": "What Does TERRA-REF's High Resolution, Multi Sensor Plant Sensing Public Domain Data Offer the Computer Vision Community?",
+    "summary": "A core objective of the TERRA-REF project was to generate an open-access reference dataset for the evaluation of sensing technologies to study plants under field conditions. The TERRA-REF program deployed a suite of high-resolution, cutting edge technology sensors on a gantry system with the aim of scanning 1 hectare (10$^4$) at around 1 mm$^2$ spatial resolution multiple times per week. The system contains co-located sensors including a stereo-pair RGB camera, a thermal imager, a laser scanner ",
+    "published": "2021-07-29T15:01:29Z",
+    "authors": [
+      "David LeBauer",
+      "Max Burnette",
+      "Noah Fahlgren",
+      "Rob Kooper",
+      "Kenton McHenry",
+      "Abby Stylianou"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1402.0859v3",
+    "title": "The Informed Sampler: A Discriminative Approach to Bayesian Inference in Generative Computer Vision Models",
+    "summary": "Computer vision is hard because of a large variability in lighting, shape, and texture; in addition the image signal is non-additive due to occlusion. Generative models promised to account for this variability by accurately modelling the image formation process as a function of latent variables with prior beliefs. Bayesian posterior inference could then, in principle, explain the observation. While intuitively appealing, generative models for computer vision have largely failed to deliver on tha",
+    "published": "2014-02-04T20:52:26Z",
+    "authors": [
+      "Varun Jampani",
+      "Sebastian Nowozin",
+      "Matthew Loper",
+      "Peter V. Gehler"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1806.07996v1",
+    "title": "Novel Convolution Kernels for Computer Vision and Shape Analysis based on Electromagnetism",
+    "summary": "Computer vision is a growing field with a lot of new applications in automation and robotics, since it allows the analysis of images and shapes for the generation of numerical or analytical information. One of the most used method of information extraction is image filtering through convolution kernels, with each kernel specialized for specific applications. The objective of this paper is to present a novel convolution kernels, based on principles of electromagnetic potentials and fields, for a ",
+    "published": "2018-06-20T21:31:00Z",
+    "authors": [
+      "Dominique Beaini",
+      "Sofiane Achiche",
+      "Yann-Seing Law-Kam Cio",
+      "Maxime Raison"
+    ],
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1002.2191v1",
+    "title": "Vision Based Game Development Using Human Computer Interaction",
+    "summary": "A Human Computer Interface (HCI) System for playing games is designed here for more natural communication with the machines. The system presented here is a vision-based system for detection of long voluntary eye blinks and interpretation of blink patterns for communication between man and machine. This system replaces the mouse with the human face as a new way to interact with the computer. Facial features (nose tip and eyes) are detected and tracked in realtime to use their actions as mouse eve",
+    "published": "2010-02-10T19:46:07Z",
+    "authors": [
+      "S. Sumathi",
+      "S. K. Srivatsa",
+      "M. Uma Maheswari"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.CV",
+      "cs.MM"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1611.02145v1",
+    "title": "Crowdsourcing in Computer Vision",
+    "summary": "Computer vision systems require large amounts of manually annotated data to properly learn challenging visual concepts. Crowdsourcing platforms offer an inexpensive method to capture human knowledge and understanding, for a vast number of visual perception tasks. In this survey, we describe the types of annotations computer vision researchers have collected using crowdsourcing, and how they have ensured that this data is of high quality while annotation effort is minimized. We begin by discussin",
+    "published": "2016-11-07T16:11:19Z",
+    "authors": [
+      "Adriana Kovashka",
+      "Olga Russakovsky",
+      "Li Fei-Fei",
+      "Kristen Grauman"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.HC"
+    ]
+  }
+]

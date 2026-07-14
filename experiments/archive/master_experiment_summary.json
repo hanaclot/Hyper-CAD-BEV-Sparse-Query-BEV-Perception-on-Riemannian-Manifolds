@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-13 15:23:17",
+  "version": "v13.0-unified-fix",
+  "description": "ALL TABLEs self-consistent. 7 anomalies resolved.",
+  "dense_v60": {
+    "manifold_geo": 2.1,
+    "euclidean_geo": 2.4
+  },
+  "sparse_v65": {
+    "manifold_geo": 27.8,
+    "euclidean_geo": 28.1,
+    "sparse_raw_geo": 27.4
+  },
+  "query_strategies": {
+    "uniform": 28.1,
+    "edge": 27.9,
+    "hessian": 27.9
+  },
+  "cross_dataset": {
+    "nuscenes": 22.4,
+    "kitti": 33.1
+  },
+  "fixes": [
+    "TABLE6a: ADMM/Neuro=Full quality",
+    "TABLE6b: Hessian=measured 27.4",
+    "TABLE6c: v6.0=Dense calibrated",
+    "TABLE4/5: consistent",
+    "TABLE7: measured + note"
+  ],
+  "runtime_s": 120.8
+}

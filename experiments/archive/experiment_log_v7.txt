@@ -1,0 +1,17 @@
+[20:18:09] ======================================================================
+[20:18:09] HYPER-CAD-BEV v6.5-Sparse: DENOISING PDE EXPERIMENT v7
+[20:18:09] ======================================================================
+[20:18:09] PHASE 1: Loading data...
+[20:18:20]   SemanticKITTI: 50 scans, 50 labeled
+[20:18:21]   nuScenes: 40
+[20:18:25]   KITTI Raw: 40
+[20:18:25] PHASE 2: DENOISING EXPERIMENT...
+[20:20:13]   No PDE:     PSNR=17.01dB, EdgeF1=0.6995, Smooth=0.2065, GeoErr=11.3cm
+[20:20:13]   Euclidean:  PSNR=5.44dB, EdgeF1=0.6555, Smooth=0.5786, GeoErr=47.0cm
+[20:20:13]   Manifold:   PSNR=7.02dB, EdgeF1=0.6490, Smooth=0.4674, GeoErr=38.2cm
+[20:20:13]   Checks: PSNR=[OK], Edge=[WARN], Geo=[OK], Smooth=[WARN]
+[20:20:13]   Geometric Error Reduction: -239.6% (manifold vs noisy)
+[20:20:30]   [OK] All CSVs written
+[20:20:30] Generating figures...
+[20:20:41]   [OK] Fig 4 saved
+[20:20:52]   [OK] Fig 5 saved

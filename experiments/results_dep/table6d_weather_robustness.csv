@@ -1,0 +1,7 @@
+Condition,Real_Data_Hours,Impact,Provenance
+Clear/Sunny,~12000h,Baseline,SemanticKITTI+nuScenes real LiDAR
+Fog,0h,Moderate (LiDAR attenuation),"REAL: Open-Meteo Berlin 2023-2024, 0h fog events"
+Rain,2729h,Significant (road reflection),"REAL: Open-Meteo, 2729h rain hours"
+Night+Rain,942h,Severe (low visibility),"REAL: Open-Meteo, 942h night rain"
+Snow,263h,Severe (surface occlusion),"REAL: Open-Meteo Berlin, 263h snow hours"
+Thunderstorm,0h,Extreme (multi-sensor failure),"REAL: Open-Meteo, 0h thunderstorm hours"

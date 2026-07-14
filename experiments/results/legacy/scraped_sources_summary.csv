@@ -1,0 +1,9 @@
+Source,URL,Status,Key Information
+RELLIS-3D,github.com/unmannedlab/RELLIS-3D,Scraped (437 stars),Multi-modal off-road robotics dataset
+SemanticKITTI,semantic-kitti.org,Scraped,LiDAR BEV segmentation benchmark
+TartanDrive 2.0,theairlab.org/TartanDrive2,Scraped,High-speed off-road terrain dynamics
+BEVFormer,arxiv.org/abs/2203.17270,Scraped,Dense BEV transformer baseline
+SparseAD,arxiv.org/abs/2404.06892,Scraped,Sparse query paradigm support
+Event Camera Survey,arxiv.org/abs/1711.01458,Scraped,"Low-light, high dynamic range sensing"
+Loihi 2 Sensor Fusion,arxiv.org/html/2408.16096v1,Scraped,Edge multi-sensor fusion support
+Weather/Lighting Paper,arxiv.org/abs/2206.09907,Scraped,Weather-robust off-road detection

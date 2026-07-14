@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-07-11T12:17:17.316280",
+  "core_papers": 9,
+  "extended_papers": 78,
+  "total_unique_papers": 87,
+  "sources": [
+    "SemanticKITTI (http://semantic-kitti.org/)",
+    "RELLIS-3D (https://github.com/unmannedlab/RELLIS-3D)",
+    "TartanDrive2 (https://theairlab.org/TartanDrive2/)",
+    "arXiv API (9 core + 10 extended queries)",
+    "BEVFormer (2203.17270)",
+    "SparseAD (2404.06892)",
+    "EventCamera (1711.01458)",
+    "LoihiFusion (2408.16096)",
+    "WeatherRobustness (2206.09907)"
+  ]
+}

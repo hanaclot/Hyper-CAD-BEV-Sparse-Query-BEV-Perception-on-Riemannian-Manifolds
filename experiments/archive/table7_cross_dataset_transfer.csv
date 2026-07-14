@@ -1,0 +1,11 @@
+Source -> Target,v6.0 mIoU%,v6.5 mIoU%,Delta%,Error cm,Notes
+SemanticKITTI -> KITTI Raw,72.1,71.8,-0.3,5.2,Shared KITTI platform
+SemanticKITTI -> nuScenes,70.5,69.2,-1.3,6.8,"Cross-city, cross-sensor"
+nuScenes -> SemanticKITTI,68.7,67.5,-1.2,7.5,"Cross-city, cross-sensor"
+nuScenes -> Waymo,67.2,65.8,-1.4,8.9,Different LiDAR config
+KITTI Raw -> RELLIS-3D,65.3,63.1,-2.2,12.5,Urban -> Off-road domain shift
+RELLIS-3D -> SemanticKITTI,58.9,55.2,-3.7,18.2,Off-road -> Urban domain shift
+SemanticKITTI -> TartanDrive2,66.8,64.5,-2.3,10.1,Static -> Dynamic terrain
+Combined (5 src) -> SemanticKITTI,75.2,74.1,-1.1,4.1,Multi-source benefit
+Combined (5 src) -> nuScenes,73.1,71.8,-1.3,5.2,Multi-source benefit
+Combined (5 src) -> RELLIS-3D,72.5,70.2,-2.3,7.8,Multi-source benefit

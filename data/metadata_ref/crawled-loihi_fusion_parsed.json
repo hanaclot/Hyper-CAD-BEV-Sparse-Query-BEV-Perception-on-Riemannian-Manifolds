@@ -1,0 +1,15 @@
+{
+  "name": "loihi_fusion",
+  "arxiv_id": "2408.16096",
+  "title": "Accelerating Sensor Fusion in Neuromorphic Computing: A Case Study on Loihi-2",
+  "abstract": "In our study, we utilized Intel's Loihi-2 neuromorphic chip to enhance sensor fusion in fields like robotics and autonomous systems, focusing on datasets such as AIODrive, Oxford Radar RobotCar, D-Behavior (D-Set), nuScenes by Motional, and Comma2k19. Our research demonstrated that Loihi-2, using spiking neural networks, significantly outperformed traditional computing methods in speed and energy efficiency. Compared to conventional CPUs and GPUs, Loihi-2 showed remarkable energy efficiency, being over 100 times more efficient than a CPU and nearly 30 times more than a GPU. Additionally, our Loihi-2 implementation achieved faster processing speeds on various datasets, marking a substantial advancement over existing state-of-the-art implementations. This paper also discusses the specific challenges encountered during the implementation and optimization processes, providing insights into the architectural innovations of Loihi-2 that contribute to its superior performance.",
+  "published": "2024-08-28T18:58:36Z",
+  "category": "",
+  "authors": [
+    "Murat Isik",
+    "Karn Tiwari",
+    "Muhammed Burak Eryilmaz",
+    "I. Can Dikmen"
+  ],
+  "comments": "Accepted at 2024 IEEE High Performance Extreme Computing"
+}

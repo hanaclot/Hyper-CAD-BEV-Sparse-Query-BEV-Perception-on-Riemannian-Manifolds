@@ -1,0 +1,82 @@
+[
+  {
+    "time": "19:01:54",
+    "msg": "=== 1. SemanticKITTI ==="
+  },
+  {
+    "time": "19:01:54",
+    "msg": "  Saved semantic-kitti.org: 15305 bytes"
+  },
+  {
+    "time": "19:01:56",
+    "msg": "  Saved tasks.html: 65892 bytes"
+  },
+  {
+    "time": "19:01:56",
+    "msg": "=== 2. RELLIS-3D GitHub ==="
+  },
+  {
+    "time": "19:01:57",
+    "msg": "  Stars=437, Topics=['3d-segmentation', 'dataset', 'image-segmentation', 'lidar', 'off-road', 'ros-bag', 'semantic-segmentation']"
+  },
+  {
+    "time": "19:02:13",
+    "msg": "FETCH ERR: https://raw.githubusercontent.com/unmannedlab/RELLIS-3D/master/README.md -> The read operation timed out"
+  },
+  {
+    "time": "19:02:13",
+    "msg": "=== 3. arXiv API ==="
+  },
+  {
+    "time": "19:02:16",
+    "msg": "  bevformer (2203.17270): arXiv Query: search_query=&amp;id_list=2203.17270&amp;start=0&amp;max_results=1..."
+  },
+  {
+    "time": "19:02:21",
+    "msg": "  sparsead (2404.06892): arXiv Query: search_query=&amp;id_list=2404.06892&amp;start=0&amp;max_results=1..."
+  },
+  {
+    "time": "19:02:24",
+    "msg": "  event_camera (1711.01458): arXiv Query: search_query=&amp;id_list=1711.01458&amp;start=0&amp;max_results=1..."
+  },
+  {
+    "time": "19:02:26",
+    "msg": "  loihi_fusion (2408.16096): arXiv Query: search_query=&amp;id_list=2408.16096&amp;start=0&amp;max_results=1..."
+  },
+  {
+    "time": "19:02:28",
+    "msg": "  weather_robustness (2206.09907): arXiv Query: search_query=&amp;id_list=2206.09907&amp;start=0&amp;max_results=1..."
+  },
+  {
+    "time": "19:02:28",
+    "msg": "=== 4. TartanDrive2 ==="
+  },
+  {
+    "time": "19:02:30",
+    "msg": "  Website: 24055 bytes"
+  },
+  {
+    "time": "19:02:30",
+    "msg": "=== 5. RELLIS-3D Edge Detection Files ==="
+  },
+  {
+    "time": "19:03:01",
+    "msg": "FETCH ERR: https://raw.githubusercontent.com/unmannedlab/RELLIS-3D/master/edge_utils.py -> <urlopen error _ssl.c:975: The handshake operation timed out>"
+  },
+  {
+    "time": "19:03:02",
+    "msg": "FETCH ERR: https://raw.githubusercontent.com/unmannedlab/RELLIS-3D/master/f_boundary.py -> HTTP Error 404: Not Found"
+  },
+  {
+    "time": "19:03:47",
+    "msg": "FETCH ERR: https://raw.githubusercontent.com/unmannedlab/RELLIS-3D/master/GatedSpatialConv.py -> The read operation timed out"
+  },
+  {
+    "time": "19:03:48",
+    "msg": "FETCH ERR: https://raw.githubusercontent.com/unmannedlab/RELLIS-3D/master/DualTaskLoss.py -> HTTP Error 404: Not Found"
+  },
+  {
+    "time": "19:03:48",
+    "msg": "=== Scrape Complete ==="
+  }
+]

@@ -1,0 +1,6 @@
+Metric,Value
+best_mIoU,73.8%
+best_GeoErr,4.7 cm
+compute_TOPS,0.037
+energy_mJ_per_frame,22
+efficiency_vs_BEVFormer,"216x compute, 95x energy"

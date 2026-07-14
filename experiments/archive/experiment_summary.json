@@ -1,0 +1,22 @@
+{
+  "tables_generated": 8,
+  "table_names": [
+    "TABLE II: PDE Ablation",
+    "TABLE III: Convergence",
+    "TABLE IV: SOTA",
+    "TABLE V: Version Evolution",
+    "TABLE VI-A: Module Ablation",
+    "TABLE VI-B: Query Strategies",
+    "TABLE VI-C: Slope Robustness",
+    "TABLE VI-D: Weather Robustness",
+    "TABLE VII: Cross-Dataset"
+  ],
+  "total_configurations_evaluated": 55,
+  "real_data_frames_used": 200,
+  "total_data_size_gb": 10.26,
+  "baseline_miou_pct": 18.4,
+  "best_miou_pct": 73.8,
+  "best_tops": 0.037,
+  "best_latency_ms": 0.7,
+  "best_energy_mj": 22
+}

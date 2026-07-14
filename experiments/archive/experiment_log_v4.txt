@@ -1,0 +1,32 @@
+[19:41:51] ======================================================================
+[19:41:51] HYPER-CAD-BEV v6.5-Sparse DEEP EXPERIMENT (CORRECTED v4)
+[19:41:51] ======================================================================
+[19:41:51] Phase 1: Loading data...
+[19:41:51]   Velo dir: E:\Hyper-CAD-BEV-Experiments\data\semantickitti_official\dataset\sequences\00\velodyne (exists=True)
+[19:41:51]   Label dir: E:\Hyper-CAD-BEV-Experiments\data\semantickitti_official\labels\dataset\sequences\00\labels (exists=True)
+[19:41:51]   Found 4541 label files
+[19:41:54]   SemanticKITTI: 40 scans loaded, 40 labeled
+[19:41:54]   Sample labeled scan: 000008 shape=(122123, 4) labels=122123
+[19:41:54]   nuScenes: 30 scans
+[19:41:54]   KITTI Raw: 30 scans
+[19:41:54] Phase 2: BEV projection...
+[19:41:54] Phase 3: Riemannian metric...
+[19:41:54] Phase 4: PDE solving...
+[19:41:54] ======================================================================
+[19:41:54] RUNNING ALL EXPERIMENTS
+[19:41:54] ======================================================================
+[19:41:54] TABLE II: PDE Ablation...
+[19:42:36]   No PDE:      mIoU=3.6%, GeoErr=29.1cm, Smooth=0.014
+[19:42:36]   Euclidean:   mIoU=3.8%, GeoErr=53.7cm, Smooth=0.357
+[19:42:36]   Manifold:    mIoU=3.8%, GeoErr=53.7cm, Smooth=0.357
+[19:42:36]   Ordering check: [WARN] ma=3.8 eu=3.8 no=3.6
+[19:42:36] TABLE III: Optimizer Convergence...
+[19:42:36]   Gradient Descent    :   1 iters, MSE=0.0001, 0.0s
+[19:42:36]   Standard ADMM       :   1 iters, MSE=0.0000, 0.0s
+[19:42:36]   Manifold-ADMM       :   1 iters, MSE=0.0000, 0.0s
+[19:42:36] TABLE I: Dataset Statistics...
+[19:42:36] Writing CSV files...
+[19:42:43]   [OK] All 10 CSVs written
+[19:42:43] Generating figures...
+[19:42:48]   [OK] Fig 4 saved
+[19:42:58]   [OK] Fig 5 saved

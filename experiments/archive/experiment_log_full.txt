@@ -1,0 +1,35 @@
+=== FULL EXPERIMENT PIPELINE ===
+
+Loading 400 bin files...
+  400 valid frames
+  flat=220 mod=180 steep=0
+
+=== TABLE II: PDE Regularization Ablation ===
+  Testing on 130 frames
+    30/130 done
+    60/130 done
+    90/130 done
+    120/130 done
+  IBEV-Field (no PDE):       mIoU=100.0%, GeoErr=0.0cm, Edge=0.050
+  Euclidean PDE:             mIoU=50.1%, GeoErr=63.4cm, Edge=0.001
+  Manifold PDE:              mIoU=50.3%, GeoErr=63.1cm, Edge=0.004
+  Manifold PDE gain: +-49.7pp mIoU, -inf% geometric error reduction
+
+=== TABLE III: Optimizer Convergence ===
+  Gradient Descent: 120 iters -> mIoU=50.4%, GeoErr=65.8cm
+  Standard ADMM: 65 iters -> mIoU=50.2%, GeoErr=66.0cm
+  Manifold-ADMM: 20 iters -> mIoU=50.3%, GeoErr=65.9cm
+  TABLE III saved
+
+=== TABLE VI(a): Core Module Ablation ===
+  Full v6.5-Sparse:                mIoU=50.3%, GeoErr=63.1cm
+  w/o Riemannian (Euclidean PDE):   mIoU=50.1%, GeoErr=63.4cm
+  w/o PDE (IBEV-Field only):       mIoU=100.0%, GeoErr=0.0cm
+  Ablation impact: -0.2pp / --49.7pp mIoU
+
+=== TABLE VI(c): Slope Robustness ===
+  Flat (0deg):     mIoU=50.2%, GeoErr=65.9cm
+  Moderate (?15deg): mIoU=0.5%, GeoErr=125.1cm
+  Steep (?25deg):   (no steep frames, extrapolating)
+=== TABLE IV: SOTA Comparison ===
+=== TABLE V: Version Evolution ===

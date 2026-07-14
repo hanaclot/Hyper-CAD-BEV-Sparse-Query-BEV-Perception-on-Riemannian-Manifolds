@@ -1,0 +1,98 @@
+{
+  "rellis3d_github": {
+    "status": "ok",
+    "stars": 437
+  },
+  "rellis3d_readme": {
+    "status": "ok",
+    "size": 18301
+  },
+  "rellis3d_page": {
+    "status": "error",
+    "msg": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  "semantickitti_main": {
+    "status": "ok",
+    "size": 15305
+  },
+  "semantickitti_tasks": {
+    "status": "ok",
+    "size": 65892
+  },
+  "semantickitti_dataset": {
+    "status": "ok",
+    "size": 12984
+  },
+  "tartandrive2_main": {
+    "status": "ok",
+    "size": 24055
+  },
+  "tartandrive2_arxiv": {
+    "status": "ok",
+    "size": 44500
+  },
+  "arxiv_BEVFormer_2203.17270": {
+    "status": "ok",
+    "size": 3022
+  },
+  "arxiv_SparseAD_2404.06892": {
+    "status": "ok",
+    "size": 3407
+  },
+  "arxiv_EventCamera_1711.01458": {
+    "status": "ok",
+    "size": 3011
+  },
+  "arxiv_LoihiFusion_2408.16096": {
+    "status": "ok",
+    "size": 2594
+  },
+  "arxiv_WeatherRobustness_2206.09907": {
+    "status": "ok",
+    "size": 3073
+  },
+  "arxiv_SparseBEV_2308.09244": {
+    "status": "ok",
+    "size": 3011
+  },
+  "arxiv_Sparse4D_2311.11722": {
+    "status": "ok",
+    "size": 2693
+  },
+  "arxiv_BEVDet_2112.11790": {
+    "status": "ok",
+    "size": 3010
+  },
+  "arxiv_MonoBEV_2410.06516": {
+    "status": "ok",
+    "size": 2893
+  },
+  "query_sparse_query_bev": {
+    "status": "ok",
+    "size": 25425
+  },
+  "query_neuromorphic_driving": {
+    "status": "ok",
+    "size": 23479
+  },
+  "query_event_camera_perception": {
+    "status": "ok",
+    "size": 25537
+  },
+  "query_bev_offroad": {
+    "status": "ok",
+    "size": 23140
+  },
+  "query_lidar_3d_detection": {
+    "status": "ok",
+    "size": 25730
+  },
+  "query_terrain_perception": {
+    "status": "ok",
+    "size": 27509
+  },
+  "query_edge_sensor_fusion": {
+    "status": "ok",
+    "size": 27388
+  }
+}

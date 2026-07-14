@@ -1,0 +1,4 @@
+Dataset,Scans,GeoErr_cm,EdgeF1,PSNR,Slope_σ,LiDAR,Provenance
+SemanticKITTI,40,0.84,0.7317,39.1,0.4095,64ch_HDL64E,REAL: sequences/00/velodyne/*.bin
+nuScenes,40,0.68,0.9190,40.6,1.2579,32ch_HDL32E,REAL: v1.0-mini/samples/LIDAR_TOP/*.pcd.bin
+KITTI Raw,40,0.92,0.7850,38.5,0.4306,64ch_HDL64E,REAL: 2011_09_26_drive_0001_sync/velodyne_points/data/*.bin

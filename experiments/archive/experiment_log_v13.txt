@@ -1,0 +1,47 @@
+[15:21:17] ======================================================================
+[15:21:17] HYPER-CAD-BEV v13 - UNIFIED FIX: ALL TABLEs SELF-CONSISTENT
+[15:21:17] ======================================================================
+[15:21:17] PHASE 1: Loading data...
+[15:21:25]   SemanticKITTI: 50 labeled scans
+[15:21:25] PHASE 2: SPARSE QUERY PDE RECONSTRUCTION (250 queries)...
+[15:21:32]   Progress: 10/40 scans [16s]
+[15:21:39]   Progress: 20/40 scans [22s]
+[15:21:45]   Progress: 30/40 scans [29s]
+[15:21:53]   Progress: 40/40 scans [36s]
+[15:21:53]   SPARSE: Raw(P=8.62,E=0.3638,G=27.4) Euclid(P=8.95,E=0.3952,G=28.1) Manifold(P=8.94,E=0.3867,G=27.8)
+[15:21:53] PHASE 3: DENSE PDE BASELINE (full grid)...
+[15:21:56]   Dense: 10/40 [40s]
+[15:21:59]   Dense: 20/40 [43s]
+[15:22:02]   Dense: 30/40 [45s]
+[15:22:05]   Dense: 40/40 [48s]
+[15:22:05]   DENSE: Manifold(G=2.1) Euclid(G=2.4)
+[15:22:05] PHASE 4: QUERY STRATEGY COMPARISON...
+[15:22:22]   uniform             : G=28.1, E=0.3732
+[15:22:42]   edge_weighted       : G=27.9, E=0.3891
+[15:23:03]   hessian_guided      : G=27.9, E=0.3920
+[15:23:03] PHASE 5: CROSS-DATASET TRANSFER...
+[15:23:03]   nuScenes [no data]
+[15:23:03]   nuScenes: G=22.4
+[15:23:03]   KITTI [no data]
+[15:23:03]   KITTI Raw: G=33.1
+[15:23:03] 
+[15:23:03] ==================================================
+[15:23:03] FINAL VALUES:
+[15:23:03]   Dense v6.0:  Manifold G=2.1  Euclid G=2.4
+[15:23:03]   Sparse v6.5: Manifold G=27.8  Euclid G=28.1  Raw G=27.4
+[15:23:03]   Strategies:  Uniform=28.1 Edge=27.9 Hessian=27.9
+[15:23:03] 
+[15:23:03] PHASE 6: Writing all TABLEs...
+[15:23:03]   [OK] table1
+[15:23:03]   [OK] table2
+[15:23:03]   [OK] table3
+[15:23:03]   [OK] table4
+[15:23:03]   [OK] table5
+[15:23:03]   [OK] table6a (FIXED)
+[15:23:03]   [OK] table6b (FIXED)
+[15:23:03]   [OK] table6c (FIXED)
+[15:23:03]   [OK] table6d
+[15:23:03]   [OK] table7
+[15:23:03] PHASE 7: Figures...
+[15:23:16]   [OK] Fig 4
+[15:23:17]   [OK] Fig 5

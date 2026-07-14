@@ -1,0 +1,15 @@
+[15:01:19] ============================================================
+[15:01:19] PHASE 1: RELLIS-3D
+[15:01:40]   FAIL RELLIS-3D GDrive: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>
+[15:01:40] ============================================================
+[15:01:40] PHASE 2: KITTI Raw
+[15:01:44]   OK KITTI devkit: 172,067B -> kitti_devkit_raw.zip sha256=5fe511ba02b9588c
+[15:01:44] ============================================================
+[15:01:44] PHASE 3: Event Camera DVS
+[15:18:13]   FAIL DVS shapes_trans: IncompleteRead: IncompleteRead(12575879 bytes read, 112014624 more expected)
+[15:18:13] ============================================================
+[15:18:13] PHASE 4: Weather (Open-Meteo API)
+[15:18:16]   OK Berlin weather: 9,763B -> berlin_2023.json sha256=4e130ffc9fa1a80e
+[15:18:21]   OK Pittsburgh weather: 5,912B -> pittsburgh_2023.json sha256=74d72a487aae9c2a
+[15:18:21] ============================================================
+[15:18:21] REAL SCRAPE COMPLETE

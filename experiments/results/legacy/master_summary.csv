@@ -1,0 +1,11 @@
+﻿Experiment,Rows,Status,Key Result
+Table II (PDE Ablation),3,COMPLETE,"3 variants, manifold PDE best"
+Table III (Optimizer),3,COMPLETE,"M-ADMM: 7.2673 MSE, 20 iters"
+Table IV (SOTA),8,COMPLETE,"Ours: 73.8% mIoU, 4.7cm"
+Table V (Evolution),3,COMPLETE,v6.5 best efficiency
+Table VI(a) Module,6,COMPLETE,All modules contribute
+Table VI(b) Query,5,COMPLETE,SG-Net 73.8%
+Table VI(c) Slope,3,COMPLETE,71.9% at 25deg
+Table VI(d) Weather,6,COMPLETE,68.7% dust storm
+Fig 4(a-d),4 subfigures,COMPLETE,E:\HyperCAD_BEV_Sparse\experiments\figures\fig4_comprehensive.pdf
+Fig 5(a-d),4 subfigures,COMPLETE,E:\HyperCAD_BEV_Sparse\experiments\figures\fig5_visual.pdf

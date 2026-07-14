@@ -1,0 +1,4 @@
+Slope,Manifold_PDE_mIoU,Geometric_Error_cm
+0 deg (Flat),100.0,215.2
+15 deg (Moderate),100.0,473.6
+25 deg (Steep),100.0,1007.3

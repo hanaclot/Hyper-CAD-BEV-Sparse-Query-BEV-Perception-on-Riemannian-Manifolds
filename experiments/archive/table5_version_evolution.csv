@@ -1,0 +1,4 @@
+Version,Year,Innovation,Hardware,TOPS,mIoU(%),Err(cm),Energy(mJ)
+v5.2,2025,Zero-Calib Monocular,V853,0.18,71.5,8.0,42
+v6.0-Neuro,2026,PDE-Neuromorphic,Loihi 2,0.042,72.8,5.1,27
+v6.5-Sparse,2026,Manifold Sparse,Loihi 2,0.037,73.8,4.7,22

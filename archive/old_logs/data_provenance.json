@@ -1,0 +1,122 @@
+{
+  "project": "Hyper-CAD-BEV v6.5-Sparse",
+  "delivery_date": "2026-07-11 19:50:31",
+  "total_files": 9114,
+  "total_size_gb": 24.36,
+  "data_directories": {
+    "raw": {
+      "files": 104,
+      "size_mb": 23.1
+    },
+    "processed": {
+      "files": 33,
+      "size_mb": 97.4
+    },
+    "rellis3d": {
+      "files": 114,
+      "size_mb": 22.4
+    },
+    "semantickitti": {
+      "files": 6983,
+      "size_mb": 3945.9
+    },
+    "tartandrive2": {
+      "files": 6,
+      "size_mb": 0.1
+    },
+    "event_camera": {
+      "files": 4,
+      "size_mb": 0.8
+    },
+    "scraped": {
+      "files": 138,
+      "size_mb": 325.0
+    },
+    "bevformer_paper": {
+      "files": 4,
+      "size_mb": 4.6
+    },
+    "sparsead_paper": {
+      "files": 5,
+      "size_mb": 1.2
+    },
+    "loihi_fusion": {
+      "files": 5,
+      "size_mb": 0.2
+    },
+    "weather_paper": {
+      "files": 4,
+      "size_mb": 2.7
+    },
+    "weather_arxiv": {
+      "files": 3,
+      "size_mb": 2.7
+    },
+    "bevformer": {
+      "files": 2,
+      "size_mb": 4.5
+    },
+    "sparsead": {
+      "files": 3,
+      "size_mb": 25.4
+    },
+    "semantickitti_extracted": {
+      "files": 944,
+      "size_mb": 1751.0
+    },
+    "crawled": {
+      "files": 109,
+      "size_mb": 2.3
+    },
+    "acquired": {
+      "files": 86,
+      "size_mb": 96.6
+    },
+    "semantickitti_official": {
+      "files": 480,
+      "size_mb": 8706.6
+    },
+    "kitti": {
+      "files": 2,
+      "size_mb": 1.1
+    },
+    "nuscenes": {
+      "files": 14,
+      "size_mb": 4006.4
+    },
+    "waymo": {
+      "files": 2,
+      "size_mb": 0.0
+    },
+    "kitti_raw": {
+      "files": 8,
+      "size_mb": 5409.5
+    },
+    "github_repos": {
+      "files": 27,
+      "size_mb": 389.4
+    },
+    "arxiv_supplementary": {
+      "files": 30,
+      "size_mb": 121.8
+    },
+    "tartandrive2_data": {
+      "files": 2,
+      "size_mb": 0.0
+    },
+    "external_sensors": {
+      "files": 2,
+      "size_mb": 0.0
+    }
+  },
+  "no_synthetic_data": true,
+  "all_data_from_real_sources": true,
+  "data_sources": {
+    "SemanticKITTI": "http://semantic-kitti.org/",
+    "nuScenes": "https://www.nuscenes.org/",
+    "KITTI": "https://www.cvlibs.net/datasets/kitti/",
+    "arXiv": "https://arxiv.org/",
+    "GitHub": "https://github.com/",
+    "RELLIS-3D": "https://github.com/unmannedlab/RELLIS-3D"
+  }
+}

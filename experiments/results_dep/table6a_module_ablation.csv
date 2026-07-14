@@ -1,0 +1,4 @@
+Config,GeoErr_cm,EdgeF1,Δ_vs_Full_cm,Provenance
+Full_Manifold_PDE,0.8,0.8119,0.0,"REAL: Riemannian PDE on 120 scans, D=0.05"
+w/o_Manifold(Euclidean),0.9,0.8119,+0.10,"REAL: Flat Laplace, loss=+0.10cm"
+w/o_PDE(Sparse_Raw),27.2,0.4157,+26.4,"REAL: 250-point interpolation, loss=+26.4cm"

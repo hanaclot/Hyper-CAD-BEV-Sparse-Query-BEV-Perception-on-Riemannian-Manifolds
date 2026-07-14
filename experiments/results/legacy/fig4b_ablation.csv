@@ -1,0 +1,7 @@
+Module,mIoU Drop
+Riemannian,2.5
+PDE Reg,3.7
+ADMM,5.1
+Neuromorphic,4.6
+Dynamic Query,0.3
+Event Camera,2.1

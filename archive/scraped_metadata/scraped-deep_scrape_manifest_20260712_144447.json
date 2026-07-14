@@ -1,0 +1,833 @@
+{
+  "timestamp": "2026-07-12T06:44:47.065940+00:00",
+  "total_sources": 111,
+  "successful": 99,
+  "failed": 12,
+  "records": [
+    {
+      "name": "arxiv_api_bevformer",
+      "url": "https://export.arxiv.org/api/query?id_list=2203.17270&max_results=1",
+      "size": 3022,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_bevformer.xml"
+    },
+    {
+      "name": "arxiv_abs_bevformer",
+      "url": "https://arxiv.org/abs/2203.17270",
+      "size": 43375,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_bevformer.html"
+    },
+    {
+      "name": "arxiv_api_bevdet",
+      "url": "https://export.arxiv.org/api/query?id_list=2112.11790&max_results=1",
+      "size": 3010,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_bevdet.xml"
+    },
+    {
+      "name": "arxiv_abs_bevdet",
+      "url": "https://arxiv.org/abs/2112.11790",
+      "size": 43638,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_bevdet.html"
+    },
+    {
+      "name": "arxiv_api_sparsebev",
+      "url": "https://export.arxiv.org/api/query?id_list=2308.09244&max_results=1",
+      "size": 3011,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_sparsebev.xml"
+    },
+    {
+      "name": "arxiv_abs_sparsebev",
+      "url": "https://arxiv.org/abs/2308.09244",
+      "size": 42636,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_sparsebev.html"
+    },
+    {
+      "name": "arxiv_api_sparse4d",
+      "url": "https://export.arxiv.org/api/query?id_list=2311.11722&max_results=1",
+      "size": 2693,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_sparse4d.xml"
+    },
+    {
+      "name": "arxiv_abs_sparse4d",
+      "url": "https://arxiv.org/abs/2311.11722",
+      "size": 41390,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_sparse4d.html"
+    },
+    {
+      "name": "arxiv_api_sparse4d_v2",
+      "url": "https://export.arxiv.org/api/query?id_list=2311.11733&max_results=1",
+      "size": 2037,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_sparse4d_v2.xml"
+    },
+    {
+      "name": "arxiv_abs_sparse4d_v2",
+      "url": "https://arxiv.org/abs/2311.11733",
+      "size": 39362,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_sparse4d_v2.html"
+    },
+    {
+      "name": "arxiv_api_bevfusion",
+      "url": "https://export.arxiv.org/api/query?id_list=2205.13542&max_results=1",
+      "size": 3090,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_bevfusion.xml"
+    },
+    {
+      "name": "arxiv_abs_bevfusion",
+      "url": "https://arxiv.org/abs/2205.13542",
+      "size": 43270,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_bevfusion.html"
+    },
+    {
+      "name": "arxiv_api_bev_depth",
+      "url": "https://export.arxiv.org/api/query?id_list=2206.10092&max_results=1",
+      "size": 2681,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_bev_depth.xml"
+    },
+    {
+      "name": "arxiv_abs_bev_depth",
+      "url": "https://arxiv.org/abs/2206.10092",
+      "size": 41540,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_bev_depth.html"
+    },
+    {
+      "name": "arxiv_api_monobev",
+      "url": "https://export.arxiv.org/api/query?id_list=2206.09907&max_results=1",
+      "size": 3073,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_monobev.xml"
+    },
+    {
+      "name": "arxiv_abs_monobev",
+      "url": "https://arxiv.org/abs/2206.09907",
+      "size": 42914,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_monobev.html"
+    },
+    {
+      "name": "arxiv_api_fast_bev",
+      "url": "https://export.arxiv.org/api/query?id_list=2301.12511&max_results=1",
+      "size": 3837,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_fast_bev.xml"
+    },
+    {
+      "name": "arxiv_abs_fast_bev",
+      "url": "https://arxiv.org/abs/2301.12511",
+      "size": 45179,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_fast_bev.html"
+    },
+    {
+      "name": "arxiv_api_bevformer_v2",
+      "url": "https://export.arxiv.org/api/query?id_list=2211.10439&max_results=1",
+      "size": 2946,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_bevformer_v2.xml"
+    },
+    {
+      "name": "arxiv_abs_bevformer_v2",
+      "url": "https://arxiv.org/abs/2211.10439",
+      "size": 42315,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_bevformer_v2.html"
+    },
+    {
+      "name": "arxiv_api_petr",
+      "url": "https://export.arxiv.org/api/query?id_list=2203.05625&max_results=1",
+      "size": 2216,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_petr.xml"
+    },
+    {
+      "name": "arxiv_abs_petr",
+      "url": "https://arxiv.org/abs/2203.05625",
+      "size": 40387,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_petr.html"
+    },
+    {
+      "name": "arxiv_api_detr3d",
+      "url": "https://export.arxiv.org/api/query?id_list=2110.06922&max_results=1",
+      "size": 3024,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_detr3d.xml"
+    },
+    {
+      "name": "arxiv_abs_detr3d",
+      "url": "https://arxiv.org/abs/2110.06922",
+      "size": 43470,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_detr3d.html"
+    },
+    {
+      "name": "arxiv_api_polarformer",
+      "url": "https://export.arxiv.org/api/query?id_list=2206.15346&max_results=1",
+      "size": 4950,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_polarformer.xml"
+    },
+    {
+      "name": "arxiv_abs_polarformer",
+      "url": "https://arxiv.org/abs/2206.15346",
+      "size": 45904,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_polarformer.html"
+    },
+    {
+      "name": "arxiv_api_cross_view",
+      "url": "https://export.arxiv.org/api/query?id_list=2206.02276&max_results=1",
+      "size": 2394,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_cross_view.xml"
+    },
+    {
+      "name": "arxiv_abs_cross_view",
+      "url": "https://arxiv.org/abs/2206.02276",
+      "size": 41719,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_cross_view.html"
+    },
+    {
+      "name": "arxiv_api_sparsead",
+      "url": "https://export.arxiv.org/api/query?id_list=2404.06892&max_results=1",
+      "size": 3407,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_sparsead.xml"
+    },
+    {
+      "name": "arxiv_abs_sparsead",
+      "url": "https://arxiv.org/abs/2404.06892",
+      "size": 43812,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_sparsead.html"
+    },
+    {
+      "name": "arxiv_api_fully_sparse",
+      "url": "https://export.arxiv.org/api/query?id_list=2307.10596&max_results=1",
+      "size": 3243,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_fully_sparse.xml"
+    },
+    {
+      "name": "arxiv_abs_fully_sparse",
+      "url": "https://arxiv.org/abs/2307.10596",
+      "size": 44025,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_fully_sparse.html"
+    },
+    {
+      "name": "arxiv_api_sgn",
+      "url": "https://export.arxiv.org/api/query?id_list=2306.03295&max_results=1",
+      "size": 2319,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_sgn.xml"
+    },
+    {
+      "name": "arxiv_abs_sgn",
+      "url": "https://arxiv.org/abs/2306.03295",
+      "size": 41174,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_sgn.html"
+    },
+    {
+      "name": "arxiv_api_loihi_fusion",
+      "url": "https://export.arxiv.org/api/query?id_list=2408.16096&max_results=1",
+      "size": 2594,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_loihi_fusion.xml"
+    },
+    {
+      "name": "arxiv_abs_loihi_fusion",
+      "url": "https://arxiv.org/abs/2408.16096",
+      "size": 41399,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_loihi_fusion.html"
+    },
+    {
+      "name": "arxiv_api_snn_bev",
+      "url": "https://export.arxiv.org/api/query?id_list=2308.14392&max_results=1",
+      "size": 2709,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_snn_bev.xml"
+    },
+    {
+      "name": "arxiv_abs_snn_bev",
+      "url": "https://arxiv.org/abs/2308.14392",
+      "size": 41473,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_snn_bev.html"
+    },
+    {
+      "name": "arxiv_api_event_camera",
+      "url": "https://export.arxiv.org/api/query?id_list=1711.01458&max_results=1",
+      "size": 3011,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_event_camera.xml"
+    },
+    {
+      "name": "arxiv_abs_event_camera",
+      "url": "https://arxiv.org/abs/1711.01458",
+      "size": 42853,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_event_camera.html"
+    },
+    {
+      "name": "arxiv_api_event_survey",
+      "url": "https://export.arxiv.org/api/query?id_list=1904.08405&max_results=1",
+      "size": 4119,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_event_survey.xml"
+    },
+    {
+      "name": "arxiv_abs_event_survey",
+      "url": "https://arxiv.org/abs/1904.08405",
+      "size": 47487,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_event_survey.html"
+    },
+    {
+      "name": "arxiv_api_dvs_gesture",
+      "url": "https://export.arxiv.org/api/query?id_list=2203.16417&max_results=1",
+      "size": 3071,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_dvs_gesture.xml"
+    },
+    {
+      "name": "arxiv_abs_dvs_gesture",
+      "url": "https://arxiv.org/abs/2203.16417",
+      "size": 44158,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_dvs_gesture.html"
+    },
+    {
+      "name": "arxiv_api_pde_diffusion",
+      "url": "https://export.arxiv.org/api/query?id_list=2404.01586&max_results=1",
+      "size": 2796,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_pde_diffusion.xml"
+    },
+    {
+      "name": "arxiv_abs_pde_diffusion",
+      "url": "https://arxiv.org/abs/2404.01586",
+      "size": 42000,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_pde_diffusion.html"
+    },
+    {
+      "name": "arxiv_api_anisotropic_diff",
+      "url": "https://export.arxiv.org/api/query?id_list=1907.01843&max_results=1",
+      "size": 2555,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_anisotropic_diff.xml"
+    },
+    {
+      "name": "arxiv_abs_anisotropic_diff",
+      "url": "https://arxiv.org/abs/1907.01843",
+      "size": 41162,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_anisotropic_diff.html"
+    },
+    {
+      "name": "arxiv_api_riemannian_cv",
+      "url": "https://export.arxiv.org/api/query?id_list=1802.05315&max_results=1",
+      "size": 2410,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_riemannian_cv.xml"
+    },
+    {
+      "name": "arxiv_abs_riemannian_cv",
+      "url": "https://arxiv.org/abs/1802.05315",
+      "size": 42152,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_riemannian_cv.html"
+    },
+    {
+      "name": "arxiv_api_weather_robustness",
+      "url": "https://export.arxiv.org/api/query?id_list=2206.09907&max_results=1",
+      "size": 3073,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_weather_robustness.xml"
+    },
+    {
+      "name": "arxiv_abs_weather_robustness",
+      "url": "https://arxiv.org/abs/2206.09907",
+      "size": 42914,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_weather_robustness.html"
+    },
+    {
+      "name": "arxiv_api_offroad_perception",
+      "url": "https://export.arxiv.org/api/query?id_list=2103.13506&max_results=1",
+      "size": 3574,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_offroad_perception.xml"
+    },
+    {
+      "name": "arxiv_abs_offroad_perception",
+      "url": "https://arxiv.org/abs/2103.13506",
+      "size": 45242,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_offroad_perception.html"
+    },
+    {
+      "name": "arxiv_api_lidar_adverse",
+      "url": "https://export.arxiv.org/api/query?id_list=1907.03703&max_results=1",
+      "size": 2332,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_api_lidar_adverse.xml"
+    },
+    {
+      "name": "arxiv_abs_lidar_adverse",
+      "url": "https://arxiv.org/abs/1907.03703",
+      "size": 42358,
+      "status": 200,
+      "path": "data\\scraped\\arxiv\\arxiv_abs_lidar_adverse.html"
+    },
+    {
+      "name": "github_waymo_open_dataset",
+      "url": "https://api.github.com/repos/waymo-research/waymo-open-dataset",
+      "size": 7209,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_waymo_open_dataset.json"
+    },
+    {
+      "name": "github_waymo_open_dataset_readme",
+      "url": "https://raw.githubusercontent.com/waymo-research/waymo-open-dataset/master/README.md",
+      "size": 6716,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_waymo_open_dataset_readme.md"
+    },
+    {
+      "name": "github_kitti_devkit",
+      "url": "https://api.github.com/repos/kuixu/kitti_object_vis",
+      "size": 5478,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_kitti_devkit.json"
+    },
+    {
+      "name": "github_kitti_devkit_readme",
+      "url": "https://raw.githubusercontent.com/kuixu/kitti_object_vis/master/README.md",
+      "size": 4999,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_kitti_devkit_readme.md"
+    },
+    {
+      "name": "github_openpcdet",
+      "url": "https://api.github.com/repos/open-mmlab/OpenPCDet",
+      "size": 6488,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_openpcdet.json"
+    },
+    {
+      "name": "github_openpcdet_readme",
+      "url": "https://raw.githubusercontent.com/open-mmlab/OpenPCDet/master/README.md",
+      "size": 24185,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_openpcdet_readme.md"
+    },
+    {
+      "name": "github_mmdetection3d",
+      "url": "https://api.github.com/repos/open-mmlab/mmdetection3d",
+      "size": 6703,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_mmdetection3d.json"
+    },
+    {
+      "name": "github_mmdetection3d_readme",
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/master/README.md",
+      "size": 16479,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_mmdetection3d_readme.md"
+    },
+    {
+      "name": "github_centerpoint",
+      "url": "https://api.github.com/repos/tianweiy/CenterPoint",
+      "size": 5264,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_centerpoint.json"
+    },
+    {
+      "name": "github_centerpoint_readme",
+      "url": "https://raw.githubusercontent.com/tianweiy/CenterPoint/master/README.md",
+      "size": 8010,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_centerpoint_readme.md"
+    },
+    {
+      "name": "github_bevdet_repo",
+      "url": "https://api.github.com/repos/HuangJunJie2017/BEVDet",
+      "size": 5463,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_bevdet_repo.json"
+    },
+    {
+      "name": "github_bevdet_repo_readme",
+      "url": "https://raw.githubusercontent.com/HuangJunJie2017/BEVDet/master/README.md",
+      "size": 6378,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_bevdet_repo_readme.md"
+    },
+    {
+      "name": "github_bevdepth_repo",
+      "url": "https://api.github.com/repos/Megvii-BaseDetection/BEVDepth",
+      "size": 6946,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_bevdepth_repo.json"
+    },
+    {
+      "name": "github_bevdepth_repo_readme",
+      "url": "https://raw.githubusercontent.com/Megvii-BaseDetection/BEVDepth/master/README.md",
+      "size": 7454,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_bevdepth_repo_readme.md"
+    },
+    {
+      "name": "github_fast_bev_repo",
+      "url": "https://api.github.com/repos/Sense-GVT/Fast-BEV",
+      "size": 6268,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_fast_bev_repo.json"
+    },
+    {
+      "name": "github_fast_bev_repo_readme",
+      "url": "https://raw.githubusercontent.com/Sense-GVT/Fast-BEV/master/README.md",
+      "size": 4398,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_fast_bev_repo_readme.md"
+    },
+    {
+      "name": "github_sparse4d_repo",
+      "url": "https://api.github.com/repos/linxuewu/Sparse4D",
+      "size": 5143,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_sparse4d_repo.json"
+    },
+    {
+      "name": "github_sparse4d_repo_readme",
+      "url": "https://raw.githubusercontent.com/linxuewu/Sparse4D/master/README.md",
+      "size": 2741,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_sparse4d_repo_readme.md"
+    },
+    {
+      "name": "github_nuscenes_devkit",
+      "url": "https://api.github.com/repos/nutonomy/nuscenes-devkit",
+      "size": 6474,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_nuscenes_devkit.json"
+    },
+    {
+      "name": "github_nuscenes_devkit_readme",
+      "url": "https://raw.githubusercontent.com/nutonomy/nuscenes-devkit/master/README.md",
+      "size": 14960,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_nuscenes_devkit_readme.md"
+    },
+    {
+      "name": "github_semantickitti_api",
+      "url": "https://api.github.com/repos/PRBonn/semantic-kitti-api",
+      "size": 6685,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_semantickitti_api.json"
+    },
+    {
+      "name": "github_semantickitti_api_readme",
+      "url": "https://raw.githubusercontent.com/PRBonn/semantic-kitti-api/master/README.md",
+      "size": 16784,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_semantickitti_api_readme.md"
+    },
+    {
+      "name": "github_pointpillars",
+      "url": "https://api.github.com/repos/nutonomy/second.pytorch",
+      "size": 17614,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_pointpillars.json"
+    },
+    {
+      "name": "github_pointpillars_readme",
+      "url": "https://raw.githubusercontent.com/nutonomy/second.pytorch/master/README.md",
+      "size": 5252,
+      "status": 200,
+      "path": "data\\scraped\\github\\github_pointpillars_readme.md"
+    },
+    {
+      "name": "dataset_nuscenes_page",
+      "url": "https://www.nuscenes.org/",
+      "size": 6427,
+      "status": 200,
+      "path": "data\\scraped\\datasets\\dataset_nuscenes_page.html"
+    },
+    {
+      "name": "dataset_kitti_benchmark",
+      "url": "https://www.cvlibs.net/datasets/kitti/",
+      "size": 19499,
+      "status": 200,
+      "path": "data\\scraped\\datasets\\dataset_kitti_benchmark.html"
+    },
+    {
+      "name": "dataset_semantickitti_page",
+      "url": "http://semantic-kitti.org/",
+      "size": 15305,
+      "status": 200,
+      "path": "data\\scraped\\datasets\\dataset_semantickitti_page.html"
+    },
+    {
+      "name": "dataset_rellis3d_page",
+      "url": "https://unmannedlab.github.io/research/RELLIS-3D",
+      "size": 15961,
+      "status": 200,
+      "path": "data\\scraped\\datasets\\dataset_rellis3d_page.html"
+    },
+    {
+      "name": "dataset_apolloscape",
+      "url": "https://apolloscape.auto/",
+      "size": 3,
+      "status": 200,
+      "path": "data\\scraped\\datasets\\dataset_apolloscape.html"
+    },
+    {
+      "name": "dataset_robotcar",
+      "url": "https://robotcar-dataset.robots.ox.ac.uk/",
+      "size": 12601,
+      "status": 200,
+      "path": "data\\scraped\\datasets\\dataset_robotcar.html"
+    },
+    {
+      "name": "semantic_scholar_waymo_dataset",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/CVPR42600.2020.00246?fields=title,year,abstract,citationCount,venue",
+      "size": 1694,
+      "status": 200,
+      "path": "data\\scraped\\academic\\semantic_scholar_waymo_dataset.html"
+    },
+    {
+      "name": "semantic_scholar_kitti_2012",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/CVPR.2012.6248074?fields=title,year,abstract,citationCount,venue",
+      "size": 936,
+      "status": 200,
+      "path": "data\\scraped\\academic\\semantic_scholar_kitti_2012.html"
+    },
+    {
+      "name": "semantic_scholar_nuscenes",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/CVPR42600.2020.01164?fields=title,year,abstract,citationCount,venue",
+      "size": 2311,
+      "status": 200,
+      "path": "data\\scraped\\academic\\semantic_scholar_nuscenes.html"
+    },
+    {
+      "name": "semantic_scholar_semantickitti",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/ICCV.2019.00939?fields=title,year,abstract,citationCount,venue",
+      "size": 2420,
+      "status": 200,
+      "path": "data\\scraped\\academic\\semantic_scholar_semantickitti.html"
+    },
+    {
+      "name": "semantic_scholar_rellis3d",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/WACV45572.2020.9093603?fields=title,year,abstract,citationCount,venue",
+      "size": 1944,
+      "status": 200,
+      "path": "data\\scraped\\academic\\semantic_scholar_rellis3d.html"
+    },
+    {
+      "name": "semantic_scholar_pointpillars",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/CVPR.2019.01205?fields=title,year,abstract,citationCount,venue",
+      "size": 2054,
+      "status": 200,
+      "path": "data\\scraped\\academic\\semantic_scholar_pointpillars.html"
+    },
+    {
+      "name": "semantic_scholar_centerpoint_paper",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/CVPR42600.2020.01053?fields=title,year,abstract,citationCount,venue",
+      "size": 2126,
+      "status": 200,
+      "path": "data\\scraped\\academic\\semantic_scholar_centerpoint_paper.html"
+    },
+    {
+      "name": "semantic_scholar_salsa_next",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/IROS45743.2020.9341650?fields=title,year,abstract,citationCount,venue",
+      "size": 2529,
+      "status": 200,
+      "path": "data\\scraped\\academic\\semantic_scholar_salsa_next.html"
+    },
+    {
+      "name": "sensor_velodyne_hdl64",
+      "url": "https://velodynelidar.com/products/hdl-64e/",
+      "size": 259111,
+      "status": 200,
+      "path": "data\\scraped\\sensors\\sensor_velodyne_hdl64.html"
+    },
+    {
+      "name": "sensor_ouster_os1",
+      "url": "https://ouster.com/products/os1-lidar-sensor/",
+      "size": 280068,
+      "status": 200,
+      "path": "data\\scraped\\sensors\\sensor_ouster_os1.html"
+    },
+    {
+      "name": "sensor_jetson_orin",
+      "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+      "size": 382901,
+      "status": 200,
+      "path": "data\\scraped\\sensors\\sensor_jetson_orin.html"
+    },
+    {
+      "name": "sensor_allwinner_v853",
+      "url": "https://www.allwinnertech.com/index.php?c=product&a=index&id=89",
+      "size": 17144,
+      "status": 200,
+      "path": "data\\scraped\\sensors\\sensor_allwinner_v853.html"
+    },
+    {
+      "name": "weather_openmeteo_api",
+      "url": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true",
+      "size": 472,
+      "status": 200,
+      "path": "data\\scraped\\weather\\weather_openmeteo_api.html"
+    }
+  ],
+  "log": [
+    "[14:40:07] ======================================================================",
+    "[14:40:07] HYPER-CAD-BEV v6.5-Sparse: COMPREHENSIVE DEEP SCRAPER",
+    "[14:40:07] Started: 2026-07-12T06:40:07.781939+00:00",
+    "[14:40:07] ======================================================================",
+    "[14:40:07] \n--- BATCH 1: arXiv Paper Metadata ---",
+    "[14:40:09]   OK arxiv_api_bevformer: 3022 bytes [200]",
+    "[14:40:11]   OK arxiv_abs_bevformer: 43375 bytes [200]",
+    "[14:40:12]   OK arxiv_api_bevdet: 3010 bytes [200]",
+    "[14:40:13]   OK arxiv_abs_bevdet: 43638 bytes [200]",
+    "[14:40:14]   OK arxiv_api_sparsebev: 3011 bytes [200]",
+    "[14:40:17]   OK arxiv_abs_sparsebev: 42636 bytes [200]",
+    "[14:40:18]   OK arxiv_api_sparse4d: 2693 bytes [200]",
+    "[14:40:19]   OK arxiv_abs_sparse4d: 41390 bytes [200]",
+    "[14:40:21]   OK arxiv_api_sparse4d_v2: 2037 bytes [200]",
+    "[14:40:26]   OK arxiv_abs_sparse4d_v2: 39362 bytes [200]",
+    "[14:40:27]   OK arxiv_api_bevfusion: 3090 bytes [200]",
+    "[14:40:29]   OK arxiv_abs_bevfusion: 43270 bytes [200]",
+    "[14:40:30]   OK arxiv_api_bev_depth: 2681 bytes [200]",
+    "[14:40:33]   OK arxiv_abs_bev_depth: 41540 bytes [200]",
+    "[14:40:35]   OK arxiv_api_monobev: 3073 bytes [200]",
+    "[14:40:39]   OK arxiv_abs_monobev: 42914 bytes [200]",
+    "[14:40:42]   OK arxiv_api_fast_bev: 3837 bytes [200]",
+    "[14:40:43]   OK arxiv_abs_fast_bev: 45179 bytes [200]",
+    "[14:40:45]   OK arxiv_api_bevformer_v2: 2946 bytes [200]",
+    "[14:40:49]   OK arxiv_abs_bevformer_v2: 42315 bytes [200]",
+    "[14:40:50]   OK arxiv_api_petr: 2216 bytes [200]",
+    "[14:40:53]   OK arxiv_abs_petr: 40387 bytes [200]",
+    "[14:40:55]   OK arxiv_api_detr3d: 3024 bytes [200]",
+    "[14:40:56]   OK arxiv_abs_detr3d: 43470 bytes [200]",
+    "[14:40:57]   OK arxiv_api_polarformer: 4950 bytes [200]",
+    "[14:40:58]   OK arxiv_abs_polarformer: 45904 bytes [200]",
+    "[14:40:59]   OK arxiv_api_cross_view: 2394 bytes [200]",
+    "[14:41:07]   OK arxiv_abs_cross_view: 41719 bytes [200]",
+    "[14:41:08]   OK arxiv_api_sparsead: 3407 bytes [200]",
+    "[14:41:09]   OK arxiv_abs_sparsead: 43812 bytes [200]",
+    "[14:41:11]   OK arxiv_api_fully_sparse: 3243 bytes [200]",
+    "[14:41:15]   OK arxiv_abs_fully_sparse: 44025 bytes [200]",
+    "[14:41:16]   OK arxiv_api_sgn: 2319 bytes [200]",
+    "[14:41:18]   OK arxiv_abs_sgn: 41174 bytes [200]",
+    "[14:41:19]   OK arxiv_api_loihi_fusion: 2594 bytes [200]",
+    "[14:41:20]   OK arxiv_abs_loihi_fusion: 41399 bytes [200]",
+    "[14:41:21]   OK arxiv_api_snn_bev: 2709 bytes [200]",
+    "[14:41:39]   OK arxiv_abs_snn_bev: 41473 bytes [200]",
+    "[14:41:39]   OK arxiv_api_event_camera: 3011 bytes [200]",
+    "[14:41:40]   OK arxiv_abs_event_camera: 42853 bytes [200]",
+    "[14:41:43]   OK arxiv_api_event_survey: 4119 bytes [200]",
+    "[14:41:50]   OK arxiv_abs_event_survey: 47487 bytes [200]",
+    "[14:41:51]   OK arxiv_api_dvs_gesture: 3071 bytes [200]",
+    "[14:41:53]   OK arxiv_abs_dvs_gesture: 44158 bytes [200]",
+    "[14:41:57]   OK arxiv_api_pde_diffusion: 2796 bytes [200]",
+    "[14:41:58]   OK arxiv_abs_pde_diffusion: 42000 bytes [200]",
+    "[14:41:59]   OK arxiv_api_anisotropic_diff: 2555 bytes [200]",
+    "[14:42:01]   OK arxiv_abs_anisotropic_diff: 41162 bytes [200]",
+    "[14:42:06]   OK arxiv_api_riemannian_cv: 2410 bytes [200]",
+    "[14:42:07]   OK arxiv_abs_riemannian_cv: 42152 bytes [200]",
+    "[14:42:08]   OK arxiv_api_weather_robustness: 3073 bytes [200]",
+    "[14:42:12]   OK arxiv_abs_weather_robustness: 42914 bytes [200]",
+    "[14:42:13]   OK arxiv_api_offroad_perception: 3574 bytes [200]",
+    "[14:42:14]   OK arxiv_abs_offroad_perception: 45242 bytes [200]",
+    "[14:42:15]   OK arxiv_api_lidar_adverse: 2332 bytes [200]",
+    "[14:42:17]   OK arxiv_abs_lidar_adverse: 42358 bytes [200]",
+    "[14:42:17] \n  ARXIV batch: 56 ok, 0 fail",
+    "[14:42:17] \n--- BATCH 2: GitHub Repository Metadata ---",
+    "[14:42:21]   OK github_waymo_open_dataset: 7209 bytes [200]",
+    "[14:42:23]   OK github_waymo_open_dataset_readme: 6716 bytes [200]",
+    "[14:42:23]   OK github_kitti_devkit: 5478 bytes [200]",
+    "[14:42:24]   OK github_kitti_devkit_readme: 4999 bytes [200]",
+    "[14:42:26]   OK github_openpcdet: 6488 bytes [200]",
+    "[14:42:27]   OK github_openpcdet_readme: 24185 bytes [200]",
+    "[14:42:28]   OK github_mmdetection3d: 6703 bytes [200]",
+    "[14:42:29]   OK github_mmdetection3d_readme: 16479 bytes [200]",
+    "[14:42:30]   OK github_centerpoint: 5264 bytes [200]",
+    "[14:42:36]   OK github_centerpoint_readme: 8010 bytes [200]",
+    "[14:42:37]   OK github_bevdet_repo: 5463 bytes [200]",
+    "[14:42:53]   OK github_bevdet_repo_readme: 6378 bytes [200]",
+    "[14:42:54]   OK github_bevdepth_repo: 6946 bytes [200]",
+    "[14:42:55]   OK github_bevdepth_repo_readme: 7454 bytes [200]",
+    "[14:42:56]   OK github_fast_bev_repo: 6268 bytes [200]",
+    "[14:42:57]   OK github_fast_bev_repo_readme: 4398 bytes [200]",
+    "[14:42:59]   OK github_sparse4d_repo: 5143 bytes [200]",
+    "[14:43:00]   OK github_sparse4d_repo_readme: 2741 bytes [200]",
+    "[14:43:01]   OK github_nuscenes_devkit: 6474 bytes [200]",
+    "[14:43:04]   OK github_nuscenes_devkit_readme: 14960 bytes [200]",
+    "[14:43:05]   OK github_semantickitti_api: 6685 bytes [200]",
+    "[14:43:06]   OK github_semantickitti_api_readme: 16784 bytes [200]",
+    "[14:43:07]   OK github_pointpillars: 17614 bytes [200]",
+    "[14:43:09]   OK github_pointpillars_readme: 5252 bytes [200]",
+    "[14:43:10]   FAIL: https://api.github.com/repos/nmi-lab/snn_sparse_fem -> HTTP Error 404: Not Found",
+    "[14:43:11]   FAIL: https://raw.githubusercontent.com/nmi-lab/snn_sparse_fem/master/README.md -> HTTP Error 404: Not Found",
+    "[14:43:11] \n  GITHUB batch: 80 ok, 2 fail",
+    "[14:43:11] \n--- BATCH 3: Dataset Landing Pages ---",
+    "[14:43:33]   FAIL: https://waymo.com/open/ -> <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，",
+    "[14:43:34]   OK dataset_nuscenes_page: 6427 bytes [200]",
+    "[14:43:38]   OK dataset_kitti_benchmark: 19499 bytes [200]",
+    "[14:43:41]   OK dataset_semantickitti_page: 15305 bytes [200]",
+    "[14:43:44]   OK dataset_rellis3d_page: 15961 bytes [200]",
+    "[14:43:47]   FAIL: https://theairlab.org/tartandrive2/ -> HTTP Error 404: Not Found",
+    "[14:43:48]   FAIL: https://tartandrive2.readthedocs.io/en/latest/dataset.html -> HTTP Error 404: Not Found",
+    "[14:43:49]   FAIL: https://www.cityscapes-dataset.com/ -> <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+    "[14:43:52]   OK dataset_apolloscape: 3 bytes [200]",
+    "[14:43:52]   FAIL: https://thudair.baai.ac.cn/index -> <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+    "[14:43:58]   OK dataset_robotcar: 12601 bytes [200]",
+    "[14:43:58] \n  DATASET batch: 86 ok, 7 fail",
+    "[14:43:58] \n--- BATCH 4: Academic Search ---",
+    "[14:44:00]   OK semantic_scholar_waymo_dataset: 1694 bytes [200]",
+    "[14:44:02]   OK semantic_scholar_kitti_2012: 936 bytes [200]",
+    "[14:44:03]   OK semantic_scholar_nuscenes: 2311 bytes [200]",
+    "[14:44:05]   OK semantic_scholar_semantickitti: 2420 bytes [200]",
+    "[14:44:06]   OK semantic_scholar_rellis3d: 1944 bytes [200]",
+    "[14:44:08]   OK semantic_scholar_pointpillars: 2054 bytes [200]",
+    "[14:44:09]   OK semantic_scholar_centerpoint_paper: 2126 bytes [200]",
+    "[14:44:10]   FAIL: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/TPAMI.2020.2999629?fi -> HTTP Error 404: Not Found",
+    "[14:44:11]   OK semantic_scholar_salsa_next: 2529 bytes [200]",
+    "[14:44:11] \n  ACADEMIC batch: 94 ok, 8 fail",
+    "[14:44:11] \n--- BATCH 5: Sensor Hardware Specs ---",
+    "[14:44:16]   OK sensor_velodyne_hdl64: 259111 bytes [200]",
+    "[14:44:24]   OK sensor_ouster_os1: 280068 bytes [200]",
+    "[14:44:25]   FAIL: https://www.intel.com/content/www/us/en/research/neuromorphic-computing-loihi-2. -> <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+    "[14:44:27]   FAIL: https://inivation.com/dvp -> HTTP Error 404: Not Found",
+    "[14:44:31]   FAIL: https://www.prophesee.ai/event-based-sensor-gen4/ -> HTTP Error 404: Not Found",
+    "[14:44:42]   OK sensor_jetson_orin: 382901 bytes [200]",
+    "[14:44:43]   OK sensor_allwinner_v853: 17144 bytes [200]",
+    "[14:44:43] \n  SENSOR batch: 98 ok, 11 fail",
+    "[14:44:43] \n--- BATCH 6: Weather / Environmental ---",
+    "[14:44:45]   OK weather_openmeteo_api: 472 bytes [200]",
+    "[14:44:47]   FAIL: https://api.weather.com/v3/wx/forecast/daily/5day -> HTTP Error 401: Unauthorized",
+    "[14:44:47] \n  WEATHER batch: 99 ok, 12 fail",
+    "[14:44:47] \n======================================================================",
+    "[14:44:47] SCRAPE COMPLETE: 99 success, 12 failed out of 111 total",
+    "[14:44:47] Data directory: E:\\Hyper-CAD-BEV-Experiments\\data\\scraped"
+  ]
+}

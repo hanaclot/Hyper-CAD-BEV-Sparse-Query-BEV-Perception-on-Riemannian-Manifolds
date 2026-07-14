@@ -1,0 +1,16 @@
+{
+  "id": "http://arxiv.org/abs/2112.11790v3",
+  "title": "BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View",
+  "summary": "Autonomous driving perceives its surroundings for decision making, which is one of the most complex scenarios in visual perception. The success of paradigm innovation in solving the 2D object detection task inspires us to seek an elegant, feasible, and scalable paradigm for fundamentally pushing the performance boundary in this area. To this end, we contribute the BEVDet paradigm in this paper. BEVDet performs 3D object detection in Bird-Eye-View (BEV), where most target values are defined and r",
+  "published": "2021-12-22T10:48:06Z",
+  "authors": [
+    "Junjie Huang",
+    "Guan Huang",
+    "Zheng Zhu",
+    "Yun Ye",
+    "Dalong Du"
+  ],
+  "categories": [
+    "cs.CV"
+  ]
+}

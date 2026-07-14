@@ -1,0 +1,84 @@
+{
+  "started": "2026-07-11T18:02:20.449043",
+  "items": [
+    {
+      "name": "arxiv:BEVFormer",
+      "size": 4739748,
+      "status": "ok"
+    },
+    {
+      "name": "arxiv:EventCamera",
+      "size": 824525,
+      "status": "ok"
+    },
+    {
+      "name": "arxiv:SparseAD",
+      "size": 25582634,
+      "status": "ok"
+    },
+    {
+      "name": "arxiv:Sparse4D_v2",
+      "size": 1095915,
+      "status": "ok"
+    },
+    {
+      "name": "arxiv:BEVDet",
+      "size": 583501,
+      "status": "ok"
+    },
+    {
+      "name": "arxiv:PointPillars",
+      "size": 1187121,
+      "status": "ok"
+    },
+    {
+      "name": "arxiv:RiemannianDL",
+      "size": 642640,
+      "status": "ok"
+    },
+    {
+      "name": "arxiv:Detr3D",
+      "size": 22869087,
+      "status": "ok"
+    },
+    {
+      "name": "arxiv:FB-BEV",
+      "size": 985417,
+      "status": "ok"
+    },
+    {
+      "name": "arxiv:NeuralFields",
+      "size": 277299,
+      "status": "ok"
+    },
+    {
+      "name": "arxiv:LiDARSurvey",
+      "size": 363806,
+      "status": "ok"
+    },
+    {
+      "name": "gh:BEVDet",
+      "size": 9089497,
+      "status": "ok"
+    },
+    {
+      "name": "gh:SparseBEV",
+      "size": 486324,
+      "status": "ok"
+    },
+    {
+      "name": "gh:SECOND",
+      "size": 2709378,
+      "status": "ok"
+    },
+    {
+      "name": "gh:PointNet2",
+      "size": 76241,
+      "status": "ok"
+    },
+    {
+      "name": "gh:SuperGaussian",
+      "status": "404"
+    }
+  ]
+}

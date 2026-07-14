@@ -1,0 +1,9 @@
+﻿Source,URL,Status,Key Metrics,Files Saved
+RELLIS-3D,https://github.com/unmannedlab/RELLIS-3D,SUCCESS,stars=437; files_downloaded=0,0
+SemanticKITTI,http://semantic-kitti.org/,SUCCESS,page_size=15305,N/A
+TartanDrive 2.0,https://theairlab.org/TartanDrive2/,SUCCESS,page_size=24055,N/A
+BEVFormer (Dense BEV Transformer),,SUCCESS,metadata_chars=3022; pdf_size_bytes=4739748,N/A
+SparseAD (Sparse Query Paradigm),,SUCCESS,metadata_chars=3407; full_text_chars=1086222; cleaned_text_chars=150128,N/A
+Event Camera Survey (Low-light HDR),,SUCCESS,metadata_chars=3011; pdf_size_bytes=824525,N/A
+Loihi 2 Multi-Sensor Fusion,,SUCCESS,metadata_chars=2594; full_text_chars=96435; cleaned_text_chars=35861,N/A
+Weather-Robust Off-Road Free Space Detection,,SUCCESS,metadata_chars=3073; pdf_size_bytes=2772810,N/A

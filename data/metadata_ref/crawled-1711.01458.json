@@ -1,0 +1,5 @@
+{
+  "id": "1711.01458",
+  "title": "arXiv Query: search_query=&amp;id_list=1711.01458&amp;start=0&amp;max_results=1",
+  "summary": "Event cameras, such as dynamic vision sensors (DVS), and dynamic and active-pixel vision sensors (DAVIS) can supplement other autonomous driving sensors by providing a concurrent stream of standard active pixel sensor (APS) images and DVS temporal contrast events. The APS stream is a sequence of standard grayscale global-shutter image sensor frames. The DVS events represent brightness changes occurring at a particular moment, with a jitter of about a millisecond under most lighting conditions. T"
+}

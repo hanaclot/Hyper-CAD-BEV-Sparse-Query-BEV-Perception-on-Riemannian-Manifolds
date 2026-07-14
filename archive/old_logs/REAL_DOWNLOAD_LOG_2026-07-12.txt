@@ -1,0 +1,17 @@
+=== Downloading KITTI Raw sample ===
+  Downloading kitti_2011_09_26_drive_0001_sync.zip ...
+  FAIL: kitti_2011_09_26_drive_0001_sync.zip - <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+=== Downloading RELLIS-3D GitHub repo ===
+  FAIL: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+=== Downloading Waymo GitHub repo ===
+  FAIL: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+=== Downloading TartanDrive2 GitHub repo ===
+  FAIL: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>
+
+=== DOWNLOAD SUMMARY ===
+  kitti_raw: 239.4 KB
+  rellis3d: 68.6 KB
+  waymo: 288.9 KB
+  tartandrive2: 321.4 KB
+  event_camera: 360.7 KB
+  weather_real: 140.1 KB

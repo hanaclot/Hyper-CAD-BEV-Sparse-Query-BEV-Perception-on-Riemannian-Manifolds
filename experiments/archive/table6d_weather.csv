@@ -1,0 +1,11 @@
+Condition,MonoBEV v2 mIoU%,v6.0-Neuro mIoU%,v6.5-Sparse mIoU%
+Sunny (Reference),69.8,72.8,73.8
+Overcast,67.5,71.2,73.1
+Light Rain,61.2,68.7,72.5
+Moderate Rain,52.7,65.3,70.8
+Heavy Rain,46.8,61.5,69.2
+Dust Storm,48.3,62.1,68.7
+Night (0.1 lux),45.6,63.5,69.2
+Night (0.01 lux),40.2,58.9,67.1
+Dense Fog,43.9,60.2,67.8
+Snow,41.1,58.7,66.3

@@ -1,0 +1,53 @@
+{
+  "last_modified": "2024-04-12",
+  "data": [
+    {
+      "approach": "Mask4Former",
+      "paper-url": "https://arxiv.org/pdf/2309.16133.pdf",
+      "github-url": "https://github.com/YilmazKadir/Mask4Former",
+      "lstq": "68.4",
+      "maq": "67.3",
+      "miou": "69.6"
+    },
+    {
+      "approach": "Eq-4D-StOP",
+      "paper-url": "https://arxiv.org/pdf/2303.15651.pdf",
+      "github-url": "https://github.com/minghanz/EQ-4D-StOP",
+      "lstq": "67.8",
+      "maq": "72.3",
+      "miou": "63.5"
+    },
+    {
+      "approach": "Contrastive Instance Association",
+      "paper-url": "https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/marcuzzi2022ral.pdf",
+      "github-url": "https://github.com/PRBonn/contrastive_association",
+      "lstq": "63.1",
+      "maq": "65.7",
+      "miou": "60.6"
+    },
+    {
+      "approach": "Panoptic4D (Multiscan)",
+      "paper-url": "https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/ayguen2021cvpr.pdf",
+      "github-url": "https://github.com/MehmetAygun/4D-PLS",
+      "lstq": "56.9",
+      "maq": "56.4",
+      "miou": "57.4"
+    },
+    {
+      "approach": "4D-StOP",
+      "paper-url": "https://francisengelmann.github.io/eccv_22_4dstop.pdf",
+      "github-url": "https://github.com/LarsKreuzberg/4D-StOP",
+      "lstq": "63.9",
+      "maq": "69.5",
+      "miou": "58.8"
+    },
+    {
+      "approach": "Mask4D",
+      "paper-url": "https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/marcuzzi2023ral-meem.pdf",
+      "github-url": "https://github.com/PRBonn/Mask4D",
+      "lstq": "64.3",
+      "maq": "66.4",
+      "miou": "62.2"
+    }
+  ]
+}

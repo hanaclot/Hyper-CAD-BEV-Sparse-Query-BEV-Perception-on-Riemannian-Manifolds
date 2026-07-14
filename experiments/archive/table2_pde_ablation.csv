@@ -1,0 +1,4 @@
+Model,mIoU(%),GeoErr(cm),EdgeSm
+IBEV-Field (No PDE),100.0p0.0,260.0p135.3,0.143p0.005
+Euclidean Diffusion,100.0p0.0,260.0p135.3,0.123p0.004
+Manifold Reaction-Diffusion,100.0p0.0,260.0p135.3,0.117p0.004
